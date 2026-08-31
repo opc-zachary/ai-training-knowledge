@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0.0",
+  "project": "AITrainingGuangzhou",
+  "visibility_required": "PRIVATE",
+  "generated_at": "2026-08-31T18:26:58+00:00",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 47,
+      "sha256": "16f6fa598832de51a200cf6adff3df9ca276598622f218be354f0eda9f3f3a51"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size_bytes": 388,
+      "sha256": "e8cedc66e3b54955c385534c005b6a301952c96220a389530d7c158a95e85706"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 1654,
+      "sha256": "cb32f54216af6bde32cbfd2a268b218a9afc19f7178ea0df6d36fba086e02dbc"
+    },
+    {
+      "path": "SHARING_POLICY.md",
+      "size_bytes": 916,
+      "sha256": "7fc449736ddb6723048a797f817a6167423b4ba1fbc65babb8dfd019bb1939e3"
+    },
+    {
+      "path": "SOURCE_BOUNDARIES.md",
+      "size_bytes": 1166,
+      "sha256": "763ce5b013413d50b891c1783936d9201a932dc5aa3a753325a65f53da46dccd"
+    },
+    {
+      "path": "data/course-crosswalk.v1.json",
+      "size_bytes": 4281,
+      "sha256": "9b412d9d81a291ab39b26175514bc7b964a8e078f3696b51fdfca47a04932316"
+    },
+    {
+      "path": "examples/codex-install.md",
+      "size_bytes": 1022,
+      "sha256": "73e568fb529589e677721947ccbb2bfe8e32c30d90dc527cb424226793747938"
+    },
+    {
+      "path": "examples/github-api.md",
+      "size_bytes": 1143,
+      "sha256": "fbf861bd7b79024a12060fc3b871aaeced61eab4974f4cb9342909ac22e57bd8"
+    },
+    {
+      "path": "knowledge/day-1-laohong.md",
+      "size_bytes": 4396,
+      "sha256": "0debd2a9cfcb4d4a2e158bcb749dca238a8e6a12063790e9159cfbd5cd450f6b"
+    },
+    {
+      "path": "knowledge/day-2-channel-reference.md",
+      "size_bytes": 2043,
+      "sha256": "b123de81a8128c882d1ba5ca4b2b5a93b0078657ac980b6c3d1bb0b578c3b030"
+    },
+    {
+      "path": "knowledge/full-course-map.md",
+      "size_bytes": 1103,
+      "sha256": "a6ba580414b01ba13520f00e9566e15f091c40d7a9c33af179711e6ed74e4ff6"
+    },
+    {
+      "path": "scripts/validate_repository.py",
+      "size_bytes": 7789,
+      "sha256": "821a12e3d8e5fc532810b86cf9ee51f9e76c486b3ed4e7019f8b8cc9c33349d8"
+    },
+    {
+      "path": "skills/ai-training-guangzhou/SKILL.md",
+      "size_bytes": 2357,
+      "sha256": "329c9471d4e2fe5cd32d136eb00c806633e7a709c0c213409cea6fc9c9229962"
+    },
+    {
+      "path": "skills/ai-training-guangzhou/references/day-1.md",
+      "size_bytes": 2916,
+      "sha256": "4d14ab438ede40652912c517d66df8f9802e9c454638f207320701dde9f09f5e"
+    },
+    {
+      "path": "skills/ai-training-guangzhou/references/day-2.md",
+      "size_bytes": 1223,
+      "sha256": "fd9d4073d21cef659662ceebeb4840e7201bc711dbc2661b9c8e59bfd4540a03"
+    },
+    {
+      "path": "skills/ai-training-guangzhou/references/source-boundaries.md",
+      "size_bytes": 713,
+      "sha256": "e9aa05b891e07bc769455e09f98f14f61019551a50d6f0a66e7f3465bb1a90ac"
+    },
+    {
+      "path": "tests/test_repository.py",
+      "size_bytes": 2170,
+      "sha256": "3acf48327364fc382afab583dd08d7db9a71caaff754d7e7806dff98c4f13b24"
+    }
+  ]
+}

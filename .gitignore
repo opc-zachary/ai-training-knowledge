@@ -1,0 +1,4 @@
+.DS_Store
+docs/superpowers/
+__pycache__/
+*.pyc

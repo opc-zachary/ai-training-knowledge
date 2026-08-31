@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "project": "AITrainingGuangzhou",
+  "status": "private-derived-knowledge",
+  "updated": "2026-09-01",
+  "source_boundary": {
+    "contains_original_video": false,
+    "contains_transcript_or_subtitle": false,
+    "contains_courseware_files": false,
+    "contains_third_party_code": false,
+    "day2_video_mapping_complete": false
+  },
+  "day1": {
+    "teacher_label": "LaoHong",
+    "evidence_status": "verified_video_mapping",
+    "modules": [
+      {
+        "id": "K00",
+        "name": "Course and innovation context",
+        "status": "video_led",
+        "videos": [{"id": "DJI_20260829105645_0008_D", "range": "00:00:00-00:07:43"}]
+      },
+      {
+        "id": "K01",
+        "name": "AI and Agent mental model",
+        "status": "verified_video",
+        "videos": [{"id": "DJI_20260829142315_0012_D", "range": "00:00:00-00:27:42"}]
+      },
+      {
+        "id": "K02",
+        "name": "Local Agent workflow safety",
+        "status": "verified_video",
+        "videos": [
+          {"id": "DJI_20260829145059_0013_D", "range": "00:00:00-00:14:00"},
+          {"id": "DJI_20260829151841_0014_D", "range": "00:00:00-00:04:00"}
+        ]
+      },
+      {
+        "id": "K03",
+        "name": "Brand and industry research",
+        "status": "direct_course_mapping",
+        "videos": [
+          {"id": "DJI_20260829145059_0013_D", "range": "00:14:00-00:27:42"},
+          {"id": "DJI_20260829151841_0014_D", "range": "00:04:00-00:14:00"},
+          {"id": "DJI_20260829154635_0015_D", "range": "00:00:00-00:10:00"}
+        ]
+      },
+      {
+        "id": "K04",
+        "name": "Xiaohongshu data and insight",
+        "status": "direct_course_mapping",
+        "videos": [{"id": "DJI_20260829154635_0015_D", "range": "00:09:59-00:17:00"}]
+      },
+      {
+        "id": "K05",
+        "name": "PR writing and author voice",
+        "status": "direct_course_mapping",
+        "videos": [
+          {"id": "DJI_20260829154635_0015_D", "range": "00:24:00-00:27:42"},
+          {"id": "DJI_20260829161417_0016_D", "range": "00:04:00-00:20:30"}
+        ]
+      },
+      {
+        "id": "K06",
+        "name": "Multimodal image control",
+        "status": "direct_course_mapping",
+        "videos": [{"id": "DJI_20260829164130_0017_D", "range": "00:00:00-00:18:00"}]
+      },
+      {
+        "id": "K07",
+        "name": "E-commerce visual Skill",
+        "status": "direct_course_mapping",
+        "videos": [
+          {"id": "DJI_20260829164130_0017_D", "range": "00:18:00-00:27:41"},
+          {"id": "DJI_20260829170913_0018_D", "range": "00:00:00-00:02:22"},
+          {"id": "DJI_20260829172735_0019_D", "range": "00:00:00-00:02:45"}
+        ]
+      },
+      {
+        "id": "K08",
+        "name": "AI video and storyboard",
+        "status": "video_led",
+        "videos": [
+          {"id": "DJI_20260829172735_0019_D", "range": "00:02:45-00:18:01"},
+          {"id": "DJI_20260829174902_0005_D", "range": "00:00:00-00:08:00"}
+        ]
+      },
+      {
+        "id": "K09",
+        "name": "Business data analysis",
+        "status": "direct_course_mapping",
+        "videos": [{"id": "DJI_20260829174902_0005_D", "range": "00:08:38-00:22:00"}]
+      },
+      {
+        "id": "K10",
+        "name": "QA and evidence loop",
+        "status": "verified_video",
+        "videos": [
+          {"id": "DJI_20260829145059_0013_D", "range": "00:00:00-00:04:00"},
+          {"id": "DJI_20260829154635_0015_D", "range": "00:07:42-00:09:21"},
+          {"id": "DJI_20260829174902_0005_D", "range": "00:20:00-00:22:00"}
+        ]
+      }
+    ]
+  },
+  "day2": {
+    "teacher_label": "Channel",
+    "evidence_status": "reference_only",
+    "sections": [
+      {"pages": "1-14", "topic": "Opening and roadmap", "reference_only": true},
+      {"pages": "15-29", "topic": "Strongest model", "reference_only": true},
+      {"pages": "30-45", "topic": "Workflow first", "reference_only": true},
+      {"pages": "46-91", "topic": "GUI, CLI, API, MCP and cases", "reference_only": true},
+      {"pages": "92-102", "topic": "Harness and learning loop", "reference_only": true},
+      {"pages": "103-122", "topic": "Agent Team", "reference_only": true},
+      {"pages": "123-141", "topic": "FDE, OPC and Agent Boss", "reference_only": true}
+    ]
+  }
+}
