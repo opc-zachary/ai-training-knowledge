@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -39,7 +40,9 @@ PROHIBITED_TEXT = {
     "ghp_": "GitHub token prefix",
 }
 
-PUBLICATION_DIRS = ("knowledge", "data", "skills", "examples")
+PUBLICATION_DIRS = (
+    "knowledge", "data", "skills", "examples", "playbooks", "templates", "exercises"
+)
 ROOT_PUBLICATION_FILES = (
     "README.md", "SOURCE_BOUNDARIES.md", "SHARING_POLICY.md", "CHANGELOG.md"
 )
@@ -54,14 +57,36 @@ def required_files(root: Path) -> list[Path]:
         "knowledge/full-course-map.md",
         "knowledge/day-1-laohong.md",
         "knowledge/day-2-channel-reference.md",
+        "knowledge/videos/day-1/README.md",
+        "knowledge/modules/README.md",
+        "knowledge/glossary.md",
+        "knowledge/learning-paths.md",
+        "knowledge/task-router.md",
         "data/course-crosswalk.v1.json",
         "data/manifest.json",
         "skills/ai-training-guangzhou/SKILL.md",
         "skills/ai-training-guangzhou/references/day-1.md",
         "skills/ai-training-guangzhou/references/day-2.md",
         "skills/ai-training-guangzhou/references/source-boundaries.md",
+        "skills/ai-training-guangzhou/references/task-router.md",
+        "skills/ai-training-guangzhou/references/application-playbooks.md",
+        "skills/ai-training-guangzhou/references/templates.md",
         "examples/github-api.md",
         "examples/codex-install.md",
+        "playbooks/brand-research.md",
+        "playbooks/author-voice.md",
+        "playbooks/visual-reverse.md",
+        "playbooks/ecommerce-visual.md",
+        "playbooks/ai-video.md",
+        "playbooks/data-analysis.md",
+        "templates/research-brief.md",
+        "templates/workflow-spec.md",
+        "templates/output-qa.md",
+        "templates/agent-task.json",
+        "templates/visual-set-plan.md",
+        "exercises/beginner.md",
+        "exercises/practical.md",
+        "exercises/verification.md",
         "scripts/validate_repository.py",
         "tests/test_repository.py",
     ]
@@ -112,6 +137,44 @@ def scan_prohibited(root: Path) -> list[str]:
     return sorted(findings)
 
 
+def resource_paths(data: dict) -> list[str]:
+    resources = data.get("resources", {})
+    paths: list[str] = []
+    for key in ("video_guides", "module_handbooks"):
+        index = resources.get(key, {}).get("index")
+        if index:
+            paths.append(index)
+    for key in ("playbooks", "templates", "exercises", "navigation"):
+        paths.extend(resources.get(key, []))
+    skill = resources.get("codex_skill")
+    if skill:
+        paths.append(skill)
+    return paths
+
+
+def validate_markdown_links(root: Path) -> list[str]:
+    errors: list[str] = []
+    pattern = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+    for path in publication_files(root):
+        if path.suffix.lower() != ".md":
+            continue
+        text = path.read_text(encoding="utf-8")
+        for raw_target in pattern.findall(text):
+            target = raw_target.strip().split(" ", 1)[0].strip("<>")
+            if not target or target.startswith(("#", "http://", "https://", "mailto:")):
+                continue
+            relative = target.split("#", 1)[0]
+            resolved = (path.parent / relative).resolve()
+            try:
+                resolved.relative_to(root.resolve())
+            except ValueError:
+                errors.append(f"link escapes repository: {path.relative_to(root)} -> {target}")
+                continue
+            if not resolved.exists():
+                errors.append(f"broken link: {path.relative_to(root)} -> {target}")
+    return sorted(errors)
+
+
 def validate_crosswalk(root: Path) -> list[str]:
     errors: list[str] = []
     path = root / "data" / "course-crosswalk.v1.json"
@@ -122,6 +185,8 @@ def validate_crosswalk(root: Path) -> list[str]:
 
     if data.get("schema_version") != "1.0.0":
         errors.append("crosswalk schema_version must be 1.0.0")
+    if data.get("content_version") != "1.1.0":
+        errors.append("crosswalk content_version must be 1.1.0")
     modules = data.get("day1", {}).get("modules", [])
     ids = [item.get("id") for item in modules]
     if ids != [f"K{i:02d}" for i in range(11)]:
@@ -138,6 +203,9 @@ def validate_crosswalk(root: Path) -> list[str]:
         errors.append("day2 must contain seven sections")
     if not all(item.get("reference_only") is True for item in sections):
         errors.append("every day2 section must remain reference_only")
+    for relative in resource_paths(data):
+        if not (root / relative).is_file():
+            errors.append(f"resource path missing: {relative}")
     return errors
 
 
@@ -208,6 +276,7 @@ def validate(root: Path) -> list[str]:
     ]
     errors.extend(validate_crosswalk(root))
     errors.extend(scan_prohibited(root))
+    errors.extend(validate_markdown_links(root))
     errors.extend(verify_manifest(root))
     return errors
 

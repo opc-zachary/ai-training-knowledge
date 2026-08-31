@@ -32,3 +32,14 @@ Day 1 focuses on making one person capable of completing research, content, visu
 | 2 | Channel | Reference only | Seven deck sections; video mapping pending |
 
 Continue with [Day 1](day-1-laohong.md) or [Day 2](day-2-channel-reference.md).
+
+## Detailed study assets
+
+- [Ten video-by-video guides](videos/day-1/README.md)
+- [Eleven operational module handbooks](modules/README.md)
+- [Role-based learning paths](learning-paths.md)
+- [Task-to-module router](task-router.md)
+- [Course glossary](glossary.md)
+- [Practical playbooks](../playbooks/)
+- [Exercises](../exercises/)
+- [Reusable templates](../templates/)

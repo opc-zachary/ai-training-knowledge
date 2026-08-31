@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0.0",
+  "content_version": "1.1.0",
   "project": "AITrainingGuangzhou",
   "status": "private-derived-knowledge",
   "updated": "2026-09-01",
@@ -9,6 +10,42 @@
     "contains_courseware_files": false,
     "contains_third_party_code": false,
     "day2_video_mapping_complete": false
+  },
+  "resources": {
+    "video_guides": {
+      "count": 10,
+      "index": "knowledge/videos/day-1/README.md"
+    },
+    "module_handbooks": {
+      "count": 11,
+      "index": "knowledge/modules/README.md"
+    },
+    "playbooks": [
+      "playbooks/brand-research.md",
+      "playbooks/author-voice.md",
+      "playbooks/visual-reverse.md",
+      "playbooks/ecommerce-visual.md",
+      "playbooks/ai-video.md",
+      "playbooks/data-analysis.md"
+    ],
+    "templates": [
+      "templates/research-brief.md",
+      "templates/workflow-spec.md",
+      "templates/output-qa.md",
+      "templates/agent-task.json",
+      "templates/visual-set-plan.md"
+    ],
+    "exercises": [
+      "exercises/beginner.md",
+      "exercises/practical.md",
+      "exercises/verification.md"
+    ],
+    "navigation": [
+      "knowledge/task-router.md",
+      "knowledge/learning-paths.md",
+      "knowledge/glossary.md"
+    ],
+    "codex_skill": "skills/ai-training-guangzhou/SKILL.md"
   },
   "day1": {
     "teacher_label": "LaoHong",

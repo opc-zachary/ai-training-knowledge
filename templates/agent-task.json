@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "project": "",
+  "client": "",
+  "objective": "",
+  "workspace": {
+    "allowed_path": "",
+    "read_only_sources": [],
+    "write_destinations": [],
+    "prohibited_actions": []
+  },
+  "inputs": [
+    {
+      "name": "",
+      "source": "",
+      "format": "",
+      "validation": ""
+    }
+  ],
+  "workflow": [
+    {
+      "step": 1,
+      "actor": "agent",
+      "action": "",
+      "output": "",
+      "acceptance": ""
+    }
+  ],
+  "deliverables": [
+    {
+      "name": "",
+      "format": "",
+      "status": "Review",
+      "verification": ""
+    }
+  ],
+  "external_actions": {
+    "allowed": false,
+    "targets": [],
+    "approval_required": true,
+    "readback": ""
+  },
+  "completion_evidence": []
+}

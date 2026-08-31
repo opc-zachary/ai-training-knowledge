@@ -12,6 +12,9 @@ Use this skill to answer course questions, build a study sequence, locate the re
 - For models, Agents, local workflow safety, research, Xiaohongshu insight, author voice, visual production, AI video, data analysis or QA, read [references/day-1.md](references/day-1.md).
 - For workflow governance, GUI/CLI/API/MCP, Harness, Agent Team, FDE, OPC or Agent Boss, read [references/day-2.md](references/day-2.md).
 - For requests involving source files, redistribution, transcripts, courseware or evidence status, read [references/source-boundaries.md](references/source-boundaries.md).
+- For choosing the right course module, read [references/task-router.md](references/task-router.md).
+- For executing research, writing, visual, video or data work, read [references/application-playbooks.md](references/application-playbooks.md).
+- For a compact task, research, visual or QA structure, read [references/templates.md](references/templates.md).
 
 ## Response contract
 
@@ -37,3 +40,15 @@ Turn course concepts into an explicit workflow with:
 - reusable learning captured at the narrowest appropriate layer.
 
 Do not treat a generated answer, dashboard, image or report as complete until its evidence and destination have been checked.
+
+## Study answers
+
+When the user wants to learn rather than execute:
+
+1. name the module and evidence status;
+2. explain the core idea;
+3. give the video navigation range where available;
+4. show the operating workflow;
+5. give one exercise;
+6. give an acceptance checklist;
+7. connect it to the next relevant module.

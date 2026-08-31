@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.0 — 2026-09-01
+
+- Added ten detailed day-one video guides with timelines, interpretation and exercises.
+- Added eleven K00–K10 operational module handbooks.
+- Added six execution playbooks, five reusable templates and three exercise sets.
+- Added glossary, role-based learning paths and task router.
+- Expanded the Codex Skill and machine-readable resource index.
+
 ## 1.0.0 — 2026-09-01
 
 - Added the private repository structure and source boundaries.

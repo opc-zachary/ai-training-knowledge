@@ -26,6 +26,7 @@ class RepositoryTests(unittest.TestCase):
     def test_crosswalk_contract(self):
         data = json.loads((ROOT / "data" / "course-crosswalk.v1.json").read_text())
         self.assertEqual(data["schema_version"], "1.0.0")
+        self.assertEqual(data["content_version"], "1.1.0")
         modules = data["day1"]["modules"]
         self.assertEqual([item["id"] for item in modules], [f"K{i:02d}" for i in range(11)])
         video_ids = {
@@ -37,6 +38,11 @@ class RepositoryTests(unittest.TestCase):
         sections = data["day2"]["sections"]
         self.assertEqual(len(sections), 7)
         self.assertTrue(all(item["reference_only"] is True for item in sections))
+        resources = data["resources"]
+        self.assertEqual(resources["video_guides"]["count"], 10)
+        self.assertEqual(resources["module_handbooks"]["count"], 11)
+        for path in self.validator.resource_paths(data):
+            self.assertTrue((ROOT / path).is_file(), path)
 
     def test_no_prohibited_files_or_content(self):
         findings = self.validator.scan_prohibited(ROOT)
@@ -45,10 +51,33 @@ class RepositoryTests(unittest.TestCase):
     def test_skill_structure(self):
         skill_root = ROOT / "skills" / "ai-training-guangzhou"
         self.assertTrue((skill_root / "SKILL.md").is_file())
-        self.assertEqual(
-            {path.name for path in (skill_root / "references").glob("*.md")},
-            {"day-1.md", "day-2.md", "source-boundaries.md"},
+        self.assertTrue(
+            {
+                "day-1.md",
+                "day-2.md",
+                "source-boundaries.md",
+                "task-router.md",
+                "application-playbooks.md",
+                "templates.md",
+            }.issubset({path.name for path in (skill_root / "references").glob("*.md")})
         )
+
+    def test_detailed_content_inventory(self):
+        guides = list((ROOT / "knowledge" / "videos" / "day-1").glob("[0-9][0-9]-*.md"))
+        modules = list((ROOT / "knowledge" / "modules").glob("K[0-9][0-9]-*.md"))
+        playbooks = list((ROOT / "playbooks").glob("*.md"))
+        templates = list((ROOT / "templates").glob("*"))
+        exercises = list((ROOT / "exercises").glob("*.md"))
+        self.assertEqual(len(guides), 10)
+        self.assertEqual(len(modules), 11)
+        self.assertEqual(len(playbooks), 6)
+        self.assertEqual(len(templates), 5)
+        self.assertEqual(len(exercises), 3)
+        self.assertTrue(all(path.stat().st_size >= 2500 for path in guides))
+        self.assertTrue(all(path.stat().st_size >= 900 for path in modules))
+
+    def test_markdown_links(self):
+        self.assertEqual(self.validator.validate_markdown_links(ROOT), [])
 
     def test_manifest_hashes(self):
         errors = self.validator.verify_manifest(ROOT)

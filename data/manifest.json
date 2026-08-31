@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "project": "AITrainingGuangzhou",
   "visibility_required": "PRIVATE",
-  "generated_at": "2026-08-31T18:26:58+00:00",
+  "generated_at": "2026-08-31T18:56:54+00:00",
   "files": [
     {
       "path": ".gitignore",
@@ -11,13 +11,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size_bytes": 388,
-      "sha256": "e8cedc66e3b54955c385534c005b6a301952c96220a389530d7c158a95e85706"
+      "size_bytes": 764,
+      "sha256": "a62ccd6a4f67b08ee2e5c92a2569a4983ec3ad4cba64d6b139681fd48b9a2560"
     },
     {
       "path": "README.md",
-      "size_bytes": 1654,
-      "sha256": "cb32f54216af6bde32cbfd2a268b218a9afc19f7178ea0df6d36fba086e02dbc"
+      "size_bytes": 2251,
+      "sha256": "ec19b9fa6344636e11a5c65c04f4cfa405846ab18fc36b18d032ccc23420c42c"
     },
     {
       "path": "SHARING_POLICY.md",
@@ -31,8 +31,8 @@
     },
     {
       "path": "data/course-crosswalk.v1.json",
-      "size_bytes": 4281,
-      "sha256": "9b412d9d81a291ab39b26175514bc7b964a8e078f3696b51fdfca47a04932316"
+      "size_bytes": 5281,
+      "sha256": "18b5d99478f7c58bd078b2a04a48ada959e7dbf123f955012397226b64273b88"
     },
     {
       "path": "examples/codex-install.md",
@@ -45,9 +45,24 @@
       "sha256": "fbf861bd7b79024a12060fc3b871aaeced61eab4974f4cb9342909ac22e57bd8"
     },
     {
+      "path": "exercises/beginner.md",
+      "size_bytes": 1504,
+      "sha256": "1a9479b4e97d85dbef561fdaa2f117a88495190ed2121aa43a7da027e26b11ba"
+    },
+    {
+      "path": "exercises/practical.md",
+      "size_bytes": 1277,
+      "sha256": "4f4826a99f3db1da2192317f15b77bacf5be64ba75c3ecd8adfba57c7c2870f9"
+    },
+    {
+      "path": "exercises/verification.md",
+      "size_bytes": 1251,
+      "sha256": "77e8cdbdee52ef86dc42ffe1e8ba86309e628594dd88312eac75297eabc5049e"
+    },
+    {
       "path": "knowledge/day-1-laohong.md",
-      "size_bytes": 4396,
-      "sha256": "0debd2a9cfcb4d4a2e158bcb749dca238a8e6a12063790e9159cfbd5cd450f6b"
+      "size_bytes": 4639,
+      "sha256": "d50985f47d67cf26ad43bf3a0078a73c5d27f05aeb8dcce603aae677f7e84d80"
     },
     {
       "path": "knowledge/day-2-channel-reference.md",
@@ -56,18 +71,183 @@
     },
     {
       "path": "knowledge/full-course-map.md",
-      "size_bytes": 1103,
-      "sha256": "a6ba580414b01ba13520f00e9566e15f091c40d7a9c33af179711e6ed74e4ff6"
+      "size_bytes": 1473,
+      "sha256": "f60f044dc1d80c7bda1e2944b64d664e45b110451a06dd7713492fc401617dec"
+    },
+    {
+      "path": "knowledge/glossary.md",
+      "size_bytes": 2866,
+      "sha256": "3267626a979b957ae2ab2ef953a98ebd149338358ff4d8037d8847ea8382e29c"
+    },
+    {
+      "path": "knowledge/learning-paths.md",
+      "size_bytes": 1581,
+      "sha256": "77fa61a8743200ea1408da5b47ac65838187c9a598ee6c67d01fa0158831aeba"
+    },
+    {
+      "path": "knowledge/modules/K00-innovation-ecosystem.md",
+      "size_bytes": 1333,
+      "sha256": "53d8e9fe25db01e9399312286b3694d407a3dde188834fe312cd3b4add52e7a9"
+    },
+    {
+      "path": "knowledge/modules/K01-model-agent-tool-framework.md",
+      "size_bytes": 1405,
+      "sha256": "dc80f875ccd71dbb6ac95d7f52a1a256ee835b61cdb23624298b105559ab964a"
+    },
+    {
+      "path": "knowledge/modules/K02-bounded-agent-workspace.md",
+      "size_bytes": 1189,
+      "sha256": "7dbf7c65f963c601dd37496fd17a586ccfad1922f00cd2c70e5214ab5b913c25"
+    },
+    {
+      "path": "knowledge/modules/K03-evidence-led-research.md",
+      "size_bytes": 1343,
+      "sha256": "071408bee8c1aad20651ed331031409fbc4afb216ced51390f2437f97f59fd8f"
+    },
+    {
+      "path": "knowledge/modules/K04-platform-data-insight.md",
+      "size_bytes": 1588,
+      "sha256": "41229260b2d6cf71125d3ccb184887671ee0ebc82cb4f062a6406c434f648c95"
+    },
+    {
+      "path": "knowledge/modules/K05-author-voice-system.md",
+      "size_bytes": 1389,
+      "sha256": "534b248593d6c4c70beab22297d342c8b35ece2d654cb5c958334c859ff1ac73"
+    },
+    {
+      "path": "knowledge/modules/K06-controlled-image-generation.md",
+      "size_bytes": 1424,
+      "sha256": "cd0d350e30e673fff13b5f49d74bd6711d755e0fda24c014baa5acb8b2e7899f"
+    },
+    {
+      "path": "knowledge/modules/K07-visual-skill-system.md",
+      "size_bytes": 1485,
+      "sha256": "a80c8cac655b45ed076fa3aea1d28320258fb2ddde8a422a8becce0effce6bc4"
+    },
+    {
+      "path": "knowledge/modules/K08-ai-video-production.md",
+      "size_bytes": 1281,
+      "sha256": "2c531093611aae0fa671aaccbc6d81e21e826a3802955626f9314ff66fa1d02a"
+    },
+    {
+      "path": "knowledge/modules/K09-business-data-analysis.md",
+      "size_bytes": 1240,
+      "sha256": "f1146dc45c9a10ba039e569db812daba137d2e25018187e7c1b136f4ee18e655"
+    },
+    {
+      "path": "knowledge/modules/K10-qa-evidence-delivery.md",
+      "size_bytes": 1468,
+      "sha256": "f1830ba23a9e00cf792820e2b4b04611d3f3229fefb4c6025dc4492f7a05b84e"
+    },
+    {
+      "path": "knowledge/modules/README.md",
+      "size_bytes": 778,
+      "sha256": "c18d637055415df73cd52c43a7074d86342f09246658c93e13af38c28c7c968a"
+    },
+    {
+      "path": "knowledge/task-router.md",
+      "size_bytes": 1242,
+      "sha256": "718efff94661892551217e2e4ffebd991677cf9db53eb123d5bf3fb19dc80b2f"
+    },
+    {
+      "path": "knowledge/videos/day-1/01-course-context.md",
+      "size_bytes": 2746,
+      "sha256": "a4f8b6c9a0772ac2be74ce0cc9d5945a044867c49c59c14bf49e5a5f39420c14"
+    },
+    {
+      "path": "knowledge/videos/day-1/02-ai-agent-framework.md",
+      "size_bytes": 5230,
+      "sha256": "5e7534000ecfbfa81b058ff4cad95be7e17a560f32cf74593ae8c660168ef01a"
+    },
+    {
+      "path": "knowledge/videos/day-1/03-workbuddy-agent-operations.md",
+      "size_bytes": 4385,
+      "sha256": "77874985eeae4cc0312023132dcb8fc05395d5c293d535de94c21fac75eb74c0"
+    },
+    {
+      "path": "knowledge/videos/day-1/04-brand-research-hands-on.md",
+      "size_bytes": 4143,
+      "sha256": "6505b5ed1203f4b558db545aa443021306479d77fc2ec6e3bd74b0581fb330bf"
+    },
+    {
+      "path": "knowledge/videos/day-1/05-research-search-and-multimodal-transition.md",
+      "size_bytes": 5143,
+      "sha256": "92822823da7a11ac989f8e6022ad5f9ff02108feab57a0e65abffa17f6d71ce6"
+    },
+    {
+      "path": "knowledge/videos/day-1/06-writing-author-voice-and-commercial-content.md",
+      "size_bytes": 4844,
+      "sha256": "5cad222421c58ea4105f166b2ee1c1624b439fba9549722696053c71fa125c3d"
+    },
+    {
+      "path": "knowledge/videos/day-1/07-image-control-and-ecommerce-visuals.md",
+      "size_bytes": 5025,
+      "sha256": "6d10c19bb15e310360ceaadb398d1caba438960b05b91bed430aab8365493a77"
+    },
+    {
+      "path": "knowledge/videos/day-1/08-skill-batch-and-model-routing.md",
+      "size_bytes": 3185,
+      "sha256": "36fa6dbfab6101478c2b03bd2b1708c4b6262ab1c7e5257e131140106c9dada5"
+    },
+    {
+      "path": "knowledge/videos/day-1/09-ai-video-production.md",
+      "size_bytes": 4039,
+      "sha256": "f5f7bc1af0e529274fc5cd1b2f10c61fb0b6e899371a6d5b79aba38c2096553e"
+    },
+    {
+      "path": "knowledge/videos/day-1/10-video-data-and-course-recap.md",
+      "size_bytes": 4837,
+      "sha256": "d4ec78222b62193636f8605f21a2229748555da5bc3a83f8e607966765fe6c1a"
+    },
+    {
+      "path": "knowledge/videos/day-1/README.md",
+      "size_bytes": 1367,
+      "sha256": "f3f3c42993d4379c863339fd0aff115b908feb537f0026a0b7b387b1e0da50aa"
+    },
+    {
+      "path": "playbooks/ai-video.md",
+      "size_bytes": 1777,
+      "sha256": "52b760353b6c1a47f3567b8822f47d38ea5208808e3cb790396b545c58a65746"
+    },
+    {
+      "path": "playbooks/author-voice.md",
+      "size_bytes": 2046,
+      "sha256": "3f4332bcb78f263a5d10d57363e6e8c0ee5121601834080a56ad1234dc3c8a21"
+    },
+    {
+      "path": "playbooks/brand-research.md",
+      "size_bytes": 2380,
+      "sha256": "6ff59b6488a9d61b9071eb3ddb1ace9334786610673c85863b65b891a63bee94"
+    },
+    {
+      "path": "playbooks/data-analysis.md",
+      "size_bytes": 1759,
+      "sha256": "6ae898724197b5bfe25c4ab15b615eaf9490ce7edbb8d91e266642a6de2533b5"
+    },
+    {
+      "path": "playbooks/ecommerce-visual.md",
+      "size_bytes": 2228,
+      "sha256": "02f64980bb985f8eb7516b01168008da8c0bd5c44d7a2cac72330f381145ad1a"
+    },
+    {
+      "path": "playbooks/visual-reverse.md",
+      "size_bytes": 1830,
+      "sha256": "a135c3102f07bae02d6355f155f2519f8239024f3e66fd36805d92d5cd0ced98"
     },
     {
       "path": "scripts/validate_repository.py",
-      "size_bytes": 7789,
-      "sha256": "821a12e3d8e5fc532810b86cf9ee51f9e76c486b3ed4e7019f8b8cc9c33349d8"
+      "size_bytes": 10548,
+      "sha256": "6014f4572e2058f2ee80fbb7cec8b6d0a0cfee1b4beb72f71d5f2fb18ad17e7e"
     },
     {
       "path": "skills/ai-training-guangzhou/SKILL.md",
-      "size_bytes": 2357,
-      "sha256": "329c9471d4e2fe5cd32d136eb00c806633e7a709c0c213409cea6fc9c9229962"
+      "size_bytes": 3033,
+      "sha256": "25dcfea4677eb5d22a41d25d57e8afbf953d2962797c88c18298770a0bf2c562"
+    },
+    {
+      "path": "skills/ai-training-guangzhou/references/application-playbooks.md",
+      "size_bytes": 2423,
+      "sha256": "141106d63087ed8f58948ff3ac975f12aa7084002f2c966d04e53da0edfc8a9d"
     },
     {
       "path": "skills/ai-training-guangzhou/references/day-1.md",
@@ -85,9 +265,44 @@
       "sha256": "e9aa05b891e07bc769455e09f98f14f61019551a50d6f0a66e7f3465bb1a90ac"
     },
     {
+      "path": "skills/ai-training-guangzhou/references/task-router.md",
+      "size_bytes": 1186,
+      "sha256": "4bdb2523decd2270f12623191525fdd4533c84e115d27a355ff4658276cc3275"
+    },
+    {
+      "path": "skills/ai-training-guangzhou/references/templates.md",
+      "size_bytes": 796,
+      "sha256": "3185e9316b244b51325c5b4de2d0bcfa39e8c2c9a82bd0380dc2c49e72a1ef31"
+    },
+    {
+      "path": "templates/agent-task.json",
+      "size_bytes": 742,
+      "sha256": "5c3513b39b705fbc6f128846dbddf557fe4cf0d5811b4e88128fb1feb361d298"
+    },
+    {
+      "path": "templates/output-qa.md",
+      "size_bytes": 1032,
+      "sha256": "7f82b3d3cb2046e42543de92210db7554b4c80b11698fc23898e0132534ae0e1"
+    },
+    {
+      "path": "templates/research-brief.md",
+      "size_bytes": 1018,
+      "sha256": "d3f2d8c590708bc41b7fa05ff5530138f6e3c60e996bfe946b24c53292750f45"
+    },
+    {
+      "path": "templates/visual-set-plan.md",
+      "size_bytes": 1383,
+      "sha256": "b5d4014b4f2454936265142f4c518d19af18543bf47c929a595a51034b3ac317"
+    },
+    {
+      "path": "templates/workflow-spec.md",
+      "size_bytes": 979,
+      "sha256": "224e991e35ce29f587b0f43d091dfa3ec556b5332ea5a5b072948cedf51ccf15"
+    },
+    {
       "path": "tests/test_repository.py",
-      "size_bytes": 2170,
-      "sha256": "3acf48327364fc382afab583dd08d7db9a71caaff754d7e7806dff98c4f13b24"
+      "size_bytes": 3563,
+      "sha256": "f35c92e01c04b63fba38e179784769b29961890aa450d66ff6c5ee5940bf6d54"
     }
   ]
 }

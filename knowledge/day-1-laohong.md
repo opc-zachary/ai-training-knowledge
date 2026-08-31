@@ -54,4 +54,12 @@ Inspect structure and quality before analysis. Confirm metric definitions, then 
 5. K08 for multimodal extension into video.
 6. K09 and K10 for business analysis and reliable delivery.
 
+## Detailed guides
+
+- [Video-by-video index](videos/day-1/README.md)
+- [Module handbook index](modules/README.md)
+- [Practical playbooks](../playbooks/)
+- [Beginner and capstone exercises](../exercises/)
+- [Reusable templates](../templates/)
+
 The time ranges are navigation aids derived from processed course video. They are not a substitute for the original course and no transcript is bundled here.
