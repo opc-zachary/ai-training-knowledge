@@ -26,7 +26,7 @@ class RepositoryTests(unittest.TestCase):
     def test_crosswalk_contract(self):
         data = json.loads((ROOT / "data" / "course-crosswalk.v1.json").read_text())
         self.assertEqual(data["schema_version"], "1.0.0")
-        self.assertEqual(data["content_version"], "1.3.0")
+        self.assertEqual(data["content_version"], "1.4.0")
         self.assertEqual(data["status"], "public-derived-knowledge")
         self.assertEqual(data["distribution"]["repository_visibility"], "PUBLIC")
         self.assertEqual(data["distribution"]["languages"], ["zh-Hant", "zh-Hans", "en"])
@@ -47,6 +47,9 @@ class RepositoryTests(unittest.TestCase):
         self.assertEqual(data["day2"]["video_summary"]["total"], 18)
         self.assertEqual(data["day2"]["video_summary"]["usable_core_or_supporting"], 13)
         self.assertEqual(data["day2"]["video_summary"]["rejected_ambient_or_hallucination"], 5)
+        self.assertEqual(data["day2"]["video_summary"]["individual_guides_zh_hant"], 13)
+        self.assertEqual(data["day2"]["video_summary"]["individual_guides_zh_hans"], 13)
+        self.assertEqual(data["day2"]["video_summary"]["cleaned_transcript_file_set"], 65)
         resources = data["resources"]
         self.assertEqual(resources["video_guides"]["count"], 10)
         self.assertEqual(resources["module_handbooks"]["count"], 11)
@@ -87,6 +90,9 @@ class RepositoryTests(unittest.TestCase):
 
     def test_markdown_links(self):
         self.assertEqual(self.validator.validate_markdown_links(ROOT), [])
+
+    def test_day2_detailed_package(self):
+        self.assertEqual(self.validator.validate_day2_detailed_package(ROOT), [])
 
     def test_chinese_locales(self):
         self.assertEqual(self.validator.validate_locales(ROOT), [])

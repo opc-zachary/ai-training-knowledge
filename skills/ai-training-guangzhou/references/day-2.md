@@ -20,3 +20,5 @@ Status: `video_classified_review`. Complete video has been separated into LaoHon
 - Day-one human operator → day-two Agent Boss.
 
 Use `knowledge/day-2-video-guides.md` or the Chinese locale guide for video classification. Preserve Review status and do not quote Raw transcript as official wording.
+
+When the complete repository is available, use `day-2/README.md` for 13 individual guides, cleaned timestamped transcripts, SRT, QA, classification frames and the public SHA manifest.

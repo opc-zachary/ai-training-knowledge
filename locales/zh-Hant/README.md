@@ -13,6 +13,7 @@
 7. [第二天上午／下午影片指南](day-2-video-guides.md)
 8. [第二天 Channel 課件對照](day-2-reference.md)
 9. [Codex 調用指南](codex-usage.md)
+10. [第二天完整團隊知識包](../../day-2/README.md)
 
 ## 核心學習主線
 

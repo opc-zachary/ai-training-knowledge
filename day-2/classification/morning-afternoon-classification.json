@@ -1,0 +1,48 @@
+{
+  "project": "AITrainingGuangzhou",
+  "client": "UNKNOWNCLIENT",
+  "status": "Preliminary_Review",
+  "version": "v02",
+  "requires_4k_verification": true,
+  "sessions": [
+    {
+      "id": "0830_morning_lao_hong",
+      "label": "0830上午老洪",
+      "courseware_mapping": "Day1 extension; do not force into Channel PDF",
+      "items": [
+        {"video_id": "DJI_20260830102734_0001_D", "duration": 1662.037, "class": "prompt_engineering_and_research", "status": "usable_after_tail_recheck"},
+        {"video_id": "DJI_20260830105517_0002_D", "duration": 1663.040, "class": "context_prompt_debugging_skill_discovery_creation", "status": "usable_after_tail_recheck"},
+        {"video_id": "DJI_20260830112259_0003_D", "duration": 1119.659, "class": "skill_architecture_and_personal_workbench", "status": "preliminary_usable"},
+        {"video_id": "DJI_20260830114141_0004_D", "duration": 911.723, "class": "automation_evolution_and_fde", "status": "preliminary_usable"}
+      ]
+    },
+    {
+      "id": "0830_afternoon_channel",
+      "label": "0830下午Channel",
+      "courseware_mapping": "Channel 141-page courseware deck",
+      "items": [
+        {"video_id": "DJI_20260830135316_0001_D", "duration": 1662.037, "pages": "1-29,92-102 intro", "class": "ai_development_systems_models", "status": "usable_after_tail_recheck"},
+        {"video_id": "DJI_20260830142059_0002_D", "duration": 1203.349, "pages": "15-45", "class": "models_enterprise_superpowers", "status": "usable_after_tail_recheck"},
+        {"video_id": "DJI_20260830144104_0003_D", "duration": 153.408, "pages": "30-45", "class": "superpowers_requirements_planning", "status": "preliminary_usable"},
+        {"video_id": "DJI_20260830145621_0004_D", "duration": 943.851, "pages": "46-91", "class": "gui_cli_api_mcp", "status": "preliminary_usable"},
+        {"video_id": "DJI_20260830152255_0005_D", "duration": 1449.493, "pages": "92-102", "class": "harness_digital_employee_governance", "status": "usable_after_tail_recheck"},
+        {"video_id": "DJI_20260830155647_0006_D", "duration": 1662.315, "pages": "92-122", "class": "github_agent_reach_tradingagents_multi_agent", "status": "preliminary_usable"},
+        {"video_id": "DJI_20260830162430_0007_D", "duration": 89.451, "pages": "103-141 transition", "class": "summary_fde_opc_transition", "status": "usable_after_tail_recheck"},
+        {"video_id": "DJI_20260830162713_0008_D", "duration": 25.984, "class": "ambient", "status": "reject_hallucination_or_no_speech"},
+        {"video_id": "DJI_20260830163448_0009_D", "duration": 889.323, "pages": "123-141", "class": "harness_roles_fde_opc_agent_boss", "status": "usable_after_clip_recheck"},
+        {"video_id": "DJI_20260830165657_0010_D", "duration": 24.192, "class": "ambient", "status": "reject_hallucination_or_no_speech"},
+        {"video_id": "DJI_20260830165752_0011_D", "duration": 20.373, "class": "ambient", "status": "reject_hallucination_or_no_speech"},
+        {"video_id": "DJI_20260830165827_0012_D", "duration": 16.832, "class": "ambient_or_credit", "status": "reject_hallucination_or_no_speech"},
+        {"video_id": "DJI_20260830165904_0013_D", "duration": 138.837, "class": "student_reflection_interview", "status": "preliminary_usable_non_core"},
+        {"video_id": "DJI_20260830170257_0014_D", "duration": 16.725, "class": "ambient_or_credit", "status": "reject_hallucination_or_no_speech"}
+      ]
+    }
+  ],
+  "summary": {
+    "total_lrf": 18,
+    "core_or_supporting_usable": 13,
+    "rejected_ambient_or_hallucination": 5,
+    "morning_items": 4,
+    "afternoon_items": 14
+  }
+}

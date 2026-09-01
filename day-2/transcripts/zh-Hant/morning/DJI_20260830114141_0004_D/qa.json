@@ -1,0 +1,10 @@
+{
+  "video_id": "DJI_20260830114141_0004_D",
+  "audio_duration": 911.722688,
+  "segments": 573,
+  "last_end": 911.722688,
+  "raw_segments_removed_or_replaced": 0,
+  "recheck_merged": false,
+  "foreign_hallucination_tokens_remaining": false,
+  "timestamp_within_audio": true
+}

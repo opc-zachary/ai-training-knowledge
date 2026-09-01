@@ -48,3 +48,5 @@
 ## 完整內容位置
 
 公開 Repo 內的繁體中文完整版位於 `locales/zh-Hant/`，包含逐片指南、模組、Playbook、練習、模板、名詞表及第二天參考。
+
+需要第二天逐片證據時，先讀 `day-2/README.md`，再讀對應 guide、`timestamped.txt` 及 `qa.json`。

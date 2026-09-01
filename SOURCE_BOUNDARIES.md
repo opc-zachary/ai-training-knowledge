@@ -6,12 +6,14 @@
 - Topic classifications, learning sequences, time ranges and evidence-status labels.
 - A versioned JSON index.
 - A repository-specific Codex skill and usage examples.
+- Cleaned Traditional Chinese Day 2 review transcripts, timestamped text, SRT, structured JSON and QA.
+- Derived Day 2 classification frames and their SHA-256 index.
 
 ## What this repository does not contain
 
 - Original or compressed course videos.
-- Full transcripts, raw transcripts or subtitle files.
-- Original slides, PDFs, archives or courseware screenshots.
+- Raw Whisper transcripts containing unreviewed hallucinations.
+- Original videos, slides, PDFs, archives or courseware files.
 - Third-party plugins, scripts, skills or repositories.
 - Copied prompt libraries, article examples or long verbatim course passages.
 - Passwords, tokens, environment files or other credentials.

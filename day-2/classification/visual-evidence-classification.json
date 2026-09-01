@@ -1,0 +1,56 @@
+{
+  "project": "AITrainingGuangzhou",
+  "client": "UNKNOWNCLIENT",
+  "status": "VisualVerified_Review",
+  "version": "v03",
+  "source": {
+    "lrf_count": 18,
+    "mp4_count": 18,
+    "downloading_count": 0,
+    "total_bytes": 159052502330,
+    "mp4_duration_matches_lrf": true,
+    "mp4_first_last_audio_video_read": true
+  },
+  "classification": {
+    "usable_core_or_supporting": 13,
+    "rejected_ambient_or_hallucination": 5,
+    "morning_lao_hong": [
+      "prompt_engineering_and_research",
+      "context_and_prompt_debugging",
+      "skill_discovery_creation_architecture",
+      "personal_ai_workbench",
+      "enterprise_automation_and_fde"
+    ],
+    "afternoon_channel": [
+      "ai_development_systems_and_models",
+      "superpowers_and_workflow",
+      "gui_cli_api_mcp",
+      "harness_loop_and_digital_employees",
+      "github_agent_reach_tradingagents_multi_agent",
+      "fde_opc_agent_boss",
+      "student_reflection_non_core"
+    ]
+  },
+  "visual_evidence": {
+    "frame_set": "day-2/evidence/keyframes",
+    "frame_count": 117,
+    "verified_topics": [
+      "personal_ai_workbench",
+      "fde",
+      "gui_to_mcp",
+      "agent_harness_loop",
+      "reliable_harness",
+      "github_reusable_system",
+      "fde_opc_shared_logic"
+    ]
+  },
+  "remaining": [
+    "traditional_chinese_cleaned_transcripts",
+    "formal_srt",
+    "proper_noun_correction",
+    "full_original_copy_to_case3tb",
+    "compressed_proxies",
+    "complete_video_guides",
+    "public_github_day2_update"
+  ]
+}

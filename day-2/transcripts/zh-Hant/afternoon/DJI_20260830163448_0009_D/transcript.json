@@ -1,0 +1,3031 @@
+{
+  "project": "AITrainingGuangzhou",
+  "client": "UNKNOWNCLIENT",
+  "status": "Cleaned_Review",
+  "video_id": "DJI_20260830163448_0009_D",
+  "session": "01_Afternoon_Channel",
+  "audio_duration": 889.322688,
+  "source": "complete_720p_LRF_proxy_with_targeted_rechecks",
+  "requires_4k_visual_proper_noun_review": true,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.44,
+      "text": "你到底想乾嘛",
+      "source": "raw"
+    },
+    {
+      "start": 1.44,
+      "end": 3.24,
+      "text": "我要把這個",
+      "source": "raw"
+    },
+    {
+      "start": 3.24,
+      "end": 4.04,
+      "text": "哦",
+      "source": "raw"
+    },
+    {
+      "start": 4.04,
+      "end": 5.5600000000000005,
+      "text": "Hudders的",
+      "source": "raw"
+    },
+    {
+      "start": 5.5600000000000005,
+      "end": 7.12,
+      "text": "這個其實就叫Hudders",
+      "source": "raw"
+    },
+    {
+      "start": 7.12,
+      "end": 9.24,
+      "text": "因為你要控制它是做這個職業的",
+      "source": "raw"
+    },
+    {
+      "start": 9.24,
+      "end": 9.76,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 9.76,
+      "end": 11.76,
+      "text": "就是Agent.md 設完了",
+      "source": "raw"
+    },
+    {
+      "start": 11.76,
+      "end": 13.120000000000001,
+      "text": "它就是一個",
+      "source": "raw"
+    },
+    {
+      "start": 13.120000000000001,
+      "end": 14.76,
+      "text": "前班工程師",
+      "source": "raw"
+    },
+    {
+      "start": 15.96,
+      "end": 16.76,
+      "text": "誒",
+      "source": "raw"
+    },
+    {
+      "start": 16.76,
+      "end": 17.76,
+      "text": "誒",
+      "source": "raw"
+    },
+    {
+      "start": 17.76,
+      "end": 19.0,
+      "text": "又沒有這個啊",
+      "source": "raw"
+    },
+    {
+      "start": 30.0,
+      "end": 31.2,
+      "text": "哦",
+      "source": "raw"
+    },
+    {
+      "start": 31.2,
+      "end": 32.2,
+      "text": "我幫了多哈",
+      "source": "raw"
+    },
+    {
+      "start": 32.2,
+      "end": 32.84,
+      "text": "這些",
+      "source": "raw"
+    },
+    {
+      "start": 32.84,
+      "end": 34.0,
+      "text": "好",
+      "source": "raw"
+    },
+    {
+      "start": 34.0,
+      "end": 38.56,
+      "text": "所以",
+      "source": "raw"
+    },
+    {
+      "start": 38.56,
+      "end": 41.4,
+      "text": "所以我剛才其實GitHub上面呢",
+      "source": "raw"
+    },
+    {
+      "start": 41.4,
+      "end": 43.96,
+      "text": "我已經讓我的Codex啊",
+      "source": "raw"
+    },
+    {
+      "start": 43.96,
+      "end": 47.56,
+      "text": "去幫我把這個前端的員工給搞下來了啊",
+      "source": "raw"
+    },
+    {
+      "start": 47.56,
+      "end": 49.2,
+      "text": "一個字沒寫",
+      "source": "raw"
+    },
+    {
+      "start": 49.2,
+      "end": 52.0,
+      "text": "就說幫我把這個前端搞下來",
+      "source": "raw"
+    },
+    {
+      "start": 52.0,
+      "end": 54.0,
+      "text": "它就知道我要調甚麼工具",
+      "source": "raw"
+    },
+    {
+      "start": 54.0,
+      "end": 55.96,
+      "text": "我要甚麼工作要做的",
+      "source": "raw"
+    },
+    {
+      "start": 55.96,
+      "end": 56.84,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 56.84,
+      "end": 59.400000000000006,
+      "text": "有甚麼優化性能的維護代碼",
+      "source": "raw"
+    },
+    {
+      "start": 59.400000000000006,
+      "end": 60.8,
+      "text": "必須遵守",
+      "source": "raw"
+    },
+    {
+      "start": 60.8,
+      "end": 63.839999999999996,
+      "text": "性能優先開發",
+      "source": "raw"
+    },
+    {
+      "start": 63.839999999999996,
+      "end": 65.48,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 65.48,
+      "end": 66.4,
+      "text": "然後V-act",
+      "source": "raw"
+    },
+    {
+      "start": 66.4,
+      "end": 68.03999999999999,
+      "text": "V-act 甚麼意思啊",
+      "source": "raw"
+    },
+    {
+      "start": 68.03999999999999,
+      "end": 68.9,
+      "text": "它就這架構",
+      "source": "raw"
+    },
+    {
+      "start": 68.9,
+      "end": 69.72,
+      "text": "V-act 組件",
+      "source": "raw"
+    },
+    {
+      "start": 69.72,
+      "end": 70.2,
+      "text": "怎麼樣",
+      "source": "raw"
+    },
+    {
+      "start": 70.2,
+      "end": 71.68,
+      "text": "有V-cent的",
+      "source": "raw"
+    },
+    {
+      "start": 71.68,
+      "end": 72.44,
+      "text": "然後再Action",
+      "source": "raw"
+    },
+    {
+      "start": 72.44,
+      "end": 72.96,
+      "text": "等等",
+      "source": "raw"
+    },
+    {
+      "start": 72.96,
+      "end": 74.68,
+      "text": "它的架構你都可以不用管",
+      "source": "raw"
+    },
+    {
+      "start": 74.68,
+      "end": 76.1,
+      "text": "它就是把你設好了",
+      "source": "raw"
+    },
+    {
+      "start": 76.1,
+      "end": 77.32,
+      "text": "這個限制了",
+      "source": "raw"
+    },
+    {
+      "start": 77.32,
+      "end": 79.28,
+      "text": "然後再寫你的工作流程",
+      "source": "raw"
+    },
+    {
+      "start": 79.28,
+      "end": 80.3,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 80.3,
+      "end": 82.03999999999999,
+      "text": "項目搭建和架構",
+      "source": "raw"
+    },
+    {
+      "start": 82.03999999999999,
+      "end": 83.0,
+      "text": "組件開發",
+      "source": "raw"
+    },
+    {
+      "start": 83.0,
+      "end": 83.96000000000001,
+      "text": "性能優化",
+      "source": "raw"
+    },
+    {
+      "start": 83.96000000000001,
+      "end": 85.5,
+      "text": "測試和資料保證",
+      "source": "raw"
+    },
+    {
+      "start": 85.5,
+      "end": 87.64,
+      "text": "你的交付物就是一個UI",
+      "source": "raw"
+    },
+    {
+      "start": 87.64,
+      "end": 88.75999999999999,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 88.75999999999999,
+      "end": 89.32,
+      "text": "性能",
+      "source": "raw"
+    },
+    {
+      "start": 89.32,
+      "end": 90.72,
+      "text": "有甚麼硬條件",
+      "source": "raw"
+    },
+    {
+      "start": 90.72,
+      "end": 91.72,
+      "text": "這些都是Hunners",
+      "source": "raw"
+    },
+    {
+      "start": 91.72,
+      "end": 92.96,
+      "text": "就別的",
+      "source": "raw"
+    },
+    {
+      "start": 92.96,
+      "end": 95.6,
+      "text": "一個前端工程師幫你寫好的一個Hunners",
+      "source": "raw"
+    },
+    {
+      "start": 95.6,
+      "end": 97.75999999999999,
+      "text": "你直接分析了就能用了",
+      "source": "raw"
+    },
+    {
+      "start": 97.75999999999999,
+      "end": 102.19999999999999,
+      "text": "然後還有你的溝通風格",
+      "source": "raw"
+    },
+    {
+      "start": 102.19999999999999,
+      "end": 103.0,
+      "text": "各種",
+      "source": "raw"
+    },
+    {
+      "start": 103.0,
+      "end": 104.61999999999999,
+      "text": "這很大的一個文件",
+      "source": "raw"
+    },
+    {
+      "start": 104.61999999999999,
+      "end": 106.16,
+      "text": "其實它就是第一個Hunners",
+      "source": "raw"
+    },
+    {
+      "start": 106.16,
+      "end": 107.83999999999999,
+      "text": "你到底它要幹甚麼",
+      "source": "raw"
+    },
+    {
+      "start": 107.83999999999999,
+      "end": 108.96,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 108.96,
+      "end": 110.11999999999999,
+      "text": "但它只是有",
+      "source": "raw"
+    },
+    {
+      "start": 110.11999999999999,
+      "end": 112.85999999999999,
+      "text": "它只是有它的職位的一些功能",
+      "source": "raw"
+    },
+    {
+      "start": 112.85999999999999,
+      "end": 114.72,
+      "text": "但它不知道你公司是乾啥的",
+      "source": "raw"
+    },
+    {
+      "start": 114.72,
+      "end": 116.56,
+      "text": "所以你先要寫一個秘密",
+      "source": "raw"
+    },
+    {
+      "start": 116.56,
+      "end": 117.96000000000001,
+      "text": "我到底公司是看啥的",
+      "source": "raw"
+    },
+    {
+      "start": 117.96000000000001,
+      "end": 118.96000000000001,
+      "text": "要甚麼風格",
+      "source": "raw"
+    },
+    {
+      "start": 118.96000000000001,
+      "end": 119.96000000000001,
+      "text": "是甚麼顏色的",
+      "source": "raw"
+    },
+    {
+      "start": 119.96000000000001,
+      "end": 120.96000000000001,
+      "text": "品牌長甚麼樣",
+      "source": "raw"
+    },
+    {
+      "start": 120.96000000000001,
+      "end": 121.8,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 121.8,
+      "end": 122.84,
+      "text": "再把這個員工請進來",
+      "source": "raw"
+    },
+    {
+      "start": 122.84,
+      "end": 123.44,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 123.44,
+      "end": 125.0,
+      "text": "你現在要有公司文化",
+      "source": "raw"
+    },
+    {
+      "start": 125.0,
+      "end": 126.84,
+      "text": "再有員工才會有團隊啊",
+      "source": "raw"
+    },
+    {
+      "start": 126.84,
+      "end": 127.96000000000001,
+      "text": "團隊才需要管理啊",
+      "source": "raw"
+    },
+    {
+      "start": 127.96000000000001,
+      "end": 129.28,
+      "text": "管理才需要系統啊",
+      "source": "raw"
+    },
+    {
+      "start": 129.28,
+      "end": 129.88,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 129.88,
+      "end": 130.84,
+      "text": "一步步來嘛",
+      "source": "raw"
+    },
+    {
+      "start": 130.84,
+      "end": 131.84,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 131.84,
+      "end": 135.84,
+      "text": "好了",
+      "source": "raw"
+    },
+    {
+      "start": 135.84,
+      "end": 137.84,
+      "text": "接下來其實就是一個簡單的分享",
+      "source": "raw"
+    },
+    {
+      "start": 137.84,
+      "end": 139.36,
+      "text": "因為這個PPT啊",
+      "source": "raw"
+    },
+    {
+      "start": 139.36,
+      "end": 141.44,
+      "text": "我是真的燒了六個小時",
+      "source": "raw"
+    },
+    {
+      "start": 141.44,
+      "end": 144.72,
+      "text": "花了幾十塊美金的token啊",
+      "source": "raw"
+    },
+    {
+      "start": 144.72,
+      "end": 145.92000000000002,
+      "text": "結果真的出來",
+      "source": "raw"
+    },
+    {
+      "start": 145.92000000000002,
+      "end": 146.96,
+      "text": "我一個字沒改",
+      "source": "raw"
+    },
+    {
+      "start": 146.96,
+      "end": 148.08,
+      "text": "做的很漂亮",
+      "source": "raw"
+    },
+    {
+      "start": 148.08,
+      "end": 148.84,
+      "text": "那我做的話",
+      "source": "raw"
+    },
+    {
+      "start": 148.84,
+      "end": 151.12,
+      "text": "我可能做幾個月都做不出來",
+      "source": "raw"
+    },
+    {
+      "start": 151.12,
+      "end": 152.2,
+      "text": "這種效果啊",
+      "source": "raw"
+    },
+    {
+      "start": 152.2,
+      "end": 153.96,
+      "text": "因為我畢竟不是PPT專業",
+      "source": "raw"
+    },
+    {
+      "start": 153.96,
+      "end": 155.8,
+      "text": "但它做PPT我真的佩服",
+      "source": "raw"
+    },
+    {
+      "start": 155.8,
+      "end": 157.92000000000002,
+      "text": "而且它完全能理解我的意思",
+      "source": "raw"
+    },
+    {
+      "start": 157.92000000000002,
+      "end": 159.04,
+      "text": "就我跟它說",
+      "source": "raw"
+    },
+    {
+      "start": 159.04,
+      "end": 162.79999999999998,
+      "text": "到底AI時代產生的這個FDE跟OPC",
+      "source": "raw"
+    },
+    {
+      "start": 162.79999999999998,
+      "end": 165.0,
+      "text": "有甚麼共通點跟區別呢",
+      "source": "raw"
+    },
+    {
+      "start": 165.0,
+      "end": 165.48,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 165.48,
+      "end": 167.95999999999998,
+      "text": "它們最後會有甚麼樣的一個發展呢",
+      "source": "raw"
+    },
+    {
+      "start": 167.95999999999998,
+      "end": 170.35999999999999,
+      "text": "我就給了它這個問題而已",
+      "source": "raw"
+    },
+    {
+      "start": 170.35999999999999,
+      "end": 170.92,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 170.92,
+      "end": 173.07999999999998,
+      "text": "它就開始幫我收資料",
+      "source": "raw"
+    },
+    {
+      "start": 173.07999999999998,
+      "end": 174.56,
+      "text": "做美工",
+      "source": "raw"
+    },
+    {
+      "start": 174.56,
+      "end": 176.12,
+      "text": "最後出這個PPT",
+      "source": "raw"
+    },
+    {
+      "start": 176.12,
+      "end": 176.84,
+      "text": "但有點凝圖",
+      "source": "raw"
+    },
+    {
+      "start": 176.84,
+      "end": 177.95999999999998,
+      "text": "是跑了六個多小時",
+      "source": "raw"
+    },
+    {
+      "start": 177.95999999999998,
+      "end": 179.68,
+      "text": "我一開始以為它當機了",
+      "source": "raw"
+    },
+    {
+      "start": 179.68,
+      "end": 181.28,
+      "text": "後面花了我這麼多錢",
+      "source": "raw"
+    },
+    {
+      "start": 181.28,
+      "end": 182.84,
+      "text": "但是結果我是很滿意的",
+      "source": "raw"
+    },
+    {
+      "start": 182.84,
+      "end": 184.51999999999998,
+      "text": "因為不用改一個字",
+      "source": "raw"
+    },
+    {
+      "start": 185.28,
+      "end": 185.64,
+      "text": "然後呢",
+      "source": "raw"
+    },
+    {
+      "start": 185.64,
+      "end": 187.23999999999998,
+      "text": "就是說FDE跟OPC呢",
+      "source": "raw"
+    },
+    {
+      "start": 187.23999999999998,
+      "end": 189.0,
+      "text": "就是一個是深入的",
+      "source": "raw"
+    },
+    {
+      "start": 189.04,
+      "end": 189.92,
+      "text": "最大組織",
+      "source": "raw"
+    },
+    {
+      "start": 189.92,
+      "end": 192.0,
+      "text": "應該是放大的最小組織啊",
+      "source": "raw"
+    },
+    {
+      "start": 195.0,
+      "end": 198.68,
+      "text": "所以我們說FDE其實就是幫一些很大的組織",
+      "source": "raw"
+    },
+    {
+      "start": 198.68,
+      "end": 200.04,
+      "text": "升入到現場去",
+      "source": "raw"
+    },
+    {
+      "start": 200.04,
+      "end": 203.07999999999998,
+      "text": "把它的所有的流程給數據化",
+      "source": "raw"
+    },
+    {
+      "start": 203.07999999999998,
+      "end": 205.28,
+      "text": "然後能夠把AI加進去",
+      "source": "raw"
+    },
+    {
+      "start": 205.28,
+      "end": 206.64,
+      "text": "來管理一些智能體",
+      "source": "raw"
+    },
+    {
+      "start": 206.64,
+      "end": 208.0,
+      "text": "把一些重復的工作",
+      "source": "raw"
+    },
+    {
+      "start": 208.0,
+      "end": 209.35999999999999,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 209.36,
+      "end": 211.20000000000002,
+      "text": "用所調的那家公司很厲害的",
+      "source": "raw"
+    },
+    {
+      "start": 211.20000000000002,
+      "end": 212.32000000000002,
+      "text": "待會我們介紹一下",
+      "source": "raw"
+    },
+    {
+      "start": 212.32000000000002,
+      "end": 214.32000000000002,
+      "text": "用AI來幫它完成大部分的工作啊",
+      "source": "raw"
+    },
+    {
+      "start": 214.32000000000002,
+      "end": 215.32000000000002,
+      "text": "然後最小組織呢",
+      "source": "raw"
+    },
+    {
+      "start": 215.32000000000002,
+      "end": 219.0,
+      "text": "OPC就是我可以快速的寫網上寫後來寫產品",
+      "source": "raw"
+    },
+    {
+      "start": 219.0,
+      "end": 220.52,
+      "text": "最後看一下有沒有需求",
+      "source": "raw"
+    },
+    {
+      "start": 220.52,
+      "end": 222.48000000000002,
+      "text": "要不要連帶還是直接放棄",
+      "source": "raw"
+    },
+    {
+      "start": 222.48000000000002,
+      "end": 225.48000000000002,
+      "text": "所以呢你可以看到啊",
+      "source": "raw"
+    },
+    {
+      "start": 225.48000000000002,
+      "end": 227.0,
+      "text": "深入一個複雜組織",
+      "source": "raw"
+    },
+    {
+      "start": 227.0,
+      "end": 228.28,
+      "text": "連接業務現場",
+      "source": "raw"
+    },
+    {
+      "start": 228.28,
+      "end": 229.72,
+      "text": "定義判斷機制",
+      "source": "raw"
+    },
+    {
+      "start": 229.72,
+      "end": 231.60000000000002,
+      "text": "最後形成結果回流",
+      "source": "raw"
+    },
+    {
+      "start": 231.60000000000002,
+      "end": 233.48,
+      "text": "而OPC呢就是我夠快",
+      "source": "raw"
+    },
+    {
+      "start": 233.48,
+      "end": 235.51999999999998,
+      "text": "做很多事情來測試",
+      "source": "raw"
+    },
+    {
+      "start": 235.51999999999998,
+      "end": 237.44,
+      "text": "但是它的底層是一樣的",
+      "source": "raw"
+    },
+    {
+      "start": 237.44,
+      "end": 238.16,
+      "text": "就是場景",
+      "source": "raw"
+    },
+    {
+      "start": 238.16,
+      "end": 239.35999999999999,
+      "text": "場景是甚麼",
+      "source": "raw"
+    },
+    {
+      "start": 239.35999999999999,
+      "end": 240.32,
+      "text": "數據是甚麼",
+      "source": "raw"
+    },
+    {
+      "start": 240.32,
+      "end": 241.16,
+      "text": "工具是甚麼",
+      "source": "raw"
+    },
+    {
+      "start": 241.16,
+      "end": 242.04,
+      "text": "規則是甚麼",
+      "source": "raw"
+    },
+    {
+      "start": 242.04,
+      "end": 243.28,
+      "text": "反饋是甚麼",
+      "source": "raw"
+    },
+    {
+      "start": 243.28,
+      "end": 245.24,
+      "text": "最後交付有價值的東西",
+      "source": "raw"
+    },
+    {
+      "start": 245.24,
+      "end": 246.24,
+      "text": "到底是甚麼",
+      "source": "raw"
+    },
+    {
+      "start": 246.24,
+      "end": 248.0,
+      "text": "兩個物種一套羅技",
+      "source": "raw"
+    },
+    {
+      "start": 248.0,
+      "end": 250.68,
+      "text": "只是說不一樣的組織啊",
+      "source": "raw"
+    },
+    {
+      "start": 250.68,
+      "end": 253.24,
+      "text": "所以你可以看到啊",
+      "source": "raw"
+    },
+    {
+      "start": 253.24,
+      "end": 254.07999999999998,
+      "text": "傳統的那個",
+      "source": "raw"
+    },
+    {
+      "start": 254.07999999999998,
+      "end": 256.2,
+      "text": "那個體驗有非常多這些東西啊",
+      "source": "raw"
+    },
+    {
+      "start": 256.2,
+      "end": 257.71999999999997,
+      "text": "甚麼ERP啊",
+      "source": "raw"
+    },
+    {
+      "start": 257.71999999999997,
+      "end": 258.56,
+      "text": "NEC啊",
+      "source": "raw"
+    },
+    {
+      "start": 258.56,
+      "end": 259.6,
+      "text": "NES啊",
+      "source": "raw"
+    },
+    {
+      "start": 259.6,
+      "end": 261.08,
+      "text": "就這種是工廠管理的",
+      "source": "raw"
+    },
+    {
+      "start": 261.08,
+      "end": 263.8,
+      "text": "這種是企業資源規劃的",
+      "source": "raw"
+    },
+    {
+      "start": 263.8,
+      "end": 265.03999999999996,
+      "text": "這個客戶管理系統",
+      "source": "raw"
+    },
+    {
+      "start": 265.03999999999996,
+      "end": 266.52,
+      "text": "包括一些工廠的",
+      "source": "raw"
+    },
+    {
+      "start": 266.52,
+      "end": 267.35999999999996,
+      "text": "一些傳感器啊",
+      "source": "raw"
+    },
+    {
+      "start": 267.35999999999996,
+      "end": 268.32,
+      "text": "還有文檔啊",
+      "source": "raw"
+    },
+    {
+      "start": 268.32,
+      "end": 269.32,
+      "text": "這些很分散",
+      "source": "raw"
+    },
+    {
+      "start": 269.32,
+      "end": 270.28,
+      "text": "傳統的企業就是",
+      "source": "raw"
+    },
+    {
+      "start": 270.28,
+      "end": 270.84,
+      "text": "哇",
+      "source": "raw"
+    },
+    {
+      "start": 270.84,
+      "end": 271.47999999999996,
+      "text": "沒辦法",
+      "source": "raw"
+    },
+    {
+      "start": 271.47999999999996,
+      "end": 273.76,
+      "text": "很多都是老員工的經驗",
+      "source": "raw"
+    },
+    {
+      "start": 273.76,
+      "end": 274.12,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 274.12,
+      "end": 274.56,
+      "text": "很難",
+      "source": "raw"
+    },
+    {
+      "start": 274.56,
+      "end": 277.03999999999996,
+      "text": "很難去給他數據化啊",
+      "source": "raw"
+    },
+    {
+      "start": 277.03999999999996,
+      "end": 279.03999999999996,
+      "text": "好",
+      "source": "raw"
+    },
+    {
+      "start": 279.03999999999996,
+      "end": 280.03999999999996,
+      "text": "所以你可以看到啊",
+      "source": "raw"
+    },
+    {
+      "start": 280.03999999999996,
+      "end": 281.32,
+      "text": "FDE是乾嘛的",
+      "source": "raw"
+    },
+    {
+      "start": 281.32,
+      "end": 281.68,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 281.68,
+      "end": 282.59999999999997,
+      "text": "以前的顧問呢",
+      "source": "raw"
+    },
+    {
+      "start": 282.59999999999997,
+      "end": 283.64,
+      "text": "是給咨詢的",
+      "source": "raw"
+    },
+    {
+      "start": 283.64,
+      "end": 284.64,
+      "text": "軟件公司呢",
+      "source": "raw"
+    },
+    {
+      "start": 284.64,
+      "end": 285.96,
+      "text": "是給一個軟件產品的",
+      "source": "raw"
+    },
+    {
+      "start": 285.96,
+      "end": 286.79999999999995,
+      "text": "但FDE呢",
+      "source": "raw"
+    },
+    {
+      "start": 286.79999999999995,
+      "end": 289.2,
+      "text": "是要跟客戶一起啊",
+      "source": "raw"
+    },
+    {
+      "start": 289.2,
+      "end": 290.56,
+      "text": "把結果跑出來",
+      "source": "raw"
+    },
+    {
+      "start": 290.56,
+      "end": 292.48,
+      "text": "而且能夠讓大部分的員工",
+      "source": "raw"
+    },
+    {
+      "start": 292.48,
+      "end": 293.72,
+      "text": "一起用起來啊",
+      "source": "raw"
+    },
+    {
+      "start": 293.72,
+      "end": 294.52,
+      "text": "雖然啊",
+      "source": "raw"
+    },
+    {
+      "start": 294.52,
+      "end": 296.0,
+      "text": "我們可以看到啊",
+      "source": "raw"
+    },
+    {
+      "start": 296.0,
+      "end": 298.28000000000003,
+      "text": "其實FDE在AI之前已經有了",
+      "source": "raw"
+    },
+    {
+      "start": 298.28000000000003,
+      "end": 298.56,
+      "text": "只是",
+      "source": "raw"
+    },
+    {
+      "start": 298.56,
+      "end": 300.2,
+      "text": "只是AI出來",
+      "source": "raw"
+    },
+    {
+      "start": 300.2,
+      "end": 301.96,
+      "text": "讓這個東西變得更厲害了",
+      "source": "raw"
+    },
+    {
+      "start": 301.96,
+      "end": 302.32,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 302.32,
+      "end": 303.72,
+      "text": "所以現在又活起來了啊",
+      "source": "raw"
+    },
+    {
+      "start": 303.72,
+      "end": 304.56,
+      "text": "所以技術啊",
+      "source": "raw"
+    },
+    {
+      "start": 304.56,
+      "end": 305.28000000000003,
+      "text": "業務理解",
+      "source": "raw"
+    },
+    {
+      "start": 305.28000000000003,
+      "end": 306.48,
+      "text": "用度共創",
+      "source": "raw"
+    },
+    {
+      "start": 306.48,
+      "end": 307.48,
+      "text": "和結果責任",
+      "source": "raw"
+    },
+    {
+      "start": 307.48,
+      "end": 309.4,
+      "text": "這個都是FDE要做的",
+      "source": "raw"
+    },
+    {
+      "start": 309.4,
+      "end": 310.36,
+      "text": "所以你可以看到啊",
+      "source": "raw"
+    },
+    {
+      "start": 310.36,
+      "end": 311.48,
+      "text": "傳統的軟件公司",
+      "source": "raw"
+    },
+    {
+      "start": 311.48,
+      "end": 313.72,
+      "text": "它是為很多客戶來做一種",
+      "source": "raw"
+    },
+    {
+      "start": 313.72,
+      "end": 315.0,
+      "text": "軟件",
+      "source": "raw"
+    },
+    {
+      "start": 315.0,
+      "end": 316.0,
+      "text": "一種能力",
+      "source": "raw"
+    },
+    {
+      "start": 316.0,
+      "end": 316.92,
+      "text": "而FDE呢",
+      "source": "raw"
+    },
+    {
+      "start": 316.92,
+      "end": 318.16,
+      "text": "是為一個客戶呢",
+      "source": "raw"
+    },
+    {
+      "start": 318.16,
+      "end": 320.16,
+      "text": "做全面路的多種能力啊",
+      "source": "raw"
+    },
+    {
+      "start": 320.16,
+      "end": 323.0,
+      "text": "所以我們說現在就是",
+      "source": "raw"
+    },
+    {
+      "start": 323.0,
+      "end": 325.28,
+      "text": "沒有甚麼通用的軟件的未來",
+      "source": "raw"
+    },
+    {
+      "start": 325.28,
+      "end": 327.32,
+      "text": "就是個性化軟件的時代",
+      "source": "raw"
+    },
+    {
+      "start": 327.32,
+      "end": 329.6,
+      "text": "因為開發軟件成本太低太低了",
+      "source": "raw"
+    },
+    {
+      "start": 329.6,
+      "end": 330.56,
+      "text": "你今天回家",
+      "source": "raw"
+    },
+    {
+      "start": 330.56,
+      "end": 332.0,
+      "text": "你都可以開發一個工作台",
+      "source": "raw"
+    },
+    {
+      "start": 332.0,
+      "end": 333.0,
+      "text": "開發一個軟件",
+      "source": "raw"
+    },
+    {
+      "start": 333.0,
+      "end": 333.52,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 333.52,
+      "end": 334.88,
+      "text": "就花了幾十塊Token",
+      "source": "raw"
+    },
+    {
+      "start": 334.88,
+      "end": 336.92,
+      "text": "然後你還可以為自己",
+      "source": "raw"
+    },
+    {
+      "start": 336.92,
+      "end": 338.08,
+      "text": "開發多種能力",
+      "source": "raw"
+    },
+    {
+      "start": 338.08,
+      "end": 338.52,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 338.52,
+      "end": 340.04,
+      "text": "你就是自己的FDE",
+      "source": "raw"
+    },
+    {
+      "start": 340.04,
+      "end": 344.12,
+      "text": "所以你可以看到啊",
+      "source": "raw"
+    },
+    {
+      "start": 344.12,
+      "end": 344.84000000000003,
+      "text": "它這個",
+      "source": "raw"
+    },
+    {
+      "start": 344.84000000000003,
+      "end": 348.48,
+      "text": "就是它怎麼把一些工廠",
+      "source": "raw"
+    },
+    {
+      "start": 348.48,
+      "end": 349.8,
+      "text": "複雜的一些現狀",
+      "source": "raw"
+    },
+    {
+      "start": 349.8,
+      "end": 350.8,
+      "text": "把它本體化",
+      "source": "raw"
+    },
+    {
+      "start": 350.8,
+      "end": 352.0,
+      "text": "數據化啊",
+      "source": "raw"
+    },
+    {
+      "start": 352.0,
+      "end": 353.0,
+      "text": "包括訂單",
+      "source": "raw"
+    },
+    {
+      "start": 353.0,
+      "end": 353.64000000000004,
+      "text": "飛機",
+      "source": "raw"
+    },
+    {
+      "start": 353.64000000000004,
+      "end": 355.62,
+      "text": "這個是他們最成功的案例",
+      "source": "raw"
+    },
+    {
+      "start": 355.62,
+      "end": 356.52000000000004,
+      "text": "國外的那個",
+      "source": "raw"
+    },
+    {
+      "start": 356.52000000000004,
+      "end": 357.86,
+      "text": "很厲害",
+      "source": "raw"
+    },
+    {
+      "start": 357.86,
+      "end": 359.86,
+      "text": "做FDE的公司",
+      "source": "raw"
+    },
+    {
+      "start": 359.86,
+      "end": 361.14000000000004,
+      "text": "他們最成功的案例",
+      "source": "raw"
+    },
+    {
+      "start": 361.14000000000004,
+      "end": 362.72,
+      "text": "就把他們的系統",
+      "source": "raw"
+    },
+    {
+      "start": 362.72,
+      "end": 364.08000000000004,
+      "text": "數據",
+      "source": "raw"
+    },
+    {
+      "start": 364.08000000000004,
+      "end": 365.88,
+      "text": "和應用發這些東西的訂單",
+      "source": "raw"
+    },
+    {
+      "start": 365.88,
+      "end": 366.44,
+      "text": "對象",
+      "source": "raw"
+    },
+    {
+      "start": 366.44,
+      "end": 367.12,
+      "text": "邏輯",
+      "source": "raw"
+    },
+    {
+      "start": 367.12,
+      "end": 368.66,
+      "text": "最後動作是甚麼",
+      "source": "raw"
+    },
+    {
+      "start": 368.66,
+      "end": 370.66,
+      "text": "全部管理起來",
+      "source": "raw"
+    },
+    {
+      "start": 370.66,
+      "end": 373.48,
+      "text": "然後從生產飛機",
+      "source": "raw"
+    },
+    {
+      "start": 373.48,
+      "end": 374.62,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 374.62,
+      "end": 375.96000000000004,
+      "text": "排期",
+      "source": "raw"
+    },
+    {
+      "start": 375.96000000000004,
+      "end": 376.78000000000003,
+      "text": "零件",
+      "source": "raw"
+    },
+    {
+      "start": 376.78000000000003,
+      "end": 377.36,
+      "text": "等等",
+      "source": "raw"
+    },
+    {
+      "start": 377.36,
+      "end": 378.40000000000003,
+      "text": "缺陷交付",
+      "source": "raw"
+    },
+    {
+      "start": 378.40000000000003,
+      "end": 380.06,
+      "text": "最後從生產飛機",
+      "source": "raw"
+    },
+    {
+      "start": 380.06,
+      "end": 381.66,
+      "text": "到直接航班管理啊",
+      "source": "raw"
+    },
+    {
+      "start": 381.66,
+      "end": 382.78000000000003,
+      "text": "對",
+      "source": "raw"
+    },
+    {
+      "start": 382.78000000000003,
+      "end": 383.42,
+      "text": "從",
+      "source": "raw"
+    },
+    {
+      "start": 383.42,
+      "end": 385.84000000000003,
+      "text": "從工廠到航空公司",
+      "source": "raw"
+    },
+    {
+      "start": 385.84000000000003,
+      "end": 387.16,
+      "text": "到直接維修等等",
+      "source": "raw"
+    },
+    {
+      "start": 387.16,
+      "end": 388.72,
+      "text": "全套都是有AI來",
+      "source": "raw"
+    },
+    {
+      "start": 388.72,
+      "end": 389.68,
+      "text": "看數據",
+      "source": "raw"
+    },
+    {
+      "start": 389.68,
+      "end": 390.66,
+      "text": "做決策",
+      "source": "raw"
+    },
+    {
+      "start": 390.66,
+      "end": 392.42,
+      "text": "再實時跟AI對話",
+      "source": "raw"
+    },
+    {
+      "start": 392.42,
+      "end": 393.70000000000005,
+      "text": "怎麼搞這個事情",
+      "source": "raw"
+    },
+    {
+      "start": 393.70000000000005,
+      "end": 394.38,
+      "text": "最後",
+      "source": "raw"
+    },
+    {
+      "start": 394.38,
+      "end": 395.6,
+      "text": "決策再給到",
+      "source": "raw"
+    },
+    {
+      "start": 395.6,
+      "end": 397.5,
+      "text": "不同的AI agent",
+      "source": "raw"
+    },
+    {
+      "start": 397.5,
+      "end": 399.5,
+      "text": "然後人肯定是要最後審核了",
+      "source": "raw"
+    },
+    {
+      "start": 399.5,
+      "end": 400.5,
+      "text": "到底P4P",
+      "source": "raw"
+    },
+    {
+      "start": 400.5,
+      "end": 402.18,
+      "text": "這麼貴的維修預算",
+      "source": "raw"
+    },
+    {
+      "start": 402.18,
+      "end": 403.5,
+      "text": "買一輛新的",
+      "source": "raw"
+    },
+    {
+      "start": 403.5,
+      "end": 404.2,
+      "text": "還是直接",
+      "source": "raw"
+    },
+    {
+      "start": 404.2,
+      "end": 406.12,
+      "text": "直接維修呢",
+      "source": "raw"
+    },
+    {
+      "start": 406.12,
+      "end": 406.5,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 406.5,
+      "end": 407.82,
+      "text": "最後有人去判斷了",
+      "source": "raw"
+    },
+    {
+      "start": 407.82,
+      "end": 412.0,
+      "text": "然後這個Panasonic",
+      "source": "raw"
+    },
+    {
+      "start": 412.0,
+      "end": 413.6,
+      "text": "也是讓系統維修了",
+      "source": "raw"
+    },
+    {
+      "start": 413.6,
+      "end": 415.44,
+      "text": "讓系統能夠越變越聰明",
+      "source": "raw"
+    },
+    {
+      "start": 415.44,
+      "end": 417.44,
+      "text": "這個才是AI",
+      "source": "raw"
+    },
+    {
+      "start": 417.44,
+      "end": 418.44,
+      "text": "FDE要做的事情",
+      "source": "raw"
+    },
+    {
+      "start": 418.44,
+      "end": 419.44,
+      "text": "不是光給你購一個系統",
+      "source": "raw"
+    },
+    {
+      "start": 419.44,
+      "end": 421.44,
+      "text": "是讓這個系統",
+      "source": "raw"
+    },
+    {
+      "start": 421.44,
+      "end": 423.44,
+      "text": "人越變越聰明",
+      "source": "raw"
+    },
+    {
+      "start": 423.44,
+      "end": 431.44,
+      "text": "所以我們說FDE就是要走向又大又複雜的組織",
+      "source": "raw"
+    },
+    {
+      "start": 431.44,
+      "end": 432.44,
+      "text": "往生的去",
+      "source": "raw"
+    },
+    {
+      "start": 432.44,
+      "end": 435.44,
+      "text": "而OPC就是我們每個人都可以做的",
+      "source": "raw"
+    },
+    {
+      "start": 435.44,
+      "end": 437.44,
+      "text": "看看身邊有啥需求",
+      "source": "raw"
+    },
+    {
+      "start": 437.44,
+      "end": 438.44,
+      "text": "趕快開大一個產品",
+      "source": "raw"
+    },
+    {
+      "start": 438.44,
+      "end": 439.44,
+      "text": "試一下",
+      "source": "raw"
+    },
+    {
+      "start": 439.44,
+      "end": 440.44,
+      "text": "你給不給錢",
+      "source": "raw"
+    },
+    {
+      "start": 440.44,
+      "end": 441.44,
+      "text": "給錢",
+      "source": "raw"
+    },
+    {
+      "start": 441.44,
+      "end": 443.44,
+      "text": "是不是有更多這樣的客戶",
+      "source": "raw"
+    },
+    {
+      "start": 443.44,
+      "end": 444.44,
+      "text": "拉私運",
+      "source": "raw"
+    },
+    {
+      "start": 444.44,
+      "end": 445.44,
+      "text": "建網站",
+      "source": "raw"
+    },
+    {
+      "start": 445.44,
+      "end": 446.44,
+      "text": "最後成立公司",
+      "source": "raw"
+    },
+    {
+      "start": 446.44,
+      "end": 447.44,
+      "text": "開始收費",
+      "source": "raw"
+    },
+    {
+      "start": 452.44,
+      "end": 453.44,
+      "text": "所以我說",
+      "source": "raw"
+    },
+    {
+      "start": 453.44,
+      "end": 454.44,
+      "text": "人呢",
+      "source": "raw"
+    },
+    {
+      "start": 454.44,
+      "end": 456.44,
+      "text": "現在更多的工作是在選擇問題",
+      "source": "raw"
+    },
+    {
+      "start": 456.44,
+      "end": 457.44,
+      "text": "判斷",
+      "source": "raw"
+    },
+    {
+      "start": 457.44,
+      "end": 458.44,
+      "text": "這個才是關鍵",
+      "source": "raw"
+    },
+    {
+      "start": 458.44,
+      "end": 461.44,
+      "text": "因為財富不是努力的獎賞",
+      "source": "raw"
+    },
+    {
+      "start": 461.44,
+      "end": 463.44,
+      "text": "是給判斷的一個",
+      "source": "raw"
+    },
+    {
+      "start": 463.44,
+      "end": 465.44,
+      "text": "真正的獎賞是給判斷的",
+      "source": "raw"
+    },
+    {
+      "start": 465.44,
+      "end": 466.44,
+      "text": "還有認知",
+      "source": "raw"
+    },
+    {
+      "start": 466.44,
+      "end": 468.44,
+      "text": "所以人的工作其實更升級了",
+      "source": "raw"
+    },
+    {
+      "start": 468.44,
+      "end": 469.44,
+      "text": "我就只做判斷",
+      "source": "raw"
+    },
+    {
+      "start": 469.44,
+      "end": 471.44,
+      "text": "因為以前時薪也是承斷很高的",
+      "source": "raw"
+    },
+    {
+      "start": 471.44,
+      "end": 472.44,
+      "text": "到現在呢",
+      "source": "raw"
+    },
+    {
+      "start": 472.44,
+      "end": 475.44,
+      "text": "你可以看看我剛才演示了一大堆",
+      "source": "raw"
+    },
+    {
+      "start": 475.44,
+      "end": 478.44,
+      "text": "其實從研發設計開發運營都可以",
+      "source": "raw"
+    },
+    {
+      "start": 478.44,
+      "end": 479.44,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 479.44,
+      "end": 482.44,
+      "text": "找一個工程師就可以乾十個人了",
+      "source": "raw"
+    },
+    {
+      "start": 482.44,
+      "end": 483.44,
+      "text": "現在",
+      "source": "raw"
+    },
+    {
+      "start": 486.44,
+      "end": 488.44,
+      "text": "現在OPC不是說我能不能做出來",
+      "source": "raw"
+    },
+    {
+      "start": 488.44,
+      "end": 490.44,
+      "text": "而是這玩意到底有沒有人要",
+      "source": "raw"
+    },
+    {
+      "start": 490.44,
+      "end": 491.44,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 491.44,
+      "end": 492.44,
+      "text": "我做了",
+      "source": "raw"
+    },
+    {
+      "start": 492.44,
+      "end": 493.44,
+      "text": "我可能做了一百多個產品",
+      "source": "raw"
+    },
+    {
+      "start": 493.44,
+      "end": 495.44,
+      "text": "最後沒有一個人買單了",
+      "source": "raw"
+    },
+    {
+      "start": 495.44,
+      "end": 496.44,
+      "text": "所以其實呢",
+      "source": "raw"
+    },
+    {
+      "start": 496.44,
+      "end": 499.44,
+      "text": "國外有幾個很成功的案例",
+      "source": "raw"
+    },
+    {
+      "start": 499.44,
+      "end": 500.44,
+      "text": "其實都是跟照片有關的",
+      "source": "raw"
+    },
+    {
+      "start": 500.44,
+      "end": 502.44,
+      "text": "POOT-O-EI這個",
+      "source": "raw"
+    },
+    {
+      "start": 502.44,
+      "end": 506.44,
+      "text": "它其實厲害的就是我用最小版本的一些產品",
+      "source": "raw"
+    },
+    {
+      "start": 506.44,
+      "end": 507.44,
+      "text": "最後實現了整個電路",
+      "source": "raw"
+    },
+    {
+      "start": 507.44,
+      "end": 508.44,
+      "text": "我開公司收錢",
+      "source": "raw"
+    },
+    {
+      "start": 508.44,
+      "end": 510.44,
+      "text": "全世界付款",
+      "source": "raw"
+    },
+    {
+      "start": 510.44,
+      "end": 511.44,
+      "text": "怎麼停止怎麼迭代",
+      "source": "raw"
+    },
+    {
+      "start": 511.44,
+      "end": 512.44,
+      "text": "我跑通了這個流程",
+      "source": "raw"
+    },
+    {
+      "start": 512.44,
+      "end": 514.44,
+      "text": "我自己也變工程師了",
+      "source": "raw"
+    },
+    {
+      "start": 514.44,
+      "end": 515.44,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 515.44,
+      "end": 516.44,
+      "text": "最後跑了十二個項目",
+      "source": "raw"
+    },
+    {
+      "start": 516.44,
+      "end": 517.44,
+      "text": "就一個項目賺錢了",
+      "source": "raw"
+    },
+    {
+      "start": 517.44,
+      "end": 518.44,
+      "text": "跟照片有關的",
+      "source": "raw"
+    },
+    {
+      "start": 518.44,
+      "end": 520.44,
+      "text": "第二個中國的這個",
+      "source": "raw"
+    },
+    {
+      "start": 520.44,
+      "end": 524.44,
+      "text": "它做了一個小光小貓補光燈啊",
+      "source": "raw"
+    },
+    {
+      "start": 524.44,
+      "end": 526.44,
+      "text": "Apps 到上面可以收到的",
+      "source": "raw"
+    },
+    {
+      "start": 526.44,
+      "end": 528.44,
+      "text": "它也是做了幾十個產品啊",
+      "source": "raw"
+    },
+    {
+      "start": 528.44,
+      "end": 530.44,
+      "text": "最後呢發現",
+      "source": "raw"
+    },
+    {
+      "start": 530.44,
+      "end": 532.44,
+      "text": "有不同的補光顏色拍照",
+      "source": "raw"
+    },
+    {
+      "start": 532.44,
+      "end": 534.44,
+      "text": "人家是願意付費的",
+      "source": "raw"
+    },
+    {
+      "start": 534.44,
+      "end": 535.44,
+      "text": "因為市面上沒有這樣的工具",
+      "source": "raw"
+    },
+    {
+      "start": 535.44,
+      "end": 536.44,
+      "text": "雖然很簡單",
+      "source": "raw"
+    },
+    {
+      "start": 536.44,
+      "end": 538.44,
+      "text": "但是人家要用的時候就是付費的",
+      "source": "raw"
+    },
+    {
+      "start": 538.44,
+      "end": 539.44,
+      "text": "有人用過是嗎",
+      "source": "raw"
+    },
+    {
+      "start": 539.44,
+      "end": 540.44,
+      "text": "點頭",
+      "source": "raw"
+    },
+    {
+      "start": 540.44,
+      "end": 541.44,
+      "text": "我也不知道啊",
+      "source": "raw"
+    },
+    {
+      "start": 541.44,
+      "end": 543.44,
+      "text": "這拍照跟我比較少用",
+      "source": "raw"
+    },
+    {
+      "start": 543.44,
+      "end": 547.44,
+      "text": "反正它就能夠很快速的",
+      "source": "raw"
+    },
+    {
+      "start": 547.44,
+      "end": 549.44,
+      "text": "把自媒體跟這個產品做起來了",
+      "source": "raw"
+    },
+    {
+      "start": 549.44,
+      "end": 552.44,
+      "text": "就我分享我怎麼做這個產品的呀",
+      "source": "raw"
+    },
+    {
+      "start": 552.44,
+      "end": 554.44,
+      "text": "然後用戶真的有很多啊",
+      "source": "raw"
+    },
+    {
+      "start": 554.44,
+      "end": 556.44,
+      "text": "然後又變成自媒體加產品",
+      "source": "raw"
+    },
+    {
+      "start": 559.44,
+      "end": 560.44,
+      "text": "好所以呢",
+      "source": "raw"
+    },
+    {
+      "start": 560.44,
+      "end": 561.44,
+      "text": "!其實今天給大家學的",
+      "source": "raw"
+    },
+    {
+      "start": 561.44,
+      "end": 562.44,
+      "text": "就是未來的生意",
+      "source": "raw"
+    },
+    {
+      "start": 562.44,
+      "end": 563.44,
+      "text": "大部分",
+      "source": "raw"
+    },
+    {
+      "start": 563.44,
+      "end": 564.44,
+      "text": "會往這個方向靠了",
+      "source": "raw"
+    },
+    {
+      "start": 564.44,
+      "end": 565.44,
+      "text": "要不就是",
+      "source": "raw"
+    },
+    {
+      "start": 565.44,
+      "end": 567.44,
+      "text": "企業越來越高向",
+      "source": "raw"
+    },
+    {
+      "start": 567.44,
+      "end": 568.44,
+      "text": "做FDE",
+      "source": "raw"
+    },
+    {
+      "start": 568.44,
+      "end": 569.44,
+      "text": "系統化",
+      "source": "raw"
+    },
+    {
+      "start": 569.44,
+      "end": 570.44,
+      "text": "自動化",
+      "source": "raw"
+    },
+    {
+      "start": 570.44,
+      "end": 571.44,
+      "text": "把AI嵌在這個系統裡面",
+      "source": "raw"
+    },
+    {
+      "start": 571.44,
+      "end": 573.44,
+      "text": "裡面大部分是AI員工",
+      "source": "raw"
+    },
+    {
+      "start": 573.44,
+      "end": 574.44,
+      "text": "再來的就是OPC",
+      "source": "raw"
+    },
+    {
+      "start": 574.44,
+      "end": 576.44,
+      "text": "我所有的執行都是AI做的",
+      "source": "raw"
+    },
+    {
+      "start": 576.44,
+      "end": 577.44,
+      "text": "我只要快速試錯",
+      "source": "raw"
+    },
+    {
+      "start": 577.44,
+      "end": 578.44,
+      "text": "做出一個好產品",
+      "source": "raw"
+    },
+    {
+      "start": 578.44,
+      "end": 580.44,
+      "text": "最後能夠有人買單",
+      "source": "raw"
+    },
+    {
+      "start": 580.44,
+      "end": 581.44,
+      "text": "我再把它",
+      "source": "raw"
+    },
+    {
+      "start": 581.44,
+      "end": 582.44,
+      "text": "往上去升行",
+      "source": "raw"
+    },
+    {
+      "start": 585.44,
+      "end": 586.44,
+      "text": "所以呢",
+      "source": "raw"
+    },
+    {
+      "start": 586.44,
+      "end": 587.44,
+      "text": "真正的Agent boss",
+      "source": "raw"
+    },
+    {
+      "start": 587.44,
+      "end": 589.44,
+      "text": "你既能把你自己很熟悉的",
+      "source": "raw"
+    },
+    {
+      "start": 589.44,
+      "end": 590.44,
+      "text": "一個業務做得很深",
+      "source": "raw"
+    },
+    {
+      "start": 590.44,
+      "end": 592.44,
+      "text": "也能快速的把其他產品",
+      "source": "raw"
+    },
+    {
+      "start": 592.44,
+      "end": 594.44,
+      "text": "能夠跑起來看看",
+      "source": "raw"
+    },
+    {
+      "start": 594.44,
+      "end": 595.44,
+      "text": "這個才是我們",
+      "source": "raw"
+    },
+    {
+      "start": 595.44,
+      "end": 598.44,
+      "text": "真的要去花長時間去",
+      "source": "raw"
+    },
+    {
+      "start": 598.44,
+      "end": 600.44,
+      "text": "深入去做的事情",
+      "source": "raw"
+    },
+    {
+      "start": 600.44,
+      "end": 602.44,
+      "text": "所以呢",
+      "source": "raw"
+    },
+    {
+      "start": 602.44,
+      "end": 604.44,
+      "text": "我最後也給大家送的一個東西非常好的",
+      "source": "raw"
+    },
+    {
+      "start": 604.44,
+      "end": 606.44,
+      "text": "我也是讓AI給我收的",
+      "source": "raw"
+    },
+    {
+      "start": 606.44,
+      "end": 608.44,
+      "text": "就MIT的一個課程",
+      "source": "raw"
+    },
+    {
+      "start": 608.44,
+      "end": 609.44,
+      "text": "它裡面呢",
+      "source": "raw"
+    },
+    {
+      "start": 609.44,
+      "end": 610.44,
+      "text": "包括90天的一個路線",
+      "source": "raw"
+    },
+    {
+      "start": 610.44,
+      "end": 612.44,
+      "text": "我也是一個字沒寫",
+      "source": "raw"
+    },
+    {
+      "start": 612.44,
+      "end": 613.44,
+      "text": "就是讓AI寫的",
+      "source": "raw"
+    },
+    {
+      "start": 613.44,
+      "end": 615.44,
+      "text": "但我覺得這個課件我看過",
+      "source": "raw"
+    },
+    {
+      "start": 615.44,
+      "end": 616.44,
+      "text": "寫的非常好",
+      "source": "raw"
+    },
+    {
+      "start": 616.44,
+      "end": 617.44,
+      "text": "就怎麼樣",
+      "source": "raw"
+    },
+    {
+      "start": 617.44,
+      "end": 620.44,
+      "text": "從第一周",
+      "source": "raw"
+    },
+    {
+      "start": 620.44,
+      "end": 621.44,
+      "text": "我怎麼建一個小Agent",
+      "source": "raw"
+    },
+    {
+      "start": 621.44,
+      "end": 624.44,
+      "text": "到後面怎麼變Agent團隊等等",
+      "source": "raw"
+    },
+    {
+      "start": 624.44,
+      "end": 628.44,
+      "text": "所以不要看",
+      "source": "raw"
+    },
+    {
+      "start": 628.44,
+      "end": 630.44,
+      "text": "我在這裡講課可能真的水平一般般",
+      "source": "raw"
+    },
+    {
+      "start": 630.44,
+      "end": 632.44,
+      "text": "但是我講過",
+      "source": "raw"
+    },
+    {
+      "start": 632.44,
+      "end": 633.44,
+      "text": "所有的環節",
+      "source": "raw"
+    },
+    {
+      "start": 633.44,
+      "end": 634.44,
+      "text": "講基礎我不行",
+      "source": "raw"
+    },
+    {
+      "start": 634.44,
+      "end": 636.44,
+      "text": "就是做AI的助教",
+      "source": "raw"
+    },
+    {
+      "start": 636.44,
+      "end": 637.44,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 637.44,
+      "end": 638.44,
+      "text": "講這些知識點",
+      "source": "raw"
+    },
+    {
+      "start": 638.44,
+      "end": 639.44,
+      "text": "我不好講",
+      "source": "raw"
+    },
+    {
+      "start": 639.44,
+      "end": 640.44,
+      "text": "我就做成文件",
+      "source": "raw"
+    },
+    {
+      "start": 640.44,
+      "end": 641.44,
+      "text": "大家回去看",
+      "source": "raw"
+    },
+    {
+      "start": 641.44,
+      "end": 642.44,
+      "text": "以後有甚麼問題呢",
+      "source": "raw"
+    },
+    {
+      "start": 642.44,
+      "end": 643.44,
+      "text": "也可以再問我",
+      "source": "raw"
+    },
+    {
+      "start": 643.44,
+      "end": 644.44,
+      "text": "但是呢",
+      "source": "raw"
+    },
+    {
+      "start": 644.44,
+      "end": 648.44,
+      "text": "我給大家做百分百的準備",
+      "source": "raw"
+    },
+    {
+      "start": 648.44,
+      "end": 650.44,
+      "text": "這都是AI用三百個小時逃出來的",
+      "source": "raw"
+    },
+    {
+      "start": 650.44,
+      "end": 652.44,
+      "text": "對",
+      "source": "raw"
+    },
+    {
+      "start": 652.44,
+      "end": 654.44,
+      "text": "差不多吧",
+      "source": "raw"
+    },
+    {
+      "start": 654.44,
+      "end": 655.44,
+      "text": "反正",
+      "source": "raw"
+    },
+    {
+      "start": 655.44,
+      "end": 656.44,
+      "text": "反正",
+      "source": "raw"
+    },
+    {
+      "start": 656.44,
+      "end": 657.44,
+      "text": "都可以少很多",
+      "source": "raw"
+    },
+    {
+      "start": 657.44,
+      "end": 660.44,
+      "text": "沒有全套的",
+      "source": "raw"
+    },
+    {
+      "start": 660.44,
+      "end": 662.44,
+      "text": "你們報名的網站",
+      "source": "raw"
+    },
+    {
+      "start": 662.44,
+      "end": 664.44,
+      "text": "到這個知識網站",
+      "source": "raw"
+    },
+    {
+      "start": 664.44,
+      "end": 666.44,
+      "text": "到我的視頻Agent",
+      "source": "raw"
+    },
+    {
+      "start": 666.44,
+      "end": 667.44,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 667.44,
+      "end": 668.44,
+      "text": "等等等等",
+      "source": "raw"
+    },
+    {
+      "start": 668.44,
+      "end": 670.44,
+      "text": "你就是這個MIT的課程嗎",
+      "source": "raw"
+    },
+    {
+      "start": 670.44,
+      "end": 672.44,
+      "text": "就在這裡啊",
+      "source": "raw"
+    },
+    {
+      "start": 672.44,
+      "end": 673.44,
+      "text": "給的名字給你們嗎",
+      "source": "raw"
+    },
+    {
+      "start": 673.44,
+      "end": 674.44,
+      "text": "誒",
+      "source": "raw"
+    },
+    {
+      "start": 674.44,
+      "end": 675.44,
+      "text": "我看看啊",
+      "source": "raw"
+    },
+    {
+      "start": 675.44,
+      "end": 676.44,
+      "text": "就是你起的名字叫MIT",
+      "source": "raw"
+    },
+    {
+      "start": 676.44,
+      "end": 677.44,
+      "text": "不是啦",
+      "source": "raw"
+    },
+    {
+      "start": 677.44,
+      "end": 679.44,
+      "text": "是美國那個MIT學院啊",
+      "source": "raw"
+    },
+    {
+      "start": 679.44,
+      "end": 681.44,
+      "text": "對啊",
+      "source": "raw"
+    },
+    {
+      "start": 681.44,
+      "end": 682.44,
+      "text": "對啊",
+      "source": "raw"
+    },
+    {
+      "start": 682.44,
+      "end": 683.44,
+      "text": "對啊",
+      "source": "raw"
+    },
+    {
+      "start": 683.44,
+      "end": 685.44,
+      "text": "對我只是把它變成了中文",
+      "source": "raw"
+    },
+    {
+      "start": 685.44,
+      "end": 686.44,
+      "text": "把它重點弄下來了",
+      "source": "raw"
+    },
+    {
+      "start": 686.44,
+      "end": 687.44,
+      "text": "對",
+      "source": "raw"
+    },
+    {
+      "start": 687.44,
+      "end": 689.44,
+      "text": "那就可以去去",
+      "source": "raw"
+    },
+    {
+      "start": 691.44,
+      "end": 692.44,
+      "text": "對",
+      "source": "raw"
+    },
+    {
+      "start": 692.44,
+      "end": 693.44,
+      "text": "就這兩個",
+      "source": "raw"
+    },
+    {
+      "start": 694.44,
+      "end": 695.44,
+      "text": "就你可以",
+      "source": "raw"
+    },
+    {
+      "start": 695.44,
+      "end": 696.44,
+      "text": "你也可以拿Agent search",
+      "source": "raw"
+    },
+    {
+      "start": 696.44,
+      "end": 697.44,
+      "text": "去search",
+      "source": "raw"
+    },
+    {
+      "start": 697.44,
+      "end": 698.44,
+      "text": "反正我就是search",
+      "source": "raw"
+    },
+    {
+      "start": 698.44,
+      "end": 699.44,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 699.44,
+      "end": 701.44,
+      "text": "這個課可能會來很多企業家啊",
+      "source": "raw"
+    },
+    {
+      "start": 701.44,
+      "end": 703.44,
+      "text": "或者已經會用AI的人了",
+      "source": "raw"
+    },
+    {
+      "start": 703.44,
+      "end": 704.44,
+      "text": "那他們上我這個課",
+      "source": "raw"
+    },
+    {
+      "start": 704.44,
+      "end": 706.44,
+      "text": "後面想要實操的話",
+      "source": "raw"
+    },
+    {
+      "start": 706.44,
+      "end": 707.44,
+      "text": "你有甚麼好的課借給我啊",
+      "source": "raw"
+    },
+    {
+      "start": 707.44,
+      "end": 708.44,
+      "text": "之類的",
+      "source": "raw"
+    },
+    {
+      "start": 708.44,
+      "end": 710.44,
+      "text": "那他就全網說",
+      "source": "raw"
+    },
+    {
+      "start": 710.44,
+      "end": 711.44,
+      "text": "Agent Reach",
+      "source": "raw"
+    },
+    {
+      "start": 711.44,
+      "end": 713.44,
+      "text": "他說MIT的這幾個課程很適合哦",
+      "source": "raw"
+    },
+    {
+      "start": 713.44,
+      "end": 714.44,
+      "text": "他就給我了",
+      "source": "raw"
+    },
+    {
+      "start": 714.44,
+      "end": 715.44,
+      "text": "那我就說",
+      "source": "raw"
+    },
+    {
+      "start": 715.44,
+      "end": 717.44,
+      "text": "那你幫我用到這個網站裡面",
+      "source": "raw"
+    },
+    {
+      "start": 717.44,
+      "end": 718.44,
+      "text": "等等",
+      "source": "raw"
+    },
+    {
+      "start": 718.44,
+      "end": 719.44,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 719.44,
+      "end": 724.44,
+      "text": "所以其實關鍵的不是你來聽了甚麼課",
+      "source": "raw"
+    },
+    {
+      "start": 724.44,
+      "end": 726.44,
+      "text": "而是說我學到一些概念有起發了",
+      "source": "raw"
+    },
+    {
+      "start": 726.44,
+      "end": 727.44,
+      "text": "我知道步驟了",
+      "source": "raw"
+    },
+    {
+      "start": 727.44,
+      "end": 730.44,
+      "text": "回去真的去不斷的執行",
+      "source": "raw"
+    },
+    {
+      "start": 730.44,
+      "end": 734.0,
+      "text": "中文字幕提供的執行 稍的都肯越多 你才能學的越快啊",
+      "source": "recheck"
+    },
+    {
+      "start": 734.0,
+      "end": 737.0,
+      "text": "所以我今天的分享就到這裡啊",
+      "source": "recheck"
+    },
+    {
+      "start": 737.0,
+      "end": 741.0,
+      "text": "很感謝大家真的 又從香港上來啊 又從各地過來啊",
+      "source": "recheck"
+    },
+    {
+      "start": 741.0,
+      "end": 743.0,
+      "text": "很感謝大家真次的支持啊",
+      "source": "recheck"
+    },
+    {
+      "start": 743.0,
+      "end": 747.0,
+      "text": "好 那我今天分享就到這 謝謝你們",
+      "source": "recheck"
+    },
+    {
+      "start": 753.0,
+      "end": 755.0,
+      "text": "指劍",
+      "source": "recheck"
+    },
+    {
+      "start": 760.0,
+      "end": 761.0,
+      "text": "然後接著",
+      "source": "recheck"
+    },
+    {
+      "start": 768.0,
+      "end": 769.5,
+      "text": "好就到我來了",
+      "source": "recheck"
+    },
+    {
+      "start": 769.5,
+      "end": 773.0,
+      "text": "然後剛其實看著大家非常的夢圈",
+      "source": "recheck"
+    },
+    {
+      "start": 773.0,
+      "end": 775.5,
+      "text": "然後我們現在留一點點時間",
+      "source": "recheck"
+    },
+    {
+      "start": 775.5,
+      "end": 778.5,
+      "text": "其實我們這次課程的已經是完全完整了",
+      "source": "recheck"
+    },
+    {
+      "start": 778.5,
+      "end": 780.0,
+      "text": "然後呢接下來的一些",
+      "source": "recheck"
+    },
+    {
+      "start": 780.4200000000001,
+      "end": 783.36,
+      "text": "是為瞭解決一些技術的科學上網問題",
+      "source": "raw"
+    },
+    {
+      "start": 783.36,
+      "end": 787.6800000000001,
+      "text": "甚至剛剛對於全老哥講的名詞",
+      "source": "raw"
+    },
+    {
+      "start": 787.6800000000001,
+      "end": 789.26,
+      "text": "聽不懂呢",
+      "source": "raw"
+    },
+    {
+      "start": 789.26,
+      "end": 791.12,
+      "text": "也可以再提問一下",
+      "source": "raw"
+    },
+    {
+      "start": 791.12,
+      "end": 799.08,
+      "text": "就在這個網站上",
+      "source": "raw"
+    },
+    {
+      "start": 799.08,
+      "end": 800.24,
+      "text": "除了有些視頻",
+      "source": "raw"
+    },
+    {
+      "start": 800.24,
+      "end": 802.28,
+      "text": "視頻沒有",
+      "source": "raw"
+    },
+    {
+      "start": 802.28,
+      "end": 804.8,
+      "text": "就是我發到群里",
+      "source": "raw"
+    },
+    {
+      "start": 804.8,
+      "end": 806.0,
+      "text": "群公告里的呀",
+      "source": "raw"
+    },
+    {
+      "start": 806.0,
+      "end": 806.98,
+      "text": "對呀",
+      "source": "raw"
+    },
+    {
+      "start": 806.98,
+      "end": 809.9,
+      "text": "就我把所有的知識點都放在這個網站了",
+      "source": "raw"
+    },
+    {
+      "start": 809.9,
+      "end": 811.58,
+      "text": "不要再問我資料在哪裡了",
+      "source": "raw"
+    },
+    {
+      "start": 811.58,
+      "end": 812.78,
+      "text": "我現在很繁盛的事情",
+      "source": "raw"
+    },
+    {
+      "start": 812.78,
+      "end": 813.68,
+      "text": "好不好",
+      "source": "raw"
+    },
+    {
+      "start": 813.68,
+      "end": 817.54,
+      "text": "就是有人甚麼發一個PDF到群",
+      "source": "raw"
+    },
+    {
+      "start": 817.54,
+      "end": 819.22,
+      "text": "外面都會很生氣",
+      "source": "raw"
+    },
+    {
+      "start": 819.22,
+      "end": 820.1800000000001,
+      "text": "因為我已經弄好",
+      "source": "raw"
+    },
+    {
+      "start": 820.1800000000001,
+      "end": 821.18,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 821.18,
+      "end": 823.14,
+      "text": "對",
+      "source": "raw"
+    },
+    {
+      "start": 823.14,
+      "end": 824.42,
+      "text": "對,我們這樣可以",
+      "source": "raw"
+    },
+    {
+      "start": 824.42,
+      "end": 825.64,
+      "text": "我聽會可以",
+      "source": "raw"
+    },
+    {
+      "start": 825.64,
+      "end": 826.5799999999999,
+      "text": "哎呀,慢慢講",
+      "source": "raw"
+    },
+    {
+      "start": 826.5799999999999,
+      "end": 827.7199999999999,
+      "text": "那可以啊",
+      "source": "raw"
+    },
+    {
+      "start": 827.7199999999999,
+      "end": 828.14,
+      "text": "對",
+      "source": "raw"
+    },
+    {
+      "start": 828.14,
+      "end": 830.7199999999999,
+      "text": "因為我半年已經肯定要講",
+      "source": "raw"
+    },
+    {
+      "start": 830.7199999999999,
+      "end": 831.2199999999999,
+      "text": "對",
+      "source": "raw"
+    },
+    {
+      "start": 831.2199999999999,
+      "end": 831.66,
+      "text": "對",
+      "source": "raw"
+    },
+    {
+      "start": 831.66,
+      "end": 833.2399999999999,
+      "text": "對",
+      "source": "raw"
+    },
+    {
+      "start": 833.2399999999999,
+      "end": 833.8199999999999,
+      "text": "聽聽",
+      "source": "raw"
+    },
+    {
+      "start": 833.8199999999999,
+      "end": 834.5799999999999,
+      "text": "聽聽",
+      "source": "raw"
+    },
+    {
+      "start": 834.5799999999999,
+      "end": 835.06,
+      "text": "聽聽聽",
+      "source": "raw"
+    },
+    {
+      "start": 835.06,
+      "end": 836.0999999999999,
+      "text": "聽聽聽",
+      "source": "raw"
+    },
+    {
+      "start": 836.0999999999999,
+      "end": 836.5799999999999,
+      "text": "聽聽聽聽",
+      "source": "raw"
+    },
+    {
+      "start": 836.5799999999999,
+      "end": 837.3199999999999,
+      "text": "聽聽聽聽",
+      "source": "raw"
+    },
+    {
+      "start": 837.3199999999999,
+      "end": 838.4,
+      "text": "就說實在話",
+      "source": "raw"
+    },
+    {
+      "start": 838.4,
+      "end": 841.2399999999999,
+      "text": "程序員的一個特徵是不善言辭",
+      "source": "raw"
+    },
+    {
+      "start": 841.24,
+      "end": 846.7,
+      "text": "那像Channel哥 懂技術的人 又啃講的人其實還蠻少",
+      "source": "raw"
+    },
+    {
+      "start": 846.7,
+      "end": 849.24,
+      "text": "但是他的確實有點快",
+      "source": "raw"
+    },
+    {
+      "start": 849.24,
+      "end": 852.24,
+      "text": "所以大家有問題的話可以隨時問 沒問題",
+      "source": "raw"
+    },
+    {
+      "start": 871.24,
+      "end": 876.24,
+      "text": "有否不明白 從誰開始聽不明白 一定不明白的",
+      "source": "raw"
+    },
+    {
+      "start": 876.24,
+      "end": 878.24,
+      "text": "好 請一請 一定請",
+      "source": "raw"
+    },
+    {
+      "start": 878.24,
+      "end": 889.24,
+      "text": "其實你做不到 有一種事情是情常的 各個會有偏差不出奇的",
+      "source": "raw"
+    }
+  ],
+  "text": "你到底想乾嘛我要把這個哦Hudders的這個其實就叫Hudders因為你要控制它是做這個職業的對吧就是Agent.md 設完了它就是一個前班工程師誒誒又沒有這個啊哦我幫了多哈這些好所以所以我剛才其實GitHub上面呢我已經讓我的Codex啊去幫我把這個前端的員工給搞下來了啊一個字沒寫就說幫我把這個前端搞下來它就知道我要調甚麼工具我要甚麼工作要做的對吧有甚麼優化性能的維護代碼必須遵守性能優先開發對吧然後V-actV-act 甚麼意思啊它就這架構V-act 組件怎麼樣有V-cent的然後再Action等等它的架構你都可以不用管它就是把你設好了這個限制了然後再寫你的工作流程對吧項目搭建和架構組件開發性能優化測試和資料保證你的交付物就是一個UI對吧性能有甚麼硬條件這些都是Hunners就別的一個前端工程師幫你寫好的一個Hunners你直接分析了就能用了然後還有你的溝通風格各種這很大的一個文件其實它就是第一個Hunners你到底它要幹甚麼OK但它只是有它只是有它的職位的一些功能但它不知道你公司是乾啥的所以你先要寫一個秘密我到底公司是看啥的要甚麼風格是甚麼顏色的品牌長甚麼樣對吧再把這個員工請進來對吧你現在要有公司文化再有員工才會有團隊啊團隊才需要管理啊管理才需要系統啊對吧一步步來嘛OK好了接下來其實就是一個簡單的分享因為這個PPT啊我是真的燒了六個小時花了幾十塊美金的token啊結果真的出來我一個字沒改做的很漂亮那我做的話我可能做幾個月都做不出來這種效果啊因為我畢竟不是PPT專業但它做PPT我真的佩服而且它完全能理解我的意思就我跟它說到底AI時代產生的這個FDE跟OPC有甚麼共通點跟區別呢對吧它們最後會有甚麼樣的一個發展呢我就給了它這個問題而已對吧它就開始幫我收資料做美工最後出這個PPT但有點凝圖是跑了六個多小時我一開始以為它當機了後面花了我這麼多錢但是結果我是很滿意的因為不用改一個字然後呢就是說FDE跟OPC呢就是一個是深入的最大組織應該是放大的最小組織啊所以我們說FDE其實就是幫一些很大的組織升入到現場去把它的所有的流程給數據化然後能夠把AI加進去來管理一些智能體把一些重復的工作對吧用所調的那家公司很厲害的待會我們介紹一下用AI來幫它完成大部分的工作啊然後最小組織呢OPC就是我可以快速的寫網上寫後來寫產品最後看一下有沒有需求要不要連帶還是直接放棄所以呢你可以看到啊深入一個複雜組織連接業務現場定義判斷機制最後形成結果回流而OPC呢就是我夠快做很多事情來測試但是它的底層是一樣的就是場景場景是甚麼數據是甚麼工具是甚麼規則是甚麼反饋是甚麼最後交付有價值的東西到底是甚麼兩個物種一套羅技只是說不一樣的組織啊所以你可以看到啊傳統的那個那個體驗有非常多這些東西啊甚麼ERP啊NEC啊NES啊就這種是工廠管理的這種是企業資源規劃的這個客戶管理系統包括一些工廠的一些傳感器啊還有文檔啊這些很分散傳統的企業就是哇沒辦法很多都是老員工的經驗對吧很難很難去給他數據化啊好所以你可以看到啊FDE是乾嘛的對吧以前的顧問呢是給咨詢的軟件公司呢是給一個軟件產品的但FDE呢是要跟客戶一起啊把結果跑出來而且能夠讓大部分的員工一起用起來啊雖然啊我們可以看到啊其實FDE在AI之前已經有了只是只是AI出來讓這個東西變得更厲害了OK所以現在又活起來了啊所以技術啊業務理解用度共創和結果責任這個都是FDE要做的所以你可以看到啊傳統的軟件公司它是為很多客戶來做一種軟件一種能力而FDE呢是為一個客戶呢做全面路的多種能力啊所以我們說現在就是沒有甚麼通用的軟件的未來就是個性化軟件的時代因為開發軟件成本太低太低了你今天回家你都可以開發一個工作台開發一個軟件對吧就花了幾十塊Token然後你還可以為自己開發多種能力對吧你就是自己的FDE所以你可以看到啊它這個就是它怎麼把一些工廠複雜的一些現狀把它本體化數據化啊包括訂單飛機這個是他們最成功的案例國外的那個很厲害做FDE的公司他們最成功的案例就把他們的系統數據和應用發這些東西的訂單對象邏輯最後動作是甚麼全部管理起來然後從生產飛機OK排期零件等等缺陷交付最後從生產飛機到直接航班管理啊對從從工廠到航空公司到直接維修等等全套都是有AI來看數據做決策再實時跟AI對話怎麼搞這個事情最後決策再給到不同的AI agent然後人肯定是要最後審核了到底P4P這麼貴的維修預算買一輛新的還是直接直接維修呢對吧最後有人去判斷了然後這個Panasonic也是讓系統維修了讓系統能夠越變越聰明這個才是AIFDE要做的事情不是光給你購一個系統是讓這個系統人越變越聰明所以我們說FDE就是要走向又大又複雜的組織往生的去而OPC就是我們每個人都可以做的看看身邊有啥需求趕快開大一個產品試一下你給不給錢給錢是不是有更多這樣的客戶拉私運建網站最後成立公司開始收費所以我說人呢現在更多的工作是在選擇問題判斷這個才是關鍵因為財富不是努力的獎賞是給判斷的一個真正的獎賞是給判斷的還有認知所以人的工作其實更升級了我就只做判斷因為以前時薪也是承斷很高的到現在呢你可以看看我剛才演示了一大堆其實從研發設計開發運營都可以對吧找一個工程師就可以乾十個人了現在現在OPC不是說我能不能做出來而是這玩意到底有沒有人要對吧我做了我可能做了一百多個產品最後沒有一個人買單了所以其實呢國外有幾個很成功的案例其實都是跟照片有關的POOT-O-EI這個它其實厲害的就是我用最小版本的一些產品最後實現了整個電路我開公司收錢全世界付款怎麼停止怎麼迭代我跑通了這個流程我自己也變工程師了對吧最後跑了十二個項目就一個項目賺錢了跟照片有關的第二個中國的這個它做了一個小光小貓補光燈啊Apps 到上面可以收到的它也是做了幾十個產品啊最後呢發現有不同的補光顏色拍照人家是願意付費的因為市面上沒有這樣的工具雖然很簡單但是人家要用的時候就是付費的有人用過是嗎點頭我也不知道啊這拍照跟我比較少用反正它就能夠很快速的把自媒體跟這個產品做起來了就我分享我怎麼做這個產品的呀然後用戶真的有很多啊然後又變成自媒體加產品好所以呢!其實今天給大家學的就是未來的生意大部分會往這個方向靠了要不就是企業越來越高向做FDE系統化自動化把AI嵌在這個系統裡面裡面大部分是AI員工再來的就是OPC我所有的執行都是AI做的我只要快速試錯做出一個好產品最後能夠有人買單我再把它往上去升行所以呢真正的Agent boss你既能把你自己很熟悉的一個業務做得很深也能快速的把其他產品能夠跑起來看看這個才是我們真的要去花長時間去深入去做的事情所以呢我最後也給大家送的一個東西非常好的我也是讓AI給我收的就MIT的一個課程它裡面呢包括90天的一個路線我也是一個字沒寫就是讓AI寫的但我覺得這個課件我看過寫的非常好就怎麼樣從第一周我怎麼建一個小Agent到後面怎麼變Agent團隊等等所以不要看我在這裡講課可能真的水平一般般但是我講過所有的環節講基礎我不行就是做AI的助教對吧講這些知識點我不好講我就做成文件大家回去看以後有甚麼問題呢也可以再問我但是呢我給大家做百分百的準備這都是AI用三百個小時逃出來的對差不多吧反正反正都可以少很多沒有全套的你們報名的網站到這個知識網站到我的視頻Agent對吧等等等等你就是這個MIT的課程嗎就在這裡啊給的名字給你們嗎誒我看看啊就是你起的名字叫MIT不是啦是美國那個MIT學院啊對啊對啊對啊對我只是把它變成了中文把它重點弄下來了對那就可以去去對就這兩個就你可以你也可以拿Agent search去search反正我就是search對吧這個課可能會來很多企業家啊或者已經會用AI的人了那他們上我這個課後面想要實操的話你有甚麼好的課借給我啊之類的那他就全網說Agent Reach他說MIT的這幾個課程很適合哦他就給我了那我就說那你幫我用到這個網站裡面等等OK所以其實關鍵的不是你來聽了甚麼課而是說我學到一些概念有起發了我知道步驟了回去真的去不斷的執行中文字幕提供的執行 稍的都肯越多 你才能學的越快啊所以我今天的分享就到這裡啊很感謝大家真的 又從香港上來啊 又從各地過來啊很感謝大家真次的支持啊好 那我今天分享就到這 謝謝你們指劍然後接著好就到我來了然後剛其實看著大家非常的夢圈然後我們現在留一點點時間其實我們這次課程的已經是完全完整了然後呢接下來的一些是為瞭解決一些技術的科學上網問題甚至剛剛對於全老哥講的名詞聽不懂呢也可以再提問一下就在這個網站上除了有些視頻視頻沒有就是我發到群里群公告里的呀對呀就我把所有的知識點都放在這個網站了不要再問我資料在哪裡了我現在很繁盛的事情好不好就是有人甚麼發一個PDF到群外面都會很生氣因為我已經弄好OK對對,我們這樣可以我聽會可以哎呀,慢慢講那可以啊對因為我半年已經肯定要講對對對聽聽聽聽聽聽聽聽聽聽聽聽聽聽聽聽聽聽就說實在話程序員的一個特徵是不善言辭那像Channel哥 懂技術的人 又啃講的人其實還蠻少但是他的確實有點快所以大家有問題的話可以隨時問 沒問題有否不明白 從誰開始聽不明白 一定不明白的好 請一請 一定請其實你做不到 有一種事情是情常的 各個會有偏差不出奇的"
+}

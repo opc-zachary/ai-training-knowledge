@@ -1,0 +1,361 @@
+{
+  "project": "AITrainingGuangzhou",
+  "client": "UNKNOWNCLIENT",
+  "status": "Review_Preliminary",
+  "source": "complete_720p_LRF_proxies",
+  "requires_4k_verification": true,
+  "records": [
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "session": "0830_morning_lao_hong",
+      "status": "SUSPECT_FOREIGN_TAIL_RECHECK",
+      "audio_duration": 1662.037313,
+      "segment_count": 926,
+      "nonempty_segments": 856,
+      "empty_segments": 70,
+      "last_segment_end": 1679.5,
+      "timestamp_overrun": 17.46268699999996,
+      "cjk_character_count": 8109,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {
+        "있기": 6
+      },
+      "findings": [
+        "timestamp_overrun_17.463s",
+        "suspicious_foreign_tokens",
+        "empty_segments_70"
+      ]
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "session": "0830_morning_lao_hong",
+      "status": "SUSPECT_FOREIGN_TAIL_RECHECK",
+      "audio_duration": 1663.04,
+      "segment_count": 875,
+      "nonempty_segments": 862,
+      "empty_segments": 13,
+      "last_segment_end": 1668.84,
+      "timestamp_overrun": 5.7999999999999545,
+      "cjk_character_count": 7399,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {
+        "있기": 8
+      },
+      "findings": [
+        "timestamp_overrun_5.800s",
+        "suspicious_foreign_tokens",
+        "empty_segments_13"
+      ]
+    },
+    {
+      "video_id": "DJI_20260830112259_0003_D",
+      "session": "0830_morning_lao_hong",
+      "status": "PRELIMINARY_USABLE",
+      "audio_duration": 1119.658688,
+      "segment_count": 619,
+      "nonempty_segments": 619,
+      "empty_segments": 0,
+      "last_segment_end": 1119.5800000000002,
+      "timestamp_overrun": 0.0,
+      "cjk_character_count": 5414,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {},
+      "findings": []
+    },
+    {
+      "video_id": "DJI_20260830114141_0004_D",
+      "session": "0830_morning_lao_hong",
+      "status": "PRELIMINARY_USABLE",
+      "audio_duration": 911.722688,
+      "segment_count": 573,
+      "nonempty_segments": 573,
+      "empty_segments": 0,
+      "last_segment_end": 911.7399999999999,
+      "timestamp_overrun": 0.017311999999947147,
+      "cjk_character_count": 4625,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {},
+      "findings": []
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "session": "0830_afternoon_channel",
+      "status": "SUSPECT_FOREIGN_TAIL_RECHECK",
+      "audio_duration": 1662.037313,
+      "segment_count": 1104,
+      "nonempty_segments": 1016,
+      "empty_segments": 88,
+      "last_segment_end": 1674.44,
+      "timestamp_overrun": 12.402687000000014,
+      "cjk_character_count": 7254,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {
+        "arkadaş": 3
+      },
+      "findings": [
+        "timestamp_overrun_12.403s",
+        "suspicious_foreign_tokens",
+        "empty_segments_88"
+      ]
+    },
+    {
+      "video_id": "DJI_20260830142059_0002_D",
+      "session": "0830_afternoon_channel",
+      "status": "SUSPECT_FOREIGN_TAIL_RECHECK",
+      "audio_duration": 1203.349313,
+      "segment_count": 708,
+      "nonempty_segments": 631,
+      "empty_segments": 77,
+      "last_segment_end": 1212.92,
+      "timestamp_overrun": 9.570687000000135,
+      "cjk_character_count": 4481,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {
+        "arkadaş": 1
+      },
+      "findings": [
+        "timestamp_overrun_9.571s",
+        "suspicious_foreign_tokens",
+        "empty_segments_77"
+      ]
+    },
+    {
+      "video_id": "DJI_20260830144104_0003_D",
+      "session": "0830_afternoon_channel",
+      "status": "PRELIMINARY_USABLE",
+      "audio_duration": 153.408,
+      "segment_count": 65,
+      "nonempty_segments": 64,
+      "empty_segments": 1,
+      "last_segment_end": 152.0,
+      "timestamp_overrun": 0.0,
+      "cjk_character_count": 573,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {},
+      "findings": [
+        "empty_segments_1"
+      ]
+    },
+    {
+      "video_id": "DJI_20260830145621_0004_D",
+      "session": "0830_afternoon_channel",
+      "status": "PRELIMINARY_USABLE",
+      "audio_duration": 943.850688,
+      "segment_count": 382,
+      "nonempty_segments": 365,
+      "empty_segments": 17,
+      "last_segment_end": 944.3,
+      "timestamp_overrun": 0.4493119999999635,
+      "cjk_character_count": 3235,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {},
+      "findings": [
+        "empty_segments_17"
+      ]
+    },
+    {
+      "video_id": "DJI_20260830152255_0005_D",
+      "session": "0830_afternoon_channel",
+      "status": "SUSPECT_FOREIGN_TAIL_RECHECK",
+      "audio_duration": 1449.493313,
+      "segment_count": 1042,
+      "nonempty_segments": 969,
+      "empty_segments": 73,
+      "last_segment_end": 1460.5,
+      "timestamp_overrun": 11.006687000000056,
+      "cjk_character_count": 5612,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {
+        "arkadaş": 1
+      },
+      "findings": [
+        "timestamp_overrun_11.007s",
+        "suspicious_foreign_tokens",
+        "empty_segments_73"
+      ]
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "session": "0830_afternoon_channel",
+      "status": "PRELIMINARY_USABLE",
+      "audio_duration": 1662.314688,
+      "segment_count": 1057,
+      "nonempty_segments": 956,
+      "empty_segments": 101,
+      "last_segment_end": 1663.0,
+      "timestamp_overrun": 0.6853120000000672,
+      "cjk_character_count": 6128,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {},
+      "findings": [
+        "empty_segments_101"
+      ]
+    },
+    {
+      "video_id": "DJI_20260830162430_0007_D",
+      "session": "0830_afternoon_channel",
+      "status": "SUSPECT_FOREIGN_TAIL_RECHECK",
+      "audio_duration": 89.450688,
+      "segment_count": 106,
+      "nonempty_segments": 33,
+      "empty_segments": 73,
+      "last_segment_end": 101.36,
+      "timestamp_overrun": 11.909312,
+      "cjk_character_count": 242,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {
+        "arkadaş": 1
+      },
+      "findings": [
+        "timestamp_overrun_11.909s",
+        "suspicious_foreign_tokens",
+        "empty_segments_73"
+      ]
+    },
+    {
+      "video_id": "DJI_20260830162713_0008_D",
+      "session": "0830_afternoon_channel",
+      "status": "REJECT_HALLUCINATION_OR_NO_SPEECH",
+      "audio_duration": 25.984,
+      "segment_count": 142,
+      "nonempty_segments": 2,
+      "empty_segments": 140,
+      "last_segment_end": 26.08,
+      "timestamp_overrun": 0.09599999999999653,
+      "cjk_character_count": 0,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {
+        "arkadaş": 4
+      },
+      "findings": [
+        "suspicious_foreign_tokens",
+        "empty_segments_140"
+      ]
+    },
+    {
+      "video_id": "DJI_20260830163448_0009_D",
+      "session": "0830_afternoon_channel",
+      "status": "SUSPECT_FOREIGN_TAIL_RECHECK",
+      "audio_duration": 889.322688,
+      "segment_count": 591,
+      "nonempty_segments": 517,
+      "empty_segments": 74,
+      "last_segment_end": 889.24,
+      "timestamp_overrun": 0.0,
+      "cjk_character_count": 3356,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {
+        "있기": 11
+      },
+      "findings": [
+        "suspicious_foreign_tokens",
+        "empty_segments_74"
+      ]
+    },
+    {
+      "video_id": "DJI_20260830165657_0010_D",
+      "session": "0830_afternoon_channel",
+      "status": "REJECT_HALLUCINATION_OR_NO_SPEECH",
+      "audio_duration": 24.192,
+      "segment_count": 1,
+      "nonempty_segments": 1,
+      "empty_segments": 0,
+      "last_segment_end": 24.19,
+      "timestamp_overrun": 0.0,
+      "cjk_character_count": 0,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {
+        "있기": 223
+      },
+      "findings": [
+        "suspicious_foreign_tokens"
+      ]
+    },
+    {
+      "video_id": "DJI_20260830165752_0011_D",
+      "session": "0830_afternoon_channel",
+      "status": "REJECT_HALLUCINATION_OR_NO_SPEECH",
+      "audio_duration": 20.373313,
+      "segment_count": 109,
+      "nonempty_segments": 4,
+      "empty_segments": 105,
+      "last_segment_end": 35.32,
+      "timestamp_overrun": 14.946687,
+      "cjk_character_count": 1,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {
+        "있기": 46
+      },
+      "findings": [
+        "timestamp_overrun_14.947s",
+        "suspicious_foreign_tokens",
+        "empty_segments_105"
+      ]
+    },
+    {
+      "video_id": "DJI_20260830165827_0012_D",
+      "session": "0830_afternoon_channel",
+      "status": "REJECT_HALLUCINATION_OR_NO_SPEECH",
+      "audio_duration": 16.832,
+      "segment_count": 1,
+      "nonempty_segments": 1,
+      "empty_segments": 0,
+      "last_segment_end": 29.98,
+      "timestamp_overrun": 13.148,
+      "cjk_character_count": 10,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {},
+      "findings": [
+        "timestamp_overrun_13.148s"
+      ]
+    },
+    {
+      "video_id": "DJI_20260830165904_0013_D",
+      "session": "0830_afternoon_channel",
+      "status": "PRELIMINARY_USABLE",
+      "audio_duration": 138.837313,
+      "segment_count": 73,
+      "nonempty_segments": 73,
+      "empty_segments": 0,
+      "last_segment_end": 138.76,
+      "timestamp_overrun": 0.0,
+      "cjk_character_count": 517,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {},
+      "findings": []
+    },
+    {
+      "video_id": "DJI_20260830170257_0014_D",
+      "session": "0830_afternoon_channel",
+      "status": "REJECT_HALLUCINATION_OR_NO_SPEECH",
+      "audio_duration": 16.725313,
+      "segment_count": 1,
+      "nonempty_segments": 1,
+      "empty_segments": 0,
+      "last_segment_end": 29.98,
+      "timestamp_overrun": 13.254687,
+      "cjk_character_count": 10,
+      "repeated_cjk_segments": [],
+      "suspicious_foreign_tokens": {},
+      "findings": [
+        "timestamp_overrun_13.255s"
+      ]
+    }
+  ],
+  "summary": {
+    "SUSPECT_FOREIGN_TAIL_RECHECK": 7,
+    "PRELIMINARY_USABLE": 6,
+    "REJECT_HALLUCINATION_OR_NO_SPEECH": 5
+  },
+  "session_summary": {
+    "0830_afternoon_channel": {
+      "SUSPECT_FOREIGN_TAIL_RECHECK": 5,
+      "PRELIMINARY_USABLE": 4,
+      "REJECT_HALLUCINATION_OR_NO_SPEECH": 5
+    },
+    "0830_morning_lao_hong": {
+      "SUSPECT_FOREIGN_TAIL_RECHECK": 2,
+      "PRELIMINARY_USABLE": 2
+    }
+  }
+}

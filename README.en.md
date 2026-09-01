@@ -19,6 +19,7 @@ Public, derived knowledge from the two-day AI Training Guangzhou programme. The 
 - [Templates](templates/)
 - [Machine-readable crosswalk](data/course-crosswalk.v1.json)
 - [Codex skill](skills/ai-training-guangzhou/SKILL.md)
+- [Complete Day 2 team knowledge package](day-2/README.md)
 
 ## Raw JSON
 
@@ -28,6 +29,6 @@ https://raw.githubusercontent.com/opc-zachary/ai-training-knowledge/main/data/co
 
 ## Evidence boundary
 
-This repository contains newly written derived knowledge. It does not include original videos, transcripts, subtitles, courseware files, screenshots or third-party code. Day 2 has complete video classification at Review status.
+This repository contains newly written derived knowledge plus cleaned Day 2 review transcripts, SRT, structured JSON, QA and classification frames. It excludes original video, raw hallucinated transcript, source courseware and third-party code.
 
-Schema: `1.0.0`; content release: `1.3.0`.
+Schema: `1.0.0`; content release: `1.4.0`.

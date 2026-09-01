@@ -1,0 +1,294 @@
+{
+  "project": "AITrainingGuangzhou",
+  "status": "Review_Complete",
+  "content_version": "1.4.0",
+  "source": {
+    "files": 36,
+    "bytes": 159052502330,
+    "original_mp4_files": 18,
+    "original_mp4_bytes": 141168788205,
+    "all_original_sha256_match": true
+  },
+  "originals": [
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "session": "Day2AfternoonChannel",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2AfternoonChannel_DJI_20260830135316_0001_D_4K_Raw_v01.MP4",
+      "size_bytes": 17184751141,
+      "duration": 1662.037333,
+      "sha256": "18d9e9879e3b8d9376acb5d82ff31c0a7d736d424208a6fc566a941e9c49abda"
+    },
+    {
+      "video_id": "DJI_20260830142059_0002_D",
+      "session": "Day2AfternoonChannel",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2AfternoonChannel_DJI_20260830142059_0002_D_4K_Raw_v01.MP4",
+      "size_bytes": 12440918286,
+      "duration": 1203.368833,
+      "sha256": "bba8e9f374884bbeb222f176388f83b16b11bd5e9ea410ef384c32dbe3d70b94"
+    },
+    {
+      "video_id": "DJI_20260830144104_0003_D",
+      "session": "Day2AfternoonChannel",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2AfternoonChannel_DJI_20260830144104_0003_D_4K_Raw_v01.MP4",
+      "size_bytes": 1588151430,
+      "duration": 153.419933,
+      "sha256": "4ed2e5f6559d441093df524017735051521733a49ac2145973d457d2fce04ee6"
+    },
+    {
+      "video_id": "DJI_20260830145621_0004_D",
+      "session": "Day2AfternoonChannel",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2AfternoonChannel_DJI_20260830145621_0004_D_4K_Raw_v01.MP4",
+      "size_bytes": 9758044325,
+      "duration": 943.850667,
+      "sha256": "674f85df63e5dca703672177d3c64a326b7cb19752ba9c59b33bb803d8422e8f"
+    },
+    {
+      "video_id": "DJI_20260830152255_0005_D",
+      "session": "Day2AfternoonChannel",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2AfternoonChannel_DJI_20260830152255_0005_D_4K_Raw_v01.MP4",
+      "size_bytes": 14986707847,
+      "duration": 1449.493333,
+      "sha256": "4b9183cb944c16d5600a7e671a3f01be8139f819a1b0ef9d53d2d4dfa8d19532"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "session": "Day2AfternoonChannel",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2AfternoonChannel_DJI_20260830155647_0006_D_4K_Raw_v01.MP4",
+      "size_bytes": 17184808757,
+      "duration": 1662.314667,
+      "sha256": "4ad0579470afe404b48132db9ebcf9977c7664f8445b411a268805740d56a3cc"
+    },
+    {
+      "video_id": "DJI_20260830162430_0007_D",
+      "session": "Day2AfternoonChannel",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2AfternoonChannel_DJI_20260830162430_0007_D_4K_Raw_v01.MP4",
+      "size_bytes": 925732631,
+      "duration": 89.4894,
+      "sha256": "847fc27794dc34640b55202310b341557d9eb553e842bd5b39a84c69121a20da"
+    },
+    {
+      "video_id": "DJI_20260830162713_0008_D",
+      "session": "Day2AfternoonChannel",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2AfternoonChannel_DJI_20260830162713_0008_D_4K_Raw_v01.MP4",
+      "size_bytes": 270054578,
+      "duration": 25.992633,
+      "sha256": "24dbfb90460ac6ca2445a59f7d9c5d8811e34eb28e77597d83148c3d1777b209"
+    },
+    {
+      "video_id": "DJI_20260830163448_0009_D",
+      "session": "Day2AfternoonChannel",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2AfternoonChannel_DJI_20260830163448_0009_D_4K_Raw_v01.MP4",
+      "size_bytes": 9195444887,
+      "duration": 889.322667,
+      "sha256": "c2388ad375905a5f69794b21090824c386c445fc584d4153d07406442d154b19"
+    },
+    {
+      "video_id": "DJI_20260830165657_0010_D",
+      "session": "Day2AfternoonChannel",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2AfternoonChannel_DJI_20260830165657_0010_D_4K_Raw_v01.MP4",
+      "size_bytes": 252306141,
+      "duration": 24.192,
+      "sha256": "a12e236c2c6579997d7a0078240535397cb3a660f7f07b97c2c63bc4c7ecdab4"
+    },
+    {
+      "video_id": "DJI_20260830165752_0011_D",
+      "session": "Day2AfternoonChannel",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2AfternoonChannel_DJI_20260830165752_0011_D_4K_Raw_v01.MP4",
+      "size_bytes": 213074179,
+      "duration": 20.387033,
+      "sha256": "b9b30285973dfb2067b254800c9cd3184b81003053e7581f41ab3cebdf55beee"
+    },
+    {
+      "video_id": "DJI_20260830165827_0012_D",
+      "session": "Day2AfternoonChannel",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2AfternoonChannel_DJI_20260830165827_0012_D_4K_Raw_v01.MP4",
+      "size_bytes": 175628298,
+      "duration": 16.850167,
+      "sha256": "929cb9a25cd5791a1a16636a88a82da373fb853032021a8fd6cc43a48d63aec6"
+    },
+    {
+      "video_id": "DJI_20260830165904_0013_D",
+      "session": "Day2AfternoonChannel",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2AfternoonChannel_DJI_20260830165904_0013_D_4K_Raw_v01.MP4",
+      "size_bytes": 1436823735,
+      "duration": 138.8387,
+      "sha256": "e35f052c81aaf924a70d83b42eff7f7c753157c47d3690cbacbcd95c6392c135"
+    },
+    {
+      "video_id": "DJI_20260830170257_0014_D",
+      "session": "Day2AfternoonChannel",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2AfternoonChannel_DJI_20260830170257_0014_D_4K_Raw_v01.MP4",
+      "size_bytes": 174877062,
+      "duration": 16.750067,
+      "sha256": "74745db47bcecb355bacdf15c0b3e35b52504be794d414c87a6e228e2f174f25"
+    },
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "session": "Day2MorningLaoHong",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2MorningLaoHong_DJI_20260830102734_0001_D_4K_Raw_v01.MP4",
+      "size_bytes": 17184813934,
+      "duration": 1662.037333,
+      "sha256": "d3d3937819410d76cb65806a8dc00d494d99253b13180669c3b633c79918bcaa"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "session": "Day2MorningLaoHong",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2MorningLaoHong_DJI_20260830105517_0002_D_4K_Raw_v01.MP4",
+      "size_bytes": 17193273711,
+      "duration": 1663.04,
+      "sha256": "af70740482e5bbcd4130f1970a2f5f0d3ebf79bdf7013818ecca63fca2500c64"
+    },
+    {
+      "video_id": "DJI_20260830112259_0003_D",
+      "session": "Day2MorningLaoHong",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2MorningLaoHong_DJI_20260830112259_0003_D_4K_Raw_v01.MP4",
+      "size_bytes": 11577037433,
+      "duration": 1119.685233,
+      "sha256": "25aa60dfcb576586652c349685372d4ba98ae2eddbbd097e75c8e1039fdebffa"
+    },
+    {
+      "video_id": "DJI_20260830114141_0004_D",
+      "session": "Day2MorningLaoHong",
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoOriginal_Day2MorningLaoHong_DJI_20260830114141_0004_D_4K_Raw_v01.MP4",
+      "size_bytes": 9426339830,
+      "duration": 911.722667,
+      "sha256": "0663eb7b25f33e5ee4a4ad6051a06d2e61007420bf8f26024d88aaa7eba9e393"
+    }
+  ],
+  "proxies": [
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxySubtitledUltra_Day2MorningLaoHong_DJI_20260830102734_0001_D_720p_Review_v02.mp4",
+      "size_bytes": 2169921935,
+      "duration": 1662.037333,
+      "sha256": "1913b1d1060cfbedcaac119d2e4e37a75c48c081242a4f959990a8e3365e04c4",
+      "subtitle": true
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxySubtitledUltra_Day2MorningLaoHong_DJI_20260830105517_0002_D_720p_Review_v02.mp4",
+      "size_bytes": 2172851644,
+      "duration": 1663.04,
+      "sha256": "ffabd9970d076ef5e0a7d9246cc3d6021851b8aa4b54d774c3cea2523efdad86",
+      "subtitle": true
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxySubtitledUltra_Day2MorningLaoHong_DJI_20260830112259_0003_D_720p_Review_v02.mp4",
+      "size_bytes": 1461806263,
+      "duration": 1119.685233,
+      "sha256": "2c875919847c41194cd893e72d2f6afb42ef249de178532a6c756ff4f89a2e57",
+      "subtitle": true
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxySubtitledUltra_Day2MorningLaoHong_DJI_20260830114141_0004_D_720p_Review_v02.mp4",
+      "size_bytes": 1191449683,
+      "duration": 911.723,
+      "sha256": "d9b916b08312bd0f045fbe8e546668f38e0ef3b9accf2e10d8eeb302547ed85c",
+      "subtitle": true
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxySubtitledUltra_Day2AfternoonChannel_DJI_20260830135316_0001_D_720p_Review_v02.mp4",
+      "size_bytes": 2177254920,
+      "duration": 1662.037333,
+      "sha256": "033421a7e5e17a6740969ad1bad14174b023e557e6d9ae5287cb09f64c09c33c",
+      "subtitle": true
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxySubtitledUltra_Day2AfternoonChannel_DJI_20260830142059_0002_D_720p_Review_v02.mp4",
+      "size_bytes": 1573175196,
+      "duration": 1203.368833,
+      "sha256": "00b8d87dbe54397cc5800fbe25cdd1a97769226f09c04ffe60830172a63214d1",
+      "subtitle": true
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxySubtitledUltra_Day2AfternoonChannel_DJI_20260830144104_0003_D_720p_Review_v02.mp4",
+      "size_bytes": 199552867,
+      "duration": 153.419933,
+      "sha256": "c9314444fe26823f2291615e0fc5a425e8e206c984bea17d3341fd52f4ea7c02",
+      "subtitle": true
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxySubtitledUltra_Day2AfternoonChannel_DJI_20260830145621_0004_D_720p_Review_v02.mp4",
+      "size_bytes": 1233127372,
+      "duration": 943.851,
+      "sha256": "85486bdc063ce446edb4db17986d1ca1e28af768542595ad8524953f7dc4dc9f",
+      "subtitle": true
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxySubtitledUltra_Day2AfternoonChannel_DJI_20260830152255_0005_D_720p_Review_v02.mp4",
+      "size_bytes": 1896377845,
+      "duration": 1449.493333,
+      "sha256": "fb2c85e424b01de01f83d1d32b085f66f0c789127c531744ceb4196c08f611a4",
+      "subtitle": true
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxySubtitledUltra_Day2AfternoonChannel_DJI_20260830155647_0006_D_720p_Review_v02.mp4",
+      "size_bytes": 2169171029,
+      "duration": 1662.315,
+      "sha256": "c5c85a17de67ce733f39ab3a3e43046682cba82b3b252a5a6a709708c013ddbf",
+      "subtitle": true
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxySubtitledUltra_Day2AfternoonChannel_DJI_20260830162430_0007_D_720p_Review_v02.mp4",
+      "size_bytes": 116937544,
+      "duration": 89.4894,
+      "sha256": "e59c3c05f3fec952dab760050cfa05bb549b27178ee93c4ac20e8fe4e0c39a2e",
+      "subtitle": true
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxySubtitledUltra_Day2AfternoonChannel_DJI_20260830163448_0009_D_720p_Review_v02.mp4",
+      "size_bytes": 1161036167,
+      "duration": 889.322667,
+      "sha256": "418a9e5cf45c4dcce3dcb234d55c3ee4479d8e2604afca56a68cd554727deea8",
+      "subtitle": true
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxySubtitledUltra_Day2AfternoonChannel_DJI_20260830165904_0013_D_720p_Review_v02.mp4",
+      "size_bytes": 179908280,
+      "duration": 138.8387,
+      "sha256": "5504067d6514997ecf05a131ded59f9469f18589f66f5517e37354f5263e058f",
+      "subtitle": true
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxyUltra_Day2AfternoonChannel_DJI_20260830162713_0008_D_720p_Review_v02.mp4",
+      "size_bytes": 33281434,
+      "duration": 25.992633,
+      "sha256": "480380b66583e3c9a17f8135828ce5a4e4eca3570918442357031ab8ca8f8e59",
+      "subtitle": false
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxyUltra_Day2AfternoonChannel_DJI_20260830165657_0010_D_720p_Review_v02.mp4",
+      "size_bytes": 31194841,
+      "duration": 24.192,
+      "sha256": "8d6aeb32aeb67c82e12d62c9125024c726953544980ca6ce6b692ce0c8911fb5",
+      "subtitle": false
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxyUltra_Day2AfternoonChannel_DJI_20260830165752_0011_D_720p_Review_v02.mp4",
+      "size_bytes": 26471991,
+      "duration": 20.387033,
+      "sha256": "4fc6830683b3b1aa8197fe87c65b602291125b8278f3a9c5a10d2f8db120325c",
+      "subtitle": false
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxyUltra_Day2AfternoonChannel_DJI_20260830165827_0012_D_720p_Review_v02.mp4",
+      "size_bytes": 21758939,
+      "duration": 16.850167,
+      "sha256": "75aa0b179e730030f5f29d5eb3dc451075747ac5da87260aee688128b155056d",
+      "subtitle": false
+    },
+    {
+      "filename": "AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_VideoProxyUltra_Day2AfternoonChannel_DJI_20260830170257_0014_D_720p_Review_v02.mp4",
+      "size_bytes": 21974447,
+      "duration": 16.750067,
+      "sha256": "f9e0be879e63273677c4c2d03347ac072ace7f211b5370ea1d7980c2be2ff473",
+      "subtitle": false
+    }
+  ],
+  "knowledge": {
+    "usable_video_guides": 13,
+    "excluded_clips": 5,
+    "cleaned_transcripts": 13,
+    "srt_files": 13,
+    "classification_frames": 117
+  },
+  "github_commit_before_detailed_package": "9e1b686b72928688d74474899b5594ba69794709"
+}

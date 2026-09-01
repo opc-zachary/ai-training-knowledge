@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "project": "AITrainingGuangzhou",
   "visibility_required": "PUBLIC",
-  "generated_at": "2026-09-01T11:58:13+00:00",
+  "generated_at": "2026-09-01T17:13:56+00:00",
   "files": [
     {
       "path": ".gitignore",
@@ -11,18 +11,18 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size_bytes": 1504,
-      "sha256": "101288394a1a822f5471bc1685ff15734b49dd267ad7e167de675d38add1db6b"
+      "size_bytes": 1852,
+      "sha256": "4e881ada6137e5b6d161a79bc057134dcd1e793abb70e505678ef3190f8c0ce0"
     },
     {
       "path": "README.en.md",
-      "size_bytes": 1367,
-      "sha256": "5d186fdab76bf04f30821ed92d76704be9ce93a038cf2bbe75eb9e76f61cbf5c"
+      "size_bytes": 1443,
+      "sha256": "a3a85576650263a85abf15e8f4f8652fd8c49775d4e877604723e28b9384edb4"
     },
     {
       "path": "README.md",
-      "size_bytes": 2206,
-      "sha256": "37a458f56993c9390172f3cd39a079803aca58fecb0cbe68d6a8eeb71673523b"
+      "size_bytes": 2310,
+      "sha256": "28e762ea4485bd9193d99e520821c92ca30698c7d4c96942dfb2afbb38b43f9e"
     },
     {
       "path": "SHARING_POLICY.md",
@@ -31,13 +31,1143 @@
     },
     {
       "path": "SOURCE_BOUNDARIES.md",
-      "size_bytes": 1338,
-      "sha256": "a777b4bd15ed3b555146ef7bcced419b28387470d8870c0b1496978c36412994"
+      "size_bytes": 1515,
+      "sha256": "8c7bccf64309d54c696019ee2dda367f7dd1b8b024c63f76a70e457d4f322524"
     },
     {
       "path": "data/course-crosswalk.v1.json",
-      "size_bytes": 7075,
-      "sha256": "f4ba58bf42621eb9c393064e2c03944adff8b16cd03f4030ad9ecb957050dd88"
+      "size_bytes": 7653,
+      "sha256": "48240fee925f6f8b228cf69567c276097990258efd9c9deb5a40ddad6a628743"
+    },
+    {
+      "path": "day-2/README.md",
+      "size_bytes": 2022,
+      "sha256": "0e591f9041e68705979b1581fd45138147364272361427a826888b84d6cf1284"
+    },
+    {
+      "path": "day-2/TEAM_CALLING_GUIDE.md",
+      "size_bytes": 1629,
+      "sha256": "fb15ebbae026316b68f6d1c463d909e53cacd443217068c96429e67b58a8b463"
+    },
+    {
+      "path": "day-2/classification/completion-audit.md",
+      "size_bytes": 1237,
+      "sha256": "98de4acc11a70b0ebdded11f45fab7d4a9cbfafdf1bc452590e52ef54d0583e6"
+    },
+    {
+      "path": "day-2/classification/compression-report.md",
+      "size_bytes": 1471,
+      "sha256": "1a4c9325931bff5851fffff86ea113413705c62d1f750c7b1648ee4b3d89f537"
+    },
+    {
+      "path": "day-2/classification/morning-afternoon-classification.json",
+      "size_bytes": 3599,
+      "sha256": "727165e0e8062ba7a6bcf95f23d6161961df664278e53da4361a4fa6900942f8"
+    },
+    {
+      "path": "day-2/classification/morning-afternoon-classification.md",
+      "size_bytes": 13250,
+      "sha256": "5239656f7ef23f65e48fd915206775f1e927aa7b391a82513a146e51207f84a5"
+    },
+    {
+      "path": "day-2/classification/terminology.md",
+      "size_bytes": 1284,
+      "sha256": "9a4ee6dbf9966e67f43eddcef852377bc32eac14b23214ed63735c52aa38566a"
+    },
+    {
+      "path": "day-2/classification/transcript-qa.json",
+      "size_bytes": 10609,
+      "sha256": "8ca30e311660534ebb13bf8ed29f7760e2459ee72925bb3765aba542934bf4d1"
+    },
+    {
+      "path": "day-2/classification/transcript-qa.md",
+      "size_bytes": 3382,
+      "sha256": "f67c10f060f397b296a87496c3895775a22af7884c34aa400506951ca7a39a9c"
+    },
+    {
+      "path": "day-2/classification/visual-evidence-classification.json",
+      "size_bytes": 1510,
+      "sha256": "879ad3073e9a08a743474558856fa70e26fbf2f5537b4264fabc4b86d1613245"
+    },
+    {
+      "path": "day-2/classification/visual-evidence-classification.md",
+      "size_bytes": 4711,
+      "sha256": "aa9210cb52a944b83c916f67582eefa7123dc6b326cbf4d9ed8dc885e6c7855f"
+    },
+    {
+      "path": "day-2/evidence/keyframe-index.json",
+      "size_bytes": 44526,
+      "sha256": "104d70710fbbd6147158eb37cb3d5fef6cbc24bda82372dedb156fd36c14b8bd"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 91284,
+      "sha256": "e67d5be63936e94a24ab937291e4515fa691ef5e544fd3d6b5d5b40f790d7e75"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 75963,
+      "sha256": "3c31d3d0eabe0fe6def2928cac145c4aedb38db8b5615d7aa575f6d7ade33d6f"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 91966,
+      "sha256": "6185da57bf01cdf6f56329f54b0bf4591cb3c63338059d7ced6036576293418d"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 91577,
+      "sha256": "7e2dad7ddecc315d39607a3a12cb5b869e89bd8ab384e3c313178be12790773f"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 112328,
+      "sha256": "c4c1bfe14efd4298c0dddf16a2e22a345e4626c5c7bb0ddf8a056a26d84413bb"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 84747,
+      "sha256": "9a874f982c7dd4cc7c0a9a65d15ba103571ade48cb0ebb694261c10fdcbd7f91"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 87458,
+      "sha256": "ba1ce1ac7031ac74e5d92f02c46a6f47a3b3b5e03403ab7144ba3c8c2d63ac1c"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 87279,
+      "sha256": "fb6327a317a0d643bf04f4f77aa4e91b6304cac6d9539303c31fc550d9ffb783"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000970000_2min_Preliminary_v02.jpg",
+      "size_bytes": 92286,
+      "sha256": "d42371792d3bde632d8c8df16d54cdde581dc603c61d4965f38bbaf342d421e1"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_001090000_2min_Preliminary_v02.jpg",
+      "size_bytes": 99199,
+      "sha256": "4e53dd373132ac5aebdb81fce740f17a4588766c5f950b1d72634c9bd1509319"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_001210000_2min_Preliminary_v02.jpg",
+      "size_bytes": 82948,
+      "sha256": "fd05a394367718ea43f15fe7c6cc5e40cda998cccbaef25828353f9aab39250c"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_001330000_2min_Preliminary_v02.jpg",
+      "size_bytes": 90831,
+      "sha256": "e10cc8bed2c1525fc8fe7de5293a6b92a9ce23f231dec4a824b25b1d9410d8a1"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_001450000_2min_Preliminary_v02.jpg",
+      "size_bytes": 102763,
+      "sha256": "a03c618bc23e83333b3df3fefbb9f9617fcb4c80a67fd543e6a6471da4693e22"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_001570000_2min_Preliminary_v02.jpg",
+      "size_bytes": 84706,
+      "sha256": "818ca01a898442725a51177c24250ef09e5d4bb8b42e971a09bc10455f374421"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 89846,
+      "sha256": "7c147cdb494a58cdb9c5722c5e5815dfb479f4862dc01239042949f70b4543e8"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 97052,
+      "sha256": "e4bcde6a33b76bc38781f3e54aabbeb5f8fed5754276fe203879dd537a6db6b8"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 86536,
+      "sha256": "5fd8f7e998aa14689bc175c5031266236f1114d9b651215817a36b2576758ac9"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 87075,
+      "sha256": "1bcbaaef8e4d7328b9278732d53a71761d7f426d9414ccd176f7afb5002161e4"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 85520,
+      "sha256": "5356b7bfab5a66c73703344d9e5cc07a695c75741cf00b6314036ed67468fab5"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 81437,
+      "sha256": "65b556781751133eccd2b41366e88da9dce9e4139a052bfb3448be6fbb0ac63d"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 81687,
+      "sha256": "a0df0eaf4ccc87c8be083a181f7e24f271ff11a690690c49753e08f91c621147"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 89228,
+      "sha256": "8c59aaad99bd8054f1331b985aae70c0dc88c08f58291ded8e90bed62ae2c4c4"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000970000_2min_Preliminary_v02.jpg",
+      "size_bytes": 80683,
+      "sha256": "23a9ed946ea5c2b56a6b61f7d4dfe2abe73a1c5571502ba854e608c0dd2010f3"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_001090000_2min_Preliminary_v02.jpg",
+      "size_bytes": 81402,
+      "sha256": "817c1e4d39ed654fa290e91d16db8656127cb7c0de93afd3e0ddf0dfdff3e69e"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_001210000_2min_Preliminary_v02.jpg",
+      "size_bytes": 82811,
+      "sha256": "254e8e052c1561a48d137086950fe710ca614f53589ec8d93f58e03454dbb564"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_001330000_2min_Preliminary_v02.jpg",
+      "size_bytes": 78935,
+      "sha256": "ef46f701825fe4c39647fab7719180c9d6293ead83adef628e552a3c6d6b52d7"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_001450000_2min_Preliminary_v02.jpg",
+      "size_bytes": 83612,
+      "sha256": "4385e32dda6e5d28288c6608fd8c528239e1186a1180606b38f0929ad58c5394"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_001570000_2min_Preliminary_v02.jpg",
+      "size_bytes": 85632,
+      "sha256": "0c3ebe0634f253a908edb77db8569c90685c3f0be9929bc6e4d3ac27c8f00f73"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 79519,
+      "sha256": "74d4339f9e3fa5f31e7432b6902109fb6264891a22206f17d72aec7e6148f62b"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 79241,
+      "sha256": "64b93c9e5a11088cdda75f16a58937ad0bf47dbd2cb9ffc152d0718955021f51"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 87602,
+      "sha256": "d5a7eac394d2f17f81de9575eb0adb6205dd9578949b2297f2a0dbcec8429b8b"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 92719,
+      "sha256": "aff2a942c9aff39d8519d4d09014acd9b0dea384d82f9a6b8b49c7f391e5d997"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 82132,
+      "sha256": "6c4bcaab7af3b2589d4f46e3bedbd0928fac59821315be9aa1f0ed237551154a"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 88484,
+      "sha256": "7bede0a05591e324e432162b30ffc4b01bce5da4d96d667c04b2ff8976fd1132"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 85734,
+      "sha256": "551ea68d13f955ab5974177e60b584220056e0bcb46b4eb50f69bc7246835026"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 81835,
+      "sha256": "34a84348780481be66afead49ba96eafe18acc41460877c8ae9d240036122c5a"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000970000_2min_Preliminary_v02.jpg",
+      "size_bytes": 83480,
+      "sha256": "a6227044f3433ee989570436897d30a0c9bc8eb085dc2ff3f09103ef66af133c"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_001090000_2min_Preliminary_v02.jpg",
+      "size_bytes": 77138,
+      "sha256": "b1a1059ddf93d7fa6e56a9223f7878641ce8c5e74192ac507d31af979c5617e2"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 94743,
+      "sha256": "f158dd1d0499ef49c31eb7077d43cf60e810c7e52fd9fc48e2266414c299dbde"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 94791,
+      "sha256": "85189d514ad0e103ad6238a450919299a060cb1ce8abfb1574939a17c1448a6c"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 82078,
+      "sha256": "50bee367fcb913eeac79c79b22547b8eb33863bb5f0110ff13f680ba53541b03"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 84653,
+      "sha256": "3608da05ed918038bde550503dcdddd91f318f4060f539c1ea7901f5db266079"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 97909,
+      "sha256": "f3b96a12f7d9e4b9e8df6ff561e25bc2eaec4cafa6dd30517fe12be23dc61803"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 104734,
+      "sha256": "b5bd74f84a73089dffdbdfacd16c0d2f22924ca12ff2c5ec8408a1f92cbb62a8"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 103803,
+      "sha256": "223153f70e75982dccd54369bce66c501dded6e1d1c56e43f145ba20e9525f9f"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 90949,
+      "sha256": "f093c4f2c16c4892b131e47f0545c1d55a5e85b15a7c3c175174fc53a38c09d0"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 82954,
+      "sha256": "e3391a68d2270b8dfe050ad720d3758d78dc5c16dfca797baf830cc226847bc2"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 85901,
+      "sha256": "7cf9548c665d83f96decbcee355d4c67a74c054d8ddae3fe4d8a557ad21ce204"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 98401,
+      "sha256": "fdd8333ee490dfbd36d014a6a8843af00ace801af435da31b01d627b00eeb0e7"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 95790,
+      "sha256": "811cb14ce6d8fe79e4806adabf9d68cfa1055fbb0343b1af5f28f057fc7dfafb"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 93772,
+      "sha256": "bafac210074864cf432824adeb198f1413bbd2bbe1a037286a9c0ad33f48010a"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 92297,
+      "sha256": "b02ad1d92c618713f54794dd4c4c3797723c0f9869d0183b6f5f0a3c98ce5587"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 91376,
+      "sha256": "ee42124956fd676d5de5b889bbccdfb27190424fc9e98f98b0f55f83f27bd8e0"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 91562,
+      "sha256": "14b6e8b2ce46c9684b9d9c30b521a7da23b9047a738690332d4c083ae17e5e4d"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000970000_2min_Preliminary_v02.jpg",
+      "size_bytes": 85519,
+      "sha256": "550ad3796fb43d81e359c8e246ffa9b5b7efe3d86a0a88a9116b38f9ae0dc989"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_001090000_2min_Preliminary_v02.jpg",
+      "size_bytes": 86085,
+      "sha256": "92f9d073e3e7e7de664f84410f71186ea4d7f62e7539ac2e18f435b49e294867"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_001210000_2min_Preliminary_v02.jpg",
+      "size_bytes": 75263,
+      "sha256": "7708578e113dea55426f6afb1aad41e0f56b4f86438c64b592248e82df6b41e8"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_001330000_2min_Preliminary_v02.jpg",
+      "size_bytes": 107204,
+      "sha256": "fd267ce2a6156b6c410a305b9a9812102165080cb7c71992b37854619e15ec08"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_001450000_2min_Preliminary_v02.jpg",
+      "size_bytes": 96234,
+      "sha256": "e3b8b3202387a51dc47b3d4c10bb6466a6c30923da0c9e9210a05e4735ddd055"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_001570000_2min_Preliminary_v02.jpg",
+      "size_bytes": 94344,
+      "sha256": "931130ba05b50f69e719f9f9c3e1a9c18d73619f409ae04d81e3aa0ae96db4d7"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 87235,
+      "sha256": "b97ec49ba0220f1fc71efef11bdda32ae78f4b4d9045fab1952739e66be2d83a"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 96090,
+      "sha256": "bcd7b21f44eed9a395ca06962e8a41bd129ed399a0ae8292d07720f1b1df7202"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 96312,
+      "sha256": "0c67382b014e935fd7d6d01168073dd3a16f314f90c8a8923a4600f03655f13a"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 90287,
+      "sha256": "17588748f4acbbae36d7f6ee5e078ecd23e8c913e6339179b66988f0984c4ae3"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 81064,
+      "sha256": "ed2ce8655810881098b1eee39adf665bde489a60e561a12d1a6085cc69151b0b"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 87507,
+      "sha256": "e4d22c369b008b34c0bb32ee33e2ac24e45c8e97372cf2ba6f0d7811d2943c42"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 90150,
+      "sha256": "34243445b2685e3dcc11625dd1ce16cb4e98ae07f82987b429f971e1f837435a"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 89053,
+      "sha256": "70a23b7c713f1adbc9d4f90708353974fb67ee39de2d33fbcd1d00a728e2aed1"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000970000_2min_Preliminary_v02.jpg",
+      "size_bytes": 103408,
+      "sha256": "8cd845f136206f69170da6c881ddedff21fc4e5fa9d2e180ecd938c9bc097062"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_001090000_2min_Preliminary_v02.jpg",
+      "size_bytes": 90681,
+      "sha256": "152490bf6646a2fd7eddf7ccb352044e33844279fc2bfc4580b19cb00a296f79"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830144104_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830144104_0003_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 85643,
+      "sha256": "7e996c846c953c3e2d6b023197b3a3bd209c4b76f95e26d5676d2abe149ee5d0"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830144104_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830144104_0003_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 90385,
+      "sha256": "0b5b6abfda31aeebc181b94f8a079203204ef6b1df1d8c6ead982e6c08ab254c"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 86994,
+      "sha256": "46eb2f48106175be3c04181bb756f39962e89e6a3f2f71901833bb0a71541120"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 75589,
+      "sha256": "d079e24daecd8ad0f5dab0ef15c35edc491e1e67e667ed59c42389879755d72e"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 84750,
+      "sha256": "ea9651158ffc7d55e86d6921e0b9039e4eb28447d8878e0a4879fa7fad88327e"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 82802,
+      "sha256": "f32e5daea28e6d76ae627ecc9d14733b92065ace3b0a8deb345aa368750d8f5d"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 77861,
+      "sha256": "ab3ba1ef6529a5b5bcc88d4552c3a64a5ddd91c57d8faf90184e89c7c7041479"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 78196,
+      "sha256": "b75ebf36fba2365a7394c74515684158cdd48f66696e0f68fd828be8587bc9fc"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 100514,
+      "sha256": "b08bb4134f16cd3b9aaa07f3b5bd4305c13d2e946ae554ce39d779533cd8652d"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 101266,
+      "sha256": "36e07d9ca2cefbbd20e42f65bb635e7fce6623722732b474cdadee5369f89cb7"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 87268,
+      "sha256": "2174dd3e5b28c1bc2e685e404e5cc2bb68d33a9918b5f8d2a1ee525c54ff41d8"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 93436,
+      "sha256": "59da64437330277831c39ea7e895e49b44283e5092229f04c77c28df8a73ba5a"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 104039,
+      "sha256": "4560258ccda2e5276d968c657fe922e2677d9cf0f9e1a8fea1421d5d7de03ff6"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 105992,
+      "sha256": "4a17acad1759f0feefb595c55c6363e755e2fb0dd8bc172563c3e7b2ea836f7a"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 89254,
+      "sha256": "2cbee8910a5c5f0cc1df313860ba7c583cbbe20125e70c040fbd2b5421f46dfc"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 85893,
+      "sha256": "c9e4b2821e04c89040778f8a7b3de1ff535e2c6350bc274eb1b96be696b410b7"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 100270,
+      "sha256": "4ad534024c3ce7153f39ccd2ecd47d4025c7a6697ab1d2b86f17d9170ec3feba"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 99677,
+      "sha256": "8c40cb1fb994bd5503d069e3b0861d85b8671ded866c94bba4bf5a2d30118ff6"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000970000_2min_Preliminary_v02.jpg",
+      "size_bytes": 99201,
+      "sha256": "be5c2318029df3e9c320300e6e9681185120516645401f8f513493feb2402977"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_001090000_2min_Preliminary_v02.jpg",
+      "size_bytes": 84468,
+      "sha256": "9bc05ef7662bef9d0188e220b448e71429b5530e090697a4a813b2360fa25283"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_001210000_2min_Preliminary_v02.jpg",
+      "size_bytes": 90587,
+      "sha256": "d47857da18b9a4023c4aa6421556810f3a2dca643dafd349e82db11015ea6d9f"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_001330000_2min_Preliminary_v02.jpg",
+      "size_bytes": 89184,
+      "sha256": "05a0bcf6287149ad71e9f7c6f172d64ee0fc52f0f95b19e47d5fec25b5bd773d"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 98346,
+      "sha256": "e2b84c39c394488c8c067decbe999b3ebd407d4e44b5a29ca6492dc01d538ada"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 100080,
+      "sha256": "97b65364ea836005c16f74cc607c9233f7140bdb84669e7edd39927ec0eeefdd"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 79956,
+      "sha256": "1823292d70e2265c7bd598072016224d2bb08941353d59071d08db55b781963c"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 99863,
+      "sha256": "6718b3b8649215015b02efe8aebed321f6c01a305dd93b7a6cd8972a4bdd71df"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 95463,
+      "sha256": "c3776cba01f33791590c5c92f40acfaf7a9a71bfc96c6c0a5ac0447587a0503d"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 86406,
+      "sha256": "6b0a64735aaf7396ba54b0306c35839ca64a90c1de2890c5819d50e0cd3e58cf"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 94390,
+      "sha256": "1b46f1ef6aac7d290634410f8f0c2ffdf1e3370d0ed3e2c8b1ce35735bea5791"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 92991,
+      "sha256": "3282c408de737a35490aaeb1cb4b30664c027457f5d595147160145867ca62f7"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000970000_2min_Preliminary_v02.jpg",
+      "size_bytes": 83086,
+      "sha256": "4271b1b4270d219abbae5af86b240acae51881f4829c0cd5b61ea8b841716a5d"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_001090000_2min_Preliminary_v02.jpg",
+      "size_bytes": 101926,
+      "sha256": "2edbfe3168ea2812c5dcdc41d50923b80a891feb1864319c1e15dbc398fc555d"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_001210000_2min_Preliminary_v02.jpg",
+      "size_bytes": 104951,
+      "sha256": "6a1ad57b7e974f7ee467fb0c2658adf39c91fc7543b8bc58edd4a91d71ceb74f"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_001330000_2min_Preliminary_v02.jpg",
+      "size_bytes": 96537,
+      "sha256": "82c49e67ec9da61387115b4c4adfa577d251ce1dcf05acc0c1b48c22356efd80"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_001450000_2min_Preliminary_v02.jpg",
+      "size_bytes": 96177,
+      "sha256": "eb74cbab47e7d9a0ce7ffe349e49aa8b8fac8605644be74b0ec2eb2c2eaf70e0"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_001570000_2min_Preliminary_v02.jpg",
+      "size_bytes": 97120,
+      "sha256": "a9a5488eee97cee92c3889503f2c4fac673e0567df44573ed21fff5f70008e7c"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830162430_0007_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830162430_0007_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 95237,
+      "sha256": "15d12c1878241b11dc1fe043ab61f6a0b7a297e68d4abbf827d4994ab650fa41"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 104764,
+      "sha256": "fdd94bb2e82b7b206bb7ee3514f395771e72b6db0cd67a7d99f13a5ca49de3c5"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 100000,
+      "sha256": "448ce90b6a17e0514b34efdba3d3192225f681440f247928202390f6d090f71e"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 91822,
+      "sha256": "16d7787fbe3b938ef0a96daee544aa9d41e06fbbf9d1cbd16cb4dd8bacfd50ff"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 98956,
+      "sha256": "38141b996eee6b23ccac1c77cc7cbc5058331332b661d401301b59cd9b60a846"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 69648,
+      "sha256": "190bef3f7d66b88d0c4827286f9f2d826c4be0e4dea1507976119dafa5393c25"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 97413,
+      "sha256": "79fbfc14ac53974eb904be80b23d35e7633eb0ea2da1b457e92ecea9adf875e2"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 93886,
+      "sha256": "5abce9142dd0bd1745397f5649c60db9bd2ecdf5c83d799493665eb983d89cb8"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 95431,
+      "sha256": "65a088f54987d0bdf232c851222b3c6d00ba06a56a6c65a0debde8fe5a14ff28"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830165904_0013_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830165904_0013_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 101576,
+      "sha256": "c8060c00007611a049199ca6f80fa863b516d935f1168b4cc50c9a67b8dd68f3"
+    },
+    {
+      "path": "day-2/evidence/keyframes/DJI_20260830165904_0013_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830165904_0013_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 93469,
+      "sha256": "bd8e5c279fd62db34d2ee4bbca7dce11d0fef60d3b54ff1962319bf9f85be167"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/afternoon/01-ai-development-systems-and-models.md",
+      "size_bytes": 1464,
+      "sha256": "f6c4e639ed533fa757fb4db1cd84d66d847c512e5d722a95398479ceef5b8c5b"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/afternoon/02-enterprise-models-and-superpowers.md",
+      "size_bytes": 1113,
+      "sha256": "9b06460bcc6ec6b7b7aadd56329709f6c90c3e46766662464386c8ce5571f803"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/afternoon/03-superpowers-requirements-and-planning.md",
+      "size_bytes": 597,
+      "sha256": "c2afc209cca04c9d2a8eead2c8ca48c6a6c90001d19c6953fba3e90f44f6344b"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/afternoon/04-gui-cli-api-mcp.md",
+      "size_bytes": 1133,
+      "sha256": "6a61a47e6eea0284a9d86ae607db0812bcab720d087d7c786819a486ad118d86"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/afternoon/05-agent-harness-and-loop.md",
+      "size_bytes": 1140,
+      "sha256": "e6f3a23f695e81677be6b1c7af590d919c041eed113c1cc43b8dafb57db1f376"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/afternoon/06-agent-reach-tradingagents-multi-agent.md",
+      "size_bytes": 1269,
+      "sha256": "c7850a593afc2a6e244f747b1e64e5badbe3aa271e780b8a769ed6dae7997f7a"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/afternoon/07-summary-fde-opc-transition.md",
+      "size_bytes": 462,
+      "sha256": "21dcd4af95880afa791a5548314d7d7aaf756c6d9b9907d8c729d4e3a5bbdf7b"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/afternoon/09-fde-opc-agent-boss.md",
+      "size_bytes": 1372,
+      "sha256": "91a749d476dbebd220f7c1ca6021290410e6d47674dcf309affd4b967014fbb7"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/afternoon/13-student-reflection.md",
+      "size_bytes": 510,
+      "sha256": "d98672c5dc97aa1870d42b9a0e363b8a3adef83b953c5ddba15fcd9a0561e3c2"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/index/day-2-index.md",
+      "size_bytes": 1586,
+      "sha256": "159b5f85612a9b8b042126171377e5439410b71981456d75f7d07268a65538a7"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/index/two-day-knowledge-map.md",
+      "size_bytes": 2425,
+      "sha256": "3e695bc423cc0cebc438127c6288854251891421f31d4c51da020531010f16d8"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/morning/01-prompt-engineering-and-industry-research.md",
+      "size_bytes": 1762,
+      "sha256": "c9020234a793c8d9c63e0603d7a7415659f8ede1075707a10de4e82973d89818"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/morning/02-context-prompt-debugging-and-skill.md",
+      "size_bytes": 1815,
+      "sha256": "2ac45b5d326fba09e6df9d1761a28a5235f6fe87bb1c03b0d68f0251e8329ed1"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/morning/03-skill-architecture-and-ai-workbench.md",
+      "size_bytes": 1512,
+      "sha256": "107a0b3b0fa56d044b0e430da7b110d33cf205fbe2a7b675376d2556ddb8167f"
+    },
+    {
+      "path": "day-2/guides/zh-Hans/morning/04-enterprise-automation-and-fde.md",
+      "size_bytes": 1408,
+      "sha256": "77a98ab591f98bf86fbe65711a7ee1b2b8d2f9b0195ec67202c8ad8f48f0eb30"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/afternoon/01-ai-development-systems-and-models.md",
+      "size_bytes": 1464,
+      "sha256": "0acf3609220928dd2e573c6c4d4cf074cbab56a5da36a8218175371684b86923"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/afternoon/02-enterprise-models-and-superpowers.md",
+      "size_bytes": 1113,
+      "sha256": "133191885c646d646cedd600766112f78652e2e2b88dc2949ed06d642b52b582"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/afternoon/03-superpowers-requirements-and-planning.md",
+      "size_bytes": 597,
+      "sha256": "69cf46e2e0b03ad4521ca6935c25d8e3db5cfe82b3feb162bd00966d6265bd9e"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/afternoon/04-gui-cli-api-mcp.md",
+      "size_bytes": 1133,
+      "sha256": "aa03198b450a30e7f1a237a1cc6e7883f3493b5c36c970175b650d6008193c59"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/afternoon/05-agent-harness-and-loop.md",
+      "size_bytes": 1140,
+      "sha256": "593cb6e9fcf0487816252d5fc5f4004ae0d310788a3d1b4e2788e40a614de4e2"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/afternoon/06-agent-reach-tradingagents-multi-agent.md",
+      "size_bytes": 1269,
+      "sha256": "a87e96b1b7262d8ac6f3ca339a84f9d9ed6b54111d3bd8c7a3f875c3b5a8a9f3"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/afternoon/07-summary-fde-opc-transition.md",
+      "size_bytes": 462,
+      "sha256": "8752f779492fc76d48ea10aa607e251b00a1bd3c5f2be71c5724936275bbac25"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/afternoon/09-fde-opc-agent-boss.md",
+      "size_bytes": 1372,
+      "sha256": "7dbf1afe01e23c8f303c54b5b05785f0b86fccbf6177040253eb2a9feb41e668"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/afternoon/13-student-reflection.md",
+      "size_bytes": 510,
+      "sha256": "30ac75002b9dfdd5f9480cf94ee6ca857801aeae6f7f1575ae469a8e502af336"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/index/day-2-index.md",
+      "size_bytes": 1586,
+      "sha256": "750130e6d634df3a4d9d4895d783e068ea665972268cf768ac8ede5be9c47387"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/index/two-day-knowledge-map.md",
+      "size_bytes": 2425,
+      "sha256": "6d202602851c2c2374e26aad8330cfd2d257d149cd3973de71c1b0c71f200a2f"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/morning/01-prompt-engineering-and-industry-research.md",
+      "size_bytes": 1762,
+      "sha256": "a7d0f465ed0e145dfa20c065b5d99205577a5f5332203e6d3ada13746b6d7554"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/morning/02-context-prompt-debugging-and-skill.md",
+      "size_bytes": 1815,
+      "sha256": "653b955ed2e622290bd15705871e9e32e3958a62ffc62ea7b9555da54d32ec3d"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/morning/03-skill-architecture-and-ai-workbench.md",
+      "size_bytes": 1512,
+      "sha256": "557b069060d034dc610f1bf1554b2208f7228753dcc5f0fda2f44018202e0ecd"
+    },
+    {
+      "path": "day-2/guides/zh-Hant/morning/04-enterprise-automation-and-fde.md",
+      "size_bytes": 1408,
+      "sha256": "ac0cd86bb7a8bbf43a7f964305ed60ad14c7338a408de7eb84efe3edd2437b92"
+    },
+    {
+      "path": "day-2/manifests/day-2-public-manifest.json",
+      "size_bytes": 13560,
+      "sha256": "8560fbed43d114e9c13b1a361517e26c47fce724c4959f15fc574818878ac86e"
+    },
+    {
+      "path": "day-2/transcripts/README.md",
+      "size_bytes": 638,
+      "sha256": "3f89e9801f4d95613d2c150986abd597ac7edd131e08dd4157f792703933c2a2"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830135316_0001_D/qa.json",
+      "size_bytes": 287,
+      "sha256": "cce5e1d0a1a594cdcfc3666a89f576dc9e5163aaf3e7a22106abee9636e3604a"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830135316_0001_D/subtitle.srt",
+      "size_bytes": 58313,
+      "sha256": "4fde6abd77063c209a69a1f5eeefe3079d1be5a1c33c9e05570a6029401e37c6"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830135316_0001_D/timestamped.txt",
+      "size_bytes": 41367,
+      "sha256": "c170b57546f42a611711b1dbd671985ae9d11f6a604a33fc16a2af1148bca17a"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830135316_0001_D/transcript.json",
+      "size_bytes": 145411,
+      "sha256": "7e17669e556e4e3351c60def22c091e25a8261f0864531c31bb2dd76b3217c9b"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830135316_0001_D/transcript.txt",
+      "size_bytes": 23313,
+      "sha256": "b7d77c2315ef09ce81579820235eb48c20c79a74a4e79db8bf694b3be5ccad68"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830142059_0002_D/qa.json",
+      "size_bytes": 278,
+      "sha256": "1008043d188d588436e8df3d305c66dbd13c65ba837e94f0cb0c193a4ef7fce3"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830142059_0002_D/subtitle.srt",
+      "size_bytes": 37336,
+      "sha256": "f8d09f2bb1f94e815b7ad32ac6810ae1c74422ada2da8e406e18e5cc9642a1ff"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830142059_0002_D/timestamped.txt",
+      "size_bytes": 26667,
+      "sha256": "9b44a2dd1ee7b79b955ceb113bde5dcbfa6566d6f3d08b010f6a5cf8cb11b472"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830142059_0002_D/transcript.json",
+      "size_bytes": 94233,
+      "sha256": "a3217f6df1084c4c21cbc0bb2e983e439b64a04cafe8f41e3de915cbc4f6cbc2"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830142059_0002_D/transcript.txt",
+      "size_bytes": 15255,
+      "sha256": "45b25d87a4c7069339ba922c5dcf6399e56d953fbe0829302ddde3158c2d9401"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830144104_0003_D/qa.json",
+      "size_bytes": 267,
+      "sha256": "9f85c09fa7b489ef2f72a3feb388c31b977576d94a8623cc5d81a1204e453890"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830144104_0003_D/subtitle.srt",
+      "size_bytes": 4037,
+      "sha256": "0f6beb1d816ec72f58711f4c74cd76338057e70490e810f7bdc0f9d96649e288"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830144104_0003_D/timestamped.txt",
+      "size_bytes": 3023,
+      "sha256": "b7ce8bb0bc387c580c1bbbeaa797aa2d1a332ada26bf5c70be54a20548dbeba4"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830144104_0003_D/transcript.json",
+      "size_bytes": 9972,
+      "sha256": "4f6df3cff878329794537539f5c4865874448b360a84bdf0695721b3fa1e8ecb"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830144104_0003_D/transcript.txt",
+      "size_bytes": 1871,
+      "sha256": "9d9b9048ce77797d61b7e263bd6f7d6f8d81469d2001226976941e1c5223e5e3"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830145621_0004_D/qa.json",
+      "size_bytes": 277,
+      "sha256": "79ffa79cf1b53847046c4d643898a871466eef88db1ce7d5638f684da1d40f6d"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830145621_0004_D/subtitle.srt",
+      "size_bytes": 23451,
+      "sha256": "026edd9bd0e6b155400f76d871a5e556ce4a4e1fd90b61acbc03939aca983ba3"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830145621_0004_D/timestamped.txt",
+      "size_bytes": 17355,
+      "sha256": "ddb9198221c22543ed725b7fe0cc7ebfe9ae652b439bde02d0c362a10328e4f3"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830145621_0004_D/transcript.json",
+      "size_bytes": 55859,
+      "sha256": "5156c7b226d28f063b663cbd00fb2465b1fd4e1b8878c87f8d6d16d61be1ac76"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830145621_0004_D/transcript.txt",
+      "size_bytes": 10785,
+      "sha256": "a09787a9ac124ca4d6d6fa15a8c11e0b8410d16131c1f7ee872f75ee85826c15"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830152255_0005_D/qa.json",
+      "size_bytes": 278,
+      "sha256": "1af52eba3e329eccaab66d829d284d9e3a2826f0a27f4a37c38dd559d8b38217"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830152255_0005_D/subtitle.srt",
+      "size_bytes": 52466,
+      "sha256": "c825951820fcb1fb7386915ed2e0cdb1ee04f46ca22128a8dbc749a18ffa8461"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830152255_0005_D/timestamped.txt",
+      "size_bytes": 36238,
+      "sha256": "acc8379682256b89f9dc0113916ce2fde88ca74b66a15403488fc59bb2766393"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830152255_0005_D/transcript.json",
+      "size_bytes": 134737,
+      "sha256": "ec832dc962912b8476cf40d08b084a0046e18289fd01034469c95483326ea5dd"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830152255_0005_D/transcript.txt",
+      "size_bytes": 18940,
+      "sha256": "38bfecdd7f0380182120ce91df4be7d17fd78356c516c2ad9af06a9451898044"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830155647_0006_D/qa.json",
+      "size_bytes": 280,
+      "sha256": "17c892cebcd424ad4dc0fc5da080fb55e36f409019756f052593b3e522eaf366"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830155647_0006_D/subtitle.srt",
+      "size_bytes": 53430,
+      "sha256": "169ef3e986472a72e18ce425b5bc1c525231a220c598bab36cb5f5d97aec5248"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830155647_0006_D/timestamped.txt",
+      "size_bytes": 37287,
+      "sha256": "3f55d8c284872bd98842c708a2c5b808717eea3885aeb2afce1dd82aa7a64768"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830155647_0006_D/transcript.json",
+      "size_bytes": 130019,
+      "sha256": "c3bad5acd194fce24e709a52940ba0d49fa0646a90773b86086cb987301f1b91"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830155647_0006_D/transcript.txt",
+      "size_bytes": 20079,
+      "sha256": "6f46c1f362a2efb208226640449c8dec7dd3fcda32dddc3dc36203e69a52b107"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830162430_0007_D/qa.json",
+      "size_bytes": 273,
+      "sha256": "9188991d591f11c428cfed8b20cab2e1d071bf0f4625bc10ad2c7ecc3eebf67c"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830162430_0007_D/subtitle.srt",
+      "size_bytes": 1396,
+      "sha256": "cd87c90900e03a273eab43ffbb707bcff2897ef4959a6f9daba90f16aaf13cb4"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830162430_0007_D/timestamped.txt",
+      "size_bytes": 1150,
+      "sha256": "8d3519ca63a854f3fc5b4519ad0bc1094bec7746c8a9d0b5c32d6bfb39e316cd"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830162430_0007_D/transcript.json",
+      "size_bytes": 3638,
+      "sha256": "5fc8736291dab5c142f959f0d7abf1ab62649ac239d6804d8f0351d68e7183b2"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830162430_0007_D/transcript.txt",
+      "size_bytes": 862,
+      "sha256": "181e19a3b97a638e4b8138358535e971adfadb72155af3fcd2fcdbe6df96a1ba"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830163448_0009_D/qa.json",
+      "size_bytes": 273,
+      "sha256": "fd0048f9759123134a7c9816f15f519169fc68a2ac82dc12c829386a537c7835"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830163448_0009_D/subtitle.srt",
+      "size_bytes": 28463,
+      "sha256": "52c5e513061ee58048e748f8417330314887239c460cd3b22eb8c909dc0e5a6b"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830163448_0009_D/timestamped.txt",
+      "size_bytes": 20021,
+      "sha256": "90dd2cef6573c3cd8f597560d2394148b09fd7188bd3216e4241a7b7b803d644"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830163448_0009_D/transcript.json",
+      "size_bytes": 71613,
+      "sha256": "ef352598cb08a308c70e1ea720ba95712d6f180ab3996051095010b58540775e"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830163448_0009_D/transcript.txt",
+      "size_bytes": 10967,
+      "sha256": "8eeca52a900a60aacf1a71f917e65d222d3a00ef7c3bd04046b3fbf60310c96f"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830165904_0013_D/qa.json",
+      "size_bytes": 271,
+      "sha256": "0036f16b7dd379bc91dc12ac4658ded3f8b99e49f449837b12b3b45220544f06"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830165904_0013_D/subtitle.srt",
+      "size_bytes": 4137,
+      "sha256": "11de26b2fe51a73489a892e071a12ee66a8c26559bdb3026306c797954e43567"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830165904_0013_D/timestamped.txt",
+      "size_bytes": 2979,
+      "sha256": "668d306cd644e6a088ded959d23e6c65c725f7c070283f68cd50032d8996a726"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830165904_0013_D/transcript.json",
+      "size_bytes": 10733,
+      "sha256": "098a6adefc8984eb71ac424fb26c1f847f968ff5039e419a79f6de47e098cf29"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/afternoon/DJI_20260830165904_0013_D/transcript.txt",
+      "size_bytes": 1665,
+      "sha256": "cd31944fad080dd59715e63280dcb5b7365225e86283d275095cbbc090e7cdd5"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/qa.json",
+      "size_bytes": 278,
+      "sha256": "1dec87119274e097c283d113b0fcd98b8df6066d39571f6ec97ea936130cd9a5"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/subtitle.srt",
+      "size_bytes": 54800,
+      "sha256": "faf3a84f8883ef59d5aabf265d755a5273e2afaba4f234eea31f05f8901e9a26"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt",
+      "size_bytes": 40561,
+      "sha256": "8ad0f4c07b56a3ca514f0f1c433911f083e82982546bbb402321a4d75a9a4441"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/transcript.json",
+      "size_bytes": 136555,
+      "sha256": "389b187dca8504fab241848a1a800bba0c3c3813688b4e05bc4370227a313e28"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/transcript.txt",
+      "size_bytes": 25369,
+      "sha256": "234ba99d5e6a4acb228e0880ad56c853f07fa095ac78abbb5ba089852d403baa"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/qa.json",
+      "size_bytes": 270,
+      "sha256": "6675463800d38dcb9a77174fdde27cd05f3163379c3f649b0b5d1395d8cbb4a4"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/subtitle.srt",
+      "size_bytes": 53114,
+      "sha256": "b43eac921639a96ab1c23a2856a8dd137841701a318597abc5dc129da5a6a43c"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt",
+      "size_bytes": 38858,
+      "sha256": "2debe54188bea6f4aa4a5bf0374ee86b66c076c29990bc7f429f66a4c519feed"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/transcript.json",
+      "size_bytes": 131364,
+      "sha256": "1a1b284cac481e375bb262d5393679ca7aaeca9b7e6c0a521fb784d60baf37b1"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/transcript.txt",
+      "size_bytes": 23648,
+      "sha256": "4e9819638a7564dd8e28b516c2785d3ab2021f22ad81e6e1f66a4383abedf32b"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/qa.json",
+      "size_bytes": 285,
+      "sha256": "eabb2c5e61f0c97d7f37c05b18467136eb02c84ced5851bd3c98045aaf500479"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/subtitle.srt",
+      "size_bytes": 38683,
+      "sha256": "9c0381d12c00581e9b3115346699ed363b9c7be479d0c2443c2191db37c90c7f"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/timestamped.txt",
+      "size_bytes": 28269,
+      "sha256": "9bb89a3a261b8d4b2d33d91332a506c2929f4f41d70ada7e103fbe61b2dfd3bc"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/transcript.json",
+      "size_bytes": 96446,
+      "sha256": "d970694d5ca08f6d569977b69aa79f3ed83d8f08a4be04bdbe27487981b010fd"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/transcript.txt",
+      "size_bytes": 17127,
+      "sha256": "6c4e7e9f7e8f771b1f4322f1db98ce2413b2c4d8cb1a8457cd0d3b0405849fd8"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/qa.json",
+      "size_bytes": 276,
+      "sha256": "b9474f1dc7665a35b3a0f138abfae61d6da8a3254cdafa3e6ce3031ea70d1505"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/subtitle.srt",
+      "size_bytes": 34636,
+      "sha256": "fa9a161817cc9a480b1937b0a7d9eff193ae63cde317a96c72260ac6e060b451"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt",
+      "size_bytes": 25004,
+      "sha256": "4738657dbdca34a51be9e514bb826d6d0f0220e83d14422d6ee4cf3803fbbbe5"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/transcript.json",
+      "size_bytes": 86639,
+      "sha256": "caee1e37543128372363158d019e74652cf7fa65c5d4b33ceb72b8df8c27af01"
+    },
+    {
+      "path": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/transcript.txt",
+      "size_bytes": 14690,
+      "sha256": "3dd712c7f5ed7f87d3597f18f002ced053b9fbbf5c7f4cb8cecde14c7def2d7e"
     },
     {
       "path": "examples/codex-install.md",
@@ -216,8 +1346,8 @@
     },
     {
       "path": "locales/zh-Hans/README.md",
-      "size_bytes": 1308,
-      "sha256": "182c4a6c9ffe98a7ebefa51ed584806492e301b7e80dfcfd995f8f84d636c520"
+      "size_bytes": 1368,
+      "sha256": "471e9e247c93721b509dd7f00567a689f4c182eb7e648db149c3ba7804a300ab"
     },
     {
       "path": "locales/zh-Hans/codex-usage.md",
@@ -266,8 +1396,8 @@
     },
     {
       "path": "locales/zh-Hant/README.md",
-      "size_bytes": 1308,
-      "sha256": "5d6bad267f68b09a1caabe9fa8c4b1986e80b58cda639497549013474cfcef74"
+      "size_bytes": 1368,
+      "sha256": "5234e3d16e16f8cb4b5a94c9351bb97a89620a7ab5156988c1af4e08be40dcee"
     },
     {
       "path": "locales/zh-Hant/codex-usage.md",
@@ -346,13 +1476,13 @@
     },
     {
       "path": "scripts/validate_repository.py",
-      "size_bytes": 14079,
-      "sha256": "1a46d5185bf398d46a9f145f9972cb3332cf991665af3235c64acd5713304d64"
+      "size_bytes": 18552,
+      "sha256": "f8ff110064498c0ce492385c4ec54fe95034ec4e4f7b711725738afa29943cff"
     },
     {
       "path": "skills/ai-training-guangzhou/SKILL.md",
-      "size_bytes": 3192,
-      "sha256": "02b1b49f80a7818f6554d316de18fb60682c6cfcb11dafdae2d9fb3f2d803471"
+      "size_bytes": 3366,
+      "sha256": "0c848e0ec0106137e507146481129230ebf90086f42f6d076b3fe966691f67a2"
     },
     {
       "path": "skills/ai-training-guangzhou/references/application-playbooks.md",
@@ -366,8 +1496,8 @@
     },
     {
       "path": "skills/ai-training-guangzhou/references/day-2.md",
-      "size_bytes": 1311,
-      "sha256": "7b942d98f06e5543cb11e7752dd67e08c9454a2d0bd3e10b6c1b49f839aa4519"
+      "size_bytes": 1496,
+      "sha256": "7f1f7834734bc77318d862f96547d811182dec8ce72f3c40f68c576696377bda"
     },
     {
       "path": "skills/ai-training-guangzhou/references/source-boundaries.md",
@@ -386,13 +1516,13 @@
     },
     {
       "path": "skills/ai-training-guangzhou/references/zh-Hans-course.md",
-      "size_bytes": 1488,
-      "sha256": "9ca26935df5996885358521864f80696801957eaac5ab31cffac80a60d7ace91"
+      "size_bytes": 1605,
+      "sha256": "d9434db37c7e4c8e035d3aec8d2bd6680cc27d748efd008e7d8ad6652b13203a"
     },
     {
       "path": "skills/ai-training-guangzhou/references/zh-Hant-course.md",
-      "size_bytes": 1488,
-      "sha256": "3a88c36773ca0e3deeeef281f4f87e9ecfbc380f5f1450d107bb288196a3e490"
+      "size_bytes": 1605,
+      "sha256": "fde07a91cb256859cd44031f2f547051d63e34002f9cf22011f5a652fdf85290"
     },
     {
       "path": "templates/agent-task.json",
@@ -421,8 +1551,8 @@
     },
     {
       "path": "tests/test_repository.py",
-      "size_bytes": 4792,
-      "sha256": "49e92f81e63f597ce0a6aa52fe48368937981ff709717d6e059b4140f5035e76"
+      "size_bytes": 5186,
+      "sha256": "88272c570467fd341caf364e051c905665097a4e297ccfa773776e4876467168"
     }
   ]
 }

@@ -1,0 +1,824 @@
+{
+  "count": 117,
+  "frames": [
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "timestamp_ms": 10000,
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 91284,
+      "sha256": "e67d5be63936e94a24ab937291e4515fa691ef5e544fd3d6b5d5b40f790d7e75"
+    },
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "timestamp_ms": 130000,
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 75963,
+      "sha256": "3c31d3d0eabe0fe6def2928cac145c4aedb38db8b5615d7aa575f6d7ade33d6f"
+    },
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "timestamp_ms": 250000,
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 91966,
+      "sha256": "6185da57bf01cdf6f56329f54b0bf4591cb3c63338059d7ced6036576293418d"
+    },
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "timestamp_ms": 370000,
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 91577,
+      "sha256": "7e2dad7ddecc315d39607a3a12cb5b869e89bd8ab384e3c313178be12790773f"
+    },
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "timestamp_ms": 490000,
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 112328,
+      "sha256": "c4c1bfe14efd4298c0dddf16a2e22a345e4626c5c7bb0ddf8a056a26d84413bb"
+    },
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "timestamp_ms": 610000,
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 84747,
+      "sha256": "9a874f982c7dd4cc7c0a9a65d15ba103571ade48cb0ebb694261c10fdcbd7f91"
+    },
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "timestamp_ms": 730000,
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 87458,
+      "sha256": "ba1ce1ac7031ac74e5d92f02c46a6f47a3b3b5e03403ab7144ba3c8c2d63ac1c"
+    },
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "timestamp_ms": 850000,
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 87279,
+      "sha256": "fb6327a317a0d643bf04f4f77aa4e91b6304cac6d9539303c31fc550d9ffb783"
+    },
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "timestamp_ms": 970000,
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_000970000_2min_Preliminary_v02.jpg",
+      "size_bytes": 92286,
+      "sha256": "d42371792d3bde632d8c8df16d54cdde581dc603c61d4965f38bbaf342d421e1"
+    },
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "timestamp_ms": 1090000,
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_001090000_2min_Preliminary_v02.jpg",
+      "size_bytes": 99199,
+      "sha256": "4e53dd373132ac5aebdb81fce740f17a4588766c5f950b1d72634c9bd1509319"
+    },
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "timestamp_ms": 1210000,
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_001210000_2min_Preliminary_v02.jpg",
+      "size_bytes": 82948,
+      "sha256": "fd05a394367718ea43f15fe7c6cc5e40cda998cccbaef25828353f9aab39250c"
+    },
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "timestamp_ms": 1330000,
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_001330000_2min_Preliminary_v02.jpg",
+      "size_bytes": 90831,
+      "sha256": "e10cc8bed2c1525fc8fe7de5293a6b92a9ce23f231dec4a824b25b1d9410d8a1"
+    },
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "timestamp_ms": 1450000,
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_001450000_2min_Preliminary_v02.jpg",
+      "size_bytes": 102763,
+      "sha256": "a03c618bc23e83333b3df3fefbb9f9617fcb4c80a67fd543e6a6471da4693e22"
+    },
+    {
+      "video_id": "DJI_20260830102734_0001_D",
+      "timestamp_ms": 1570000,
+      "path": "day-2/evidence/keyframes/DJI_20260830102734_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830102734_0001_D_001570000_2min_Preliminary_v02.jpg",
+      "size_bytes": 84706,
+      "sha256": "818ca01a898442725a51177c24250ef09e5d4bb8b42e971a09bc10455f374421"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "timestamp_ms": 10000,
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 89846,
+      "sha256": "7c147cdb494a58cdb9c5722c5e5815dfb479f4862dc01239042949f70b4543e8"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "timestamp_ms": 130000,
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 97052,
+      "sha256": "e4bcde6a33b76bc38781f3e54aabbeb5f8fed5754276fe203879dd537a6db6b8"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "timestamp_ms": 250000,
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 86536,
+      "sha256": "5fd8f7e998aa14689bc175c5031266236f1114d9b651215817a36b2576758ac9"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "timestamp_ms": 370000,
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 87075,
+      "sha256": "1bcbaaef8e4d7328b9278732d53a71761d7f426d9414ccd176f7afb5002161e4"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "timestamp_ms": 490000,
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 85520,
+      "sha256": "5356b7bfab5a66c73703344d9e5cc07a695c75741cf00b6314036ed67468fab5"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "timestamp_ms": 610000,
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 81437,
+      "sha256": "65b556781751133eccd2b41366e88da9dce9e4139a052bfb3448be6fbb0ac63d"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "timestamp_ms": 730000,
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 81687,
+      "sha256": "a0df0eaf4ccc87c8be083a181f7e24f271ff11a690690c49753e08f91c621147"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "timestamp_ms": 850000,
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 89228,
+      "sha256": "8c59aaad99bd8054f1331b985aae70c0dc88c08f58291ded8e90bed62ae2c4c4"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "timestamp_ms": 970000,
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_000970000_2min_Preliminary_v02.jpg",
+      "size_bytes": 80683,
+      "sha256": "23a9ed946ea5c2b56a6b61f7d4dfe2abe73a1c5571502ba854e608c0dd2010f3"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "timestamp_ms": 1090000,
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_001090000_2min_Preliminary_v02.jpg",
+      "size_bytes": 81402,
+      "sha256": "817c1e4d39ed654fa290e91d16db8656127cb7c0de93afd3e0ddf0dfdff3e69e"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "timestamp_ms": 1210000,
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_001210000_2min_Preliminary_v02.jpg",
+      "size_bytes": 82811,
+      "sha256": "254e8e052c1561a48d137086950fe710ca614f53589ec8d93f58e03454dbb564"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "timestamp_ms": 1330000,
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_001330000_2min_Preliminary_v02.jpg",
+      "size_bytes": 78935,
+      "sha256": "ef46f701825fe4c39647fab7719180c9d6293ead83adef628e552a3c6d6b52d7"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "timestamp_ms": 1450000,
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_001450000_2min_Preliminary_v02.jpg",
+      "size_bytes": 83612,
+      "sha256": "4385e32dda6e5d28288c6608fd8c528239e1186a1180606b38f0929ad58c5394"
+    },
+    {
+      "video_id": "DJI_20260830105517_0002_D",
+      "timestamp_ms": 1570000,
+      "path": "day-2/evidence/keyframes/DJI_20260830105517_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830105517_0002_D_001570000_2min_Preliminary_v02.jpg",
+      "size_bytes": 85632,
+      "sha256": "0c3ebe0634f253a908edb77db8569c90685c3f0be9929bc6e4d3ac27c8f00f73"
+    },
+    {
+      "video_id": "DJI_20260830112259_0003_D",
+      "timestamp_ms": 10000,
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 79519,
+      "sha256": "74d4339f9e3fa5f31e7432b6902109fb6264891a22206f17d72aec7e6148f62b"
+    },
+    {
+      "video_id": "DJI_20260830112259_0003_D",
+      "timestamp_ms": 130000,
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 79241,
+      "sha256": "64b93c9e5a11088cdda75f16a58937ad0bf47dbd2cb9ffc152d0718955021f51"
+    },
+    {
+      "video_id": "DJI_20260830112259_0003_D",
+      "timestamp_ms": 250000,
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 87602,
+      "sha256": "d5a7eac394d2f17f81de9575eb0adb6205dd9578949b2297f2a0dbcec8429b8b"
+    },
+    {
+      "video_id": "DJI_20260830112259_0003_D",
+      "timestamp_ms": 370000,
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 92719,
+      "sha256": "aff2a942c9aff39d8519d4d09014acd9b0dea384d82f9a6b8b49c7f391e5d997"
+    },
+    {
+      "video_id": "DJI_20260830112259_0003_D",
+      "timestamp_ms": 490000,
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 82132,
+      "sha256": "6c4bcaab7af3b2589d4f46e3bedbd0928fac59821315be9aa1f0ed237551154a"
+    },
+    {
+      "video_id": "DJI_20260830112259_0003_D",
+      "timestamp_ms": 610000,
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 88484,
+      "sha256": "7bede0a05591e324e432162b30ffc4b01bce5da4d96d667c04b2ff8976fd1132"
+    },
+    {
+      "video_id": "DJI_20260830112259_0003_D",
+      "timestamp_ms": 730000,
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 85734,
+      "sha256": "551ea68d13f955ab5974177e60b584220056e0bcb46b4eb50f69bc7246835026"
+    },
+    {
+      "video_id": "DJI_20260830112259_0003_D",
+      "timestamp_ms": 850000,
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 81835,
+      "sha256": "34a84348780481be66afead49ba96eafe18acc41460877c8ae9d240036122c5a"
+    },
+    {
+      "video_id": "DJI_20260830112259_0003_D",
+      "timestamp_ms": 970000,
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_000970000_2min_Preliminary_v02.jpg",
+      "size_bytes": 83480,
+      "sha256": "a6227044f3433ee989570436897d30a0c9bc8eb085dc2ff3f09103ef66af133c"
+    },
+    {
+      "video_id": "DJI_20260830112259_0003_D",
+      "timestamp_ms": 1090000,
+      "path": "day-2/evidence/keyframes/DJI_20260830112259_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830112259_0003_D_001090000_2min_Preliminary_v02.jpg",
+      "size_bytes": 77138,
+      "sha256": "b1a1059ddf93d7fa6e56a9223f7878641ce8c5e74192ac507d31af979c5617e2"
+    },
+    {
+      "video_id": "DJI_20260830114141_0004_D",
+      "timestamp_ms": 10000,
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 94743,
+      "sha256": "f158dd1d0499ef49c31eb7077d43cf60e810c7e52fd9fc48e2266414c299dbde"
+    },
+    {
+      "video_id": "DJI_20260830114141_0004_D",
+      "timestamp_ms": 130000,
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 94791,
+      "sha256": "85189d514ad0e103ad6238a450919299a060cb1ce8abfb1574939a17c1448a6c"
+    },
+    {
+      "video_id": "DJI_20260830114141_0004_D",
+      "timestamp_ms": 250000,
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 82078,
+      "sha256": "50bee367fcb913eeac79c79b22547b8eb33863bb5f0110ff13f680ba53541b03"
+    },
+    {
+      "video_id": "DJI_20260830114141_0004_D",
+      "timestamp_ms": 370000,
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 84653,
+      "sha256": "3608da05ed918038bde550503dcdddd91f318f4060f539c1ea7901f5db266079"
+    },
+    {
+      "video_id": "DJI_20260830114141_0004_D",
+      "timestamp_ms": 490000,
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 97909,
+      "sha256": "f3b96a12f7d9e4b9e8df6ff561e25bc2eaec4cafa6dd30517fe12be23dc61803"
+    },
+    {
+      "video_id": "DJI_20260830114141_0004_D",
+      "timestamp_ms": 610000,
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 104734,
+      "sha256": "b5bd74f84a73089dffdbdfacd16c0d2f22924ca12ff2c5ec8408a1f92cbb62a8"
+    },
+    {
+      "video_id": "DJI_20260830114141_0004_D",
+      "timestamp_ms": 730000,
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 103803,
+      "sha256": "223153f70e75982dccd54369bce66c501dded6e1d1c56e43f145ba20e9525f9f"
+    },
+    {
+      "video_id": "DJI_20260830114141_0004_D",
+      "timestamp_ms": 850000,
+      "path": "day-2/evidence/keyframes/DJI_20260830114141_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830114141_0004_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 90949,
+      "sha256": "f093c4f2c16c4892b131e47f0545c1d55a5e85b15a7c3c175174fc53a38c09d0"
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "timestamp_ms": 10000,
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 82954,
+      "sha256": "e3391a68d2270b8dfe050ad720d3758d78dc5c16dfca797baf830cc226847bc2"
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "timestamp_ms": 130000,
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 85901,
+      "sha256": "7cf9548c665d83f96decbcee355d4c67a74c054d8ddae3fe4d8a557ad21ce204"
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "timestamp_ms": 250000,
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 98401,
+      "sha256": "fdd8333ee490dfbd36d014a6a8843af00ace801af435da31b01d627b00eeb0e7"
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "timestamp_ms": 370000,
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 95790,
+      "sha256": "811cb14ce6d8fe79e4806adabf9d68cfa1055fbb0343b1af5f28f057fc7dfafb"
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "timestamp_ms": 490000,
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 93772,
+      "sha256": "bafac210074864cf432824adeb198f1413bbd2bbe1a037286a9c0ad33f48010a"
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "timestamp_ms": 610000,
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 92297,
+      "sha256": "b02ad1d92c618713f54794dd4c4c3797723c0f9869d0183b6f5f0a3c98ce5587"
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "timestamp_ms": 730000,
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 91376,
+      "sha256": "ee42124956fd676d5de5b889bbccdfb27190424fc9e98f98b0f55f83f27bd8e0"
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "timestamp_ms": 850000,
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 91562,
+      "sha256": "14b6e8b2ce46c9684b9d9c30b521a7da23b9047a738690332d4c083ae17e5e4d"
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "timestamp_ms": 970000,
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_000970000_2min_Preliminary_v02.jpg",
+      "size_bytes": 85519,
+      "sha256": "550ad3796fb43d81e359c8e246ffa9b5b7efe3d86a0a88a9116b38f9ae0dc989"
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "timestamp_ms": 1090000,
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_001090000_2min_Preliminary_v02.jpg",
+      "size_bytes": 86085,
+      "sha256": "92f9d073e3e7e7de664f84410f71186ea4d7f62e7539ac2e18f435b49e294867"
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "timestamp_ms": 1210000,
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_001210000_2min_Preliminary_v02.jpg",
+      "size_bytes": 75263,
+      "sha256": "7708578e113dea55426f6afb1aad41e0f56b4f86438c64b592248e82df6b41e8"
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "timestamp_ms": 1330000,
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_001330000_2min_Preliminary_v02.jpg",
+      "size_bytes": 107204,
+      "sha256": "fd267ce2a6156b6c410a305b9a9812102165080cb7c71992b37854619e15ec08"
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "timestamp_ms": 1450000,
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_001450000_2min_Preliminary_v02.jpg",
+      "size_bytes": 96234,
+      "sha256": "e3b8b3202387a51dc47b3d4c10bb6466a6c30923da0c9e9210a05e4735ddd055"
+    },
+    {
+      "video_id": "DJI_20260830135316_0001_D",
+      "timestamp_ms": 1570000,
+      "path": "day-2/evidence/keyframes/DJI_20260830135316_0001_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830135316_0001_D_001570000_2min_Preliminary_v02.jpg",
+      "size_bytes": 94344,
+      "sha256": "931130ba05b50f69e719f9f9c3e1a9c18d73619f409ae04d81e3aa0ae96db4d7"
+    },
+    {
+      "video_id": "DJI_20260830142059_0002_D",
+      "timestamp_ms": 10000,
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 87235,
+      "sha256": "b97ec49ba0220f1fc71efef11bdda32ae78f4b4d9045fab1952739e66be2d83a"
+    },
+    {
+      "video_id": "DJI_20260830142059_0002_D",
+      "timestamp_ms": 130000,
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 96090,
+      "sha256": "bcd7b21f44eed9a395ca06962e8a41bd129ed399a0ae8292d07720f1b1df7202"
+    },
+    {
+      "video_id": "DJI_20260830142059_0002_D",
+      "timestamp_ms": 250000,
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 96312,
+      "sha256": "0c67382b014e935fd7d6d01168073dd3a16f314f90c8a8923a4600f03655f13a"
+    },
+    {
+      "video_id": "DJI_20260830142059_0002_D",
+      "timestamp_ms": 370000,
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 90287,
+      "sha256": "17588748f4acbbae36d7f6ee5e078ecd23e8c913e6339179b66988f0984c4ae3"
+    },
+    {
+      "video_id": "DJI_20260830142059_0002_D",
+      "timestamp_ms": 490000,
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 81064,
+      "sha256": "ed2ce8655810881098b1eee39adf665bde489a60e561a12d1a6085cc69151b0b"
+    },
+    {
+      "video_id": "DJI_20260830142059_0002_D",
+      "timestamp_ms": 610000,
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 87507,
+      "sha256": "e4d22c369b008b34c0bb32ee33e2ac24e45c8e97372cf2ba6f0d7811d2943c42"
+    },
+    {
+      "video_id": "DJI_20260830142059_0002_D",
+      "timestamp_ms": 730000,
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 90150,
+      "sha256": "34243445b2685e3dcc11625dd1ce16cb4e98ae07f82987b429f971e1f837435a"
+    },
+    {
+      "video_id": "DJI_20260830142059_0002_D",
+      "timestamp_ms": 850000,
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 89053,
+      "sha256": "70a23b7c713f1adbc9d4f90708353974fb67ee39de2d33fbcd1d00a728e2aed1"
+    },
+    {
+      "video_id": "DJI_20260830142059_0002_D",
+      "timestamp_ms": 970000,
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_000970000_2min_Preliminary_v02.jpg",
+      "size_bytes": 103408,
+      "sha256": "8cd845f136206f69170da6c881ddedff21fc4e5fa9d2e180ecd938c9bc097062"
+    },
+    {
+      "video_id": "DJI_20260830142059_0002_D",
+      "timestamp_ms": 1090000,
+      "path": "day-2/evidence/keyframes/DJI_20260830142059_0002_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830142059_0002_D_001090000_2min_Preliminary_v02.jpg",
+      "size_bytes": 90681,
+      "sha256": "152490bf6646a2fd7eddf7ccb352044e33844279fc2bfc4580b19cb00a296f79"
+    },
+    {
+      "video_id": "DJI_20260830144104_0003_D",
+      "timestamp_ms": 10000,
+      "path": "day-2/evidence/keyframes/DJI_20260830144104_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830144104_0003_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 85643,
+      "sha256": "7e996c846c953c3e2d6b023197b3a3bd209c4b76f95e26d5676d2abe149ee5d0"
+    },
+    {
+      "video_id": "DJI_20260830144104_0003_D",
+      "timestamp_ms": 130000,
+      "path": "day-2/evidence/keyframes/DJI_20260830144104_0003_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830144104_0003_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 90385,
+      "sha256": "0b5b6abfda31aeebc181b94f8a079203204ef6b1df1d8c6ead982e6c08ab254c"
+    },
+    {
+      "video_id": "DJI_20260830145621_0004_D",
+      "timestamp_ms": 10000,
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 86994,
+      "sha256": "46eb2f48106175be3c04181bb756f39962e89e6a3f2f71901833bb0a71541120"
+    },
+    {
+      "video_id": "DJI_20260830145621_0004_D",
+      "timestamp_ms": 130000,
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 75589,
+      "sha256": "d079e24daecd8ad0f5dab0ef15c35edc491e1e67e667ed59c42389879755d72e"
+    },
+    {
+      "video_id": "DJI_20260830145621_0004_D",
+      "timestamp_ms": 250000,
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 84750,
+      "sha256": "ea9651158ffc7d55e86d6921e0b9039e4eb28447d8878e0a4879fa7fad88327e"
+    },
+    {
+      "video_id": "DJI_20260830145621_0004_D",
+      "timestamp_ms": 370000,
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 82802,
+      "sha256": "f32e5daea28e6d76ae627ecc9d14733b92065ace3b0a8deb345aa368750d8f5d"
+    },
+    {
+      "video_id": "DJI_20260830145621_0004_D",
+      "timestamp_ms": 490000,
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 77861,
+      "sha256": "ab3ba1ef6529a5b5bcc88d4552c3a64a5ddd91c57d8faf90184e89c7c7041479"
+    },
+    {
+      "video_id": "DJI_20260830145621_0004_D",
+      "timestamp_ms": 610000,
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 78196,
+      "sha256": "b75ebf36fba2365a7394c74515684158cdd48f66696e0f68fd828be8587bc9fc"
+    },
+    {
+      "video_id": "DJI_20260830145621_0004_D",
+      "timestamp_ms": 730000,
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 100514,
+      "sha256": "b08bb4134f16cd3b9aaa07f3b5bd4305c13d2e946ae554ce39d779533cd8652d"
+    },
+    {
+      "video_id": "DJI_20260830145621_0004_D",
+      "timestamp_ms": 850000,
+      "path": "day-2/evidence/keyframes/DJI_20260830145621_0004_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830145621_0004_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 101266,
+      "sha256": "36e07d9ca2cefbbd20e42f65bb635e7fce6623722732b474cdadee5369f89cb7"
+    },
+    {
+      "video_id": "DJI_20260830152255_0005_D",
+      "timestamp_ms": 10000,
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 87268,
+      "sha256": "2174dd3e5b28c1bc2e685e404e5cc2bb68d33a9918b5f8d2a1ee525c54ff41d8"
+    },
+    {
+      "video_id": "DJI_20260830152255_0005_D",
+      "timestamp_ms": 130000,
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 93436,
+      "sha256": "59da64437330277831c39ea7e895e49b44283e5092229f04c77c28df8a73ba5a"
+    },
+    {
+      "video_id": "DJI_20260830152255_0005_D",
+      "timestamp_ms": 250000,
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 104039,
+      "sha256": "4560258ccda2e5276d968c657fe922e2677d9cf0f9e1a8fea1421d5d7de03ff6"
+    },
+    {
+      "video_id": "DJI_20260830152255_0005_D",
+      "timestamp_ms": 370000,
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 105992,
+      "sha256": "4a17acad1759f0feefb595c55c6363e755e2fb0dd8bc172563c3e7b2ea836f7a"
+    },
+    {
+      "video_id": "DJI_20260830152255_0005_D",
+      "timestamp_ms": 490000,
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 89254,
+      "sha256": "2cbee8910a5c5f0cc1df313860ba7c583cbbe20125e70c040fbd2b5421f46dfc"
+    },
+    {
+      "video_id": "DJI_20260830152255_0005_D",
+      "timestamp_ms": 610000,
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 85893,
+      "sha256": "c9e4b2821e04c89040778f8a7b3de1ff535e2c6350bc274eb1b96be696b410b7"
+    },
+    {
+      "video_id": "DJI_20260830152255_0005_D",
+      "timestamp_ms": 730000,
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 100270,
+      "sha256": "4ad534024c3ce7153f39ccd2ecd47d4025c7a6697ab1d2b86f17d9170ec3feba"
+    },
+    {
+      "video_id": "DJI_20260830152255_0005_D",
+      "timestamp_ms": 850000,
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 99677,
+      "sha256": "8c40cb1fb994bd5503d069e3b0861d85b8671ded866c94bba4bf5a2d30118ff6"
+    },
+    {
+      "video_id": "DJI_20260830152255_0005_D",
+      "timestamp_ms": 970000,
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_000970000_2min_Preliminary_v02.jpg",
+      "size_bytes": 99201,
+      "sha256": "be5c2318029df3e9c320300e6e9681185120516645401f8f513493feb2402977"
+    },
+    {
+      "video_id": "DJI_20260830152255_0005_D",
+      "timestamp_ms": 1090000,
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_001090000_2min_Preliminary_v02.jpg",
+      "size_bytes": 84468,
+      "sha256": "9bc05ef7662bef9d0188e220b448e71429b5530e090697a4a813b2360fa25283"
+    },
+    {
+      "video_id": "DJI_20260830152255_0005_D",
+      "timestamp_ms": 1210000,
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_001210000_2min_Preliminary_v02.jpg",
+      "size_bytes": 90587,
+      "sha256": "d47857da18b9a4023c4aa6421556810f3a2dca643dafd349e82db11015ea6d9f"
+    },
+    {
+      "video_id": "DJI_20260830152255_0005_D",
+      "timestamp_ms": 1330000,
+      "path": "day-2/evidence/keyframes/DJI_20260830152255_0005_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830152255_0005_D_001330000_2min_Preliminary_v02.jpg",
+      "size_bytes": 89184,
+      "sha256": "05a0bcf6287149ad71e9f7c6f172d64ee0fc52f0f95b19e47d5fec25b5bd773d"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "timestamp_ms": 10000,
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 98346,
+      "sha256": "e2b84c39c394488c8c067decbe999b3ebd407d4e44b5a29ca6492dc01d538ada"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "timestamp_ms": 130000,
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 100080,
+      "sha256": "97b65364ea836005c16f74cc607c9233f7140bdb84669e7edd39927ec0eeefdd"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "timestamp_ms": 250000,
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 79956,
+      "sha256": "1823292d70e2265c7bd598072016224d2bb08941353d59071d08db55b781963c"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "timestamp_ms": 370000,
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 99863,
+      "sha256": "6718b3b8649215015b02efe8aebed321f6c01a305dd93b7a6cd8972a4bdd71df"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "timestamp_ms": 490000,
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 95463,
+      "sha256": "c3776cba01f33791590c5c92f40acfaf7a9a71bfc96c6c0a5ac0447587a0503d"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "timestamp_ms": 610000,
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 86406,
+      "sha256": "6b0a64735aaf7396ba54b0306c35839ca64a90c1de2890c5819d50e0cd3e58cf"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "timestamp_ms": 730000,
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 94390,
+      "sha256": "1b46f1ef6aac7d290634410f8f0c2ffdf1e3370d0ed3e2c8b1ce35735bea5791"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "timestamp_ms": 850000,
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 92991,
+      "sha256": "3282c408de737a35490aaeb1cb4b30664c027457f5d595147160145867ca62f7"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "timestamp_ms": 970000,
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_000970000_2min_Preliminary_v02.jpg",
+      "size_bytes": 83086,
+      "sha256": "4271b1b4270d219abbae5af86b240acae51881f4829c0cd5b61ea8b841716a5d"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "timestamp_ms": 1090000,
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_001090000_2min_Preliminary_v02.jpg",
+      "size_bytes": 101926,
+      "sha256": "2edbfe3168ea2812c5dcdc41d50923b80a891feb1864319c1e15dbc398fc555d"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "timestamp_ms": 1210000,
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_001210000_2min_Preliminary_v02.jpg",
+      "size_bytes": 104951,
+      "sha256": "6a1ad57b7e974f7ee467fb0c2658adf39c91fc7543b8bc58edd4a91d71ceb74f"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "timestamp_ms": 1330000,
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_001330000_2min_Preliminary_v02.jpg",
+      "size_bytes": 96537,
+      "sha256": "82c49e67ec9da61387115b4c4adfa577d251ce1dcf05acc0c1b48c22356efd80"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "timestamp_ms": 1450000,
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_001450000_2min_Preliminary_v02.jpg",
+      "size_bytes": 96177,
+      "sha256": "eb74cbab47e7d9a0ce7ffe349e49aa8b8fac8605644be74b0ec2eb2c2eaf70e0"
+    },
+    {
+      "video_id": "DJI_20260830155647_0006_D",
+      "timestamp_ms": 1570000,
+      "path": "day-2/evidence/keyframes/DJI_20260830155647_0006_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830155647_0006_D_001570000_2min_Preliminary_v02.jpg",
+      "size_bytes": 97120,
+      "sha256": "a9a5488eee97cee92c3889503f2c4fac673e0567df44573ed21fff5f70008e7c"
+    },
+    {
+      "video_id": "DJI_20260830162430_0007_D",
+      "timestamp_ms": 10000,
+      "path": "day-2/evidence/keyframes/DJI_20260830162430_0007_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830162430_0007_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 95237,
+      "sha256": "15d12c1878241b11dc1fe043ab61f6a0b7a297e68d4abbf827d4994ab650fa41"
+    },
+    {
+      "video_id": "DJI_20260830163448_0009_D",
+      "timestamp_ms": 10000,
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 104764,
+      "sha256": "fdd94bb2e82b7b206bb7ee3514f395771e72b6db0cd67a7d99f13a5ca49de3c5"
+    },
+    {
+      "video_id": "DJI_20260830163448_0009_D",
+      "timestamp_ms": 130000,
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 100000,
+      "sha256": "448ce90b6a17e0514b34efdba3d3192225f681440f247928202390f6d090f71e"
+    },
+    {
+      "video_id": "DJI_20260830163448_0009_D",
+      "timestamp_ms": 250000,
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000250000_2min_Preliminary_v02.jpg",
+      "size_bytes": 91822,
+      "sha256": "16d7787fbe3b938ef0a96daee544aa9d41e06fbbf9d1cbd16cb4dd8bacfd50ff"
+    },
+    {
+      "video_id": "DJI_20260830163448_0009_D",
+      "timestamp_ms": 370000,
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000370000_2min_Preliminary_v02.jpg",
+      "size_bytes": 98956,
+      "sha256": "38141b996eee6b23ccac1c77cc7cbc5058331332b661d401301b59cd9b60a846"
+    },
+    {
+      "video_id": "DJI_20260830163448_0009_D",
+      "timestamp_ms": 490000,
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000490000_2min_Preliminary_v02.jpg",
+      "size_bytes": 69648,
+      "sha256": "190bef3f7d66b88d0c4827286f9f2d826c4be0e4dea1507976119dafa5393c25"
+    },
+    {
+      "video_id": "DJI_20260830163448_0009_D",
+      "timestamp_ms": 610000,
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000610000_2min_Preliminary_v02.jpg",
+      "size_bytes": 97413,
+      "sha256": "79fbfc14ac53974eb904be80b23d35e7633eb0ea2da1b457e92ecea9adf875e2"
+    },
+    {
+      "video_id": "DJI_20260830163448_0009_D",
+      "timestamp_ms": 730000,
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000730000_2min_Preliminary_v02.jpg",
+      "size_bytes": 93886,
+      "sha256": "5abce9142dd0bd1745397f5649c60db9bd2ecdf5c83d799493665eb983d89cb8"
+    },
+    {
+      "video_id": "DJI_20260830163448_0009_D",
+      "timestamp_ms": 850000,
+      "path": "day-2/evidence/keyframes/DJI_20260830163448_0009_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830163448_0009_D_000850000_2min_Preliminary_v02.jpg",
+      "size_bytes": 95431,
+      "sha256": "65a088f54987d0bdf232c851222b3c6d00ba06a56a6c65a0debde8fe5a14ff28"
+    },
+    {
+      "video_id": "DJI_20260830165904_0013_D",
+      "timestamp_ms": 10000,
+      "path": "day-2/evidence/keyframes/DJI_20260830165904_0013_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830165904_0013_D_000010000_2min_Preliminary_v02.jpg",
+      "size_bytes": 101576,
+      "sha256": "c8060c00007611a049199ca6f80fa863b516d935f1168b4cc50c9a67b8dd68f3"
+    },
+    {
+      "video_id": "DJI_20260830165904_0013_D",
+      "timestamp_ms": 130000,
+      "path": "day-2/evidence/keyframes/DJI_20260830165904_0013_D/AITrainingGuangzhou_UNKNOWNCLIENT_2026-09-01_Frame_DJI_20260830165904_0013_D_000130000_2min_Preliminary_v02.jpg",
+      "size_bytes": 93469,
+      "sha256": "bd8e5c279fd62db34d2ee4bbca7dce11d0fef60d3b54ff1962319bf9f85be167"
+    }
+  ]
+}

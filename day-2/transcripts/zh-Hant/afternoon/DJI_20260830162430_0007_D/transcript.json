@@ -1,0 +1,109 @@
+{
+  "project": "AITrainingGuangzhou",
+  "client": "UNKNOWNCLIENT",
+  "status": "Cleaned_Review",
+  "video_id": "DJI_20260830162430_0007_D",
+  "session": "01_Afternoon_Channel",
+  "audio_duration": 89.450688,
+  "source": "complete_720p_LRF_proxy_with_targeted_rechecks",
+  "requires_4k_visual_proper_noun_review": true,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.5,
+      "text": "裝了這些SuperPower AgentReach",
+      "source": "raw"
+    },
+    {
+      "start": 2.5,
+      "end": 4.86,
+      "text": "所以它會自動幫我調用的",
+      "source": "raw"
+    },
+    {
+      "start": 5.88,
+      "end": 9.98,
+      "text": "然後它幫我搜索這個GitHub上面找到這個就幫我創建",
+      "source": "raw"
+    },
+    {
+      "start": 11.52,
+      "end": 13.56,
+      "text": "那其實我最常用的就這兩個",
+      "source": "raw"
+    },
+    {
+      "start": 13.56,
+      "end": 15.88,
+      "text": "最最最常用SuperPower跟這個",
+      "source": "raw"
+    },
+    {
+      "start": 16.38,
+      "end": 18.68,
+      "text": "AgentReach 當然還有很多其他的",
+      "source": "raw"
+    },
+    {
+      "start": 18.94,
+      "end": 20.740000000000002,
+      "text": "只是說這兩個我覺得是",
+      "source": "raw"
+    },
+    {
+      "start": 21.76,
+      "end": 22.78,
+      "text": "最實在的",
+      "source": "raw"
+    },
+    {
+      "start": 22.78,
+      "end": 30.46,
+      "text": "這邊有沒有甚麼問題",
+      "source": "raw"
+    },
+    {
+      "start": 43.260000000000005,
+      "end": 45.56,
+      "text": "我們還有大概十幾二十分鐘了",
+      "source": "raw"
+    },
+    {
+      "start": 45.56,
+      "end": 48.38,
+      "text": "那我們再休息一下最後只能跟大家聊聊天",
+      "source": "raw"
+    },
+    {
+      "start": 48.900000000000006,
+      "end": 51.7,
+      "text": "知識已經結束了我們總結一下過一下",
+      "source": "raw"
+    },
+    {
+      "start": 51.7,
+      "end": 58.450688,
+      "text": "已經結束了,我們總結一下過一下,架構工具這些都很重要。Harness、Multi-Agent。",
+      "source": "recheck"
+    },
+    {
+      "start": 58.450688,
+      "end": 67.450688,
+      "text": "怎麼構建一個多Agent能調大模型的?不是多Agent時代嗎?而是能時時的輕鬆去分析的一些大模型。",
+      "source": "recheck"
+    },
+    {
+      "start": 67.450688,
+      "end": 81.410688,
+      "text": "好 沒有問題 我們休息一會 最後 最後也就十分通了 我們最後聊一聊天",
+      "source": "recheck"
+    },
+    {
+      "start": 81.410688,
+      "end": 88.330688,
+      "text": "關於 剛才老師也說了很多FDE OPC 簡單聊一下 好 我們休息一下",
+      "source": "recheck"
+    }
+  ],
+  "text": "裝了這些SuperPower AgentReach所以它會自動幫我調用的然後它幫我搜索這個GitHub上面找到這個就幫我創建那其實我最常用的就這兩個最最最常用SuperPower跟這個AgentReach 當然還有很多其他的只是說這兩個我覺得是最實在的這邊有沒有甚麼問題我們還有大概十幾二十分鐘了那我們再休息一下最後只能跟大家聊聊天知識已經結束了我們總結一下過一下已經結束了,我們總結一下過一下,架構工具這些都很重要。Harness、Multi-Agent。怎麼構建一個多Agent能調大模型的?不是多Agent時代嗎?而是能時時的輕鬆去分析的一些大模型。好 沒有問題 我們休息一會 最後 最後也就十分通了 我們最後聊一聊天關於 剛才老師也說了很多FDE OPC 簡單聊一下 好 我們休息一下"
+}

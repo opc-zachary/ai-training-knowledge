@@ -1,0 +1,451 @@
+{
+  "project": "AITrainingGuangzhou",
+  "client": "UNKNOWNCLIENT",
+  "status": "Cleaned_Review",
+  "video_id": "DJI_20260830165904_0013_D",
+  "session": "01_Afternoon_Channel",
+  "audio_duration": 138.837313,
+  "source": "complete_720p_LRF_proxy_with_targeted_rechecks",
+  "requires_4k_visual_proper_noun_review": true,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.44,
+      "text": "讓我兩把過來學習這個班",
+      "source": "raw"
+    },
+    {
+      "start": 2.44,
+      "end": 3.2600000000000002,
+      "text": "好",
+      "source": "raw"
+    },
+    {
+      "start": 3.2600000000000002,
+      "end": 4.24,
+      "text": "就是",
+      "source": "raw"
+    },
+    {
+      "start": 4.24,
+      "end": 5.12,
+      "text": "跟我聊",
+      "source": "raw"
+    },
+    {
+      "start": 5.12,
+      "end": 5.46,
+      "text": "好",
+      "source": "raw"
+    },
+    {
+      "start": 5.46,
+      "end": 6.24,
+      "text": "跟你聊好了",
+      "source": "raw"
+    },
+    {
+      "start": 6.24,
+      "end": 6.76,
+      "text": "好",
+      "source": "raw"
+    },
+    {
+      "start": 6.76,
+      "end": 7.04,
+      "text": "來",
+      "source": "raw"
+    },
+    {
+      "start": 7.04,
+      "end": 7.640000000000001,
+      "text": "接受我",
+      "source": "raw"
+    },
+    {
+      "start": 7.640000000000001,
+      "end": 7.84,
+      "text": "好",
+      "source": "raw"
+    },
+    {
+      "start": 7.84,
+      "end": 8.5,
+      "text": "接受一下",
+      "source": "raw"
+    },
+    {
+      "start": 8.5,
+      "end": 8.84,
+      "text": "好",
+      "source": "raw"
+    },
+    {
+      "start": 8.84,
+      "end": 13.46,
+      "text": "我是華晶隊的朱飛飛",
+      "source": "raw"
+    },
+    {
+      "start": 13.46,
+      "end": 16.86,
+      "text": "那今天就是受了一個",
+      "source": "raw"
+    },
+    {
+      "start": 16.86,
+      "end": 18.3,
+      "text": "緣分的邀請",
+      "source": "raw"
+    },
+    {
+      "start": 18.3,
+      "end": 22.06,
+      "text": "我正在開了一個JF客機",
+      "source": "raw"
+    },
+    {
+      "start": 22.06,
+      "end": 24.96,
+      "text": "所以我教到我們和Volk8D",
+      "source": "raw"
+    },
+    {
+      "start": 24.96,
+      "end": 28.0,
+      "text": "那是一些使用",
+      "source": "raw"
+    },
+    {
+      "start": 28.0,
+      "end": 32.86,
+      "text": "因為現在AI是這樣的一個大時代",
+      "source": "raw"
+    },
+    {
+      "start": 32.86,
+      "end": 34.8,
+      "text": "男生都要學AI",
+      "source": "raw"
+    },
+    {
+      "start": 34.8,
+      "end": 37.7,
+      "text": "所以其實我們一直都有在學習",
+      "source": "raw"
+    },
+    {
+      "start": 37.7,
+      "end": 39.76,
+      "text": "但是因為可能離AI的距離",
+      "source": "raw"
+    },
+    {
+      "start": 39.76,
+      "end": 41.24,
+      "text": "就是有點遠",
+      "source": "raw"
+    },
+    {
+      "start": 41.24,
+      "end": 43.36,
+      "text": "所以就學的技術都比較慢",
+      "source": "raw"
+    },
+    {
+      "start": 43.36,
+      "end": 46.86,
+      "text": "所以但是今天這兩天",
+      "source": "raw"
+    },
+    {
+      "start": 46.86,
+      "end": 50.46,
+      "text": "我們來這裡聽宏爺",
+      "source": "raw"
+    },
+    {
+      "start": 50.46,
+      "end": 54.14,
+      "text": "還有剛才的一位老師",
+      "source": "raw"
+    },
+    {
+      "start": 54.14,
+      "end": 58.14,
+      "text": "一邊講的很細",
+      "source": "raw"
+    },
+    {
+      "start": 58.14,
+      "end": 59.6,
+      "text": "然後對對",
+      "source": "raw"
+    },
+    {
+      "start": 59.6,
+      "end": 60.58,
+      "text": "我們的工作很大",
+      "source": "raw"
+    },
+    {
+      "start": 60.58,
+      "end": 61.38,
+      "text": "特別就是",
+      "source": "raw"
+    },
+    {
+      "start": 61.38,
+      "end": 63.84,
+      "text": "昨天我們也講到一些具體的操作",
+      "source": "raw"
+    },
+    {
+      "start": 63.84,
+      "end": 64.64,
+      "text": "一邊講",
+      "source": "raw"
+    },
+    {
+      "start": 64.64,
+      "end": 66.88,
+      "text": "然後一邊讓我們做一些實操",
+      "source": "raw"
+    },
+    {
+      "start": 66.88,
+      "end": 69.64,
+      "text": "覺得說話很大",
+      "source": "raw"
+    },
+    {
+      "start": 69.64,
+      "end": 70.84,
+      "text": "對",
+      "source": "raw"
+    },
+    {
+      "start": 70.84,
+      "end": 71.48,
+      "text": "好",
+      "source": "raw"
+    },
+    {
+      "start": 71.48,
+      "end": 72.0,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 72.0,
+      "end": 73.6,
+      "text": "那我就繼續提問",
+      "source": "raw"
+    },
+    {
+      "start": 73.6,
+      "end": 76.58,
+      "text": "現在有大量的網上的一些AI課程",
+      "source": "raw"
+    },
+    {
+      "start": 76.58,
+      "end": 80.03999999999999,
+      "text": "那你其實學習的時候也可以上AI課的提問",
+      "source": "raw"
+    },
+    {
+      "start": 80.03999999999999,
+      "end": 82.32,
+      "text": "那你覺得為甚麼我們要去參加一些",
+      "source": "raw"
+    },
+    {
+      "start": 82.32,
+      "end": 83.52,
+      "text": "現下的課程",
+      "source": "raw"
+    },
+    {
+      "start": 83.52,
+      "end": 84.58,
+      "text": "然後的課程呢",
+      "source": "raw"
+    },
+    {
+      "start": 84.58,
+      "end": 87.42,
+      "text": "就是實際上",
+      "source": "raw"
+    },
+    {
+      "start": 87.42,
+      "end": 90.03999999999999,
+      "text": "剛才我們今天聽了課以後",
+      "source": "raw"
+    },
+    {
+      "start": 90.03999999999999,
+      "end": 92.44,
+      "text": "可能老師反復的告訴我們說",
+      "source": "raw"
+    },
+    {
+      "start": 92.44,
+      "end": 95.82,
+      "text": "有甚麼不會的實在你就問AI就好了",
+      "source": "raw"
+    },
+    {
+      "start": 95.82,
+      "end": 97.03999999999999,
+      "text": "AI都會交給你",
+      "source": "raw"
+    },
+    {
+      "start": 97.04,
+      "end": 100.18,
+      "text": "但是有時候其實可能也是一個亂性",
+      "source": "raw"
+    },
+    {
+      "start": 100.18,
+      "end": 102.24000000000001,
+      "text": "我們從小說的教育一直就是",
+      "source": "raw"
+    },
+    {
+      "start": 102.24000000000001,
+      "end": 104.2,
+      "text": "老師教我們要這樣這樣這樣",
+      "source": "raw"
+    },
+    {
+      "start": 104.2,
+      "end": 107.48,
+      "text": "思維還沒有那麼快的轉變過來說",
+      "source": "raw"
+    },
+    {
+      "start": 107.48,
+      "end": 108.60000000000001,
+      "text": "我有甚麼不會",
+      "source": "raw"
+    },
+    {
+      "start": 108.60000000000001,
+      "end": 109.64,
+      "text": "實際上我就問了",
+      "source": "raw"
+    },
+    {
+      "start": 109.64,
+      "end": 111.04,
+      "text": "AI是最好的老師",
+      "source": "raw"
+    },
+    {
+      "start": 111.04,
+      "end": 112.68,
+      "text": "所以還有一個慣性",
+      "source": "raw"
+    },
+    {
+      "start": 112.68,
+      "end": 113.80000000000001,
+      "text": "但是我覺得這個",
+      "source": "raw"
+    },
+    {
+      "start": 113.80000000000001,
+      "end": 114.92,
+      "text": "這個習慣",
+      "source": "raw"
+    },
+    {
+      "start": 114.92,
+      "end": 117.14000000000001,
+      "text": "這個跟這個AI時代的發展",
+      "source": "raw"
+    },
+    {
+      "start": 117.14000000000001,
+      "end": 119.94000000000001,
+      "text": "它應該慢慢慢慢真的會轉變",
+      "source": "raw"
+    },
+    {
+      "start": 119.94000000000001,
+      "end": 121.94000000000001,
+      "text": "就是說實際上人人都可以",
+      "source": "raw"
+    },
+    {
+      "start": 121.94000000000001,
+      "end": 124.9,
+      "text": "把AI就是自己的老師",
+      "source": "raw"
+    },
+    {
+      "start": 124.9,
+      "end": 126.76,
+      "text": "所以還需要一個過程",
+      "source": "raw"
+    },
+    {
+      "start": 126.76,
+      "end": 129.76,
+      "text": "所以我們現在需要到線下來試試",
+      "source": "raw"
+    },
+    {
+      "start": 129.76,
+      "end": 130.76,
+      "text": "好",
+      "source": "raw"
+    },
+    {
+      "start": 130.76,
+      "end": 131.32,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 131.32,
+      "end": 132.52,
+      "text": "那基本上OK",
+      "source": "raw"
+    },
+    {
+      "start": 132.52,
+      "end": 134.06,
+      "text": "我們的這一次採訪",
+      "source": "raw"
+    },
+    {
+      "start": 134.06,
+      "end": 134.82,
+      "text": "好",
+      "source": "raw"
+    },
+    {
+      "start": 134.82,
+      "end": 137.82,
+      "text": "然後就可以先把BiPhone摘下來",
+      "source": "raw"
+    },
+    {
+      "start": 137.82,
+      "end": 138.52,
+      "text": "我在裡面",
+      "source": "raw"
+    },
+    {
+      "start": 138.52,
+      "end": 138.76,
+      "text": "在這裡",
+      "source": "raw"
+    }
+  ],
+  "text": "讓我兩把過來學習這個班好就是跟我聊好跟你聊好了好來接受我好接受一下好我是華晶隊的朱飛飛那今天就是受了一個緣分的邀請我正在開了一個JF客機所以我教到我們和Volk8D那是一些使用因為現在AI是這樣的一個大時代男生都要學AI所以其實我們一直都有在學習但是因為可能離AI的距離就是有點遠所以就學的技術都比較慢所以但是今天這兩天我們來這裡聽宏爺還有剛才的一位老師一邊講的很細然後對對我們的工作很大特別就是昨天我們也講到一些具體的操作一邊講然後一邊讓我們做一些實操覺得說話很大對好OK那我就繼續提問現在有大量的網上的一些AI課程那你其實學習的時候也可以上AI課的提問那你覺得為甚麼我們要去參加一些現下的課程然後的課程呢就是實際上剛才我們今天聽了課以後可能老師反復的告訴我們說有甚麼不會的實在你就問AI就好了AI都會交給你但是有時候其實可能也是一個亂性我們從小說的教育一直就是老師教我們要這樣這樣這樣思維還沒有那麼快的轉變過來說我有甚麼不會實際上我就問了AI是最好的老師所以還有一個慣性但是我覺得這個這個習慣這個跟這個AI時代的發展它應該慢慢慢慢真的會轉變就是說實際上人人都可以把AI就是自己的老師所以還需要一個過程所以我們現在需要到線下來試試好OK那基本上OK我們的這一次採訪好然後就可以先把BiPhone摘下來我在裡面在這裡"
+}

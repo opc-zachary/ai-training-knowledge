@@ -1,0 +1,2203 @@
+{
+  "project": "AITrainingGuangzhou",
+  "client": "UNKNOWNCLIENT",
+  "status": "Cleaned_Review",
+  "video_id": "DJI_20260830145621_0004_D",
+  "session": "01_Afternoon_Channel",
+  "audio_duration": 943.850688,
+  "source": "complete_720p_LRF_proxy_with_targeted_rechecks",
+  "requires_4k_visual_proper_noun_review": true,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.58,
+      "text": "很慢 第二個 拖坑一直燒很貴",
+      "source": "raw"
+    },
+    {
+      "start": 3.58,
+      "end": 7.42,
+      "text": "第三個 對吧 我嘗試了 我本來呢",
+      "source": "raw"
+    },
+    {
+      "start": 7.42,
+      "end": 10.88,
+      "text": "想做那個錄屏操作網 我說我要錄這個東西",
+      "source": "raw"
+    },
+    {
+      "start": 10.88,
+      "end": 15.1,
+      "text": "你幫我直接錄屏 最後幫我做成那個教學視頻這樣子",
+      "source": "raw"
+    },
+    {
+      "start": 15.1,
+      "end": 18.88,
+      "text": "結果它很慢 然後出錯 然後拖坑一直燒",
+      "source": "raw"
+    },
+    {
+      "start": 18.88,
+      "end": 23.44,
+      "text": "最後拜拜 給人用的東西就是不適合給Agent用啊",
+      "source": "raw"
+    },
+    {
+      "start": 23.44,
+      "end": 27.6,
+      "text": "然後第二個呢 我說CLI跟API到底是甚麼東西啊",
+      "source": "raw"
+    },
+    {
+      "start": 27.6,
+      "end": 33.1,
+      "text": "就是通過一些終端啊 我們可以無論是人還是Agent都可以去調用",
+      "source": "raw"
+    },
+    {
+      "start": 33.1,
+      "end": 36.1,
+      "text": "而且速度很快的一些命令行啊",
+      "source": "raw"
+    },
+    {
+      "start": 36.1,
+      "end": 39.1,
+      "text": "那第三個呢 就是我們說的NCP啊",
+      "source": "raw"
+    },
+    {
+      "start": 39.1,
+      "end": 45.8,
+      "text": "它有一個跟Agent已經那個協議已經打通了所有的工具呢",
+      "source": "raw"
+    },
+    {
+      "start": 45.8,
+      "end": 48.980000000000004,
+      "text": "都可以讓Agent調用的一個協議啊",
+      "source": "raw"
+    },
+    {
+      "start": 48.980000000000004,
+      "end": 52.8,
+      "text": "但是呢 這個有甚麼缺點呢 我們來看一看啊",
+      "source": "raw"
+    },
+    {
+      "start": 52.8,
+      "end": 58.3,
+      "text": "好 所以我其實沒有講那些甚麼特殊的工具啊",
+      "source": "raw"
+    },
+    {
+      "start": 58.3,
+      "end": 60.8,
+      "text": "甚麼小龍蝦甚麼用啊 這些可能呢",
+      "source": "raw"
+    },
+    {
+      "start": 60.8,
+      "end": 63.3,
+      "text": "過兩個月它就變成了考古項目了啊",
+      "source": "raw"
+    },
+    {
+      "start": 63.3,
+      "end": 66.3,
+      "text": "所以我們說我們講的是工具的底層",
+      "source": "raw"
+    },
+    {
+      "start": 66.3,
+      "end": 68.3,
+      "text": "到底它甚麼原理呢",
+      "source": "raw"
+    },
+    {
+      "start": 68.3,
+      "end": 71.8,
+      "text": "怎麼讓它自動調用去運行得到你的結果呢",
+      "source": "raw"
+    },
+    {
+      "start": 71.8,
+      "end": 80.3,
+      "text": "好 這裡呢 我還是先把我的助教請出來吧",
+      "source": "raw"
+    },
+    {
+      "start": 80.3,
+      "end": 83.8,
+      "text": "OK 這個不是我的助教了 這個是我錄的",
+      "source": "raw"
+    },
+    {
+      "start": 83.8,
+      "end": 88.3,
+      "text": "這個是我真的手錄的 因為我嘗試過那Condex錄不太行",
+      "source": "raw"
+    },
+    {
+      "start": 88.3,
+      "end": 91.3,
+      "text": "我們現在瞭解一下 好 這個是甚麼效果呢",
+      "source": "raw"
+    },
+    {
+      "start": 91.3,
+      "end": 96.3,
+      "text": "這是一個 我們在做我們 比如說我們做我們的知識庫啊 對吧",
+      "source": "raw"
+    },
+    {
+      "start": 96.3,
+      "end": 103.3,
+      "text": "我好多知識啊 好多文章啊 對吧 難道我要一篇一篇的拉進去給我的電腦嗎",
+      "source": "raw"
+    },
+    {
+      "start": 103.3,
+      "end": 106.3,
+      "text": "不太現實 對吧 如果沒有一千篇怎麼辦",
+      "source": "raw"
+    },
+    {
+      "start": 106.3,
+      "end": 109.3,
+      "text": "OK 那所以我們現在要先學習",
+      "source": "raw"
+    },
+    {
+      "start": 109.3,
+      "end": 112.3,
+      "text": "GUI 用人去拉是怎麼拉的",
+      "source": "raw"
+    },
+    {
+      "start": 112.3,
+      "end": 114.8,
+      "text": "然後用CLI 用命令卡怎麼拉的",
+      "source": "raw"
+    },
+    {
+      "start": 114.8,
+      "end": 117.8,
+      "text": "然後第三個 我們用API 怎麼寫成程序",
+      "source": "raw"
+    },
+    {
+      "start": 117.8,
+      "end": 119.3,
+      "text": "批量拉的 對吧",
+      "source": "raw"
+    },
+    {
+      "start": 119.3,
+      "end": 122.8,
+      "text": "然後MCP 怎麼跟Agent對話來讓Powlo拉的",
+      "source": "raw"
+    },
+    {
+      "start": 122.8,
+      "end": 124.3,
+      "text": "我們來看一下啊",
+      "source": "raw"
+    },
+    {
+      "start": 124.3,
+      "end": 135.3,
+      "text": "好 這個就是我們先想要創知識庫了",
+      "source": "raw"
+    },
+    {
+      "start": 135.3,
+      "end": 139.3,
+      "text": "你可以用Face 書 你也可以用GitHub 你也可以用Lotion",
+      "source": "raw"
+    },
+    {
+      "start": 139.3,
+      "end": 142.3,
+      "text": "不同的工具 它其實就是一個文章庫啊",
+      "source": "raw"
+    },
+    {
+      "start": 142.3,
+      "end": 145.3,
+      "text": "那我自己平時存的一些文章啊",
+      "source": "raw"
+    },
+    {
+      "start": 145.3,
+      "end": 148.3,
+      "text": "但是你如果要發現一篇很好的新文章",
+      "source": "raw"
+    },
+    {
+      "start": 148.3,
+      "end": 151.3,
+      "text": "那我不是要人去拉嗎 對吧 我要先創一個",
+      "source": "raw"
+    },
+    {
+      "start": 151.3,
+      "end": 155.3,
+      "text": "我的一個文章庫 對吧",
+      "source": "raw"
+    },
+    {
+      "start": 155.3,
+      "end": 164.3,
+      "text": "嗯 這麼辦呢 然後當時應該把視頻調快一點",
+      "source": "raw"
+    },
+    {
+      "start": 164.3,
+      "end": 185.3,
+      "text": "好 那畢竟它是酷嘛 我們用一個表格給它裝起來啊",
+      "source": "raw"
+    },
+    {
+      "start": 185.3,
+      "end": 189.3,
+      "text": "所以你就要手動去操作 去調用這樣的表格",
+      "source": "raw"
+    },
+    {
+      "start": 189.3,
+      "end": 193.3,
+      "text": "然後呢 我開始要找文章了 我發現有的篇非常好的",
+      "source": "raw"
+    },
+    {
+      "start": 193.3,
+      "end": 195.3,
+      "text": "那我是不是要把它存起來啊",
+      "source": "raw"
+    },
+    {
+      "start": 195.3,
+      "end": 217.3,
+      "text": "這邊我再也推薦大家去看啊 怎麼構建一個很有效的一個agent啊",
+      "source": "raw"
+    },
+    {
+      "start": 217.3,
+      "end": 221.3,
+      "text": "CALCO 寫了 其實OpenAI跟CALCO 寫了 其實OpenAI跟CALCO",
+      "source": "raw"
+    },
+    {
+      "start": 221.3,
+      "end": 223.3,
+      "text": "它定時都會發很多關於AI的一些",
+      "source": "raw"
+    },
+    {
+      "start": 223.3,
+      "end": 227.3,
+      "text": "一些怎麼使用的一些文章啊 其實非常好的",
+      "source": "raw"
+    },
+    {
+      "start": 233.3,
+      "end": 234.3,
+      "text": "非常慢 因為我在手動",
+      "source": "raw"
+    },
+    {
+      "start": 234.3,
+      "end": 238.3,
+      "text": "對吧 這個就是GUI 我們用界面去保存我們的文章",
+      "source": "raw"
+    },
+    {
+      "start": 238.3,
+      "end": 241.3,
+      "text": "然後再把這個鏈接給複製上去",
+      "source": "raw"
+    },
+    {
+      "start": 241.3,
+      "end": 254.3,
+      "text": "好 搞定了 那我們試一下用命令堂來操作啊",
+      "source": "raw"
+    },
+    {
+      "start": 254.3,
+      "end": 259.3,
+      "text": "誒 這個東西你看了 不要覺得很複雜啊",
+      "source": "raw"
+    },
+    {
+      "start": 259.3,
+      "end": 262.3,
+      "text": "到最後不用你操作了 都是讓AGE去操作了",
+      "source": "raw"
+    },
+    {
+      "start": 262.3,
+      "end": 266.3,
+      "text": "你只是告訴他 你幫我用CLI 搞定這篇文章 結束",
+      "source": "raw"
+    },
+    {
+      "start": 266.3,
+      "end": 268.3,
+      "text": "對吧 你不要想的是你操作啊",
+      "source": "raw"
+    },
+    {
+      "start": 268.3,
+      "end": 271.3,
+      "text": "我只是給你理解一下 他到底在幹甚麼",
+      "source": "raw"
+    },
+    {
+      "start": 271.3,
+      "end": 276.3,
+      "text": "所以你用CLI 你必須要先圖到你的這個數據庫的一個ID",
+      "source": "raw"
+    },
+    {
+      "start": 276.3,
+      "end": 278.3,
+      "text": "它會有一個Token 你需要",
+      "source": "raw"
+    },
+    {
+      "start": 278.3,
+      "end": 281.3,
+      "text": "首先你需要在命令行 登錄你自己的賬號 對吧",
+      "source": "raw"
+    },
+    {
+      "start": 281.3,
+      "end": 283.3,
+      "text": "然後你要定位到這個文章庫",
+      "source": "raw"
+    },
+    {
+      "start": 283.3,
+      "end": 287.3,
+      "text": "所以你要去找到這個 它的一個Token",
+      "source": "raw"
+    },
+    {
+      "start": 287.3,
+      "end": 289.3,
+      "text": "一個地方 定位的地方",
+      "source": "raw"
+    },
+    {
+      "start": 289.3,
+      "end": 292.3,
+      "text": "輸完了以後 它才知道 我要加到這個庫裡面",
+      "source": "raw"
+    },
+    {
+      "start": 292.3,
+      "end": 295.3,
+      "text": "對吧 測試一下 已經連通了 OK",
+      "source": "raw"
+    },
+    {
+      "start": 295.3,
+      "end": 302.3,
+      "text": "好 我再看一下 這個你需要有安裝好這個NTN",
+      "source": "raw"
+    },
+    {
+      "start": 302.3,
+      "end": 304.3,
+      "text": "就是Notion的一些命令行的工具啊",
+      "source": "raw"
+    },
+    {
+      "start": 304.3,
+      "end": 308.3,
+      "text": "然後BOK呢 就是經常用的 檢查一下這個工具有沒有問題啊",
+      "source": "raw"
+    },
+    {
+      "start": 308.3,
+      "end": 310.3,
+      "text": "目前 API接口是OK的",
+      "source": "raw"
+    },
+    {
+      "start": 310.3,
+      "end": 315.3,
+      "text": "然後這一串命令呢 就是它幫我把這篇文章存進去了",
+      "source": "raw"
+    },
+    {
+      "start": 315.3,
+      "end": 319.3,
+      "text": "非常快 Enter一下 存進去了 已經",
+      "source": "raw"
+    },
+    {
+      "start": 319.3,
+      "end": 321.3,
+      "text": "這個我們叫CLI 了",
+      "source": "raw"
+    },
+    {
+      "start": 321.3,
+      "end": 324.3,
+      "text": "那API怎麼做啊 我不要看的很複雜",
+      "source": "raw"
+    },
+    {
+      "start": 324.3,
+      "end": 326.3,
+      "text": "都是 AI 寫的代碼",
+      "source": "raw"
+    },
+    {
+      "start": 326.3,
+      "end": 329.3,
+      "text": "然後這時候呢 要新增一些東西了",
+      "source": "raw"
+    },
+    {
+      "start": 329.3,
+      "end": 332.3,
+      "text": "因為你要用API 你就是一個開發者",
+      "source": "raw"
+    },
+    {
+      "start": 332.3,
+      "end": 334.3,
+      "text": "你必須要申請它的一個API 接口",
+      "source": "raw"
+    },
+    {
+      "start": 334.3,
+      "end": 338.3,
+      "text": "所以這時候呢 我會先申請一個API 接口",
+      "source": "raw"
+    },
+    {
+      "start": 338.3,
+      "end": 341.3,
+      "text": "這一出案呢 剛剛那一出案就是API 接口了",
+      "source": "raw"
+    },
+    {
+      "start": 341.3,
+      "end": 359.3,
+      "text": "好 這個是我剛申請的API 接口",
+      "source": "raw"
+    },
+    {
+      "start": 359.3,
+      "end": 362.3,
+      "text": "有了以後我就可以跟它的API 去交互了",
+      "source": "raw"
+    },
+    {
+      "start": 362.3,
+      "end": 367.3,
+      "text": "就可以通過代碼去操作它 並且告訴它我文章的位置",
+      "source": "raw"
+    },
+    {
+      "start": 367.3,
+      "end": 379.3,
+      "text": "好 這些腳本呢 是AI幫我寫好了 不是我寫的",
+      "source": "raw"
+    },
+    {
+      "start": 379.3,
+      "end": 384.3,
+      "text": "然後我讓它進入我這個文件夾 找到我這個腳本",
+      "source": "raw"
+    },
+    {
+      "start": 388.3,
+      "end": 392.3,
+      "text": "然後呢 運起 AI 給我寫完的這篇保存這個",
+      "source": "raw"
+    },
+    {
+      "start": 392.3,
+      "end": 395.3,
+      "text": "保存這篇文章的移傳系統",
+      "source": "raw"
+    },
+    {
+      "start": 395.3,
+      "end": 398.3,
+      "text": "到時候可以復用的 就是我再換一篇文章",
+      "source": "raw"
+    },
+    {
+      "start": 398.3,
+      "end": 402.3,
+      "text": "讓AI給它100篇文章 它掉這個API 就幫你存進去了",
+      "source": "raw"
+    },
+    {
+      "start": 402.3,
+      "end": 403.3,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 413.3,
+      "end": 414.3,
+      "text": "好 你看這一串",
+      "source": "raw"
+    },
+    {
+      "start": 414.3,
+      "end": 419.3,
+      "text": "來 有一個JSON 文件 告訴它名字是甚麼 鏈接在哪裡",
+      "source": "raw"
+    },
+    {
+      "start": 419.3,
+      "end": 424.3,
+      "text": "OK 然後這是AI寫的 怎麼來復用的一個保存的腳本",
+      "source": "raw"
+    },
+    {
+      "start": 424.3,
+      "end": 426.3,
+      "text": "你都不用看懂它是乾啥",
+      "source": "raw"
+    },
+    {
+      "start": 426.3,
+      "end": 432.3,
+      "text": "你就要告訴它 API token 還有那個數據庫的一個ID",
+      "source": "raw"
+    },
+    {
+      "start": 432.3,
+      "end": 434.3,
+      "text": "好 不用看 結束",
+      "source": "raw"
+    },
+    {
+      "start": 434.3,
+      "end": 436.3,
+      "text": "然後我們就直接運行",
+      "source": "raw"
+    },
+    {
+      "start": 436.3,
+      "end": 437.3,
+      "text": "現在沒有嘛 對吧",
+      "source": "raw"
+    },
+    {
+      "start": 437.3,
+      "end": 440.3,
+      "text": "然後我運行 AI有寫的腳本",
+      "source": "raw"
+    },
+    {
+      "start": 440.3,
+      "end": 441.3,
+      "text": "Enter一下",
+      "source": "raw"
+    },
+    {
+      "start": 441.3,
+      "end": 443.3,
+      "text": "結束了 出來了",
+      "source": "raw"
+    },
+    {
+      "start": 443.3,
+      "end": 444.3,
+      "text": "Enter一下",
+      "source": "raw"
+    },
+    {
+      "start": 444.3,
+      "end": 445.3,
+      "text": "結束了 出來了",
+      "source": "raw"
+    },
+    {
+      "start": 445.3,
+      "end": 447.3,
+      "text": "Enter API 存進去了",
+      "source": "raw"
+    },
+    {
+      "start": 451.3,
+      "end": 452.3,
+      "text": "NCP是現在的",
+      "source": "raw"
+    },
+    {
+      "start": 452.3,
+      "end": 453.3,
+      "text": "打雷了",
+      "source": "raw"
+    },
+    {
+      "start": 453.3,
+      "end": 455.3,
+      "text": "NCP是現在很簡單的一個做法",
+      "source": "raw"
+    },
+    {
+      "start": 455.3,
+      "end": 458.3,
+      "text": "你直接 再插件你安放Lotion",
+      "source": "raw"
+    },
+    {
+      "start": 458.3,
+      "end": 460.3,
+      "text": "然後用自然語言命令它",
+      "source": "raw"
+    },
+    {
+      "start": 460.3,
+      "end": 463.3,
+      "text": "你的小弟給我存這篇文章結束",
+      "source": "raw"
+    },
+    {
+      "start": 463.3,
+      "end": 465.3,
+      "text": "然後你只要通過NCP協議",
+      "source": "raw"
+    },
+    {
+      "start": 465.3,
+      "end": 469.3,
+      "text": "再打開Codex",
+      "source": "raw"
+    },
+    {
+      "start": 474.3,
+      "end": 475.3,
+      "text": "!需要稍微鏈接一下",
+      "source": "raw"
+    },
+    {
+      "start": 475.3,
+      "end": 477.3,
+      "text": "然後你的Codex就搞定了",
+      "source": "raw"
+    },
+    {
+      "start": 477.3,
+      "end": 478.3,
+      "text": "你的Lotion就搞定了",
+      "source": "raw"
+    },
+    {
+      "start": 478.3,
+      "end": 480.3,
+      "text": "然後這時候呢 你去用自然語言啊",
+      "source": "raw"
+    },
+    {
+      "start": 480.3,
+      "end": 484.3,
+      "text": "告訴他 我要存這篇文章",
+      "source": "raw"
+    },
+    {
+      "start": 484.3,
+      "end": 486.3,
+      "text": "Enter一下就可以了",
+      "source": "raw"
+    },
+    {
+      "start": 496.3,
+      "end": 497.3,
+      "text": "其實也不用拍我這視頻",
+      "source": "raw"
+    },
+    {
+      "start": 497.3,
+      "end": 498.3,
+      "text": "KPT 你們要的話",
+      "source": "raw"
+    },
+    {
+      "start": 498.3,
+      "end": 500.3,
+      "text": "我到時候直接都給你們",
+      "source": "raw"
+    },
+    {
+      "start": 500.3,
+      "end": 501.3,
+      "text": "沒問題了",
+      "source": "raw"
+    },
+    {
+      "start": 501.3,
+      "end": 502.3,
+      "text": "這不是甚麼",
+      "source": "raw"
+    },
+    {
+      "start": 502.3,
+      "end": 504.3,
+      "text": "對 我也希望這個AI領域",
+      "source": "raw"
+    },
+    {
+      "start": 504.3,
+      "end": 505.3,
+      "text": "多一些老師出來啊",
+      "source": "raw"
+    },
+    {
+      "start": 505.3,
+      "end": 506.3,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 506.3,
+      "end": 508.3,
+      "text": "有機會也可以合作啊",
+      "source": "raw"
+    },
+    {
+      "start": 508.3,
+      "end": 509.3,
+      "text": "是吧",
+      "source": "raw"
+    },
+    {
+      "start": 517.3,
+      "end": 518.3,
+      "text": "那這個的缺點是甚麼",
+      "source": "raw"
+    },
+    {
+      "start": 518.3,
+      "end": 519.3,
+      "text": "第一個很慢",
+      "source": "raw"
+    },
+    {
+      "start": 519.3,
+      "end": 520.3,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 520.3,
+      "end": 522.3,
+      "text": "因為你要轉",
+      "source": "raw"
+    },
+    {
+      "start": 522.3,
+      "end": 523.3,
+      "text": "轉持修夾量",
+      "source": "raw"
+    },
+    {
+      "start": 523.3,
+      "end": 525.3,
+      "text": "然後你讓AI知道你乾嘛",
+      "source": "raw"
+    },
+    {
+      "start": 525.3,
+      "end": 527.3,
+      "text": "然後AI知道你要調NCP",
+      "source": "raw"
+    },
+    {
+      "start": 527.3,
+      "end": 528.3,
+      "text": "最後開始調",
+      "source": "raw"
+    },
+    {
+      "start": 528.3,
+      "end": 530.3,
+      "text": "調完了開始找那篇文章",
+      "source": "raw"
+    },
+    {
+      "start": 530.3,
+      "end": 532.3,
+      "text": "最後再去",
+      "source": "raw"
+    },
+    {
+      "start": 532.3,
+      "end": 533.3,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 533.3,
+      "end": 534.3,
+      "text": "最後再去存進去",
+      "source": "raw"
+    },
+    {
+      "start": 534.3,
+      "end": 535.3,
+      "text": "其實這個鏈路了非常長的",
+      "source": "raw"
+    },
+    {
+      "start": 535.3,
+      "end": 537.3,
+      "text": "所以我們說NCP好用是好用",
+      "source": "raw"
+    },
+    {
+      "start": 537.3,
+      "end": 538.3,
+      "text": "又慢又貴",
+      "source": "raw"
+    },
+    {
+      "start": 538.3,
+      "end": 539.3,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 539.3,
+      "end": 540.3,
+      "text": "所以我們為甚麼會說",
+      "source": "raw"
+    },
+    {
+      "start": 540.3,
+      "end": 542.3,
+      "text": "我們大部分情況下做開發",
+      "source": "raw"
+    },
+    {
+      "start": 542.3,
+      "end": 546.3,
+      "text": "就是讓Codex去寫API的一些代碼",
+      "source": "raw"
+    },
+    {
+      "start": 546.3,
+      "end": 547.3,
+      "text": "因為你能復用的話",
+      "source": "raw"
+    },
+    {
+      "start": 547.3,
+      "end": 549.3,
+      "text": "下一次連Token就燒那麼一點點",
+      "source": "raw"
+    },
+    {
+      "start": 549.3,
+      "end": 551.3,
+      "text": "你就完成了所有的任務了",
+      "source": "raw"
+    },
+    {
+      "start": 551.3,
+      "end": 553.3,
+      "text": "你看不是我故意拖時間是他用NCP就是這麼慢",
+      "source": "raw"
+    },
+    {
+      "start": 553.3,
+      "end": 554.3,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 554.3,
+      "end": 555.3,
+      "text": "但這裡是我們的所有的任務",
+      "source": "raw"
+    },
+    {
+      "start": 555.3,
+      "end": 556.3,
+      "text": "但這裡呢有一個問題存在的",
+      "source": "raw"
+    },
+    {
+      "start": 556.3,
+      "end": 557.3,
+      "text": "大家覺得是甚麼問題啊",
+      "source": "raw"
+    },
+    {
+      "start": 557.3,
+      "end": 558.3,
+      "text": "大家覺得是甚麼問題啊",
+      "source": "raw"
+    },
+    {
+      "start": 558.3,
+      "end": 560.3,
+      "text": "你們可以感覺一下這甚麼問題呢",
+      "source": "raw"
+    },
+    {
+      "start": 560.3,
+      "end": 561.3,
+      "text": "我放了一個甚麼出來",
+      "source": "raw"
+    },
+    {
+      "start": 561.3,
+      "end": 562.3,
+      "text": "我放了一個甚麼出來",
+      "source": "raw"
+    },
+    {
+      "start": 562.3,
+      "end": 564.3,
+      "text": "我現在看出來了",
+      "source": "raw"
+    },
+    {
+      "start": 564.3,
+      "end": 565.3,
+      "text": "放了一個甚麼錯誤呢",
+      "source": "raw"
+    },
+    {
+      "start": 565.3,
+      "end": 566.3,
+      "text": "我現在看出來了",
+      "source": "raw"
+    },
+    {
+      "start": 566.3,
+      "end": 567.3,
+      "text": "放了一個啥錯誤啊",
+      "source": "raw"
+    },
+    {
+      "start": 567.3,
+      "end": 569.3,
+      "text": "其實這麼低端的任務呢",
+      "source": "raw"
+    },
+    {
+      "start": 569.3,
+      "end": 570.3,
+      "text": "用NUNA就可以了啊",
+      "source": "raw"
+    },
+    {
+      "start": 570.3,
+      "end": 596.3,
+      "text": "我調用了SOUL",
+      "source": "raw"
+    },
+    {
+      "start": 596.3,
+      "end": 597.3,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 597.3,
+      "end": 598.3,
+      "text": "其實SOUL呢是又貴又慢的",
+      "source": "raw"
+    },
+    {
+      "start": 598.3,
+      "end": 601.3,
+      "text": "你其實這麼清晰的任務啊",
+      "source": "raw"
+    },
+    {
+      "start": 601.3,
+      "end": 603.3,
+      "text": "直接LUNA就可以了",
+      "source": "raw"
+    },
+    {
+      "start": 603.3,
+      "end": 605.3,
+      "text": "壓根也不用燒甚麼都可以",
+      "source": "raw"
+    },
+    {
+      "start": 605.3,
+      "end": 606.3,
+      "text": "那是我習慣不是用SOUL HIGH",
+      "source": "raw"
+    },
+    {
+      "start": 606.3,
+      "end": 608.3,
+      "text": "就是就是超SOUL HIGH",
+      "source": "raw"
+    },
+    {
+      "start": 608.3,
+      "end": 609.3,
+      "text": "所以呢",
+      "source": "raw"
+    },
+    {
+      "start": 609.3,
+      "end": 610.3,
+      "text": "!習慣了沒辦法",
+      "source": "raw"
+    },
+    {
+      "start": 610.3,
+      "end": 611.3,
+      "text": "貴就貴了",
+      "source": "raw"
+    },
+    {
+      "start": 623.3,
+      "end": 624.3,
+      "text": "所以其實一個視頻呢",
+      "source": "raw"
+    },
+    {
+      "start": 624.3,
+      "end": 626.3,
+      "text": "才能更清晰的讓大家知道啊",
+      "source": "raw"
+    },
+    {
+      "start": 626.3,
+      "end": 627.3,
+      "text": "我們不要一",
+      "source": "raw"
+    },
+    {
+      "start": 627.3,
+      "end": 629.3,
+      "text": "我之前也試過啊",
+      "source": "raw"
+    },
+    {
+      "start": 629.3,
+      "end": 630.3,
+      "text": "說甚麼GNUN啊",
+      "source": "raw"
+    },
+    {
+      "start": 630.3,
+      "end": 632.3,
+      "text": "可以用界面生視頻啊",
+      "source": "raw"
+    },
+    {
+      "start": 632.3,
+      "end": 633.3,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 633.3,
+      "end": 634.3,
+      "text": "然後我那時候就說",
+      "source": "raw"
+    },
+    {
+      "start": 634.3,
+      "end": 636.3,
+      "text": "他的那個CLI啊",
+      "source": "raw"
+    },
+    {
+      "start": 636.3,
+      "end": 637.3,
+      "text": "就是命令行啊",
+      "source": "raw"
+    },
+    {
+      "start": 637.3,
+      "end": 638.3,
+      "text": "飛書也有CLI",
+      "source": "raw"
+    },
+    {
+      "start": 638.3,
+      "end": 639.3,
+      "text": "在GitAO上面很火的",
+      "source": "raw"
+    },
+    {
+      "start": 639.3,
+      "end": 641.3,
+      "text": "就是你可以用CLI去",
+      "source": "raw"
+    },
+    {
+      "start": 641.3,
+      "end": 643.3,
+      "text": "來創建你",
+      "source": "raw"
+    },
+    {
+      "start": 643.3,
+      "end": 644.3,
+      "text": "自能創建你的飛書",
+      "source": "raw"
+    },
+    {
+      "start": 644.3,
+      "end": 646.3,
+      "text": "跟我剛才做Lotion是一樣的",
+      "source": "raw"
+    },
+    {
+      "start": 646.3,
+      "end": 647.3,
+      "text": "你就跟Agent說",
+      "source": "raw"
+    },
+    {
+      "start": 647.3,
+      "end": 650.3,
+      "text": "他就是能幫你裝很多的飛書的",
+      "source": "raw"
+    },
+    {
+      "start": 650.3,
+      "end": 651.3,
+      "text": "支持庫出來啊",
+      "source": "raw"
+    },
+    {
+      "start": 651.3,
+      "end": 655.3,
+      "text": "所以不要嘗試用Agent去調這些GUI",
+      "source": "raw"
+    },
+    {
+      "start": 655.3,
+      "end": 657.3,
+      "text": "真的很笨很傻很貴",
+      "source": "raw"
+    },
+    {
+      "start": 657.3,
+      "end": 659.3,
+      "text": "所以你有GUI的",
+      "source": "raw"
+    },
+    {
+      "start": 659.3,
+      "end": 660.3,
+      "text": "所以現在我們說",
+      "source": "raw"
+    },
+    {
+      "start": 660.3,
+      "end": 662.3,
+      "text": "為甚麼CLI這麼火啊",
+      "source": "raw"
+    },
+    {
+      "start": 662.3,
+      "end": 664.3,
+      "text": "那個港大還出了一個項目",
+      "source": "raw"
+    },
+    {
+      "start": 664.3,
+      "end": 666.3,
+      "text": "叫CLI Anything",
+      "source": "raw"
+    },
+    {
+      "start": 666.3,
+      "end": 667.3,
+      "text": "就是他可以",
+      "source": "raw"
+    },
+    {
+      "start": 667.3,
+      "end": 668.3,
+      "text": "他這個GitAO項目很厲害了",
+      "source": "raw"
+    },
+    {
+      "start": 668.3,
+      "end": 670.3,
+      "text": "所有的軟件他可以倒推出",
+      "source": "raw"
+    },
+    {
+      "start": 670.3,
+      "end": 672.3,
+      "text": "給你開發做CLI出來",
+      "source": "raw"
+    },
+    {
+      "start": 672.3,
+      "end": 674.3,
+      "text": "CLI才是給Agent用的啊",
+      "source": "raw"
+    },
+    {
+      "start": 674.3,
+      "end": 675.3,
+      "text": "你都可以選用啊",
+      "source": "raw"
+    },
+    {
+      "start": 675.3,
+      "end": 676.3,
+      "text": "搞清楚這個點啊",
+      "source": "raw"
+    },
+    {
+      "start": 677.3,
+      "end": 678.3,
+      "text": "我嘗試過的",
+      "source": "raw"
+    },
+    {
+      "start": 678.3,
+      "end": 680.3,
+      "text": "用Computer Use",
+      "source": "raw"
+    },
+    {
+      "start": 680.3,
+      "end": 681.3,
+      "text": "去調用Gimon",
+      "source": "raw"
+    },
+    {
+      "start": 681.3,
+      "end": 684.3,
+      "text": "然後自動拉視頻進去啊",
+      "source": "raw"
+    },
+    {
+      "start": 684.3,
+      "end": 685.3,
+      "text": "那個",
+      "source": "raw"
+    },
+    {
+      "start": 685.3,
+      "end": 686.3,
+      "text": "你都肯燒光了",
+      "source": "raw"
+    },
+    {
+      "start": 686.3,
+      "end": 687.3,
+      "text": "都還沒出一個視頻",
+      "source": "raw"
+    },
+    {
+      "start": 687.3,
+      "end": 688.3,
+      "text": "所以大家呢",
+      "source": "raw"
+    },
+    {
+      "start": 688.3,
+      "end": 689.3,
+      "text": "要有這個概念",
+      "source": "raw"
+    },
+    {
+      "start": 690.3,
+      "end": 691.3,
+      "text": "第一個概念甚麼",
+      "source": "raw"
+    },
+    {
+      "start": 691.3,
+      "end": 692.3,
+      "text": "這個東西",
+      "source": "raw"
+    },
+    {
+      "start": 692.3,
+      "end": 693.3,
+      "text": "我要用這個工具",
+      "source": "raw"
+    },
+    {
+      "start": 693.3,
+      "end": 695.3,
+      "text": "它有沒有CLI",
+      "source": "raw"
+    },
+    {
+      "start": 695.3,
+      "end": 696.3,
+      "text": "我不需要打開中端",
+      "source": "raw"
+    },
+    {
+      "start": 696.3,
+      "end": 697.3,
+      "text": "我只要跟Agent說",
+      "source": "raw"
+    },
+    {
+      "start": 697.3,
+      "end": 699.3,
+      "text": "我要調這個CLI",
+      "source": "raw"
+    },
+    {
+      "start": 699.3,
+      "end": 700.3,
+      "text": "我給這個第一點",
+      "source": "raw"
+    },
+    {
+      "start": 700.3,
+      "end": 701.3,
+      "text": "你這個任務",
+      "source": "raw"
+    },
+    {
+      "start": 701.3,
+      "end": 702.3,
+      "text": "是不是重復的",
+      "source": "raw"
+    },
+    {
+      "start": 702.3,
+      "end": 703.3,
+      "text": "可以的話",
+      "source": "raw"
+    },
+    {
+      "start": 703.3,
+      "end": 705.3,
+      "text": "可以把這個程度寫成API的一些腳本",
+      "source": "raw"
+    },
+    {
+      "start": 705.3,
+      "end": 706.3,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 706.3,
+      "end": 707.3,
+      "text": "那下一次呢",
+      "source": "raw"
+    },
+    {
+      "start": 707.3,
+      "end": 708.3,
+      "text": "他就能夠重復的",
+      "source": "raw"
+    },
+    {
+      "start": 708.3,
+      "end": 710.3,
+      "text": "通過API來完成你的任務",
+      "source": "raw"
+    },
+    {
+      "start": 710.3,
+      "end": 711.3,
+      "text": "非常快",
+      "source": "raw"
+    },
+    {
+      "start": 711.3,
+      "end": 712.3,
+      "text": "非常省",
+      "source": "raw"
+    },
+    {
+      "start": 712.3,
+      "end": 713.3,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 715.3,
+      "end": 716.3,
+      "text": "特別是你們搭建系統的時候啊",
+      "source": "raw"
+    },
+    {
+      "start": 716.3,
+      "end": 718.3,
+      "text": "千萬不要每一部都用NCP",
+      "source": "raw"
+    },
+    {
+      "start": 718.3,
+      "end": 720.3,
+      "text": "或者是GLI",
+      "source": "raw"
+    },
+    {
+      "start": 720.3,
+      "end": 722.3,
+      "text": "這種比較笨的東西啊",
+      "source": "raw"
+    },
+    {
+      "start": 722.3,
+      "end": 723.3,
+      "text": "這樣的話你",
+      "source": "raw"
+    },
+    {
+      "start": 723.3,
+      "end": 724.3,
+      "text": "弄起來了",
+      "source": "raw"
+    },
+    {
+      "start": 724.3,
+      "end": 725.3,
+      "text": "又慢又貴",
+      "source": "raw"
+    },
+    {
+      "start": 725.3,
+      "end": 726.3,
+      "text": "你就不會想用了",
+      "source": "raw"
+    },
+    {
+      "start": 726.3,
+      "end": 727.3,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 730.3,
+      "end": 731.3,
+      "text": "但CLI呢",
+      "source": "raw"
+    },
+    {
+      "start": 731.3,
+      "end": 732.3,
+      "text": "你自己要注意啊",
+      "source": "raw"
+    },
+    {
+      "start": 732.3,
+      "end": 733.3,
+      "text": "你要有幾個點",
+      "source": "raw"
+    },
+    {
+      "start": 733.3,
+      "end": 734.3,
+      "text": "這個PPT都給你們了",
+      "source": "raw"
+    },
+    {
+      "start": 734.3,
+      "end": 735.3,
+      "text": "你們回去",
+      "source": "raw"
+    },
+    {
+      "start": 735.3,
+      "end": 736.3,
+      "text": "如果你不能運行了",
+      "source": "raw"
+    },
+    {
+      "start": 736.3,
+      "end": 738.3,
+      "text": "你要注意這幾個點",
+      "source": "raw"
+    },
+    {
+      "start": 738.3,
+      "end": 739.3,
+      "text": "第一個",
+      "source": "raw"
+    },
+    {
+      "start": 739.3,
+      "end": 740.3,
+      "text": "你的東西",
+      "source": "raw"
+    },
+    {
+      "start": 740.3,
+      "end": 742.3,
+      "text": "包括Notion的那個工具",
+      "source": "raw"
+    },
+    {
+      "start": 742.3,
+      "end": 743.3,
+      "text": "跟飛速的工具",
+      "source": "raw"
+    },
+    {
+      "start": 743.3,
+      "end": 744.3,
+      "text": "有沒有安裝好了",
+      "source": "raw"
+    },
+    {
+      "start": 744.3,
+      "end": 746.3,
+      "text": "然後安裝好了以後",
+      "source": "raw"
+    },
+    {
+      "start": 746.3,
+      "end": 747.3,
+      "text": "它依賴的環境有沒有配好了",
+      "source": "raw"
+    },
+    {
+      "start": 747.3,
+      "end": 748.3,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 748.3,
+      "end": 749.3,
+      "text": "這些你都不用考慮",
+      "source": "raw"
+    },
+    {
+      "start": 749.3,
+      "end": 751.3,
+      "text": "就讓AI把你檢查",
+      "source": "raw"
+    },
+    {
+      "start": 751.3,
+      "end": 752.3,
+      "text": "AI把你裝",
+      "source": "raw"
+    },
+    {
+      "start": 752.3,
+      "end": 753.3,
+      "text": "然後AI把你完成",
+      "source": "raw"
+    },
+    {
+      "start": 753.3,
+      "end": 754.3,
+      "text": "就可以了",
+      "source": "raw"
+    },
+    {
+      "start": 754.3,
+      "end": 755.3,
+      "text": "環境OK了",
+      "source": "raw"
+    },
+    {
+      "start": 755.3,
+      "end": 757.3,
+      "text": "先做一些最小幣環",
+      "source": "raw"
+    },
+    {
+      "start": 757.3,
+      "end": 758.3,
+      "text": "試一下是不是通了",
+      "source": "raw"
+    },
+    {
+      "start": 758.3,
+      "end": 760.3,
+      "text": "是缺了那個ID呢",
+      "source": "raw"
+    },
+    {
+      "start": 760.3,
+      "end": 762.3,
+      "text": "還是缺了甚麼API token呢",
+      "source": "raw"
+    },
+    {
+      "start": 762.3,
+      "end": 763.3,
+      "text": "之前你慢慢測試",
+      "source": "raw"
+    },
+    {
+      "start": 763.3,
+      "end": 764.3,
+      "text": "最後執行出來",
+      "source": "raw"
+    },
+    {
+      "start": 764.3,
+      "end": 765.3,
+      "text": "效果OK了",
+      "source": "raw"
+    },
+    {
+      "start": 765.3,
+      "end": 767.3,
+      "text": "再開始大量的寫小本了",
+      "source": "raw"
+    },
+    {
+      "start": 767.3,
+      "end": 778.3,
+      "text": "所以其實呢",
+      "source": "raw"
+    },
+    {
+      "start": 778.3,
+      "end": 780.3,
+      "text": "通過剛剛的視頻跟",
+      "source": "raw"
+    },
+    {
+      "start": 780.3,
+      "end": 781.3,
+      "text": "跟",
+      "source": "raw"
+    },
+    {
+      "start": 781.3,
+      "end": 782.3,
+      "text": "呃",
+      "source": "raw"
+    },
+    {
+      "start": 785.3,
+      "end": 786.3,
+      "text": "跟這個PPTR",
+      "source": "raw"
+    },
+    {
+      "start": 786.3,
+      "end": 787.3,
+      "text": "比我講更好啊",
+      "source": "raw"
+    },
+    {
+      "start": 787.3,
+      "end": 788.3,
+      "text": "對",
+      "source": "raw"
+    },
+    {
+      "start": 788.3,
+      "end": 789.3,
+      "text": "所以你能更好的瞭解",
+      "source": "raw"
+    },
+    {
+      "start": 789.3,
+      "end": 791.3,
+      "text": "真正升級的不是Notion",
+      "source": "raw"
+    },
+    {
+      "start": 791.3,
+      "end": 792.3,
+      "text": "而是執行者",
+      "source": "raw"
+    },
+    {
+      "start": 792.3,
+      "end": 793.3,
+      "text": "會不會要用Agent",
+      "source": "raw"
+    },
+    {
+      "start": 793.3,
+      "end": 796.3,
+      "text": "來使用這個CLI跟API",
+      "source": "raw"
+    },
+    {
+      "start": 796.3,
+      "end": 800.3,
+      "text": "那他們的區別我剛才已經重復強調了",
+      "source": "raw"
+    },
+    {
+      "start": 800.3,
+      "end": 802.3,
+      "text": "也在PPT裡面有了",
+      "source": "raw"
+    },
+    {
+      "start": 806.3,
+      "end": 807.3,
+      "text": "這個控製成本應該是高材是不是",
+      "source": "raw"
+    },
+    {
+      "start": 807.3,
+      "end": 808.3,
+      "text": "寫錯了",
+      "source": "raw"
+    },
+    {
+      "start": 812.3,
+      "end": 813.3,
+      "text": "然後MCP是",
+      "source": "raw"
+    },
+    {
+      "start": 813.3,
+      "end": 814.3,
+      "text": "比較慢",
+      "source": "raw"
+    },
+    {
+      "start": 814.3,
+      "end": 815.3,
+      "text": "而且比較貴的",
+      "source": "raw"
+    },
+    {
+      "start": 815.3,
+      "end": 817.3,
+      "text": "但是對小白來說",
+      "source": "raw"
+    },
+    {
+      "start": 817.3,
+      "end": 819.3,
+      "text": "大部分人其實還是用MCP為主的",
+      "source": "raw"
+    },
+    {
+      "start": 819.3,
+      "end": 820.3,
+      "text": "因為太方便了",
+      "source": "raw"
+    },
+    {
+      "start": 820.3,
+      "end": 822.3,
+      "text": "只要命令他就可以了",
+      "source": "raw"
+    },
+    {
+      "start": 822.3,
+      "end": 826.3,
+      "text": "這個回去你們太嘗試了",
+      "source": "raw"
+    },
+    {
+      "start": 826.3,
+      "end": 828.3,
+      "text": "我這邊就不給大家做實操了",
+      "source": "raw"
+    },
+    {
+      "start": 828.3,
+      "end": 829.3,
+      "text": "因為大家",
+      "source": "raw"
+    },
+    {
+      "start": 829.3,
+      "end": 830.3,
+      "text": "其實",
+      "source": "raw"
+    },
+    {
+      "start": 830.3,
+      "end": 832.3,
+      "text": "聽了那麼多課也很辛苦",
+      "source": "raw"
+    },
+    {
+      "start": 832.3,
+      "end": 834.3,
+      "text": "我只是給大家一個概念",
+      "source": "raw"
+    },
+    {
+      "start": 834.3,
+      "end": 835.3,
+      "text": "大家回去了",
+      "source": "raw"
+    },
+    {
+      "start": 835.3,
+      "end": 838.3,
+      "text": "真的要用到的時候再去操作了",
+      "source": "raw"
+    },
+    {
+      "start": 843.3,
+      "end": 845.3,
+      "text": "好這邊在簡單給他講一個知識庫",
+      "source": "raw"
+    },
+    {
+      "start": 845.3,
+      "end": 848.3,
+      "text": "大家回去了如果想自己做啊",
+      "source": "raw"
+    },
+    {
+      "start": 848.3,
+      "end": 851.3,
+      "text": "那就是可以選一個對吧",
+      "source": "raw"
+    },
+    {
+      "start": 851.3,
+      "end": 854.3,
+      "text": "那有個很出名的Opcedian",
+      "source": "raw"
+    },
+    {
+      "start": 854.3,
+      "end": 855.3,
+      "text": "Opcedian",
+      "source": "raw"
+    },
+    {
+      "start": 855.3,
+      "end": 857.3,
+      "text": "對這個就是國外一直說",
+      "source": "raw"
+    },
+    {
+      "start": 857.3,
+      "end": 858.3,
+      "text": "哇那個多維圖啊",
+      "source": "raw"
+    },
+    {
+      "start": 858.3,
+      "end": 860.3,
+      "text": "甚麼詞箱跟地圖一樣的",
+      "source": "raw"
+    },
+    {
+      "start": 860.3,
+      "end": 862.3,
+      "text": "你如果有這麼多知識",
+      "source": "raw"
+    },
+    {
+      "start": 862.3,
+      "end": 863.3,
+      "text": "那是可以用那個的",
+      "source": "raw"
+    },
+    {
+      "start": 863.3,
+      "end": 864.3,
+      "text": "那不然",
+      "source": "raw"
+    },
+    {
+      "start": 865.3,
+      "end": 866.3,
+      "text": "比如說跟同事分享啊",
+      "source": "raw"
+    },
+    {
+      "start": 866.3,
+      "end": 868.3,
+      "text": "跟組織裡面",
+      "source": "raw"
+    },
+    {
+      "start": 868.3,
+      "end": 869.3,
+      "text": "能夠分享的",
+      "source": "raw"
+    },
+    {
+      "start": 869.3,
+      "end": 872.3,
+      "text": "那飛書可能國內是用的最多最方便的",
+      "source": "raw"
+    },
+    {
+      "start": 872.3,
+      "end": 873.3,
+      "text": "那如果你的知識呢",
+      "source": "raw"
+    },
+    {
+      "start": 873.3,
+      "end": 874.3,
+      "text": "大部分是代碼啊",
+      "source": "raw"
+    },
+    {
+      "start": 874.3,
+      "end": 876.3,
+      "text": "那就用GitHub會好一點",
+      "source": "raw"
+    },
+    {
+      "start": 876.3,
+      "end": 878.3,
+      "text": "那Loncent呢",
+      "source": "raw"
+    },
+    {
+      "start": 878.3,
+      "end": 879.3,
+      "text": "就是幫助自己學習啊",
+      "source": "raw"
+    },
+    {
+      "start": 879.3,
+      "end": 880.3,
+      "text": "或者",
+      "source": "raw"
+    },
+    {
+      "start": 880.3,
+      "end": 883.3,
+      "text": "它有付費版的很多是跟企業相關的功能啊",
+      "source": "raw"
+    },
+    {
+      "start": 883.3,
+      "end": 884.3,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 884.3,
+      "end": 886.3,
+      "text": "但其實這些都是付費的",
+      "source": "raw"
+    },
+    {
+      "start": 888.3,
+      "end": 889.3,
+      "text": "所以大家回去呢",
+      "source": "raw"
+    },
+    {
+      "start": 889.3,
+      "end": 892.3,
+      "text": "就可以先給自己的小任務嘗試一下",
+      "source": "raw"
+    },
+    {
+      "start": 892.3,
+      "end": 893.3,
+      "text": "對吧",
+      "source": "raw"
+    },
+    {
+      "start": 893.3,
+      "end": 894.3,
+      "text": "甚麼建一個小小的知識庫",
+      "source": "raw"
+    },
+    {
+      "start": 894.3,
+      "end": 896.3,
+      "text": "幫助自己學AI也好啊",
+      "source": "raw"
+    },
+    {
+      "start": 896.3,
+      "end": 898.3,
+      "text": "完成自己的工作也好啊",
+      "source": "raw"
+    },
+    {
+      "start": 898.3,
+      "end": 899.3,
+      "text": "等等",
+      "source": "raw"
+    },
+    {
+      "start": 899.3,
+      "end": 905.3,
+      "text": "好",
+      "source": "raw"
+    },
+    {
+      "start": 905.3,
+      "end": 906.3,
+      "text": "講完工具呢",
+      "source": "raw"
+    },
+    {
+      "start": 906.3,
+      "end": 907.3,
+      "text": "那現在",
+      "source": "raw"
+    },
+    {
+      "start": 907.3,
+      "end": 909.3,
+      "text": "我們總結一下啊",
+      "source": "raw"
+    },
+    {
+      "start": 909.3,
+      "end": 910.3,
+      "text": "前面呢",
+      "source": "raw"
+    },
+    {
+      "start": 910.3,
+      "end": 911.3,
+      "text": "我們講啊",
+      "source": "raw"
+    },
+    {
+      "start": 911.3,
+      "end": 912.3,
+      "text": "要調用最好的模型",
+      "source": "raw"
+    },
+    {
+      "start": 912.3,
+      "end": 913.3,
+      "text": "然後再來呢",
+      "source": "raw"
+    },
+    {
+      "start": 913.3,
+      "end": 914.3,
+      "text": "怎麼進架構",
+      "source": "raw"
+    },
+    {
+      "start": 914.3,
+      "end": 915.3,
+      "text": "接著有了架構",
+      "source": "raw"
+    },
+    {
+      "start": 915.3,
+      "end": 918.3,
+      "text": "我們知道怎麼讓Agent去調用工具",
+      "source": "raw"
+    },
+    {
+      "start": 918.3,
+      "end": 921.3,
+      "text": "能夠讓它長時間自動化的完成你的任務",
+      "source": "raw"
+    },
+    {
+      "start": 921.3,
+      "end": 922.3,
+      "text": "並且是",
+      "source": "raw"
+    },
+    {
+      "start": 922.3,
+      "end": 923.3,
+      "text": "神頭肯定快的",
+      "source": "raw"
+    },
+    {
+      "start": 923.3,
+      "end": 924.3,
+      "text": "好的",
+      "source": "raw"
+    },
+    {
+      "start": 924.3,
+      "end": 925.3,
+      "text": "接下來呢",
+      "source": "raw"
+    },
+    {
+      "start": 925.3,
+      "end": 926.3,
+      "text": "我們就會講這個Harness啊",
+      "source": "raw"
+    },
+    {
+      "start": 926.3,
+      "end": 930.3,
+      "text": "怎麼你在本地文件構建一些控制的東西",
+      "source": "raw"
+    },
+    {
+      "start": 930.3,
+      "end": 933.3,
+      "text": "讓你的Agent能夠越用越聰明",
+      "source": "raw"
+    },
+    {
+      "start": 933.3,
+      "end": 935.3,
+      "text": "越用越好用",
+      "source": "raw"
+    },
+    {
+      "start": 935.3,
+      "end": 936.3,
+      "text": "OK",
+      "source": "raw"
+    },
+    {
+      "start": 936.3,
+      "end": 937.3,
+      "text": "好我們先休息一會",
+      "source": "raw"
+    },
+    {
+      "start": 937.3,
+      "end": 938.3,
+      "text": "因為講師累的",
+      "source": "raw"
+    },
+    {
+      "start": 938.3,
+      "end": 940.3,
+      "text": "休息十分鐘",
+      "source": "raw"
+    },
+    {
+      "start": 940.3,
+      "end": 941.3,
+      "text": "好",
+      "source": "raw"
+    },
+    {
+      "start": 941.3,
+      "end": 942.3,
+      "text": "好",
+      "source": "raw"
+    },
+    {
+      "start": 942.3,
+      "end": 943.3,
+      "text": "好",
+      "source": "raw"
+    },
+    {
+      "start": 943.3,
+      "end": 943.850688,
+      "text": "好",
+      "source": "raw"
+    }
+  ],
+  "text": "很慢 第二個 拖坑一直燒很貴第三個 對吧 我嘗試了 我本來呢想做那個錄屏操作網 我說我要錄這個東西你幫我直接錄屏 最後幫我做成那個教學視頻這樣子結果它很慢 然後出錯 然後拖坑一直燒最後拜拜 給人用的東西就是不適合給Agent用啊然後第二個呢 我說CLI跟API到底是甚麼東西啊就是通過一些終端啊 我們可以無論是人還是Agent都可以去調用而且速度很快的一些命令行啊那第三個呢 就是我們說的NCP啊它有一個跟Agent已經那個協議已經打通了所有的工具呢都可以讓Agent調用的一個協議啊但是呢 這個有甚麼缺點呢 我們來看一看啊好 所以我其實沒有講那些甚麼特殊的工具啊甚麼小龍蝦甚麼用啊 這些可能呢過兩個月它就變成了考古項目了啊所以我們說我們講的是工具的底層到底它甚麼原理呢怎麼讓它自動調用去運行得到你的結果呢好 這裡呢 我還是先把我的助教請出來吧OK 這個不是我的助教了 這個是我錄的這個是我真的手錄的 因為我嘗試過那Condex錄不太行我們現在瞭解一下 好 這個是甚麼效果呢這是一個 我們在做我們 比如說我們做我們的知識庫啊 對吧我好多知識啊 好多文章啊 對吧 難道我要一篇一篇的拉進去給我的電腦嗎不太現實 對吧 如果沒有一千篇怎麼辦OK 那所以我們現在要先學習GUI 用人去拉是怎麼拉的然後用CLI 用命令卡怎麼拉的然後第三個 我們用API 怎麼寫成程序批量拉的 對吧然後MCP 怎麼跟Agent對話來讓Powlo拉的我們來看一下啊好 這個就是我們先想要創知識庫了你可以用Face 書 你也可以用GitHub 你也可以用Lotion不同的工具 它其實就是一個文章庫啊那我自己平時存的一些文章啊但是你如果要發現一篇很好的新文章那我不是要人去拉嗎 對吧 我要先創一個我的一個文章庫 對吧嗯 這麼辦呢 然後當時應該把視頻調快一點好 那畢竟它是酷嘛 我們用一個表格給它裝起來啊所以你就要手動去操作 去調用這樣的表格然後呢 我開始要找文章了 我發現有的篇非常好的那我是不是要把它存起來啊這邊我再也推薦大家去看啊 怎麼構建一個很有效的一個agent啊CALCO 寫了 其實OpenAI跟CALCO 寫了 其實OpenAI跟CALCO它定時都會發很多關於AI的一些一些怎麼使用的一些文章啊 其實非常好的非常慢 因為我在手動對吧 這個就是GUI 我們用界面去保存我們的文章然後再把這個鏈接給複製上去好 搞定了 那我們試一下用命令堂來操作啊誒 這個東西你看了 不要覺得很複雜啊到最後不用你操作了 都是讓AGE去操作了你只是告訴他 你幫我用CLI 搞定這篇文章 結束對吧 你不要想的是你操作啊我只是給你理解一下 他到底在幹甚麼所以你用CLI 你必須要先圖到你的這個數據庫的一個ID它會有一個Token 你需要首先你需要在命令行 登錄你自己的賬號 對吧然後你要定位到這個文章庫所以你要去找到這個 它的一個Token一個地方 定位的地方輸完了以後 它才知道 我要加到這個庫裡面對吧 測試一下 已經連通了 OK好 我再看一下 這個你需要有安裝好這個NTN就是Notion的一些命令行的工具啊然後BOK呢 就是經常用的 檢查一下這個工具有沒有問題啊目前 API接口是OK的然後這一串命令呢 就是它幫我把這篇文章存進去了非常快 Enter一下 存進去了 已經這個我們叫CLI 了那API怎麼做啊 我不要看的很複雜都是 AI 寫的代碼然後這時候呢 要新增一些東西了因為你要用API 你就是一個開發者你必須要申請它的一個API 接口所以這時候呢 我會先申請一個API 接口這一出案呢 剛剛那一出案就是API 接口了好 這個是我剛申請的API 接口有了以後我就可以跟它的API 去交互了就可以通過代碼去操作它 並且告訴它我文章的位置好 這些腳本呢 是AI幫我寫好了 不是我寫的然後我讓它進入我這個文件夾 找到我這個腳本然後呢 運起 AI 給我寫完的這篇保存這個保存這篇文章的移傳系統到時候可以復用的 就是我再換一篇文章讓AI給它100篇文章 它掉這個API 就幫你存進去了OK好 你看這一串來 有一個JSON 文件 告訴它名字是甚麼 鏈接在哪裡OK 然後這是AI寫的 怎麼來復用的一個保存的腳本你都不用看懂它是乾啥你就要告訴它 API token 還有那個數據庫的一個ID好 不用看 結束然後我們就直接運行現在沒有嘛 對吧然後我運行 AI有寫的腳本Enter一下結束了 出來了Enter一下結束了 出來了Enter API 存進去了NCP是現在的打雷了NCP是現在很簡單的一個做法你直接 再插件你安放Lotion然後用自然語言命令它你的小弟給我存這篇文章結束然後你只要通過NCP協議再打開Codex!需要稍微鏈接一下然後你的Codex就搞定了你的Lotion就搞定了然後這時候呢 你去用自然語言啊告訴他 我要存這篇文章Enter一下就可以了其實也不用拍我這視頻KPT 你們要的話我到時候直接都給你們沒問題了這不是甚麼對 我也希望這個AI領域多一些老師出來啊OK有機會也可以合作啊是吧那這個的缺點是甚麼第一個很慢對吧因為你要轉轉持修夾量然後你讓AI知道你乾嘛然後AI知道你要調NCP最後開始調調完了開始找那篇文章最後再去對吧最後再去存進去其實這個鏈路了非常長的所以我們說NCP好用是好用又慢又貴OK所以我們為甚麼會說我們大部分情況下做開發就是讓Codex去寫API的一些代碼因為你能復用的話下一次連Token就燒那麼一點點你就完成了所有的任務了你看不是我故意拖時間是他用NCP就是這麼慢對吧但這裡是我們的所有的任務但這裡呢有一個問題存在的大家覺得是甚麼問題啊大家覺得是甚麼問題啊你們可以感覺一下這甚麼問題呢我放了一個甚麼出來我放了一個甚麼出來我現在看出來了放了一個甚麼錯誤呢我現在看出來了放了一個啥錯誤啊其實這麼低端的任務呢用NUNA就可以了啊我調用了SOUL對吧其實SOUL呢是又貴又慢的你其實這麼清晰的任務啊直接LUNA就可以了壓根也不用燒甚麼都可以那是我習慣不是用SOUL HIGH就是就是超SOUL HIGH所以呢!習慣了沒辦法貴就貴了所以其實一個視頻呢才能更清晰的讓大家知道啊我們不要一我之前也試過啊說甚麼GNUN啊可以用界面生視頻啊對吧然後我那時候就說他的那個CLI啊就是命令行啊飛書也有CLI在GitAO上面很火的就是你可以用CLI去來創建你自能創建你的飛書跟我剛才做Lotion是一樣的你就跟Agent說他就是能幫你裝很多的飛書的支持庫出來啊所以不要嘗試用Agent去調這些GUI真的很笨很傻很貴所以你有GUI的所以現在我們說為甚麼CLI這麼火啊那個港大還出了一個項目叫CLI Anything就是他可以他這個GitAO項目很厲害了所有的軟件他可以倒推出給你開發做CLI出來CLI才是給Agent用的啊你都可以選用啊搞清楚這個點啊我嘗試過的用Computer Use去調用Gimon然後自動拉視頻進去啊那個你都肯燒光了都還沒出一個視頻所以大家呢要有這個概念第一個概念甚麼這個東西我要用這個工具它有沒有CLI我不需要打開中端我只要跟Agent說我要調這個CLI我給這個第一點你這個任務是不是重復的可以的話可以把這個程度寫成API的一些腳本對吧那下一次呢他就能夠重復的通過API來完成你的任務非常快非常省OK特別是你們搭建系統的時候啊千萬不要每一部都用NCP或者是GLI這種比較笨的東西啊這樣的話你弄起來了又慢又貴你就不會想用了OK但CLI呢你自己要注意啊你要有幾個點這個PPT都給你們了你們回去如果你不能運行了你要注意這幾個點第一個你的東西包括Notion的那個工具跟飛速的工具有沒有安裝好了然後安裝好了以後它依賴的環境有沒有配好了對吧這些你都不用考慮就讓AI把你檢查AI把你裝然後AI把你完成就可以了環境OK了先做一些最小幣環試一下是不是通了是缺了那個ID呢還是缺了甚麼API token呢之前你慢慢測試最後執行出來效果OK了再開始大量的寫小本了所以其實呢通過剛剛的視頻跟跟呃跟這個PPTR比我講更好啊對所以你能更好的瞭解真正升級的不是Notion而是執行者會不會要用Agent來使用這個CLI跟API那他們的區別我剛才已經重復強調了也在PPT裡面有了這個控製成本應該是高材是不是寫錯了然後MCP是比較慢而且比較貴的但是對小白來說大部分人其實還是用MCP為主的因為太方便了只要命令他就可以了這個回去你們太嘗試了我這邊就不給大家做實操了因為大家其實聽了那麼多課也很辛苦我只是給大家一個概念大家回去了真的要用到的時候再去操作了好這邊在簡單給他講一個知識庫大家回去了如果想自己做啊那就是可以選一個對吧那有個很出名的OpcedianOpcedian對這個就是國外一直說哇那個多維圖啊甚麼詞箱跟地圖一樣的你如果有這麼多知識那是可以用那個的那不然比如說跟同事分享啊跟組織裡面能夠分享的那飛書可能國內是用的最多最方便的那如果你的知識呢大部分是代碼啊那就用GitHub會好一點那Loncent呢就是幫助自己學習啊或者它有付費版的很多是跟企業相關的功能啊OK但其實這些都是付費的所以大家回去呢就可以先給自己的小任務嘗試一下對吧甚麼建一個小小的知識庫幫助自己學AI也好啊完成自己的工作也好啊等等好講完工具呢那現在我們總結一下啊前面呢我們講啊要調用最好的模型然後再來呢怎麼進架構接著有了架構我們知道怎麼讓Agent去調用工具能夠讓它長時間自動化的完成你的任務並且是神頭肯定快的好的接下來呢我們就會講這個Harness啊怎麼你在本地文件構建一些控制的東西讓你的Agent能夠越用越聰明越用越好用OK好我們先休息一會因為講師累的休息十分鐘好好好好"
+}

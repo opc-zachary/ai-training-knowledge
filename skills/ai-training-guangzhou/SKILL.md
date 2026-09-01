@@ -11,6 +11,7 @@ Use this skill to answer course questions, build a study sequence, locate the re
 
 - For Traditional Chinese, read [references/zh-Hant-course.md](references/zh-Hant-course.md).
 - For Simplified Chinese, read [references/zh-Hans-course.md](references/zh-Hans-course.md).
+- When running from this repository and the user needs detailed Day 2 evidence, route through `day-2/README.md`, then the matching guide, timestamped transcript and QA JSON.
 
 - For models, Agents, local workflow safety, research, Xiaohongshu insight, author voice, visual production, AI video, data analysis or QA, read [references/day-1.md](references/day-1.md).
 - For workflow governance, GUI/CLI/API/MCP, Harness, Agent Team, FDE, OPC or Agent Boss, read [references/day-2.md](references/day-2.md).

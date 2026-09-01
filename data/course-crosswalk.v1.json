@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "content_version": "1.3.0",
+  "content_version": "1.4.0",
   "project": "AITrainingGuangzhou",
   "status": "public-derived-knowledge",
   "updated": "2026-09-01",
@@ -54,6 +54,16 @@
       "locales/zh-Hans/day-2-video-guides.md"
     ],
     "codex_skill": "skills/ai-training-guangzhou/SKILL.md",
+    "day2_detailed_package": {
+      "root": "day-2/README.md",
+      "calling_guide": "day-2/TEAM_CALLING_GUIDE.md",
+      "guides_zh_hant": "day-2/guides/zh-Hant",
+      "guides_zh_hans": "day-2/guides/zh-Hans",
+      "transcripts_zh_hant": "day-2/transcripts/zh-Hant",
+      "classification": "day-2/classification",
+      "keyframe_index": "day-2/evidence/keyframe-index.json",
+      "public_manifest": "day-2/manifests/day-2-public-manifest.json"
+    },
     "locales": {
       "zh-Hant": "locales/zh-Hant/README.md",
       "zh-Hans": "locales/zh-Hans/README.md",
@@ -161,7 +171,10 @@
       "usable_core_or_supporting": 13,
       "rejected_ambient_or_hallucination": 5,
       "cleaned_traditional_transcripts": 13,
-      "classification_frames": 117
+      "classification_frames": 117,
+      "individual_guides_zh_hant": 13,
+      "individual_guides_zh_hans": 13,
+      "cleaned_transcript_file_set": 65
     },
     "sessions": [
       {

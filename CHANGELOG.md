@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.0 — 2026-09-02
+
+- Added the complete Day 2 team knowledge package under `day-2/`.
+- Added 13 individual Traditional and Simplified Chinese guides plus two indexes per locale.
+- Added 65 cleaned transcript/SRT/JSON/QA files and 117 classification frames.
+- Added public media manifests, terminology normalization and Agent calling routes.
+
 ## 1.3.0 — 2026-09-01
 
 - Added Day 2 morning LaoHong and afternoon Channel video classification.

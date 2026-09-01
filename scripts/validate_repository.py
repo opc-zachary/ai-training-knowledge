@@ -41,7 +41,7 @@ PROHIBITED_TEXT = {
 }
 
 PUBLICATION_DIRS = (
-    "knowledge", "data", "skills", "examples", "playbooks", "templates", "exercises", "locales"
+    "knowledge", "data", "skills", "examples", "playbooks", "templates", "exercises", "locales", "day-2"
 )
 ROOT_PUBLICATION_FILES = (
     "README.md", "README.en.md", "SOURCE_BOUNDARIES.md", "SHARING_POLICY.md", "CHANGELOG.md"
@@ -91,6 +91,12 @@ def required_files(root: Path) -> list[Path]:
         "exercises/beginner.md",
         "exercises/practical.md",
         "exercises/verification.md",
+        "day-2/README.md",
+        "day-2/TEAM_CALLING_GUIDE.md",
+        "day-2/transcripts/README.md",
+        "day-2/classification/terminology.md",
+        "day-2/evidence/keyframe-index.json",
+        "day-2/manifests/day-2-public-manifest.json",
         "scripts/validate_repository.py",
         "tests/test_repository.py",
     ]
@@ -143,7 +149,11 @@ def scan_prohibited(root: Path) -> list[str]:
     findings: list[str] = []
     for path in repository_files(root):
         if path.suffix.lower() in PROHIBITED_EXTENSIONS:
-            findings.append(f"prohibited extension: {path.relative_to(root)}")
+            relative = path.relative_to(root).as_posix()
+            allowed_srt = path.suffix.lower() == ".srt" and relative.startswith("day-2/transcripts/zh-Hant/")
+            allowed_jpg = path.suffix.lower() in {".jpg", ".jpeg"} and relative.startswith("day-2/evidence/keyframes/")
+            if not allowed_srt and not allowed_jpg:
+                findings.append(f"prohibited extension: {relative}")
 
     for path in publication_files(root):
         if not path.is_file() or path.suffix.lower() not in {".md", ".json", ".txt"}:
@@ -236,6 +246,79 @@ def validate_markdown_links(root: Path) -> list[str]:
     return sorted(errors)
 
 
+def validate_day2_detailed_package(root: Path) -> list[str]:
+    errors: list[str] = []
+    base = root / "day-2"
+    hant_guides = list((base / "guides/zh-Hant").glob("*/*.md"))
+    hans_guides = list((base / "guides/zh-Hans").glob("*/*.md"))
+    if len(hant_guides) != 15:
+        errors.append(f"expected 15 zh-Hant Day 2 guides/indexes, found {len(hant_guides)}")
+    if len(hans_guides) != 15:
+        errors.append(f"expected 15 zh-Hans Day 2 guides/indexes, found {len(hans_guides)}")
+
+    transcript_root = base / "transcripts/zh-Hant"
+    expected_names = {"transcript.txt", "timestamped.txt", "subtitle.srt", "transcript.json", "qa.json"}
+    video_dirs = [path for path in transcript_root.glob("*/*") if path.is_dir()]
+    if len(video_dirs) != 13:
+        errors.append(f"expected 13 transcript directories, found {len(video_dirs)}")
+    for directory in video_dirs:
+        names = {path.name for path in directory.iterdir() if path.is_file()}
+        if names != expected_names:
+            errors.append(f"transcript file set mismatch: {directory.relative_to(root)}")
+        for json_name in ("transcript.json", "qa.json"):
+            try:
+                json.loads((directory / json_name).read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError) as exc:
+                errors.append(f"invalid transcript JSON {directory / json_name}: {exc}")
+
+    frame_files = list((base / "evidence/keyframes").glob("*/*.jpg"))
+    if len(frame_files) != 117:
+        errors.append(f"expected 117 keyframes, found {len(frame_files)}")
+    index_path = base / "evidence/keyframe-index.json"
+    try:
+        frame_index = json.loads(index_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        errors.append(f"invalid keyframe index: {exc}")
+        frame_index = {"count": 0, "frames": []}
+    if frame_index.get("count") != 117 or len(frame_index.get("frames", [])) != 117:
+        errors.append("keyframe index count mismatch")
+    for item in frame_index.get("frames", []):
+        path = root / item.get("path", "")
+        if not path.is_file():
+            errors.append(f"missing keyframe path: {item.get('path')}")
+            continue
+        if path.stat().st_size != item.get("size_bytes"):
+            errors.append(f"keyframe size mismatch: {item.get('path')}")
+        if sha256(path) != item.get("sha256"):
+            errors.append(f"keyframe hash mismatch: {item.get('path')}")
+
+    public_manifest_path = base / "manifests/day-2-public-manifest.json"
+    try:
+        public_manifest = json.loads(public_manifest_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        errors.append(f"invalid Day 2 public manifest: {exc}")
+        public_manifest = {}
+    if public_manifest.get("content_version") != "1.4.0":
+        errors.append("Day 2 public manifest content_version must be 1.4.0")
+    knowledge = public_manifest.get("knowledge", {})
+    if knowledge.get("usable_video_guides") != 13 or knowledge.get("cleaned_transcripts") != 13:
+        errors.append("Day 2 public manifest knowledge counts mismatch")
+    if knowledge.get("classification_frames") != 117:
+        errors.append("Day 2 public manifest frame count mismatch")
+
+    oversized = [path.relative_to(root).as_posix() for path in base.rglob("*") if path.is_file() and path.stat().st_size > 1_000_000]
+    if oversized:
+        errors.append(f"Day 2 Git package contains oversized files: {oversized}")
+    forbidden_media = [
+        path.relative_to(root).as_posix()
+        for path in base.rglob("*")
+        if path.is_file() and path.suffix.lower() in {".mp4", ".mov", ".lrf", ".pdf", ".zip"}
+    ]
+    if forbidden_media:
+        errors.append(f"Day 2 Git package contains source/binary media: {forbidden_media}")
+    return errors
+
+
 def validate_crosswalk(root: Path) -> list[str]:
     errors: list[str] = []
     path = root / "data" / "course-crosswalk.v1.json"
@@ -246,8 +329,8 @@ def validate_crosswalk(root: Path) -> list[str]:
 
     if data.get("schema_version") != "1.0.0":
         errors.append("crosswalk schema_version must be 1.0.0")
-    if data.get("content_version") != "1.3.0":
-        errors.append("crosswalk content_version must be 1.3.0")
+    if data.get("content_version") != "1.4.0":
+        errors.append("crosswalk content_version must be 1.4.0")
     if data.get("status") != "public-derived-knowledge":
         errors.append("crosswalk status must be public-derived-knowledge")
     distribution = data.get("distribution", {})
@@ -352,6 +435,7 @@ def validate(root: Path) -> list[str]:
     errors.extend(scan_prohibited(root))
     errors.extend(validate_markdown_links(root))
     errors.extend(validate_locales(root))
+    errors.extend(validate_day2_detailed_package(root))
     errors.extend(verify_manifest(root))
     return errors
 
