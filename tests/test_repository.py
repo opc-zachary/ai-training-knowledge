@@ -26,7 +26,10 @@ class RepositoryTests(unittest.TestCase):
     def test_crosswalk_contract(self):
         data = json.loads((ROOT / "data" / "course-crosswalk.v1.json").read_text())
         self.assertEqual(data["schema_version"], "1.0.0")
-        self.assertEqual(data["content_version"], "1.1.0")
+        self.assertEqual(data["content_version"], "1.2.0")
+        self.assertEqual(data["status"], "public-derived-knowledge")
+        self.assertEqual(data["distribution"]["repository_visibility"], "PUBLIC")
+        self.assertEqual(data["distribution"]["languages"], ["zh-Hant", "zh-Hans", "en"])
         modules = data["day1"]["modules"]
         self.assertEqual([item["id"] for item in modules], [f"K{i:02d}" for i in range(11)])
         video_ids = {
@@ -78,6 +81,14 @@ class RepositoryTests(unittest.TestCase):
 
     def test_markdown_links(self):
         self.assertEqual(self.validator.validate_markdown_links(ROOT), [])
+
+    def test_chinese_locales(self):
+        self.assertEqual(self.validator.validate_locales(ROOT), [])
+        for locale_name in ("zh-Hant", "zh-Hans"):
+            locale_root = ROOT / "locales" / locale_name
+            self.assertEqual(len(list(locale_root.glob("*.md"))), 9)
+        self.assertIn("繁體中文完整版", (ROOT / "locales/zh-Hant/README.md").read_text())
+        self.assertIn("简体中文完整版", (ROOT / "locales/zh-Hans/README.md").read_text())
 
     def test_manifest_hashes(self):
         errors = self.validator.verify_manifest(ROOT)

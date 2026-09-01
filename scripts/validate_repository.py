@@ -41,16 +41,17 @@ PROHIBITED_TEXT = {
 }
 
 PUBLICATION_DIRS = (
-    "knowledge", "data", "skills", "examples", "playbooks", "templates", "exercises"
+    "knowledge", "data", "skills", "examples", "playbooks", "templates", "exercises", "locales"
 )
 ROOT_PUBLICATION_FILES = (
-    "README.md", "SOURCE_BOUNDARIES.md", "SHARING_POLICY.md", "CHANGELOG.md"
+    "README.md", "README.en.md", "SOURCE_BOUNDARIES.md", "SHARING_POLICY.md", "CHANGELOG.md"
 )
 
 
 def required_files(root: Path) -> list[Path]:
     relative = [
         "README.md",
+        "README.en.md",
         "SOURCE_BOUNDARIES.md",
         "SHARING_POLICY.md",
         "CHANGELOG.md",
@@ -71,6 +72,8 @@ def required_files(root: Path) -> list[Path]:
         "skills/ai-training-guangzhou/references/task-router.md",
         "skills/ai-training-guangzhou/references/application-playbooks.md",
         "skills/ai-training-guangzhou/references/templates.md",
+        "skills/ai-training-guangzhou/references/zh-Hant-course.md",
+        "skills/ai-training-guangzhou/references/zh-Hans-course.md",
         "examples/github-api.md",
         "examples/codex-install.md",
         "playbooks/brand-research.md",
@@ -90,6 +93,19 @@ def required_files(root: Path) -> list[Path]:
         "scripts/validate_repository.py",
         "tests/test_repository.py",
     ]
+    locale_names = (
+        "README.md",
+        "full-course.md",
+        "day-1-video-guides.md",
+        "modules.md",
+        "playbooks.md",
+        "exercises-and-templates.md",
+        "glossary.md",
+        "day-2-reference.md",
+        "codex-usage.md",
+    )
+    for locale in ("zh-Hant", "zh-Hans"):
+        relative.extend(f"locales/{locale}/{name}" for name in locale_names)
     return [root / item for item in relative]
 
 
@@ -149,7 +165,49 @@ def resource_paths(data: dict) -> list[str]:
     skill = resources.get("codex_skill")
     if skill:
         paths.append(skill)
+    paths.extend(resources.get("locales", {}).values())
     return paths
+
+
+def validate_locales(root: Path) -> list[str]:
+    errors: list[str] = []
+    expected = {
+        "README.md",
+        "full-course.md",
+        "day-1-video-guides.md",
+        "modules.md",
+        "playbooks.md",
+        "exercises-and-templates.md",
+        "glossary.md",
+        "day-2-reference.md",
+        "codex-usage.md",
+    }
+    hant_root = root / "locales" / "zh-Hant"
+    hans_root = root / "locales" / "zh-Hans"
+    hant_names = {path.name for path in hant_root.glob("*.md")}
+    hans_names = {path.name for path in hans_root.glob("*.md")}
+    if hant_names != expected:
+        errors.append("zh-Hant file set does not match the nine expected locale files")
+    if hans_names != expected:
+        errors.append("zh-Hans file set does not match the nine expected locale files")
+
+    traditional_markers = set("這個為與學習資訊據驗證務圖發產業關閉開後裡說寫還")
+    for name in sorted(expected):
+        hant_path = hant_root / name
+        hans_path = hans_root / name
+        if not hant_path.is_file() or not hans_path.is_file():
+            continue
+        hant = hant_path.read_text(encoding="utf-8")
+        hans = hans_path.read_text(encoding="utf-8")
+        minimum_length = 400 if name in {"README.md", "day-2-reference.md", "codex-usage.md"} else 800
+        if len(hant) < minimum_length or len(hans) < minimum_length:
+            errors.append(f"locale content too small: {name}")
+        if hant.count("```") != hans.count("```"):
+            errors.append(f"code fence count differs between locales: {name}")
+        remaining = sorted(marker for marker in traditional_markers if marker in hans)
+        if remaining:
+            errors.append(f"traditional markers remain in zh-Hans/{name}: {''.join(remaining)}")
+    return errors
 
 
 def validate_markdown_links(root: Path) -> list[str]:
@@ -185,8 +243,15 @@ def validate_crosswalk(root: Path) -> list[str]:
 
     if data.get("schema_version") != "1.0.0":
         errors.append("crosswalk schema_version must be 1.0.0")
-    if data.get("content_version") != "1.1.0":
-        errors.append("crosswalk content_version must be 1.1.0")
+    if data.get("content_version") != "1.2.0":
+        errors.append("crosswalk content_version must be 1.2.0")
+    if data.get("status") != "public-derived-knowledge":
+        errors.append("crosswalk status must be public-derived-knowledge")
+    distribution = data.get("distribution", {})
+    if distribution.get("repository_visibility") != "PUBLIC":
+        errors.append("distribution repository_visibility must be PUBLIC")
+    if distribution.get("languages") != ["zh-Hant", "zh-Hans", "en"]:
+        errors.append("distribution languages must be zh-Hant, zh-Hans and en")
     modules = data.get("day1", {}).get("modules", [])
     ids = [item.get("id") for item in modules]
     if ids != [f"K{i:02d}" for i in range(11)]:
@@ -227,7 +292,7 @@ def build_manifest(root: Path) -> dict:
     return {
         "schema_version": "1.0.0",
         "project": "AITrainingGuangzhou",
-        "visibility_required": "PRIVATE",
+        "visibility_required": "PUBLIC",
         "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         "files": entries,
     }
@@ -277,6 +342,7 @@ def validate(root: Path) -> list[str]:
     errors.extend(validate_crosswalk(root))
     errors.extend(scan_prohibited(root))
     errors.extend(validate_markdown_links(root))
+    errors.extend(validate_locales(root))
     errors.extend(verify_manifest(root))
     return errors
 

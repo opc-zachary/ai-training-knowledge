@@ -1,25 +1,24 @@
-# Sharing Policy
+# Public Sharing Policy
 
-This is a private working repository for named GitHub collaborators.
+This is a public derived-knowledge repository. Anyone can read, clone and fork it.
 
 ## Access
 
-- Default collaborator permission: read-only pull access.
-- Do not make the repository public or enable GitHub Pages.
-- Do not mirror the repository to a public fork, Gist or file host.
-- Repository access may be revoked by the owner at any time.
+- Repository contents are publicly readable without GitHub login.
+- Write access remains controlled by the repository owner.
+- Public copies, forks and caches cannot be recalled after publication.
 
 ## Permitted use
 
-- Personal learning and internal discussion.
-- Authenticated retrieval of the JSON crosswalk.
-- Installation of the included Codex skill for the collaborator's own use.
+- Personal learning, teaching discussion and internal application.
+- Retrieval of the JSON crosswalk through the public Raw URL.
+- Installation of the included Codex skill.
 
 ## Not included in the permission
 
-- Republishing the knowledge package.
-- Redistributing original course material.
+- Claiming the repository contains or replaces the official course.
+- Redistributing original course material that is not included here.
 - Claiming the summaries are an official transcript or official course release.
 - Sharing GitHub credentials or access tokens.
 
-Any collaborator-specific account setup is performed by the collaborator through GitHub. This repository never stores their credentials.
+This repository never stores user credentials or access tokens.

@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0 — 2026-09-01
+
+- Added complete Traditional Chinese and Simplified Chinese learning editions.
+- Changed the root README to a Traditional Chinese language portal.
+- Added Chinese course, video, module, playbook, exercise, template, glossary and Codex guides.
+- Added bilingual Chinese routing references to the Codex Skill.
+- Prepared the repository and Raw JSON documentation for public access.
+
 ## 1.1.0 — 2026-09-01
 
 - Added ten detailed day-one video guides with timelines, interpretation and exercises.

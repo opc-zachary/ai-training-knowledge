@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "content_version": "1.1.0",
+  "content_version": "1.2.0",
   "project": "AITrainingGuangzhou",
-  "status": "private-derived-knowledge",
+  "status": "public-derived-knowledge",
   "updated": "2026-09-01",
   "source_boundary": {
     "contains_original_video": false,
@@ -10,6 +10,11 @@
     "contains_courseware_files": false,
     "contains_third_party_code": false,
     "day2_video_mapping_complete": false
+  },
+  "distribution": {
+    "repository_visibility": "PUBLIC",
+    "raw_json_url": "https://raw.githubusercontent.com/opc-zachary/ai-training-knowledge/main/data/course-crosswalk.v1.json",
+    "languages": ["zh-Hant", "zh-Hans", "en"]
   },
   "resources": {
     "video_guides": {
@@ -45,7 +50,12 @@
       "knowledge/learning-paths.md",
       "knowledge/glossary.md"
     ],
-    "codex_skill": "skills/ai-training-guangzhou/SKILL.md"
+    "codex_skill": "skills/ai-training-guangzhou/SKILL.md",
+    "locales": {
+      "zh-Hant": "locales/zh-Hant/README.md",
+      "zh-Hans": "locales/zh-Hans/README.md",
+      "en": "README.en.md"
+    }
   },
   "day1": {
     "teacher_label": "LaoHong",

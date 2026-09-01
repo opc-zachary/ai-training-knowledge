@@ -1,60 +1,51 @@
-# AI Training Guangzhou Knowledge
+# AI 培訓廣州｜公開知識庫
 
-Private, derived knowledge from the two-day AI Training Guangzhou programme. This repository is designed for invited collaborators who want to:
+這是一個根據兩天課程重新整理的衍生知識庫，提供繁體中文、簡體中文及英文版本。內容包括逐片學習指南、操作手冊、實戰 Playbook、練習、模板、JSON 索引及可安裝的 Codex Skill。
 
-- read the course map in Markdown;
-- retrieve a versioned JSON crosswalk through authenticated GitHub access;
-- install the included Codex skill for course-related questions.
+## 語言版本
 
-## Start here
+- [繁體中文完整版](locales/zh-Hant/README.md)
+- [简体中文完整版](locales/zh-Hans/README.md)
+- [English edition](README.en.md)
 
-- [Full course map](knowledge/full-course-map.md)
-- [Day 1 — LaoHong](knowledge/day-1-laohong.md)
-- [Day 2 — Channel reference](knowledge/day-2-channel-reference.md)
-- [Ten detailed Day 1 video guides](knowledge/videos/day-1/README.md)
-- [K00–K10 module handbooks](knowledge/modules/README.md)
-- [Task router](knowledge/task-router.md)
-- [Glossary](knowledge/glossary.md)
-- [Learning paths](knowledge/learning-paths.md)
-- [Machine-readable crosswalk](data/course-crosswalk.v1.json)
-- [Source boundaries](SOURCE_BOUNDARIES.md)
-- [Sharing policy](SHARING_POLICY.md)
+## 內容規模
 
-## Authenticated JSON access
+- 第一天 10 段影片的詳細學習指南。
+- K00–K10 共 11 個操作模組。
+- 品牌研究、作者調性、視覺反推、電商視覺、AI 影片及數據分析 Playbook。
+- 初階練習、實戰 Capstone、驗證題及可直接填寫的工作模板。
+- 第二天 Channel 課件的 7 個參考章節。
+- 任務路由、名詞表、學習路徑及 Codex Skill。
 
-With GitHub CLI already authenticated as an invited collaborator:
+## 快速入口
+
+- [繁體中文課程總覽](locales/zh-Hant/full-course.md)
+- [繁體中文逐片指南](locales/zh-Hant/day-1-video-guides.md)
+- [繁體中文 K00–K10 模組](locales/zh-Hant/modules.md)
+- [簡體中文課程總覽](locales/zh-Hans/full-course.md)
+- [简体中文逐片指南](locales/zh-Hans/day-1-video-guides.md)
+- [简体中文 K00–K10 模块](locales/zh-Hans/modules.md)
+- [機器可讀 JSON](data/course-crosswalk.v1.json)
+- [Codex Skill](skills/ai-training-guangzhou/SKILL.md)
+
+## Raw JSON
+
+公開 Raw URL：
+
+```text
+https://raw.githubusercontent.com/opc-zachary/ai-training-knowledge/main/data/course-crosswalk.v1.json
+```
+
+程式調用：
 
 ```bash
-gh api repos/opc-zachary/ai-training-knowledge/contents/data/course-crosswalk.v1.json \
-  -H 'Accept: application/vnd.github.raw+json'
+curl -L 'https://raw.githubusercontent.com/opc-zachary/ai-training-knowledge/main/data/course-crosswalk.v1.json'
 ```
 
-The stable REST URL is:
+## 證據狀態
 
-```text
-https://api.github.com/repos/opc-zachary/ai-training-knowledge/contents/data/course-crosswalk.v1.json
-```
+- 第一天：已按 10 段處理後的影片建立時間碼對照。
+- 第二天：目前只根據課件架構整理，仍標記為 `reference_only`。
+- JSON schema：`1.0.0`；內容版本：`1.2.0`。
 
-A private repository requires authentication. Do not embed access tokens in prompts, scripts or repository files.
-
-## Codex skill
-
-See [Codex installation](examples/codex-install.md). The entry point is:
-
-```text
-skills/ai-training-guangzhou/SKILL.md
-```
-
-## Practical library
-
-- `playbooks/`: research, author voice, visual reverse analysis, e-commerce visuals, AI video and data analysis.
-- `templates/`: research brief, Agent workflow, QA, machine-readable Agent task and visual set plan.
-- `exercises/`: beginner drills, practical capstones and verification drills.
-
-## Current evidence status
-
-- Day 1: mapped against ten processed video segments and derived course notes.
-- Day 2: PDF-derived reference outline only; video cross-check remains pending.
-- Schema: `1.0.0`; content release: `1.1.0`.
-
-This repository contains no original videos, transcripts, subtitles, courseware files, screenshots or third-party code.
+本 Repo 只包含重新撰寫的衍生知識，不包含原影片、完整逐字稿、字幕、原課件、截圖或第三方程式碼。

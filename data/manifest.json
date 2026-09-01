@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "project": "AITrainingGuangzhou",
-  "visibility_required": "PRIVATE",
-  "generated_at": "2026-08-31T18:56:54+00:00",
+  "visibility_required": "PUBLIC",
+  "generated_at": "2026-09-01T04:57:50+00:00",
   "files": [
     {
       "path": ".gitignore",
@@ -11,18 +11,23 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size_bytes": 764,
-      "sha256": "a62ccd6a4f67b08ee2e5c92a2569a4983ec3ad4cba64d6b139681fd48b9a2560"
+      "size_bytes": 1170,
+      "sha256": "ad82294ee81cef3eb6d5c8ac6f262ed626d9b1cb484aac9ee5b01397c6f0c933"
+    },
+    {
+      "path": "README.en.md",
+      "size_bytes": 1301,
+      "sha256": "23defe0d5f9822d51e75be0b65e299611bfa4cde6fe097d266b0d78ec62b412e"
     },
     {
       "path": "README.md",
-      "size_bytes": 2251,
-      "sha256": "ec19b9fa6344636e11a5c65c04f4cfa405846ab18fc36b18d032ccc23420c42c"
+      "size_bytes": 1993,
+      "sha256": "7b8068c8dcd8c18418f6c85031060126cc41b26a26bf5acaaec768699c253e02"
     },
     {
       "path": "SHARING_POLICY.md",
-      "size_bytes": 916,
-      "sha256": "7fc449736ddb6723048a797f817a6167423b4ba1fbc65babb8dfd019bb1939e3"
+      "size_bytes": 874,
+      "sha256": "61e38b51b21925e8c56281b9f69636b8fffe8151e7926b2fb6cc87bae0a2b02f"
     },
     {
       "path": "SOURCE_BOUNDARIES.md",
@@ -31,18 +36,18 @@
     },
     {
       "path": "data/course-crosswalk.v1.json",
-      "size_bytes": 5281,
-      "sha256": "18b5d99478f7c58bd078b2a04a48ada959e7dbf123f955012397226b64273b88"
+      "size_bytes": 5659,
+      "sha256": "e4df4235dcb90f02aea7758c6f6494f9eac93fe77350f4f78f26d5d93079eb29"
     },
     {
       "path": "examples/codex-install.md",
-      "size_bytes": 1022,
-      "sha256": "73e568fb529589e677721947ccbb2bfe8e32c30d90dc527cb424226793747938"
+      "size_bytes": 1079,
+      "sha256": "f444a73fa47b4146d114691122e4eaf0f5c181504740222006a9b570437fdfb4"
     },
     {
       "path": "examples/github-api.md",
-      "size_bytes": 1143,
-      "sha256": "fbf861bd7b79024a12060fc3b871aaeced61eab4974f4cb9342909ac22e57bd8"
+      "size_bytes": 1319,
+      "sha256": "3e6f345172293d0f80739b39e1b500cbce8e137d6fa08be3b0db754b5da5fd1a"
     },
     {
       "path": "exercises/beginner.md",
@@ -205,6 +210,96 @@
       "sha256": "f3f3c42993d4379c863339fd0aff115b908feb537f0026a0b7b387b1e0da50aa"
     },
     {
+      "path": "locales/zh-Hans/README.md",
+      "size_bytes": 1221,
+      "sha256": "e90eec67cfa8e8a97afc569e9def31fa6ba0d4c4c535702ab32747ac59139cc7"
+    },
+    {
+      "path": "locales/zh-Hans/codex-usage.md",
+      "size_bytes": 1423,
+      "sha256": "086737f36b995ed42cb1901bb3ffeae702026a6c33ee06543be3340b446609e8"
+    },
+    {
+      "path": "locales/zh-Hans/day-1-video-guides.md",
+      "size_bytes": 13843,
+      "sha256": "88fed144fc5f784bfbb4c99b5b3ccaca1d063b67e8230658cd7ca5f8132c9630"
+    },
+    {
+      "path": "locales/zh-Hans/day-2-reference.md",
+      "size_bytes": 1665,
+      "sha256": "7288107c5a5dc7ec08f823ba4e41f6771b1a48a05ce9e279558a7796b573f53c"
+    },
+    {
+      "path": "locales/zh-Hans/exercises-and-templates.md",
+      "size_bytes": 2793,
+      "sha256": "22229106635fb298950a5e9feacbd954637e096ac383c0340873d513bc5d7f21"
+    },
+    {
+      "path": "locales/zh-Hans/full-course.md",
+      "size_bytes": 2292,
+      "sha256": "204149d232c0f5ee41cf5ce29cf79c977fda04f1b9a921f0fb68bde3a95dd6fa"
+    },
+    {
+      "path": "locales/zh-Hans/glossary.md",
+      "size_bytes": 2657,
+      "sha256": "92017802a600c00c49df4bab7b2703aab6f3ee88ca9f797a51c0e8c6896c7326"
+    },
+    {
+      "path": "locales/zh-Hans/modules.md",
+      "size_bytes": 6129,
+      "sha256": "ad69e74dcb02ff9802c41cbef3e7d5b650f8040ac0e746e62f03a544721663bc"
+    },
+    {
+      "path": "locales/zh-Hans/playbooks.md",
+      "size_bytes": 3218,
+      "sha256": "523f6778a8176e649a812af1df9749824b3b6093080efef3679ef6bc625e057f"
+    },
+    {
+      "path": "locales/zh-Hant/README.md",
+      "size_bytes": 1221,
+      "sha256": "ef8a82469f7c7d39b2908353848d276497e5700dff93e9e6905c62fdc031380a"
+    },
+    {
+      "path": "locales/zh-Hant/codex-usage.md",
+      "size_bytes": 1423,
+      "sha256": "9b121c59116b96e8e953ad79ab183f08c963425ecce36d9e87b7c351bf4ba633"
+    },
+    {
+      "path": "locales/zh-Hant/day-1-video-guides.md",
+      "size_bytes": 13843,
+      "sha256": "cd3e63e6c245cbf567a08cc33c5cfd33a1306ae7be2fd965af0c1948de2b72fc"
+    },
+    {
+      "path": "locales/zh-Hant/day-2-reference.md",
+      "size_bytes": 1665,
+      "sha256": "9bbb68f569a295d4951980309c914ff1e300896e567a8e6a0f193d8fe8c97642"
+    },
+    {
+      "path": "locales/zh-Hant/exercises-and-templates.md",
+      "size_bytes": 2793,
+      "sha256": "36ac759c7e492bab23612487adedb4534a106476ecb089d12f8a658f4bc22d2f"
+    },
+    {
+      "path": "locales/zh-Hant/full-course.md",
+      "size_bytes": 2292,
+      "sha256": "38a9aa60f030ff3ccbac26edf4f9bfed4ed82d7d399a21a247e73e4a4cb700cf"
+    },
+    {
+      "path": "locales/zh-Hant/glossary.md",
+      "size_bytes": 2657,
+      "sha256": "5ac1b3e9698f8509db4014f5d2afc0bae99751f7f6afd6d35a4711af36fc5236"
+    },
+    {
+      "path": "locales/zh-Hant/modules.md",
+      "size_bytes": 6129,
+      "sha256": "757ea1d54e8d91c8e16de5d36146c29c181aa3467608cc9bbef06a70bdb48199"
+    },
+    {
+      "path": "locales/zh-Hant/playbooks.md",
+      "size_bytes": 3218,
+      "sha256": "8888d46fa63a5c32ddd824f819236b8404f2c84b72e0d0f5731f99fb3de6ce2a"
+    },
+    {
       "path": "playbooks/ai-video.md",
       "size_bytes": 1777,
       "sha256": "52b760353b6c1a47f3567b8822f47d38ea5208808e3cb790396b545c58a65746"
@@ -236,13 +331,13 @@
     },
     {
       "path": "scripts/validate_repository.py",
-      "size_bytes": 10548,
-      "sha256": "6014f4572e2058f2ee80fbb7cec8b6d0a0cfee1b4beb72f71d5f2fb18ad17e7e"
+      "size_bytes": 13482,
+      "sha256": "5031e1b7dae06f08f71d96b0bd59c554e216b62c77d693f44aad07362e0cde99"
     },
     {
       "path": "skills/ai-training-guangzhou/SKILL.md",
-      "size_bytes": 3033,
-      "sha256": "25dcfea4677eb5d22a41d25d57e8afbf953d2962797c88c18298770a0bf2c562"
+      "size_bytes": 3170,
+      "sha256": "cc2a7f5126aafd8984bfe5cdffeaeab01b0858a521ba585bf778447f9c241200"
     },
     {
       "path": "skills/ai-training-guangzhou/references/application-playbooks.md",
@@ -275,6 +370,16 @@
       "sha256": "3185e9316b244b51325c5b4de2d0bcfa39e8c2c9a82bd0380dc2c49e72a1ef31"
     },
     {
+      "path": "skills/ai-training-guangzhou/references/zh-Hans-course.md",
+      "size_bytes": 1458,
+      "sha256": "cab538c84eed2d5ffcd567f3bc2d0e56bac94df90d26cc718296385aba9eb2ce"
+    },
+    {
+      "path": "skills/ai-training-guangzhou/references/zh-Hant-course.md",
+      "size_bytes": 1458,
+      "sha256": "c7d1e4924106a323db9206f989719a4e1d54902b66b6da00f61ba72fde3e6722"
+    },
+    {
       "path": "templates/agent-task.json",
       "size_bytes": 742,
       "sha256": "5c3513b39b705fbc6f128846dbddf557fe4cf0d5811b4e88128fb1feb361d298"
@@ -301,8 +406,8 @@
     },
     {
       "path": "tests/test_repository.py",
-      "size_bytes": 3563,
-      "sha256": "f35c92e01c04b63fba38e179784769b29961890aa450d66ff6c5ee5940bf6d54"
+      "size_bytes": 4280,
+      "sha256": "b5877684fc78c16295190da92ac80a381075a2f5df7c90514365b13d61835a39"
     }
   ]
 }

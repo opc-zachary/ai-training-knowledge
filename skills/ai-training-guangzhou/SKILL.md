@@ -1,6 +1,6 @@
 ---
 name: ai-training-guangzhou
-description: Use when studying, explaining or applying the AI Training Guangzhou two-day course knowledge, including LaoHong day-one workflows and Channel day-two concepts. Distinguish verified day-one video mappings from reference-only day-two material; this skill does not provide the original course media or third-party tools.
+description: Use when studying, explaining or applying the AI Training Guangzhou two-day course knowledge. 支援繁體／簡體中文，涵蓋老洪第一天工作流及 Channel 第二天概念；必須分開已驗證的第一天影片對照與 reference-only 第二天內容。
 ---
 
 # AI Training Guangzhou
@@ -8,6 +8,9 @@ description: Use when studying, explaining or applying the AI Training Guangzhou
 Use this skill to answer course questions, build a study sequence, locate the relevant day-one video segment, compare day-one execution with day-two system design, or adapt the course concepts into a practical workflow.
 
 ## Route the request
+
+- For Traditional Chinese, read [references/zh-Hant-course.md](references/zh-Hant-course.md).
+- For Simplified Chinese, read [references/zh-Hans-course.md](references/zh-Hans-course.md).
 
 - For models, Agents, local workflow safety, research, Xiaohongshu insight, author voice, visual production, AI video, data analysis or QA, read [references/day-1.md](references/day-1.md).
 - For workflow governance, GUI/CLI/API/MCP, Harness, Agent Team, FDE, OPC or Agent Boss, read [references/day-2.md](references/day-2.md).
