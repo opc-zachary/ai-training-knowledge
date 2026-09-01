@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3.0 — 2026-09-01
+
+- Added Day 2 morning LaoHong and afternoon Channel video classification.
+- Added 13 usable video topics and five rejected ambient/break clips.
+- Upgraded Day 2 from reference-only to video-classified Review evidence.
+- Updated Traditional Chinese, Simplified Chinese, English, JSON and Codex Skill routing.
+
 ## 1.2.0 — 2026-09-01
 
 - Added complete Traditional Chinese and Simplified Chinese learning editions.

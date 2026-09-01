@@ -58,6 +58,7 @@ def required_files(root: Path) -> list[Path]:
         "knowledge/full-course-map.md",
         "knowledge/day-1-laohong.md",
         "knowledge/day-2-channel-reference.md",
+        "knowledge/day-2-video-guides.md",
         "knowledge/videos/day-1/README.md",
         "knowledge/modules/README.md",
         "knowledge/glossary.md",
@@ -102,6 +103,7 @@ def required_files(root: Path) -> list[Path]:
         "exercises-and-templates.md",
         "glossary.md",
         "day-2-reference.md",
+        "day-2-video-guides.md",
         "codex-usage.md",
     )
     for locale in ("zh-Hant", "zh-Hans"):
@@ -180,6 +182,7 @@ def validate_locales(root: Path) -> list[str]:
         "exercises-and-templates.md",
         "glossary.md",
         "day-2-reference.md",
+        "day-2-video-guides.md",
         "codex-usage.md",
     }
     hant_root = root / "locales" / "zh-Hant"
@@ -187,9 +190,9 @@ def validate_locales(root: Path) -> list[str]:
     hant_names = {path.name for path in hant_root.glob("*.md")}
     hans_names = {path.name for path in hans_root.glob("*.md")}
     if hant_names != expected:
-        errors.append("zh-Hant file set does not match the nine expected locale files")
+        errors.append("zh-Hant file set does not match the ten expected locale files")
     if hans_names != expected:
-        errors.append("zh-Hans file set does not match the nine expected locale files")
+        errors.append("zh-Hans file set does not match the ten expected locale files")
 
     traditional_markers = set("這個為與學習資訊據驗證務圖發產業關閉開後裡說寫還")
     for name in sorted(expected):
@@ -243,8 +246,8 @@ def validate_crosswalk(root: Path) -> list[str]:
 
     if data.get("schema_version") != "1.0.0":
         errors.append("crosswalk schema_version must be 1.0.0")
-    if data.get("content_version") != "1.2.0":
-        errors.append("crosswalk content_version must be 1.2.0")
+    if data.get("content_version") != "1.3.0":
+        errors.append("crosswalk content_version must be 1.3.0")
     if data.get("status") != "public-derived-knowledge":
         errors.append("crosswalk status must be public-derived-knowledge")
     distribution = data.get("distribution", {})
@@ -266,8 +269,14 @@ def validate_crosswalk(root: Path) -> list[str]:
     sections = data.get("day2", {}).get("sections", [])
     if len(sections) != 7:
         errors.append("day2 must contain seven sections")
-    if not all(item.get("reference_only") is True for item in sections):
-        errors.append("every day2 section must remain reference_only")
+    if data.get("source_boundary", {}).get("day2_video_mapping_complete") is not True:
+        errors.append("day2_video_mapping_complete must be true")
+    if data.get("day2", {}).get("evidence_status") != "video_classified_review":
+        errors.append("day2 evidence_status must be video_classified_review")
+    if not all(item.get("reference_only") is False for item in sections):
+        errors.append("every day2 section must leave reference_only after video mapping")
+    if not all(item.get("video_classified_review") is True for item in sections):
+        errors.append("every day2 section must be video_classified_review")
     for relative in resource_paths(data):
         if not (root / relative).is_file():
             errors.append(f"resource path missing: {relative}")

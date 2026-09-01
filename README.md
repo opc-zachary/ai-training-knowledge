@@ -22,9 +22,11 @@
 - [繁體中文課程總覽](locales/zh-Hant/full-course.md)
 - [繁體中文逐片指南](locales/zh-Hant/day-1-video-guides.md)
 - [繁體中文 K00–K10 模組](locales/zh-Hant/modules.md)
+- [繁體中文第二天上午／下午指南](locales/zh-Hant/day-2-video-guides.md)
 - [簡體中文課程總覽](locales/zh-Hans/full-course.md)
 - [简体中文逐片指南](locales/zh-Hans/day-1-video-guides.md)
 - [简体中文 K00–K10 模块](locales/zh-Hans/modules.md)
+- [简体中文第二天上午／下午指南](locales/zh-Hans/day-2-video-guides.md)
 - [機器可讀 JSON](data/course-crosswalk.v1.json)
 - [Codex Skill](skills/ai-training-guangzhou/SKILL.md)
 
@@ -45,7 +47,7 @@ curl -L 'https://raw.githubusercontent.com/opc-zachary/ai-training-knowledge/mai
 ## 證據狀態
 
 - 第一天：已按 10 段處理後的影片建立時間碼對照。
-- 第二天：目前只根據課件架構整理，仍標記為 `reference_only`。
-- JSON schema：`1.0.0`；內容版本：`1.2.0`。
+- 第二天：18 組影片完成分類；13 段可用內容、5 段環境聲排除，狀態為 `video_classified_review`。
+- JSON schema：`1.0.0`；內容版本：`1.3.0`。
 
 本 Repo 只包含重新撰寫的衍生知識，不包含原影片、完整逐字稿、字幕、原課件、截圖或第三方程式碼。

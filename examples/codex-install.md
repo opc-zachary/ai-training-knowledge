@@ -39,4 +39,4 @@ Use $ai-training-guangzhou to compare a Day 1 Skill with the Day 2 Harness conce
 Use $ai-training-guangzhou to build a study route for K03, K05 and K09.
 ```
 
-The Skill supports Traditional Chinese, Simplified Chinese and English. Day-two answers must remain labelled `reference_only` until the repository receives verified video mapping.
+The Skill supports Traditional Chinese, Simplified Chinese and English. Day-two answers use `video_classified_review`; Raw transcript is not official wording.

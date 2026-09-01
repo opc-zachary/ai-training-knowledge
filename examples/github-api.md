@@ -12,7 +12,7 @@ Validate the public result:
 
 ```bash
 curl -Ls 'https://raw.githubusercontent.com/opc-zachary/ai-training-knowledge/main/data/course-crosswalk.v1.json' \
-  | jq -e '.content_version == "1.2.0"'
+  | jq -e '.content_version == "1.3.0"'
 ```
 
 ## GitHub CLI

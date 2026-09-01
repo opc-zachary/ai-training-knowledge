@@ -29,9 +29,9 @@ Day 1 focuses on making one person capable of completing research, content, visu
 | Day | Teacher label | Status | Detail |
 |---|---|---|---|
 | 1 | LaoHong | Verified video mapping | Ten processed segments mapped to K00–K10 |
-| 2 | Channel | Reference only | Seven deck sections; video mapping pending |
+| 2 | LaoHong morning + Channel afternoon | Video-classified Review | 18 videos classified; 13 usable, five ambient/break clips rejected |
 
-Continue with [Day 1](day-1-laohong.md) or [Day 2](day-2-channel-reference.md).
+Continue with [Day 1](day-1-laohong.md), [Day 2 deck map](day-2-channel-reference.md), or [Day 2 video classification](day-2-video-guides.md).
 
 ## Detailed study assets
 

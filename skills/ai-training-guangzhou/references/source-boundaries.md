@@ -13,4 +13,4 @@ It does not contain or grant access to:
 
 If a user requests source material, explain that it is not bundled. If they provide their own authorised source, it may be analysed separately under the applicable task rules.
 
-Evidence statuses must remain explicit. Day two stays `reference_only` until video, transcript and visual evidence are all available and agree.
+Evidence statuses must remain explicit. Day 2 is `video_classified_review`: video, cleaned review transcript and representative visual evidence support the structure, but Raw transcript is not official wording.

@@ -10,8 +10,9 @@
 4. [六大实战 Playbook](playbooks.md)
 5. [练习与模板](exercises-and-templates.md)
 6. [名词表](glossary.md)
-7. [第二天 Channel 参考](day-2-reference.md)
-8. [Codex 调用指南](codex-usage.md)
+7. [第二天上午／下午影片指南](day-2-video-guides.md)
+8. [第二天 Channel 课件对照](day-2-reference.md)
+9. [Codex 调用指南](codex-usage.md)
 
 ## 核心学习主线
 
@@ -32,7 +33,7 @@
 - `verified_video`：已由第一天影片内容支持。
 - `direct_course_mapping`：影片内容与课件主题有直接对照。
 - `video_led`：主要来自影片，没有对应课件档案。
-- `reference_only`：只由第二天课件架构整理，尚未完成影片核对。
+- `video_classified_review`：第二天影片、清理稿及画面已完成分类，仍属 Review。
 
 ## 其他版本
 

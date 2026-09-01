@@ -1,6 +1,6 @@
 ---
 name: ai-training-guangzhou
-description: Use when studying, explaining or applying the AI Training Guangzhou two-day course knowledge. 支援繁體／簡體中文，涵蓋老洪第一天工作流及 Channel 第二天概念；必須分開已驗證的第一天影片對照與 reference-only 第二天內容。
+description: Use when studying, explaining or applying the AI Training Guangzhou two-day course knowledge. 支援繁體／簡體中文，涵蓋第一天、第二天上午老洪及下午 Channel；必須區分 verified、video_classified_review 及 Raw transcript 邊界。
 ---
 
 # AI Training Guangzhou
@@ -23,7 +23,7 @@ Use this skill to answer course questions, build a study sequence, locate the re
 
 1. Identify the relevant module or section before explaining it.
 2. Label day-one mapped knowledge as verified video mapping, direct course mapping or video-led according to the reference.
-3. Label all day-two claims `reference_only` until video mapping exists.
+3. Label Day 2 as `video_classified_review`; do not present Raw transcript as an official transcript.
 4. When giving a study route, include the relevant day-one module ID and video time range where available.
 5. Separate durable method from time-sensitive product or model claims.
 6. Never claim that the original videos, transcripts, subtitles, slides or courseware are bundled with this skill.

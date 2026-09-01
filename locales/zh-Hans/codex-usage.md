@@ -48,7 +48,7 @@ curl -L 'https://raw.githubusercontent.com/opc-zachary/ai-training-knowledge/mai
 
 ```bash
 curl -Ls 'https://raw.githubusercontent.com/opc-zachary/ai-training-knowledge/main/data/course-crosswalk.v1.json' \
-  | jq -e '.content_version == "1.2.0"'
+  | jq -e '.content_version == "1.3.0"'
 ```
 
 ## 回答规则
@@ -56,5 +56,5 @@ curl -Ls 'https://raw.githubusercontent.com/opc-zachary/ai-training-knowledge/ma
 - 使用者用繁体中文时，读取 `zh-Hant`。
 - 使用者用简体中文时，读取 `zh-Hans`。
 - 第一天回答标示 K00–K10 与时间码。
-- 第二天必须标示 `reference_only`。
+- 第二天必须标示 `video_classified_review`，并说明不是官方逐字稿。
 - 不把衍生笔记冒充官方逐字稿或官方课件。

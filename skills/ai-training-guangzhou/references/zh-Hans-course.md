@@ -14,7 +14,7 @@
 | AI 影片 | K08 |
 | 销售／营运数据 | K09 |
 | QA、验收及交付 | K10 |
-| Harness、Agent Team、FDE、OPC | 第二天 `reference_only` |
+| Harness、Agent Team、FDE、OPC | 第二天 `video_classified_review` |
 
 ## 回答结构
 
@@ -43,7 +43,7 @@
 
 模型选择 → 工作流治理 → GUI／CLI／API／MCP → Harness → Agent Team → FDE／OPC → Agent Boss。
 
-第二天尚未完成影片核对，不得把课件结构写成已验证的讲者逐字内容。
+第二天已完成影片分类；回答时维持 Review 状态，不得把 Raw transcript 写成官方逐字内容。
 
 ## 完整内容位置
 

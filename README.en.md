@@ -13,6 +13,7 @@ Public, derived knowledge from the two-day AI Training Guangzhou programme. The 
 - [Full course map](knowledge/full-course-map.md)
 - [Ten Day 1 video guides](knowledge/videos/day-1/README.md)
 - [K00–K10 module handbooks](knowledge/modules/README.md)
+- [Day 2 morning/afternoon video classification](knowledge/day-2-video-guides.md)
 - [Practical playbooks](playbooks/)
 - [Exercises](exercises/)
 - [Templates](templates/)
@@ -27,6 +28,6 @@ https://raw.githubusercontent.com/opc-zachary/ai-training-knowledge/main/data/co
 
 ## Evidence boundary
 
-This repository contains newly written derived knowledge. It does not include original videos, transcripts, subtitles, courseware files, screenshots or third-party code. Day 2 remains reference-only until its video evidence has been processed.
+This repository contains newly written derived knowledge. It does not include original videos, transcripts, subtitles, courseware files, screenshots or third-party code. Day 2 has complete video classification at Review status.
 
-Schema: `1.0.0`; content release: `1.2.0`.
+Schema: `1.0.0`; content release: `1.3.0`.

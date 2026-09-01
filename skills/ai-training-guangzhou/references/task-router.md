@@ -12,7 +12,7 @@
 | Plan an AI video | K08 | `application-playbooks.md` video |
 | Analyse a business table | K09 | `application-playbooks.md` data |
 | Verify delivery | K10 | `templates.md` QA report |
-| Explain Harness or Agent Team | Day 2 | `day-2.md`, labelled reference only |
+| Explain Harness or Agent Team | Day 2 | `day-2.md`, labelled video-classified Review |
 
 ## Compose modules
 

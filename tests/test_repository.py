@@ -26,7 +26,7 @@ class RepositoryTests(unittest.TestCase):
     def test_crosswalk_contract(self):
         data = json.loads((ROOT / "data" / "course-crosswalk.v1.json").read_text())
         self.assertEqual(data["schema_version"], "1.0.0")
-        self.assertEqual(data["content_version"], "1.2.0")
+        self.assertEqual(data["content_version"], "1.3.0")
         self.assertEqual(data["status"], "public-derived-knowledge")
         self.assertEqual(data["distribution"]["repository_visibility"], "PUBLIC")
         self.assertEqual(data["distribution"]["languages"], ["zh-Hant", "zh-Hans", "en"])
@@ -40,7 +40,13 @@ class RepositoryTests(unittest.TestCase):
         self.assertEqual(video_ids, self.validator.EXPECTED_VIDEO_IDS)
         sections = data["day2"]["sections"]
         self.assertEqual(len(sections), 7)
-        self.assertTrue(all(item["reference_only"] is True for item in sections))
+        self.assertTrue(data["source_boundary"]["day2_video_mapping_complete"])
+        self.assertEqual(data["day2"]["evidence_status"], "video_classified_review")
+        self.assertTrue(all(item["reference_only"] is False for item in sections))
+        self.assertTrue(all(item["video_classified_review"] is True for item in sections))
+        self.assertEqual(data["day2"]["video_summary"]["total"], 18)
+        self.assertEqual(data["day2"]["video_summary"]["usable_core_or_supporting"], 13)
+        self.assertEqual(data["day2"]["video_summary"]["rejected_ambient_or_hallucination"], 5)
         resources = data["resources"]
         self.assertEqual(resources["video_guides"]["count"], 10)
         self.assertEqual(resources["module_handbooks"]["count"], 11)
@@ -86,7 +92,7 @@ class RepositoryTests(unittest.TestCase):
         self.assertEqual(self.validator.validate_locales(ROOT), [])
         for locale_name in ("zh-Hant", "zh-Hans"):
             locale_root = ROOT / "locales" / locale_name
-            self.assertEqual(len(list(locale_root.glob("*.md"))), 9)
+            self.assertEqual(len(list(locale_root.glob("*.md"))), 10)
         self.assertIn("繁體中文完整版", (ROOT / "locales/zh-Hant/README.md").read_text())
         self.assertIn("简体中文完整版", (ROOT / "locales/zh-Hans/README.md").read_text())
 

@@ -1,6 +1,6 @@
-# Day 2 Reference — Channel
+# Day 2 Video-classified Review — LaoHong and Channel
 
-Status: `reference_only`. The seven sections come from the deck structure and have not yet been checked against day-two video.
+Status: `video_classified_review`. Complete video has been separated into LaoHong morning and Channel afternoon. Thirteen segments are usable; five ambient/break clips are rejected.
 
 | Pages | Topic | Concept |
 |---|---|---|
@@ -19,4 +19,4 @@ Status: `reference_only`. The seven sections come from the deck structure and ha
 - Day-one single Agent → day-two Agent Team.
 - Day-one human operator → day-two Agent Boss.
 
-When answering, describe these as the deck's intended structure, not as verified spoken claims. Do not add video timestamps until corresponding evidence exists.
+Use `knowledge/day-2-video-guides.md` or the Chinese locale guide for video classification. Preserve Review status and do not quote Raw transcript as official wording.
