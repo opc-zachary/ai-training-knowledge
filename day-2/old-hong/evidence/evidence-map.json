@@ -1,0 +1,511 @@
+{
+  "schema_version": "1.0.0",
+  "content_version": "1.5.0",
+  "count": 56,
+  "evidence": [
+    {
+      "knowledge_id": "LH-WB-001",
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:08:00",
+      "end": "00:12:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-WB-002",
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:08:00",
+      "end": "00:10:30",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-WB-003",
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:09:30",
+      "end": "00:12:30",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-WB-004",
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:12:00",
+      "end": "00:15:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-WB-005",
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:12:30",
+      "end": "00:15:30",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-WB-006",
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:13:30",
+      "end": "00:16:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-WB-007",
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:14:30",
+      "end": "00:16:30",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-WB-008",
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:16:00",
+      "end": "00:18:40",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-CTX-001",
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:22:00",
+      "end": "00:27:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-CTX-002",
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:00:00",
+      "end": "00:02:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-CTX-003",
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:18:00",
+      "end": "00:22:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-CTX-004",
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:24:00",
+      "end": "00:27:42",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-CTX-005",
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:02:00",
+      "end": "00:06:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-CTX-006",
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:02:30",
+      "end": "00:06:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-CTX-007",
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:00:00",
+      "end": "00:02:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-CTX-008",
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:04:00",
+      "end": "00:08:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-AUTO-001",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:00:00",
+      "end": "00:04:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-AUTO-002",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:01:30",
+      "end": "00:04:30",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-AUTO-003",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:04:00",
+      "end": "00:06:30",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-AUTO-004",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:04:30",
+      "end": "00:07:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-AUTO-005",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:05:00",
+      "end": "00:07:30",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-AUTO-006",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:06:00",
+      "end": "00:08:30",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-AUTO-007",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:06:30",
+      "end": "00:08:30",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-AUTO-008",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:07:00",
+      "end": "00:10:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-FDE-001",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:08:00",
+      "end": "00:10:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-FDE-002",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:08:30",
+      "end": "00:10:30",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-FDE-003",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:09:30",
+      "end": "00:11:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-FDE-004",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:10:00",
+      "end": "00:11:30",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-FDE-005",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:10:30",
+      "end": "00:12:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-FDE-006",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:10:30",
+      "end": "00:12:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-FDE-007",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:11:00",
+      "end": "00:13:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-FDE-008",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:12:00",
+      "end": "00:15:12",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-PE-001",
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:08:00",
+      "end": "00:10:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-PE-002",
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:02:00",
+      "end": "00:08:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-PE-003",
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:08:00",
+      "end": "00:11:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-PE-004",
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:10:00",
+      "end": "00:13:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-PE-005",
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:13:00",
+      "end": "00:18:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-PE-006",
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:14:30",
+      "end": "00:18:30",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-PE-007",
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:12:00",
+      "end": "00:16:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-PE-008",
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:18:00",
+      "end": "00:22:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-QA-001",
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:08:00",
+      "end": "00:11:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-QA-002",
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:18:00",
+      "end": "00:22:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-QA-003",
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:18:00",
+      "end": "00:22:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830102734_0001_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-QA-004",
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:02:00",
+      "end": "00:06:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-QA-005",
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:04:00",
+      "end": "00:10:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-QA-006",
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:12:00",
+      "end": "00:16:30",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-QA-007",
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:14:00",
+      "end": "00:17:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-QA-008",
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:12:00",
+      "end": "00:15:12",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830114141_0004_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-SKL-001",
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:06:00",
+      "end": "00:10:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-SKL-002",
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:06:00",
+      "end": "00:10:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-SKL-003",
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:10:00",
+      "end": "00:15:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-SKL-004",
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:10:00",
+      "end": "00:15:30",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-SKL-005",
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:14:00",
+      "end": "00:20:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-SKL-006",
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:20:00",
+      "end": "00:24:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-SKL-007",
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:24:00",
+      "end": "00:27:43",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830105517_0002_D/timestamped.txt"
+    },
+    {
+      "knowledge_id": "LH-SKL-008",
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:00:00",
+      "end": "00:08:00",
+      "status": "Cleaned_Review",
+      "knowledge_path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md",
+      "timestamped_transcript": "day-2/transcripts/zh-Hant/morning/DJI_20260830112259_0003_D/timestamped.txt"
+    }
+  ]
+}

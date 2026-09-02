@@ -1,0 +1,1032 @@
+{
+  "schema_version": "1.0.0",
+  "content_version": "1.5.0",
+  "count": 56,
+  "knowledge_points": [
+    {
+      "id": "LH-WB-001",
+      "title": "工作台不是工具清單",
+      "summary": "個人 AI 工作台應圍繞完整工作鏈設計，而不是把常用 AI 網站放在一起。",
+      "classroom_meaning": "老洪展示的工作台連接熱點、靈感、寫作、排版、數據及復盤。",
+      "application": "先畫日常工作的輸入與輸出，再決定每一環由甚麼工具承擔。",
+      "when_to_use": "每天切換大量工具，但工作仍需手動搬運和重複整理。",
+      "not_for": "只有單一、低頻、沒有上下游的任務。",
+      "next_action": "畫出一項工作的「資訊進來 → 成品出去 → 結果回來」。",
+      "workflows": [
+        "LH-WF-09"
+      ],
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:08:00",
+      "end": "00:12:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md"
+    },
+    {
+      "id": "LH-WB-002",
+      "title": "資訊層只收真正需要的訊號",
+      "summary": "工作台的情報入口要減少噪音，聚焦與角色及業務有關的來源。",
+      "classroom_meaning": "工作台示範由熱點獲取和 AI 情報開始，再進入內容生產。",
+      "application": "為每個來源寫明用途、頻率和觸發的下一個動作，沒有用途的來源不進系統。",
+      "when_to_use": "收藏很多資訊，但無法變成選題、判斷或行動。",
+      "not_for": "需要廣泛探索的新領域早期研究。",
+      "next_action": "保留五個高訊號來源，為每個來源設定「值得保存」條件。",
+      "workflows": [
+        "LH-WF-09"
+      ],
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:08:00",
+      "end": "00:10:30",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md"
+    },
+    {
+      "id": "LH-WB-003",
+      "title": "生產層要固定內容由靈感到交付的路線",
+      "summary": "選題、寫作、排版及發佈準備應是一條有狀態的生產線。",
+      "classroom_meaning": "老洪展示從情報及靈感進入文章，再完成公眾號排版的工作台。",
+      "application": "每個內容項目要知道目前在哪一步、下一步由誰或哪個 Agent 完成。",
+      "when_to_use": "內容常停留在收藏、草稿或等待排版，沒有穩定產出。",
+      "not_for": "即時回應型內容，速度比完整流程更重要。",
+      "next_action": "定義 `Idea／Draft／Review／Ready` 四個最小狀態。",
+      "workflows": [
+        "LH-WF-09"
+      ],
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:09:30",
+      "end": "00:12:30",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md"
+    },
+    {
+      "id": "LH-WB-004",
+      "title": "數據層把多平台結果拉回同一視角",
+      "summary": "發佈後的數據要集中比較，否則內容生產與結果之間沒有閉環。",
+      "classroom_meaning": "示範把各平台每月發佈量、閱讀、互動及內容表現放入同一工作台。",
+      "application": "保留跨平台共通指標，同時記錄平台特有指標，避免錯誤直接相加。",
+      "when_to_use": "團隊在多個渠道發佈，但復盤只靠印象。",
+      "not_for": "尚未有足夠樣本，單篇數據不能代表規律。",
+      "next_action": "選三個共通指標和兩個平台特有指標建立月表。",
+      "workflows": [
+        "LH-WF-10"
+      ],
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:12:00",
+      "end": "00:15:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md"
+    },
+    {
+      "id": "LH-WB-005",
+      "title": "數據要配合歷史和分布閱讀",
+      "summary": "單看總閱讀量不足以判斷內容，還要比較發佈量、中位數及歷史變化。",
+      "classroom_meaning": "老洪展示月度發佈量、總閱讀量、閱讀中位數及每篇內容的位置。",
+      "application": "用總量看規模、用中位數看典型表現、用分布找異常和真正高質內容。",
+      "when_to_use": "總數上升，但不知道是內容變好還是只因發得更多。",
+      "not_for": "指標定義或採集方法在月中改變，不能直接同比。",
+      "next_action": "在月報同時加入數量、總量、中位數及上月差異。",
+      "workflows": [
+        "LH-WF-10"
+      ],
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:12:30",
+      "end": "00:15:30",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md"
+    },
+    {
+      "id": "LH-WB-006",
+      "title": "用內容象限找可複製的好內容",
+      "summary": "把互動與點擊等不同目標拆開，可以找出雙指標都強的內容。",
+      "classroom_meaning": "工作台以象限區分高互動和高點擊，並把雙高內容視為值得深入分析的樣本。",
+      "application": "象限不是排名終點，而是選出要回看題材、標題、結構及分發條件的候選。",
+      "when_to_use": "同一批內容可能分別服務品牌互動和流量轉化。",
+      "not_for": "兩個指標樣本量太小或受到付費投放等外因嚴重干擾。",
+      "next_action": "為最近內容畫一張雙指標象限，挑三篇雙高樣本做質性復盤。",
+      "workflows": [
+        "LH-WF-10"
+      ],
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:13:30",
+      "end": "00:16:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md"
+    },
+    {
+      "id": "LH-WB-007",
+      "title": "復盤必須解釋好與差的原因",
+      "summary": "工作台不能停在數據展示；真正價值是把結果轉成下一輪規則。",
+      "classroom_meaning": "老洪指出不能只看到數據，而要理解甚麼地方好、甚麼地方差及原因。",
+      "application": "復盤分開記錄數據事實、原因假設、驗證方法及下一輪改動。",
+      "when_to_use": "每月有報表，但團隊下月仍重複相同做法。",
+      "not_for": "資料品質不足時，只能標記觀察，不能下確定結論。",
+      "next_action": "為一個高表現及一個低表現項目各寫兩個可驗證原因。",
+      "workflows": [
+        "LH-WF-10"
+      ],
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:14:30",
+      "end": "00:16:30",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md"
+    },
+    {
+      "id": "LH-WB-008",
+      "title": "高價值人才加工作台才形成降本增效",
+      "summary": "企業效率來自懂業務的人把 AI 做成系統，不是單純採購更多工具。",
+      "classroom_meaning": "老洪以內容工作台對比外包，指出專業人員配合 AI 能把重複工作轉為內部能力。",
+      "application": "評估節省時要同時計算交付品質、知識留存、反應速度和可持續改善。",
+      "when_to_use": "企業正在比較外包、增加人手或建立內部 AI 能力。",
+      "not_for": "把 AI 當成無條件減員保證，忽略系統建設和專業判斷。",
+      "next_action": "選一條外包或重複流程，估算內部工作台的建立成本與三個月收益。",
+      "workflows": [
+        "LH-WF-09",
+        "LH-WF-11"
+      ],
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:16:00",
+      "end": "00:18:40",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md"
+    },
+    {
+      "id": "LH-CTX-001",
+      "title": "Context Window 是有限工作記憶",
+      "summary": "同一窗口承載的歷史越多，可供當前任務使用的有效空間便越少。",
+      "classroom_meaning": "老洪指出長對話會令早期細節遺失，複雜任務需要拆分或開新窗口。",
+      "application": "Context 應視為任務資源；不是資料放得越多越好，而是保留與當前判斷有關的內容。",
+      "when_to_use": "對話很長、要求很多、模型開始忘記早期約束。",
+      "not_for": "短小且輸入明確的單輪任務。",
+      "next_action": "列出當前任務真正需要保留的目標、來源、規則和狀態。",
+      "workflows": [
+        "LH-WF-04"
+      ],
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:22:00",
+      "end": "00:27:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md"
+    },
+    {
+      "id": "LH-CTX-002",
+      "title": "自動壓縮可能犧牲細節",
+      "summary": "系統為延續長對話而壓縮歷史時，細節、例外和先後關係可能被弱化。",
+      "classroom_meaning": "第二段開首延續 Context Window，說明過長內容會導致資訊損失。",
+      "application": "重要限制要寫入明確的任務摘要或來源文件，不可只依賴對話記憶。",
+      "when_to_use": "長期項目、跨日工作、多個文件或多人規則共同存在。",
+      "not_for": "資料可隨時由單一權威文件重新載入。",
+      "next_action": "把不可遺失的五項規則整理成「重新開始也能使用」的 Context Brief。",
+      "workflows": [
+        "LH-WF-04"
+      ],
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:00:00",
+      "end": "00:02:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md"
+    },
+    {
+      "id": "LH-CTX-003",
+      "title": "新窗口是隔離實驗環境",
+      "summary": "測試 Prompt 時要在乾淨窗口執行，避免舊對話暗中提供答案。",
+      "classroom_meaning": "老洪示範把第一版提示詞放到新任務，測試它是否單獨成立。",
+      "application": "舊 Context 可協助設計 Prompt，但驗收必須在沒有隱藏背景的環境進行。",
+      "when_to_use": "準備交付 Prompt、Skill 或標準流程給其他人。",
+      "not_for": "刻意需要延續個人偏好和項目歷史的同一工作線。",
+      "next_action": "把 Prompt 複製到新窗口，只提供正式輸入，記錄是否仍能產出合格結果。",
+      "workflows": [
+        "LH-WF-02"
+      ],
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:18:00",
+      "end": "00:22:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md"
+    },
+    {
+      "id": "LH-CTX-004",
+      "title": "複雜任務要按成果切分",
+      "summary": "切分任務的單位應是可驗收成果，而不是任意把長文字分成幾段。",
+      "classroom_meaning": "課堂建議複雜內容分塊處理，避免單一 Context 承載全部工作。",
+      "application": "每一段要有輸入、產出、完成條件及交接摘要，下一段才能安全延續。",
+      "when_to_use": "研究、內容生產、資料分析或跨多階段的 Agent 任務。",
+      "not_for": "步驟高度耦合，拆開後會失去必要的即時狀態。",
+      "next_action": "把一個大任務改寫為三個各自可驗收的交付物。",
+      "workflows": [
+        "LH-WF-04"
+      ],
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:24:00",
+      "end": "00:27:42",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md"
+    },
+    {
+      "id": "LH-CTX-005",
+      "title": "結構化格式減少理解歧義",
+      "summary": "標題、欄位、清單和輸出格式能把自然語言要求轉成較穩定的操作規格。",
+      "classroom_meaning": "老洪在 Prompt 格式與排錯部分強調結構化表達對控制輸出的作用。",
+      "application": "結構不是為了讓 Prompt 看起來複雜，而是讓每項要求可以逐一檢查。",
+      "when_to_use": "要求包含多個對象、步驟、限制或格式。",
+      "not_for": "簡短探索對話，過早固定格式會限制發現空間。",
+      "next_action": "把一段散文式要求改成「目標／資料／步驟／輸出／驗收」。",
+      "workflows": [
+        "LH-WF-05"
+      ],
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:02:00",
+      "end": "00:06:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md"
+    },
+    {
+      "id": "LH-CTX-006",
+      "title": "Prompt 四層排錯",
+      "summary": "答非所問時，依序檢查目標、流程、格式及背景資料，不要只叫模型「再做好一點」。",
+      "classroom_meaning": "課堂把 Prompt 問題拆成目標、流程、格式、背景四類。",
+      "application": "四層對應四種修復方式：重定義成果、補方法、明確結構、補充來源。",
+      "when_to_use": "結果不合格，但不知道問題來自哪裡。",
+      "not_for": "工具故障、權限不足或輸入檔案損壞等非 Prompt 問題。",
+      "next_action": "只選一層做最小修改，再重跑同一測試案例。",
+      "workflows": [
+        "LH-WF-05"
+      ],
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:02:30",
+      "end": "00:06:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md"
+    },
+    {
+      "id": "LH-CTX-007",
+      "title": "重置 Context 前先留下交接摘要",
+      "summary": "開新窗口不是把一切忘掉，而是只帶走已確認的目標、資料、決定和未完成項。",
+      "classroom_meaning": "Context 管理的目的，是避免舊內容污染，同時保留任務需要的背景。",
+      "application": "交接摘要應區分事實、決定、假設、限制及下一步，避免把推測變成真相。",
+      "when_to_use": "任務跨窗口、跨人或跨 Agent 延續。",
+      "not_for": "新任務與舊任務完全無關，沒有任何狀態需要保留。",
+      "next_action": "用五個欄位製作一頁 Handoff，再在新窗口以它作唯一歷史輸入。",
+      "workflows": [
+        "LH-WF-04"
+      ],
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:00:00",
+      "end": "00:02:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md"
+    },
+    {
+      "id": "LH-CTX-008",
+      "title": "先分辨 Prompt 問題與系統問題",
+      "summary": "輸出失敗不一定是 Prompt 寫得差，也可能是資料、工具、能力或 Context 不足。",
+      "classroom_meaning": "老洪把排錯與 Skill、資料及工具結合，提醒學員不要把所有失敗都歸因於一句指令。",
+      "application": "先定位失敗層，才能選擇重寫 Prompt、補資料、換工具或拆任務。",
+      "when_to_use": "同一 Prompt 有時成功、有時失敗，或模型沒有實際執行能力。",
+      "not_for": "已明確看到要求本身互相矛盾，應先修正規格。",
+      "next_action": "為一次失敗標記 `Prompt／Context／Input／Tool／Rule` 其中一個主要原因。",
+      "workflows": [
+        "LH-WF-05",
+        "LH-WF-07"
+      ],
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:04:00",
+      "end": "00:08:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md"
+    },
+    {
+      "id": "LH-AUTO-001",
+      "title": "自動化經歷三個主要階段",
+      "summary": "企業 AI 自動化由 Prompt 模板、工作流平台，走向 Agent、Skill 及本地工作台。",
+      "classroom_meaning": "老洪以三個階段回顧前幾年的提示詞自動化、節點工作流，以及當前 Agent 加 Skill 的方式。",
+      "application": "選型時應看任務需要的彈性、維護者能力和驗收要求，而不是只追最新名詞。",
+      "when_to_use": "企業要理解現有自動化資產是否仍適合。",
+      "not_for": "把演進理解為舊工具全部無效；穩定的固定流程仍可能合適。",
+      "next_action": "把現有自動化逐項標記為模板、工作流或 Agent 系統。",
+      "workflows": [
+        "LH-WF-11"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:00:00",
+      "end": "00:04:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md"
+    },
+    {
+      "id": "LH-AUTO-002",
+      "title": "工具會過時，原理比介面持久",
+      "summary": "學習應集中在問題拆解、資料流、判斷和驗收，而不是押注某一個平台。",
+      "classroom_meaning": "老洪回顧多個曾經流行的平台，指出工具變化很快，而底層理解更持久。",
+      "application": "文件先描述業務流程和輸入輸出，再把當前工具作為可替換實現。",
+      "when_to_use": "團隊擔心新工具出現後，之前投入全部報廢。",
+      "not_for": "必要的工具操作仍需學習，只是不應成為唯一資產。",
+      "next_action": "把一條自動化文件中的平台名稱抽走，檢查流程是否仍可理解。",
+      "workflows": [
+        "LH-WF-11"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:01:30",
+      "end": "00:04:30",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md"
+    },
+    {
+      "id": "LH-AUTO-003",
+      "title": "節點少不代表實作簡單",
+      "summary": "流程圖上的五個節點，背後可能包含帳號、接口、參數和錯誤處理的巨大成本。",
+      "classroom_meaning": "老洪以一個看似只有少量節點的採集工作流作反面教材，說明配置過程仍非常複雜。",
+      "application": "估算自動化時要計算節點背後的依賴、維護及故障恢復，不只數方框。",
+      "when_to_use": "供應商或內部提案以「只有幾步」形容方案很簡單。",
+      "not_for": "經過長期驗證且依賴已標準化的固定流程。",
+      "next_action": "為每個節點列出身份、輸入、輸出、依賴、失敗及負責人。",
+      "workflows": [
+        "LH-WF-11"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:04:00",
+      "end": "00:06:30",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md"
+    },
+    {
+      "id": "LH-AUTO-004",
+      "title": "隱藏配置成本會吞噬自動化收益",
+      "summary": "如果每次故障都需要重新申請、配置或理解大量參數，自動化可能比人工更難維護。",
+      "classroom_meaning": "課堂描述花大量時間處理接口、帳號、參數和反覆報錯，最後仍未跑通的經驗。",
+      "application": "方案評估要加入首次建立時間、每月維護時間、故障頻率和替代路徑。",
+      "when_to_use": "PoC 看似成功，但只有原開發者能處理問題。",
+      "not_for": "高價值流程即使維護成本高，仍可能值得保留。",
+      "next_action": "為現有流程計算總持有成本，而非只看首次製作費。",
+      "workflows": [
+        "LH-WF-11"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:04:30",
+      "end": "00:07:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md"
+    },
+    {
+      "id": "LH-AUTO-005",
+      "title": "教學者視角與使用者視角可能錯位",
+      "summary": "程序員認為簡單的配置，對業務使用者可能充滿陌生概念和失敗點。",
+      "classroom_meaning": "老洪指出網上教學常以程序員視角說明，非技術使用者甚至無法理解名詞。",
+      "application": "企業入口要用業務語言呈現任務、輸入和結果，把技術細節留在維護層。",
+      "when_to_use": "培訓完成後，員工仍不敢或不懂使用流程。",
+      "not_for": "工具只供專業工程團隊內部使用。",
+      "next_action": "請一位非技術同事只看操作入口完成一次任務，記錄所有卡點。",
+      "workflows": [
+        "LH-WF-09",
+        "LH-WF-11"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:05:00",
+      "end": "00:07:30",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md"
+    },
+    {
+      "id": "LH-AUTO-006",
+      "title": "企業入口應是 Skill 或看板",
+      "summary": "員工應從清楚任務入口使用已設計能力，而不是每個人重新搭建底層流程。",
+      "classroom_meaning": "老洪建議把資料、數據及小工具放入 Skill，或為企業建立看板供員工使用。",
+      "application": "入口負責收集必要輸入、限制選項、顯示狀態及輸出驗收。",
+      "when_to_use": "企業希望多人使用同一 AI 能力，且要減少個人操作差異。",
+      "not_for": "流程仍在快速探索，過早固定入口會阻礙試驗。",
+      "next_action": "把一項高頻任務改成不超過五個輸入欄位的業務入口草圖。",
+      "workflows": [
+        "LH-WF-09",
+        "LH-WF-11"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:06:00",
+      "end": "00:08:30",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md"
+    },
+    {
+      "id": "LH-AUTO-007",
+      "title": "不要要求每位員工掌握底層技術",
+      "summary": "企業擴散靠的是設計良好的使用方式，而不是把所有員工訓練成工程師。",
+      "classroom_meaning": "老洪強調不能指望每個員工都理解複雜 Prompt 或配置，只需能使用設計好的入口。",
+      "application": "建立者負責複雜度，使用者負責提供業務輸入、判斷結果和回報例外。",
+      "when_to_use": "AI 推廣被大量工具培訓拖慢，員工採用率低。",
+      "not_for": "核心 AI 團隊本身需要理解並維護底層系統。",
+      "next_action": "把培訓拆成「使用者操作」和「維護者診斷」兩條路線。",
+      "workflows": [
+        "LH-WF-09",
+        "LH-WF-12"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:06:30",
+      "end": "00:08:30",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md"
+    },
+    {
+      "id": "LH-AUTO-008",
+      "title": "自動化目標是業務改善",
+      "summary": "採用 AI 的理由必須回到效率、品質、速度或決策改善，而不是為了顯示用了 AI。",
+      "classroom_meaning": "老洪指出只買工具或模型而沒有打通業務流程，反而可能增加阻礙。",
+      "application": "每個方案先定義現況基線和可見業務成果，再決定是否需要 AI。",
+      "when_to_use": "管理層先指定工具，團隊卻說不清要改善哪個指標。",
+      "not_for": "純學習實驗可以不立即承擔商業回報，但仍要標明實驗目的。",
+      "next_action": "用一句話寫出「若成功，哪個角色的哪項結果會改善多少」。",
+      "workflows": [
+        "LH-WF-11",
+        "LH-WF-12"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:07:00",
+      "end": "00:10:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md"
+    },
+    {
+      "id": "LH-FDE-001",
+      "title": "FDE 把 AI 能力帶進真實現場",
+      "summary": "FDE 的工作不是遠端交付一套軟件，而是深入企業把 AI 接到實際業務。",
+      "classroom_meaning": "老洪用「派工程師到公司協助完成 AI 化路線」解釋 FDE。",
+      "application": "FDE 同時承擔需求發現、工程實作、採用協調及成效驗證。",
+      "when_to_use": "企業知道 AI 有潛力，但內部缺乏把工具連接流程的能力。",
+      "not_for": "已有成熟產品和標準流程，只需一般部署支援。",
+      "next_action": "列出 FDE 必須實地觀察的角色、流程、資料和失敗情況。",
+      "workflows": [
+        "LH-WF-12"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:08:00",
+      "end": "00:10:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md"
+    },
+    {
+      "id": "LH-FDE-002",
+      "title": "FDE 模式源於前線部署思維",
+      "summary": "這個角色的核心精神是讓工程能力在客戶現場完成價值，而非只在產品團隊內開發。",
+      "classroom_meaning": "老洪以 Palantir 的前線部署模式及其後 AI 公司招聘 FDE 作行業背景。",
+      "application": "企業採用時應評估服務方是否真正承擔落地和結果，而不只使用職位名稱。",
+      "when_to_use": "比較顧問、系統供應商和 FDE 類合作模式。",
+      "not_for": "把課堂歷史描述當成未經核實的公司現況或官方定義。",
+      "next_action": "要求候選服務方說明現場參與、工程責任、交接和成效量度。",
+      "workflows": [
+        "LH-WF-12"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:08:30",
+      "end": "00:10:30",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md"
+    },
+    {
+      "id": "LH-FDE-003",
+      "title": "工程交付能力是基本門檻",
+      "summary": "FDE 團隊必須能真正完成連接、工具、資料及系統交付，而不只提供建議。",
+      "classroom_meaning": "老洪把工程交付能力列為好 FDE 的首要條件，團隊需要具備工程師性質的人員。",
+      "application": "驗收應包含可運行成果、錯誤處理、維護文件和負責人，而不是簡報數量。",
+      "when_to_use": "企業準備選擇 AI 落地合作夥伴。",
+      "not_for": "純認知培訓或策略工作，其交付物本來就不是運行系統。",
+      "next_action": "用一個小場景要求候選團隊展示由需求到可讀回結果的完整證據。",
+      "workflows": [
+        "LH-WF-12"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:09:30",
+      "end": "00:11:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md"
+    },
+    {
+      "id": "LH-FDE-004",
+      "title": "同時理解 AI 邊界與企業邊界",
+      "summary": "可行方案位於模型能力、資料條件、流程限制及企業責任的交集。",
+      "classroom_meaning": "老洪把理解企業邊界及 AI 邊界列為 FDE 的第二項核心能力。",
+      "application": "每個場景要標明 AI 可做、需要人判斷、禁止自動化及需要升級處理的部分。",
+      "when_to_use": "AI 看似能產出結果，但企業不能直接採用。",
+      "not_for": "沒有權限、責任或資料限制的純個人實驗。",
+      "next_action": "為試點畫出 `AI 自動／人審／禁止／例外升級` 四區責任圖。",
+      "workflows": [
+        "LH-WF-12"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:10:00",
+      "end": "00:11:30",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md"
+    },
+    {
+      "id": "LH-FDE-005",
+      "title": "坐在業務旁邊觀察真實工作",
+      "summary": "需求不能只由會議轉述；要看使用者實際如何處理例外、補資料和作判斷。",
+      "classroom_meaning": "老洪指出 FDE 要坐在業務人員旁邊，觀察他到底怎樣工作。",
+      "application": "觀察時記錄正式流程和實際流程的差異，這些差異通常就是自動化成敗關鍵。",
+      "when_to_use": "需求文件很完整，但系統上線後仍不符合日常操作。",
+      "not_for": "敏感或受監管場景未取得適當觀察權限。",
+      "next_action": "完成一次工作跟隨，記錄十個操作、三個例外和兩個隱性判斷。",
+      "workflows": [
+        "LH-WF-12"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:10:30",
+      "end": "00:12:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md"
+    },
+    {
+      "id": "LH-FDE-006",
+      "title": "先不破壞原流程",
+      "summary": "早期 AI 改造應嵌入現有工作，避免一開始要求整個組織改用全新流程。",
+      "classroom_meaning": "好 FDE 要在不打破企業原有業務流程的情況下，建立適配方式。",
+      "application": "先保留原流程作回退路徑，在一個可控環節加入 AI，再比較前後結果。",
+      "when_to_use": "核心業務不能中斷，團隊對 AI 信心尚未建立。",
+      "not_for": "原流程本身已失效或存在不能保留的重大風險。",
+      "next_action": "選出原流程中最容易並行試驗、且失敗不影響客戶的步驟。",
+      "workflows": [
+        "LH-WF-12"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:10:30",
+      "end": "00:12:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md"
+    },
+    {
+      "id": "LH-FDE-007",
+      "title": "第一個試點要高頻、低複雜、成果可見",
+      "summary": "好的首個場景不是最宏大，而是能快速建立信任和學習循環。",
+      "classroom_meaning": "老洪建議先選高頻、沒有那麼複雜、能做出成果的場景。",
+      "application": "以頻率、複雜度、可量度性、風險及資料可用性為候選場景評分。",
+      "when_to_use": "企業有很多 AI 想法，但不知道由哪一個開始。",
+      "not_for": "場景雖簡單，卻沒有業務價值或沒有人願意使用。",
+      "next_action": "用五項指標為三個候選場景評分，選擇一個兩至四週試點。",
+      "workflows": [
+        "LH-WF-12"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:11:00",
+      "end": "00:13:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md"
+    },
+    {
+      "id": "LH-FDE-008",
+      "title": "小團隊試點後再上線、交接及復用",
+      "summary": "FDE 交付是一條由小團隊試點到擴散的持續路線，不是一次性交付系統。",
+      "classroom_meaning": "老洪建議從小業務團隊介入，完成試點、上線、交接、復用，並以培訓和陪伴持續更新。",
+      "application": "每個階段都要有採用證據、知識轉移和下一階段準入條件。",
+      "when_to_use": "試點成功後準備擴展至其他部門。",
+      "not_for": "試點結果尚未穩定，或核心指標未改善便急於全公司推行。",
+      "next_action": "建立 `試點／穩定／交接／複用` 四階段閘門和負責人。",
+      "workflows": [
+        "LH-WF-12"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:12:00",
+      "end": "00:15:12",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md"
+    },
+    {
+      "id": "LH-PE-001",
+      "title": "好 Prompt 是跑出來的",
+      "summary": "提示詞的品質要由實際執行結果證明，而不是由文字看起來是否專業決定。",
+      "classroom_meaning": "老洪把好提示詞描述為先執行、再復盤、再修改，通常要來回數輪才貼近日常業務。",
+      "application": "保存每一版輸入、輸出與差距，逐項修訂，才能形成穩定資產。",
+      "when_to_use": "同類任務會重複出現，且輸出品質值得持續改善。",
+      "not_for": "一次性、低風險、沒有重用價值的簡單問答。",
+      "next_action": "選一項每週工作，完成第一輪執行並記錄三個不符合預期之處。",
+      "workflows": [
+        "LH-WF-01",
+        "LH-WF-03"
+      ],
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:08:00",
+      "end": "00:10:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md"
+    },
+    {
+      "id": "LH-PE-002",
+      "title": "提示詞已由固定框架走向行業方法",
+      "summary": "Prompt Engineering 的重點已由套模板，轉向結構化思考及行業知識。",
+      "classroom_meaning": "老洪回顧固定框架、把 Prompt 視為溝通編程語言，以及按不同行業深化方法的演進。",
+      "application": "框架只提供起點；真正差異來自業務變量、判斷標準及專業限制。",
+      "when_to_use": "團隊仍在收藏 Prompt 模板，但輸出與實務工作脫節。",
+      "not_for": "已有成熟工作方法，只需把既有規格交給 Agent 執行的情況。",
+      "next_action": "在現有模板標出哪些欄位是通用結構、哪些必須由行業專家補充。",
+      "workflows": [
+        "LH-WF-01"
+      ],
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:02:00",
+      "end": "00:08:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md"
+    },
+    {
+      "id": "LH-PE-003",
+      "title": "先定義六個任務變量",
+      "summary": "清楚的目標、對象、輸入、輸出、標準及邊界，是 Prompt 可控的前提。",
+      "classroom_meaning": "老洪在說明好提示詞來源時，先要求學員想清楚要解決甚麼任務及其中關鍵要素。",
+      "application": "六個變量可直接成為任務 Brief；缺少任何一項，都容易令 Agent 自行猜測。",
+      "when_to_use": "輸出看似完整，但與決策者真正需要的內容不同。",
+      "not_for": "純探索對話，當下目的就是讓 AI 協助發現問題。",
+      "next_action": "用六個欄位重寫一項模糊指令，並標示仍未知的假設。",
+      "workflows": [
+        "LH-WF-01",
+        "LH-WF-05"
+      ],
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:08:00",
+      "end": "00:11:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md"
+    },
+    {
+      "id": "LH-PE-004",
+      "title": "先與 AI 共創問題，再要求它寫 Prompt",
+      "summary": "不要一開始便要求最終提示詞，先讓 AI 與你共同補全分析維度。",
+      "classroom_meaning": "行業研究示範先描述要交付給老闆的報告，再詢問完整分析應包含哪些層面。",
+      "application": "探索對話和正式執行應分開；前者擴展問題，後者固定可重複規格。",
+      "when_to_use": "你知道業務目的，但尚未掌握完整研究框架。",
+      "not_for": "法規、合約或高風險工作，不可把未知要求完全交由模型推斷。",
+      "next_action": "先問 AI「這個任務還缺哪些決策維度」，不要立即要求最終成品。",
+      "workflows": [
+        "LH-WF-01"
+      ],
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:10:00",
+      "end": "00:13:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md"
+    },
+    {
+      "id": "LH-PE-005",
+      "title": "AI 補廣度，人補行業判斷",
+      "summary": "AI 擅長展開可能性，從業者負責加入真實業務判斷與優先次序。",
+      "classroom_meaning": "老洪以房地產政策、快消平台數據等例子，說明行業人必須補入模型不知道的實務重點。",
+      "application": "最有效的人機分工不是讓 AI 取代專家，而是由 AI 建候選框架、專家修正權重和缺口。",
+      "when_to_use": "研究、策略、方案及任何需要行業語境的工作。",
+      "not_for": "使用者本身沒有相關知識，亦沒有可靠來源可驗證的高風險結論。",
+      "next_action": "加入三條「只有實際從業者才知道」的判斷，再讓 AI 重組框架。",
+      "workflows": [
+        "LH-WF-01"
+      ],
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:13:00",
+      "end": "00:18:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md"
+    },
+    {
+      "id": "LH-PE-006",
+      "title": "同一研究框架必須按行業改變權重",
+      "summary": "通用分析維度不能平均套用，行業差異會改變資料來源和章節優先級。",
+      "classroom_meaning": "房地產需要把政策及監管提到高位；快消則更重視渠道、銷量和消費者資料。",
+      "application": "保留通用骨架，但為每個行業設定必查來源、核心指標、風險及決策順序。",
+      "when_to_use": "把同一研究 Prompt 擴展至不同產業或細分類。",
+      "not_for": "兩個任務只共享表面名稱，實際決策目標完全不同。",
+      "next_action": "建立「通用欄位／行業必填／可選欄位」三層研究表。",
+      "workflows": [
+        "LH-WF-01",
+        "LH-WF-02"
+      ],
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:14:30",
+      "end": "00:18:30",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md"
+    },
+    {
+      "id": "LH-PE-007",
+      "title": "觀察 Agent 的執行過程",
+      "summary": "不要只等最終答案；觀察工具選擇及中間步驟，才能知道偏差在哪裡發生。",
+      "classroom_meaning": "示範中 Agent 自行製作視覺內容，老洪指出應查看它正在做甚麼，必要時可打斷。",
+      "application": "過程觀察可分辨「方向錯誤」和「成品表達不佳」，避免只在末端補救。",
+      "when_to_use": "任務時間長、會調用多個工具，或中途成本可能快速增加。",
+      "not_for": "模型或平台不提供過程資訊，只能以輸入輸出驗證。",
+      "next_action": "為下一個長任務記錄三項中途檢查點及停止條件。",
+      "workflows": [
+        "LH-WF-03",
+        "LH-WF-05"
+      ],
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:12:00",
+      "end": "00:16:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md"
+    },
+    {
+      "id": "LH-PE-008",
+      "title": "用另一個細分類測試通用性",
+      "summary": "Prompt 在原案例成功，不等於已經可重用；必須換一個相近但不同的案例驗證。",
+      "classroom_meaning": "老洪要求把整理後提示詞放到新任務，並以不同品類檢查是否仍能工作。",
+      "application": "第一個案例負責建立方法，第二個案例負責揭露過度擬合和隱藏假設。",
+      "when_to_use": "準備把 Prompt 交給同事、封裝成 Skill 或納入自動化。",
+      "not_for": "明確只服務單一固定個案，沒有重用需求。",
+      "next_action": "選擇一個結構相似但資料不同的案例，對照兩次輸出差距。",
+      "workflows": [
+        "LH-WF-02",
+        "LH-WF-07"
+      ],
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:18:00",
+      "end": "00:22:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md"
+    },
+    {
+      "id": "LH-QA-001",
+      "title": "先確認任務，再討論工具",
+      "summary": "如果問題本身沒有定義清楚，更強的模型和更多工具也只會更快產出錯誤方向。",
+      "classroom_meaning": "Prompt 方法由「到底要解決甚麼任務」開始，企業自動化亦回到業務改善。",
+      "application": "驗收的第一項不是格式，而是成品是否解決原本決策或工作問題。",
+      "when_to_use": "團隊討論集中在模型、平台或功能名稱。",
+      "not_for": "已有明確任務，只需進行工具相容性測試。",
+      "next_action": "在任務文件頂部加入一條可由業務負責人判斷成敗的問題。",
+      "workflows": [
+        "LH-WF-01",
+        "LH-WF-11"
+      ],
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:08:00",
+      "end": "00:11:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md"
+    },
+    {
+      "id": "LH-QA-002",
+      "title": "測試要隔離隱藏 Context",
+      "summary": "只有在乾淨環境仍能成功，方法才真正具備交付和重用價值。",
+      "classroom_meaning": "老洪用新窗口執行第一版 Prompt，避免舊對話提供未寫出的背景。",
+      "application": "正式測試輸入應等同下一位使用者真正會收到的資料。",
+      "when_to_use": "把個人方法交給團隊或封裝成 Skill 前。",
+      "not_for": "方法明確設計成依賴某個長期項目 Context。",
+      "next_action": "移除所有非正式歷史，重跑一次並標記新增的必要輸入。",
+      "workflows": [
+        "LH-WF-02"
+      ],
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:18:00",
+      "end": "00:22:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md"
+    },
+    {
+      "id": "LH-QA-003",
+      "title": "至少用兩個不同案例驗證",
+      "summary": "單一成功只能證明案例成功，兩個不同案例才能開始證明方法可重用。",
+      "classroom_meaning": "課堂要求用另一品類測試 Prompt，並在 Skill 指南中形成多案例驗收觀點。",
+      "application": "第二案例應改變行業資料或使用者輸入，但保留同一任務結構。",
+      "when_to_use": "準備把流程標成模板、Playbook 或 Skill。",
+      "not_for": "只服務唯一個案且不計劃重用。",
+      "next_action": "挑選一個相似案例和一個邊界案例，記錄通過及失敗條件。",
+      "workflows": [
+        "LH-WF-02",
+        "LH-WF-07"
+      ],
+      "video_id": "DJI_20260830102734_0001_D",
+      "start": "00:18:00",
+      "end": "00:22:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md"
+    },
+    {
+      "id": "LH-QA-004",
+      "title": "一次只改一類主要問題",
+      "summary": "同時改目標、流程、格式和資料，會令團隊無法知道哪項修改真正有效。",
+      "classroom_meaning": "Prompt 排錯被拆成四類，為逐層定位和修復提供基礎。",
+      "application": "保留基準輸入，先修最主要失敗層，再比較結果。",
+      "when_to_use": "Prompt 正在反覆改動，品質卻沒有可解釋進步。",
+      "not_for": "規格包含明顯互相矛盾要求，應先整體修正。",
+      "next_action": "為下一輪測試寫下唯一改動、預期影響及比較指標。",
+      "workflows": [
+        "LH-WF-03",
+        "LH-WF-05"
+      ],
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:02:00",
+      "end": "00:06:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md"
+    },
+    {
+      "id": "LH-QA-005",
+      "title": "失敗要能歸因到明確層次",
+      "summary": "可改善的系統必須知道失敗屬 Prompt、規則、工具、輸入還是 Context。",
+      "classroom_meaning": "老洪以 Prompt 排錯、Skill 結構及工具執行問題說明不同失敗來源。",
+      "application": "每次失敗記錄主要原因、證據、修復者及是否需要更新共用規則。",
+      "when_to_use": "同一流程由多人維護，故障經常重複出現。",
+      "not_for": "尚未有足夠證據，只能標記為未知並保留調查。",
+      "next_action": "建立五類失敗標籤並回填最近五次問題。",
+      "workflows": [
+        "LH-WF-05",
+        "LH-WF-07"
+      ],
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:04:00",
+      "end": "00:10:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md"
+    },
+    {
+      "id": "LH-QA-006",
+      "title": "數據事實與原因假設分開",
+      "summary": "報表告訴你發生了甚麼，復盤假設才嘗試解釋為甚麼。",
+      "classroom_meaning": "老洪在月度工作台強調要理解數據好與差的原因，而不只看到數字。",
+      "application": "每個原因都要寫驗證方式，避免把直覺直接升級成規則。",
+      "when_to_use": "內容、營銷、銷售或營運月度復盤。",
+      "not_for": "資料來源或指標定義不可靠，應先修復資料品質。",
+      "next_action": "為一個異常數據寫三個候選原因及下一輪驗證方法。",
+      "workflows": [
+        "LH-WF-10"
+      ],
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:12:00",
+      "end": "00:16:30",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md"
+    },
+    {
+      "id": "LH-QA-007",
+      "title": "復盤結果要回寫下一輪規則",
+      "summary": "如果檢討只產生報告而沒有改變流程，它不會形成自主改善。",
+      "classroom_meaning": "工作台由數據回流進入自主復盤，再影響下一輪內容和工作方式。",
+      "application": "每次只晉升有證據、可重複、影響明確的學習，並記錄版本。",
+      "when_to_use": "同類任務持續運行，需要逐月提升品質或效率。",
+      "not_for": "一次性項目，學習可記錄但未必需要修改共用系統。",
+      "next_action": "從本月復盤選一條可測試規則，加入下月流程並設定撤回條件。",
+      "workflows": [
+        "LH-WF-03",
+        "LH-WF-10"
+      ],
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:14:00",
+      "end": "00:17:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md"
+    },
+    {
+      "id": "LH-QA-008",
+      "title": "完成不只等於系統建好",
+      "summary": "企業 AI 的完成證據還包括使用者採用、可見成果、交接和持續運作。",
+      "classroom_meaning": "FDE 應對採用及結果負責，並經歷試點、上線、交接、復用和持續更新。",
+      "application": "把技術驗收、業務驗收、採用驗收及維護驗收分開。",
+      "when_to_use": "PoC 已能運行，但企業尚未真正把它用進日常工作。",
+      "not_for": "純研究原型可只交付技術證據，但不可稱為企業落地完成。",
+      "next_action": "為試點補上使用頻率、節省時間、錯誤率和交接通過四項指標。",
+      "workflows": [
+        "LH-WF-12"
+      ],
+      "video_id": "DJI_20260830114141_0004_D",
+      "start": "00:12:00",
+      "end": "00:15:12",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md"
+    },
+    {
+      "id": "LH-SKL-001",
+      "title": "Skill 是可重用工作方法",
+      "summary": "Skill 的價值不是多一個指令，而是讓已驗證的方法可以被穩定再次使用。",
+      "classroom_meaning": "老洪把 Skill 放在 Prompt 之後，作為日常工作方法沉澱與自動化的載體。",
+      "application": "Skill 應固定觸發條件、必要輸入、處理步驟、輸出和驗收。",
+      "when_to_use": "一項工作已重複完成，成功模式開始穩定。",
+      "not_for": "問題仍在探索、每次目標都不同，或尚未有一次合格結果。",
+      "next_action": "選一項已成功三次的工作，列出不變步驟和可變輸入。",
+      "workflows": [
+        "LH-WF-07"
+      ],
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:06:00",
+      "end": "00:10:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md"
+    },
+    {
+      "id": "LH-SKL-002",
+      "title": "主規則與參考資源要分開",
+      "summary": "核心指令只保留路由和硬規則，詳細知識、範例及工具應按責任拆開。",
+      "classroom_meaning": "課堂說明 Skill 由主說明、參考及資源構成，並在下一段強調減輕主 Skill 負擔。",
+      "application": "拆分可以降低規則衝突，也讓更新資料時不必重寫整個 Skill。",
+      "when_to_use": "Skill 文件越寫越長、不同場景規則混在一起。",
+      "not_for": "只有單一短流程，拆分反而增加閱讀成本。",
+      "next_action": "把現有說明分成「觸發與流程／參考知識／可執行工具」三類。",
+      "workflows": [
+        "LH-WF-08"
+      ],
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:06:00",
+      "end": "00:10:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md"
+    },
+    {
+      "id": "LH-SKL-003",
+      "title": "先搜尋，再決定改造或自建",
+      "summary": "建立 Skill 前應先確認是否已有可借鑑方案，避免重複發明。",
+      "classroom_meaning": "老洪示範以名稱、GitHub、Skill Hub 及搜尋工具尋找候選。",
+      "application": "搜尋的目的不是盲目安裝，而是理解已有結構、常見做法和缺口。",
+      "when_to_use": "需求屬常見任務，例如研究、寫作、資料處理或文件產出。",
+      "not_for": "涉及高度內部化流程，公開方案不可能包含關鍵業務規則。",
+      "next_action": "用任務、產出物和工具三組關鍵詞搜尋至少三個候選。",
+      "workflows": [
+        "LH-WF-06"
+      ],
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:10:00",
+      "end": "00:15:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md"
+    },
+    {
+      "id": "LH-SKL-004",
+      "title": "Star 和下載量只是訊號",
+      "summary": "流行度能協助排序候選，但不能證明它符合你的工作或可以安全使用。",
+      "classroom_meaning": "課堂把名稱、Star、下載量及真實需求放在同一評估過程。",
+      "application": "最終判斷要回到觸發是否準確、輸出是否需要、依賴是否可用及規則是否可理解。",
+      "when_to_use": "同類 Skill 很多，需要快速縮小範圍。",
+      "not_for": "把熱門程度直接當成品質、安全或適配證明。",
+      "next_action": "為每個候選記錄「適配／依賴／可讀性／維護」四項分數。",
+      "workflows": [
+        "LH-WF-06"
+      ],
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:10:00",
+      "end": "00:15:30",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md"
+    },
+    {
+      "id": "LH-SKL-005",
+      "title": "安裝前要讀懂它會做甚麼",
+      "summary": "候選 Skill 必須先核對觸發、輸入輸出、外部依賴及可能變更，再進入使用。",
+      "classroom_meaning": "Find Skill 示範的核心是搜索、排名及安裝一條完整路線，而不是只完成下載。",
+      "application": "團隊應保存來源版本和採用理由，方便日後更新或撤回。",
+      "when_to_use": "準備把第三方 Skill 放入日常或團隊環境。",
+      "not_for": "來源、內容或依賴無法檢查的候選。",
+      "next_action": "先讀主說明和所引用的腳本／資源清單，寫一段採用判斷。",
+      "workflows": [
+        "LH-WF-06"
+      ],
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:14:00",
+      "end": "00:20:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md"
+    },
+    {
+      "id": "LH-SKL-006",
+      "title": "只沉澱已跑通的成功方法",
+      "summary": "不要把尚未驗證的 Prompt 和錯誤流程封裝成可重用 Skill。",
+      "classroom_meaning": "老洪明確提出先跑通好結果，再要求 Agent 把方法沉澱下來。",
+      "application": "封裝前至少保存成功案例、失敗例及驗收標準，否則只會把不確定性自動化。",
+      "when_to_use": "準備把個人經驗交給同事或 Agent 重複執行。",
+      "not_for": "研究原型，可暫時記錄假設但不能標成成熟 Skill。",
+      "next_action": "找出兩個不同成功案例和一個失敗案例，提煉共同規則。",
+      "workflows": [
+        "LH-WF-07"
+      ],
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:20:00",
+      "end": "00:24:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md"
+    },
+    {
+      "id": "LH-SKL-007",
+      "title": "Skill Creator 的難點是思考",
+      "summary": "建立檔案並不難，真正困難是把隱性經驗說清楚並消除矛盾。",
+      "classroom_meaning": "小生意分析 Skill 的示範指出，安裝和生成不是最難部分，方法設計才是核心。",
+      "application": "要把專家的判斷條件、例外、停止點及驗收方式外顯化。",
+      "when_to_use": "Agent 能執行步驟，但遇到例外便失去方向。",
+      "not_for": "流程完全機械化，沒有專業判斷或決策分支。",
+      "next_action": "訪談實際執行者，問清楚「甚麼情況下不按標準步驟做」。",
+      "workflows": [
+        "LH-WF-07",
+        "LH-WF-08"
+      ],
+      "video_id": "DJI_20260830105517_0002_D",
+      "start": "00:24:00",
+      "end": "00:27:43",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md"
+    },
+    {
+      "id": "LH-SKL-008",
+      "title": "頂層設計先於規則堆疊",
+      "summary": "當多個用途混在同一 Skill，應先重畫意圖和路由，不要繼續添加更多規則。",
+      "classroom_meaning": "第三段開首用 Skill 失敗說明規則混合會令模型難以識別意圖，必須回到頂層設計。",
+      "application": "先分場景、輸入和交付物，再把共用規則抽出，場景規則分流。",
+      "when_to_use": "同一句觸發會走不同路線，或新規則經常破壞舊功能。",
+      "not_for": "單一用途 Skill，只需修正一條明確錯誤規則。",
+      "next_action": "畫出「使用者意圖 → 路由 → 專用流程 → 驗收」四層圖。",
+      "workflows": [
+        "LH-WF-08"
+      ],
+      "video_id": "DJI_20260830112259_0003_D",
+      "start": "00:00:00",
+      "end": "00:08:00",
+      "status": "Cleaned_Review",
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md"
+    }
+  ]
+}
