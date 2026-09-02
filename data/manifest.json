@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "project": "AITrainingGuangzhou",
   "visibility_required": "PUBLIC",
-  "generated_at": "2026-09-01T17:13:56+00:00",
+  "generated_at": "2026-09-02T06:04:38+00:00",
   "files": [
     {
       "path": ".gitignore",
@@ -11,18 +11,18 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size_bytes": 1852,
-      "sha256": "4e881ada6137e5b6d161a79bc057134dcd1e793abb70e505678ef3190f8c0ce0"
+      "size_bytes": 2237,
+      "sha256": "e66203b96dc4ff490fe977e51823b0f9547b4ebb32acf3ed72a52311912bbb60"
     },
     {
       "path": "README.en.md",
-      "size_bytes": 1443,
-      "sha256": "a3a85576650263a85abf15e8f4f8652fd8c49775d4e877604723e28b9384edb4"
+      "size_bytes": 1721,
+      "sha256": "1478bfb541be917f9100274d735e617a50f51d1cbd4b0e55a18446d7896843f7"
     },
     {
       "path": "README.md",
-      "size_bytes": 2310,
-      "sha256": "28e762ea4485bd9193d99e520821c92ca30698c7d4c96942dfb2afbb38b43f9e"
+      "size_bytes": 2484,
+      "sha256": "658a908746ba142925fd04baca1e0736ed2b779a42832b258d4838fcb4a41f3f"
     },
     {
       "path": "SHARING_POLICY.md",
@@ -36,18 +36,18 @@
     },
     {
       "path": "data/course-crosswalk.v1.json",
-      "size_bytes": 7653,
-      "sha256": "48240fee925f6f8b228cf69567c276097990258efd9c9deb5a40ddad6a628743"
+      "size_bytes": 8417,
+      "sha256": "b4fc56c28a3fdeae3bf71f1763f1831244dd02c55e727dd2f554d8a320c34788"
     },
     {
       "path": "day-2/README.md",
-      "size_bytes": 2022,
-      "sha256": "0e591f9041e68705979b1581fd45138147364272361427a826888b84d6cf1284"
+      "size_bytes": 2373,
+      "sha256": "f57d26bd0b472d064ec0bdfa7fdcc74d2952e3f57740ce493a86a7ba9dfd3c0a"
     },
     {
       "path": "day-2/TEAM_CALLING_GUIDE.md",
-      "size_bytes": 1629,
-      "sha256": "fb15ebbae026316b68f6d1c463d909e53cacd443217068c96429e67b58a8b463"
+      "size_bytes": 2038,
+      "sha256": "166c0b76dbc5ec38a03c95257b9ee7b1804724c47845a1a1ea1253005f1b85ba"
     },
     {
       "path": "day-2/classification/completion-audit.md",
@@ -840,6 +840,401 @@
       "sha256": "8560fbed43d114e9c13b1a361517e26c47fce724c4959f15fc574818878ac86e"
     },
     {
+      "path": "day-2/old-hong/README.md",
+      "size_bytes": 3851,
+      "sha256": "ac7346c2ebb18b3484f38589ce8d97a3334d81afd5658d0d6eb86691802379f9"
+    },
+    {
+      "path": "day-2/old-hong/TEAM_AND_AGENT_GUIDE.md",
+      "size_bytes": 3377,
+      "sha256": "ca04503fee6ddd083bfeacbfaed65d256bdd6cb3508e6f224152260482b5b491"
+    },
+    {
+      "path": "day-2/old-hong/evidence/coverage-report.md",
+      "size_bytes": 674,
+      "sha256": "fa1fc190cb0ad60a2de9bd0e784120c621542e9adcb711d689945e49f501af5c"
+    },
+    {
+      "path": "day-2/old-hong/evidence/evidence-map.json",
+      "size_bytes": 21257,
+      "sha256": "c071b16c160e1a12e0feb229fc4c3f90aa16b4cbe69b2a1235de4414b3b66579"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/knowledge-index.json",
+      "size_bytes": 55077,
+      "sha256": "6dfa5ec1971fcc59e2f1965869dff6c02b0ebc7080abce32f5249c4c05a59567"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/zh-Hans/ai-workbench.md",
+      "size_bytes": 5974,
+      "sha256": "cc97944d5feebabca4280cd1e884a9c3dab6f88813bbf56658837c36bb524b67"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/zh-Hans/context-debugging.md",
+      "size_bytes": 6004,
+      "sha256": "8c15cb6c567d9f400f0b3d979b6bf8a59b38c159d4350c1c0d99881d6c3cd2d2"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/zh-Hans/enterprise-automation.md",
+      "size_bytes": 6253,
+      "sha256": "0187748a5b308cc4567881629dcb62525e0d59c62615a40d3a952fd6067803d0"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/zh-Hans/fde-delivery.md",
+      "size_bytes": 6100,
+      "sha256": "e9776b9a86645998d569185c3cf56f57b7d67dae597a72e6fe5ad9bac7f5632e"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/zh-Hans/prompt-engineering.md",
+      "size_bytes": 6413,
+      "sha256": "a62ea955725512869ad93ca5d5749e4d6a84de938de5f164d4b7e8e2e5d54441"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/zh-Hans/qa-improvement.md",
+      "size_bytes": 5818,
+      "sha256": "eaa3c14aeda8eae763e2a28f406a099f7d7b75b1caeb2991cbec734801a03771"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/zh-Hans/skill-design.md",
+      "size_bytes": 5944,
+      "sha256": "ec02205619b65b967734dedf06fe5dfd5dee709b4c73cd93e4b818527dc4a5f6"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/ai-workbench.md",
+      "size_bytes": 5974,
+      "sha256": "7259390c1167dbdd0c76f20c5f0614a308a57c7d874b095b07db053de640f209"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/context-debugging.md",
+      "size_bytes": 6004,
+      "sha256": "42e9926505a80cfcefc99c2f6f7da4992e739b181245056a9c9775860c5a8070"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/enterprise-automation.md",
+      "size_bytes": 6253,
+      "sha256": "3e437478472d55bc99de74a5aa4dd7fddc16b4dea7c9d466df9c64f38ada85d0"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/fde-delivery.md",
+      "size_bytes": 6100,
+      "sha256": "027c7ad8868f8522d6aeb0aade4e196c25db8065520a52dfe263ddd7794ac611"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/prompt-engineering.md",
+      "size_bytes": 6413,
+      "sha256": "e57945cd046a93952be71c572028e00732698af05e7a4d1965ef5b94465c80f1"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/qa-improvement.md",
+      "size_bytes": 5818,
+      "sha256": "85185b52e50923e55a394aadb9ef94e96cfaf0c6d726f85cdf659dc8287591e0"
+    },
+    {
+      "path": "day-2/old-hong/knowledge-points/zh-Hant/skill-design.md",
+      "size_bytes": 5944,
+      "sha256": "2b6881d7c1515ef3f3716aba0185dedef44adaac836859ad5b168fa32dfd652f"
+    },
+    {
+      "path": "day-2/old-hong/learning-paths/zh-Hans/01-manager.md",
+      "size_bytes": 1544,
+      "sha256": "dd58321e4f075da293743540b035bf5c1e846f2326028b5555b59446fc05de0c"
+    },
+    {
+      "path": "day-2/old-hong/learning-paths/zh-Hans/02-content-marketing-operator.md",
+      "size_bytes": 1619,
+      "sha256": "32d37453f27eeffd4a24ef408be9f7968985687792ae935471c76ffe8622d9f5"
+    },
+    {
+      "path": "day-2/old-hong/learning-paths/zh-Hans/03-ai-consultant-solution-designer.md",
+      "size_bytes": 1771,
+      "sha256": "a5a5412d267b74a999878a78731ef59d9ccdc467b4f4c5ca5c44d50f4ee89267"
+    },
+    {
+      "path": "day-2/old-hong/learning-paths/zh-Hans/04-fde-enterprise-delivery.md",
+      "size_bytes": 1828,
+      "sha256": "3505b19e21b1410b5f34ad8fd386613a4c8e59f623743ba6d900763794673e40"
+    },
+    {
+      "path": "day-2/old-hong/learning-paths/zh-Hant/01-manager.md",
+      "size_bytes": 1544,
+      "sha256": "b280c03c4ca62bb905a9800d8331f37533d5c1fb192701a7039b369a866b7311"
+    },
+    {
+      "path": "day-2/old-hong/learning-paths/zh-Hant/02-content-marketing-operator.md",
+      "size_bytes": 1619,
+      "sha256": "be7f7c4e0b17e2ef213df775e5f1694066dbf2a978e295c97bb979ab91c99d23"
+    },
+    {
+      "path": "day-2/old-hong/learning-paths/zh-Hant/03-ai-consultant-solution-designer.md",
+      "size_bytes": 1771,
+      "sha256": "275438667f6627604b7035b4b21e98d105479e1367c3bf6d88879dd70efd6f9d"
+    },
+    {
+      "path": "day-2/old-hong/learning-paths/zh-Hant/04-fde-enterprise-delivery.md",
+      "size_bytes": 1828,
+      "sha256": "109aecb7e302a3d35743c05c61835c99063175a799032ce6e4b73b718a28ece9"
+    },
+    {
+      "path": "day-2/old-hong/teaching-flows/teaching-index.json",
+      "size_bytes": 3850,
+      "sha256": "c5a7268e9a3d10794d59a6d881a63640c685a587fe2f0e0dacc361cb900de2e4"
+    },
+    {
+      "path": "day-2/old-hong/teaching-flows/zh-Hans/01-prompt-engineering-industry-method.md",
+      "size_bytes": 3314,
+      "sha256": "7b2e834df32384ecfb7daf9faaae74f50c4866e255a53e856bca63dc30cfd4a0"
+    },
+    {
+      "path": "day-2/old-hong/teaching-flows/zh-Hans/02-context-debugging-skill-basics.md",
+      "size_bytes": 3163,
+      "sha256": "1646db138f2243244b243da28b854bc49ad59a6a952428db28f6a45f26661301"
+    },
+    {
+      "path": "day-2/old-hong/teaching-flows/zh-Hans/03-skill-architecture-ai-workbench.md",
+      "size_bytes": 3159,
+      "sha256": "21ffa8c2f64b02121b2154b07ea053e9608d15c094bbff3930ca0894a335215e"
+    },
+    {
+      "path": "day-2/old-hong/teaching-flows/zh-Hans/04-enterprise-automation-fde.md",
+      "size_bytes": 3263,
+      "sha256": "9569bfbe036d374b30736a4dbea6ebbed8ba234e971563a48c43479e19decb87"
+    },
+    {
+      "path": "day-2/old-hong/teaching-flows/zh-Hans/05-one-day-individual-to-enterprise.md",
+      "size_bytes": 4192,
+      "sha256": "561fd14a66d55fb7cf5d9e0563da2349b8cad02aea6ec8708cfabd6a18c8c309"
+    },
+    {
+      "path": "day-2/old-hong/teaching-flows/zh-Hant/01-prompt-engineering-industry-method.md",
+      "size_bytes": 3314,
+      "sha256": "1fe1c9eb5f785268b4600df0284475db1140ac538ac683f58540665c0b04895a"
+    },
+    {
+      "path": "day-2/old-hong/teaching-flows/zh-Hant/02-context-debugging-skill-basics.md",
+      "size_bytes": 3163,
+      "sha256": "43faea0837fc024de5959aee126f14d4c822ac2418c2d91b5d201a0a72472d6d"
+    },
+    {
+      "path": "day-2/old-hong/teaching-flows/zh-Hant/03-skill-architecture-ai-workbench.md",
+      "size_bytes": 3159,
+      "sha256": "a8a27796c475388b02163ab5e3bb2234341f7f26ca9d12a47e7a25749564e36a"
+    },
+    {
+      "path": "day-2/old-hong/teaching-flows/zh-Hant/04-enterprise-automation-fde.md",
+      "size_bytes": 3263,
+      "sha256": "037945e0aa1550097ed0d65e07ff63d28289f573fd328cf0454af460574591c9"
+    },
+    {
+      "path": "day-2/old-hong/teaching-flows/zh-Hant/05-one-day-individual-to-enterprise.md",
+      "size_bytes": 4192,
+      "sha256": "839b1cb60d55f185c720c0a48354a81029d5e1ee06cd8a841c494493199c67d5"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hans/01-industry-research-prompt-design.md",
+      "size_bytes": 1450,
+      "sha256": "3e5398a44a0ebd817b384247f31f333d4c298213e5dddef59756677004e08cac"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hans/02-isolated-prompt-test-record.md",
+      "size_bytes": 1278,
+      "sha256": "ea85edcdc2939f2e2f8e70facc4f036971e4e1fd2172ee3bf81250ba2ec19b00"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hans/03-prompt-debugging-checklist.md",
+      "size_bytes": 1363,
+      "sha256": "327ea8088cf6493c1d77f0917abd3e093a77ec5c833bb069d4a73e35fe27624e"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hans/04-skill-candidate-assessment.md",
+      "size_bytes": 1325,
+      "sha256": "7c781a0989691993f15ce52a682bccfcfdec026c96bb023a911bb1574b4eb82d"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hans/05-skill-spec-acceptance.md",
+      "size_bytes": 1322,
+      "sha256": "d9b91770e394378bf53f9b106bcc0c60acb66ada25bab1052759740307e0a419"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hans/06-ai-workbench-mvp-canvas.md",
+      "size_bytes": 1281,
+      "sha256": "ce3d24688ac7efd9c23600644fb3893e240627a15eed0a7ebf79a1c8e0b7f102"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hans/07-monthly-data-review.md",
+      "size_bytes": 1270,
+      "sha256": "f3342625d967e09eb6404aa2c4c2d1aff255842532635a592aa0bb9445ccc03f"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hans/08-fde-pilot-handover.md",
+      "size_bytes": 1560,
+      "sha256": "1890b60e66ed10bab73075a6078d314049396b6232b72c650efbe5f9949ae695"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hant/01-industry-research-prompt-design.md",
+      "size_bytes": 1450,
+      "sha256": "3eb64fa5f274cf3b1f20db009c87b284948214f779aa801f50f7a7f6730d9525"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hant/02-isolated-prompt-test-record.md",
+      "size_bytes": 1278,
+      "sha256": "0f38bdb85ea8197031d46d00a9d8ae485793285834247b22d331ec27db37d235"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hant/03-prompt-debugging-checklist.md",
+      "size_bytes": 1363,
+      "sha256": "f4fdfb5d9cdc4286fe4dd01b1d121717ba7572d6d4e21269d097a42e1210b102"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hant/04-skill-candidate-assessment.md",
+      "size_bytes": 1325,
+      "sha256": "0b21544fe1c5dda3c869d2d36c091f9381b2577454981670d4d2d3e517d19122"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hant/05-skill-spec-acceptance.md",
+      "size_bytes": 1322,
+      "sha256": "df7efefc81c382b8097574e7af7e819263f4e50ab8cfe9e475a7d77b41222d5b"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hant/06-ai-workbench-mvp-canvas.md",
+      "size_bytes": 1281,
+      "sha256": "6b74326f616a929e20e91173701e578af2fb23020aaca9577509dccb565a186b"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hant/07-monthly-data-review.md",
+      "size_bytes": 1270,
+      "sha256": "921f204ee6d1ba3952b219ca1108f1739db4023565c1ed80df4f8a39ae2a7758"
+    },
+    {
+      "path": "day-2/old-hong/templates/zh-Hant/08-fde-pilot-handover.md",
+      "size_bytes": 1560,
+      "sha256": "41c84e6f9034a18f261fcb50d17cd70b0c26cd3da3324e52da7010538cebc1bf"
+    },
+    {
+      "path": "day-2/old-hong/workflows/workflow-index.json",
+      "size_bytes": 4725,
+      "sha256": "06dc468c3f04fc4495ee9e6071661e6a71359559d8fa176bcb84324f611b275f"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hans/01-industry-research-prompt.md",
+      "size_bytes": 2853,
+      "sha256": "704926c4f0661da93b38e5776585bf732c4f5d2bf21f27dfe97d7de2fd66f6cf"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hans/02-isolated-prompt-test.md",
+      "size_bytes": 2641,
+      "sha256": "e9d6deff04bc9ae6084cbecf98a1c44b8b473fa69cd10388a6c6959316b7aaee"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hans/03-prompt-review-versioning.md",
+      "size_bytes": 2621,
+      "sha256": "d284485d6cb21bf501495314cfd5947de09dda7178d1255f6f07938dbe726a8c"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hans/04-context-overload-recovery.md",
+      "size_bytes": 2768,
+      "sha256": "0a3bd94039a975e9ed3087e15e77db3ee047ddbf8e6649517afcfd8a74c2f3c0"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hans/05-four-layer-prompt-debugging.md",
+      "size_bytes": 2637,
+      "sha256": "3701f3cd35eee3a062180df9d0c9c29611c02cefe7d7956210a31c016b818bb9"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hans/06-skill-discovery-assessment.md",
+      "size_bytes": 2632,
+      "sha256": "53506d456177c07f9f48b25a852d8506cad1c7bde282335e475854fed058f861"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hans/07-validated-work-to-skill.md",
+      "size_bytes": 2663,
+      "sha256": "a9e62e5b1734c424c9ce17ba058ab94a1a2fd4bfb1a83296aba84ac784f29a74"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hans/08-skill-top-level-design.md",
+      "size_bytes": 2539,
+      "sha256": "72ddf6242b537dada61af45fc5627e863954c648a99209b1a793daba01b25b96"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hans/09-ai-workbench-mvp.md",
+      "size_bytes": 2591,
+      "sha256": "d19d209b869880de7a1017ea47fbcde98d040be11da5a20cc859ccbe21948cab"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hans/10-data-feedback-review.md",
+      "size_bytes": 2618,
+      "sha256": "f5e57fd61624e08f3a196e9e0c2d84838c661e02c782e67498880638dde68080"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hans/11-automation-option-selection.md",
+      "size_bytes": 2682,
+      "sha256": "5881ee88910cc0007a8f7b9b08d53d533525d02abcd6cc76d2646d5f6272f727"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hans/12-fde-pilot-delivery.md",
+      "size_bytes": 3195,
+      "sha256": "4757d813a56fdf6c8efb47b2432d61476f35cf105e2298a06e4d6dfe1a929522"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hant/01-industry-research-prompt.md",
+      "size_bytes": 2853,
+      "sha256": "9df80509cc1854856f0bd766921216cb43202ce23977c5502fa721507a1e100e"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hant/02-isolated-prompt-test.md",
+      "size_bytes": 2641,
+      "sha256": "59f728e2d1151de8241cb1cbf777487dd61a18be32a2e67bf6438e22517f38a6"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hant/03-prompt-review-versioning.md",
+      "size_bytes": 2621,
+      "sha256": "40ec5e36b206fd92d8c04bd901e10b38efbccea2039ed17d2d768ceecbd72195"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hant/04-context-overload-recovery.md",
+      "size_bytes": 2768,
+      "sha256": "fb99287967c7287dbb2b6a4000d9f7cc46b25d3bc48c12ae1723ac2208241cc2"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hant/05-four-layer-prompt-debugging.md",
+      "size_bytes": 2637,
+      "sha256": "58948f283abf912a66688eef52f84bfdc150a5532a4ec726f5ede70785041b1f"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hant/06-skill-discovery-assessment.md",
+      "size_bytes": 2632,
+      "sha256": "aea371857527d6328659cfbf18e8cd71a6c311107701b7619636c114a8227a18"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hant/07-validated-work-to-skill.md",
+      "size_bytes": 2663,
+      "sha256": "2fdf5a04251d3ecb38989e9a46707491a7201db8d6de98f71a09091a56d2f912"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hant/08-skill-top-level-design.md",
+      "size_bytes": 2539,
+      "sha256": "a8508896d7524e6f301e378b568211b5008e0f0f1ffcd0643afa7b6c5c37b3be"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hant/09-ai-workbench-mvp.md",
+      "size_bytes": 2591,
+      "sha256": "a3f010b8c345a8fea64f4da29f22c9e802d9405fe82bd7bd5869cbd8ebabb42d"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hant/10-data-feedback-review.md",
+      "size_bytes": 2618,
+      "sha256": "cca6ed851f79cda84c29a189890009645db6c377a863805614d3a448c4c4246c"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hant/11-automation-option-selection.md",
+      "size_bytes": 2682,
+      "sha256": "589ae779606f2f797eb4649e774491704d11a6e6434f60de9cd5545c9bb85f51"
+    },
+    {
+      "path": "day-2/old-hong/workflows/zh-Hant/12-fde-pilot-delivery.md",
+      "size_bytes": 3195,
+      "sha256": "881ec400bc407a111b1faca346d2be3a159e6ca93782aa3dae86bb7078c66470"
+    },
+    {
       "path": "day-2/transcripts/README.md",
       "size_bytes": 638,
       "sha256": "3f89e9801f4d95613d2c150986abd597ac7edd131e08dd4157f792703933c2a2"
@@ -1346,8 +1741,8 @@
     },
     {
       "path": "locales/zh-Hans/README.md",
-      "size_bytes": 1368,
-      "sha256": "471e9e247c93721b509dd7f00567a689f4c182eb7e648db149c3ba7804a300ab"
+      "size_bytes": 1452,
+      "sha256": "c39213c2a5b000da4fe4f3fca6b181f0233828f4a98e8e545552969952122242"
     },
     {
       "path": "locales/zh-Hans/codex-usage.md",
@@ -1396,8 +1791,8 @@
     },
     {
       "path": "locales/zh-Hant/README.md",
-      "size_bytes": 1368,
-      "sha256": "5234e3d16e16f8cb4b5a94c9351bb97a89620a7ab5156988c1af4e08be40dcee"
+      "size_bytes": 1452,
+      "sha256": "7551fcede9f0fcc9e81f6d3f552a5bd7f93552b9f9b784f8e497c1af98b6a368"
     },
     {
       "path": "locales/zh-Hant/codex-usage.md",
@@ -1475,14 +1870,19 @@
       "sha256": "a135c3102f07bae02d6355f155f2519f8239024f3e66fd36805d92d5cd0ced98"
     },
     {
+      "path": "scripts/build_old_hong_indexes.py",
+      "size_bytes": 10937,
+      "sha256": "9794d8d7e3daf3e07660cde1d89a785b7e9ccc03c2d98050fdb7dce4a645a2c2"
+    },
+    {
       "path": "scripts/validate_repository.py",
-      "size_bytes": 18552,
-      "sha256": "f8ff110064498c0ce492385c4ec54fe95034ec4e4f7b711725738afa29943cff"
+      "size_bytes": 24730,
+      "sha256": "5190dc9f331cd13c7aea0d5e850b1cdc75b70c8328d85cd7c7e7388bab7b51ec"
     },
     {
       "path": "skills/ai-training-guangzhou/SKILL.md",
-      "size_bytes": 3366,
-      "sha256": "0c848e0ec0106137e507146481129230ebf90086f42f6d076b3fe966691f67a2"
+      "size_bytes": 3674,
+      "sha256": "a0b0de04b3747b5170671467b55a82eb14fd81c25313d818bccc0588ecc8108f"
     },
     {
       "path": "skills/ai-training-guangzhou/references/application-playbooks.md",
@@ -1496,8 +1896,8 @@
     },
     {
       "path": "skills/ai-training-guangzhou/references/day-2.md",
-      "size_bytes": 1496,
-      "sha256": "7f1f7834734bc77318d862f96547d811182dec8ce72f3c40f68c576696377bda"
+      "size_bytes": 1803,
+      "sha256": "7e189b3f69f343a6ff65a5e6b6fe4804da257926445680ef7d84940a6981de4b"
     },
     {
       "path": "skills/ai-training-guangzhou/references/source-boundaries.md",
@@ -1550,9 +1950,14 @@
       "sha256": "224e991e35ce29f587b0f43d091dfa3ec556b5332ea5a5b072948cedf51ccf15"
     },
     {
+      "path": "tests/test_old_hong_indexes.py",
+      "size_bytes": 2904,
+      "sha256": "d61102c9b244499bb8a577dc1b79ad56a841d5f6b7fbddba71d7e41d1c274fe9"
+    },
+    {
       "path": "tests/test_repository.py",
-      "size_bytes": 5186,
-      "sha256": "88272c570467fd341caf364e051c905665097a4e297ccfa773776e4876467168"
+      "size_bytes": 5797,
+      "sha256": "fc9a3878debcc5307f27b1878febeba9a7535a536bab08a7b8d6463d89587548"
     }
   ]
 }
