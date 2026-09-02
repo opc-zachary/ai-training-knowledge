@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0.0",
+  "content_version": "1.5.0",
+  "count": 12,
+  "workflows": [
+    {
+      "id": "LH-WF-01",
+      "title": "行業研究 Prompt 共創流程",
+      "knowledge_points": [
+        "LH-PE-002",
+        "LH-PE-003",
+        "LH-PE-004",
+        "LH-PE-005",
+        "LH-PE-006",
+        "LH-QA-001"
+      ],
+      "evidence": "DJI_20260830102734_0001_D|00:02:00-00:18:30",
+      "path": "day-2/old-hong/workflows/zh-Hant/01-industry-research-prompt.md"
+    },
+    {
+      "id": "LH-WF-02",
+      "title": "Prompt 新窗口隔離測試流程",
+      "knowledge_points": [
+        "LH-PE-006",
+        "LH-PE-008",
+        "LH-CTX-003",
+        "LH-QA-002",
+        "LH-QA-003"
+      ],
+      "evidence": "DJI_20260830102734_0001_D|00:18:00-00:22:00",
+      "path": "day-2/old-hong/workflows/zh-Hant/02-isolated-prompt-test.md"
+    },
+    {
+      "id": "LH-WF-03",
+      "title": "Prompt 結果復盤與版本升級流程",
+      "knowledge_points": [
+        "LH-PE-001",
+        "LH-PE-007",
+        "LH-QA-004",
+        "LH-QA-007"
+      ],
+      "evidence": "DJI_20260830102734_0001_D|00:08:00-00:27:42",
+      "path": "day-2/old-hong/workflows/zh-Hant/03-prompt-review-versioning.md"
+    },
+    {
+      "id": "LH-WF-04",
+      "title": "Context 超載診斷與任務切分流程",
+      "knowledge_points": [
+        "LH-CTX-001",
+        "LH-CTX-002",
+        "LH-CTX-004",
+        "LH-CTX-007"
+      ],
+      "evidence": "DJI_20260830105517_0002_D|00:00:00-00:02:00",
+      "path": "day-2/old-hong/workflows/zh-Hant/04-context-overload-recovery.md"
+    },
+    {
+      "id": "LH-WF-05",
+      "title": "Prompt 四層排錯流程",
+      "knowledge_points": [
+        "LH-CTX-005",
+        "LH-CTX-006",
+        "LH-CTX-008",
+        "LH-QA-004",
+        "LH-QA-005"
+      ],
+      "evidence": "DJI_20260830105517_0002_D|00:02:00-00:08:00",
+      "path": "day-2/old-hong/workflows/zh-Hant/05-four-layer-prompt-debugging.md"
+    },
+    {
+      "id": "LH-WF-06",
+      "title": "現成 Skill 搜尋與評估流程",
+      "knowledge_points": [
+        "LH-SKL-003",
+        "LH-SKL-004",
+        "LH-SKL-005"
+      ],
+      "evidence": "DJI_20260830105517_0002_D|00:10:00-00:20:00",
+      "path": "day-2/old-hong/workflows/zh-Hant/06-skill-discovery-assessment.md"
+    },
+    {
+      "id": "LH-WF-07",
+      "title": "已驗證工作封裝成 Skill 流程",
+      "knowledge_points": [
+        "LH-SKL-001",
+        "LH-SKL-006",
+        "LH-SKL-007",
+        "LH-QA-003",
+        "LH-QA-005"
+      ],
+      "evidence": "DJI_20260830105517_0002_D|00:20:00-00:27:43",
+      "path": "day-2/old-hong/workflows/zh-Hant/07-validated-work-to-skill.md"
+    },
+    {
+      "id": "LH-WF-08",
+      "title": "Skill 頂層設計與規則拆分流程",
+      "knowledge_points": [
+        "LH-SKL-002",
+        "LH-SKL-007",
+        "LH-SKL-008"
+      ],
+      "evidence": "DJI_20260830112259_0003_D|00:00:00-00:08:00",
+      "path": "day-2/old-hong/workflows/zh-Hant/08-skill-top-level-design.md"
+    },
+    {
+      "id": "LH-WF-09",
+      "title": "個人 AI 工作台 MVP 建立流程",
+      "knowledge_points": [
+        "LH-WB-001",
+        "LH-WB-002",
+        "LH-WB-003",
+        "LH-AUTO-005",
+        "LH-AUTO-006",
+        "LH-AUTO-007"
+      ],
+      "evidence": "DJI_20260830112259_0003_D|00:08:00-00:18:40",
+      "path": "day-2/old-hong/workflows/zh-Hant/09-ai-workbench-mvp.md"
+    },
+    {
+      "id": "LH-WF-10",
+      "title": "內容數據回流與自主復盤流程",
+      "knowledge_points": [
+        "LH-WB-004",
+        "LH-WB-005",
+        "LH-WB-006",
+        "LH-WB-007",
+        "LH-QA-006",
+        "LH-QA-007"
+      ],
+      "evidence": "DJI_20260830112259_0003_D|00:12:00-00:17:00",
+      "path": "day-2/old-hong/workflows/zh-Hant/10-data-feedback-review.md"
+    },
+    {
+      "id": "LH-WF-11",
+      "title": "企業自動化方案選型流程",
+      "knowledge_points": [
+        "LH-AUTO-001",
+        "LH-AUTO-002",
+        "LH-AUTO-003",
+        "LH-AUTO-004",
+        "LH-AUTO-008",
+        "LH-WB-008"
+      ],
+      "evidence": "DJI_20260830114141_0004_D|00:00:00-00:10:00",
+      "path": "day-2/old-hong/workflows/zh-Hant/11-automation-option-selection.md"
+    },
+    {
+      "id": "LH-WF-12",
+      "title": "FDE 低風險試點與陪伴式交付流程",
+      "knowledge_points": [
+        "LH-FDE-001",
+        "LH-FDE-002",
+        "LH-FDE-003",
+        "LH-FDE-004",
+        "LH-FDE-005",
+        "LH-FDE-006",
+        "LH-FDE-007",
+        "LH-FDE-008",
+        "LH-AUTO-008",
+        "LH-QA-008"
+      ],
+      "evidence": "DJI_20260830114141_0004_D|00:08:00-00:15:12",
+      "path": "day-2/old-hong/workflows/zh-Hant/12-fde-pilot-delivery.md"
+    }
+  ]
+}
