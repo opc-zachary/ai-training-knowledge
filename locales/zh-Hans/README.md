@@ -14,6 +14,7 @@
 8. [第二天 Channel 课件对照](day-2-reference.md)
 9. [Codex 调用指南](codex-usage.md)
 10. [第二天完整团队知识包](../../day-2/README.md)
+11. [老洪实战知识、工作流与教学系统](../../day-2/old-hong/README.md)
 
 ## 核心学习主线
 

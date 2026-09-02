@@ -9,7 +9,8 @@
 推薦提示：
 
 ```text
-讀取 day-2/README.md、day-2/classification/terminology.md，
+讀取 day-2/README.md、day-2/classification/terminology.md；
+如問題涉及老洪，優先讀 day-2/old-hong/README.md 及其 JSON 索引，
 再根據我的問題選擇對應 guide、timestamped transcript 及 qa.json。
 回答時必須標示 session、Video ID、時間碼及 Review 證據狀態。
 ```
@@ -18,8 +19,11 @@
 
 | 問題 | 優先路徑 |
 |---|---|
-| Prompt／Skill／工作台 | `guides/zh-Hant/morning/` |
-| FDE 企業落地 | 上午 04＋下午 09 |
+| 老洪 Prompt／Skill／工作台 | `old-hong/README.md`＋相關 `LH-*` 知識點／工作流 |
+| 老洪 FDE 企業落地 | `old-hong/workflows/zh-Hant/12-fde-pilot-delivery.md` |
+| 老洪團隊培訓 | `old-hong/teaching-flows/zh-Hant/` |
+| 老洪模板 | `old-hong/templates/zh-Hant/` |
+| FDE／OPC 綜合比較 | 上午 04＋下午 09 |
 | GUI／CLI／API／MCP | 下午 04 |
 | Harness／Loop | 下午 05 |
 | GitHub／Agent Reach／Multi-Agent | 下午 06 |
@@ -49,3 +53,4 @@ https://raw.githubusercontent.com/opc-zachary/ai-training-knowledge/main/day-2/t
 3. 原話與整理結論分開。
 4. 專有名詞依 `classification/terminology.md` 正名。
 5. 模型、價格及產品能力要標記課堂日期，避免當成永久現況。
+6. 老洪內容引用 `LH-*` ID，並分開課堂原意、整理應用及新增建議。

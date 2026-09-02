@@ -15,6 +15,7 @@
 - 品牌研究、作者調性、視覺反推、電商視覺、AI 影片及數據分析 Playbook。
 - 初階練習、實戰 Capstone、驗證題及可直接填寫的工作模板。
 - 第二天 Channel 課件的 7 個參考章節。
+- 老洪 56 個知識點、12 條工作流、5 套教學流、8 份模板及 4 條角色路線。
 - 任務路由、名詞表、學習路徑及 Codex Skill。
 
 ## 快速入口
@@ -30,6 +31,7 @@
 - [機器可讀 JSON](data/course-crosswalk.v1.json)
 - [Codex Skill](skills/ai-training-guangzhou/SKILL.md)
 - [第二天完整團隊知識包](day-2/README.md)
+- [老洪實戰知識、工作流與教學系統](day-2/old-hong/README.md)
 
 ## Raw JSON
 
@@ -49,6 +51,6 @@ curl -L 'https://raw.githubusercontent.com/opc-zachary/ai-training-knowledge/mai
 
 - 第一天：已按 10 段處理後的影片建立時間碼對照。
 - 第二天：18 組影片完成分類；13 段可用內容、5 段環境聲排除，狀態為 `video_classified_review`。
-- JSON schema：`1.0.0`；內容版本：`1.4.0`。
+- JSON schema：`1.0.0`；內容版本：`1.5.0`。
 
 本 Repo 包含重新撰寫的衍生知識、第二天繁體清理逐字稿／SRT／JSON、QA 及分類畫面；不包含原影片、Raw Whisper 幻覺稿、原課件或第三方程式碼。

@@ -105,6 +105,12 @@ def required_files(root: Path) -> list[Path]:
         "day-2/classification/terminology.md",
         "day-2/evidence/keyframe-index.json",
         "day-2/manifests/day-2-public-manifest.json",
+        "day-2/old-hong/README.md",
+        "day-2/old-hong/TEAM_AND_AGENT_GUIDE.md",
+        "day-2/old-hong/knowledge-points/knowledge-index.json",
+        "day-2/old-hong/workflows/workflow-index.json",
+        "day-2/old-hong/teaching-flows/teaching-index.json",
+        "day-2/old-hong/evidence/evidence-map.json",
         "scripts/validate_repository.py",
         "tests/test_repository.py",
     ]
@@ -186,6 +192,11 @@ def resource_paths(data: dict) -> list[str]:
     if skill:
         paths.append(skill)
     paths.extend(resources.get("locales", {}).values())
+    old_hong = resources.get("old_hong_system", {})
+    for key in ("root", "calling_guide", "knowledge_index", "workflow_index", "teaching_index", "evidence_map"):
+        path = old_hong.get(key)
+        if path:
+            paths.append(path)
     return paths
 
 
@@ -442,8 +453,8 @@ def validate_crosswalk(root: Path) -> list[str]:
 
     if data.get("schema_version") != "1.0.0":
         errors.append("crosswalk schema_version must be 1.0.0")
-    if data.get("content_version") != "1.4.0":
-        errors.append("crosswalk content_version must be 1.4.0")
+    if data.get("content_version") != "1.5.0":
+        errors.append("crosswalk content_version must be 1.5.0")
     if data.get("status") != "public-derived-knowledge":
         errors.append("crosswalk status must be public-derived-knowledge")
     distribution = data.get("distribution", {})

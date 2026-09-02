@@ -20,6 +20,7 @@ Public, derived knowledge from the two-day AI Training Guangzhou programme. The 
 - [Machine-readable crosswalk](data/course-crosswalk.v1.json)
 - [Codex skill](skills/ai-training-guangzhou/SKILL.md)
 - [Complete Day 2 team knowledge package](day-2/README.md)
+- [Old Hong knowledge, workflow and teaching system](day-2/old-hong/README.md)
 
 ## Raw JSON
 
@@ -31,4 +32,6 @@ https://raw.githubusercontent.com/opc-zachary/ai-training-knowledge/main/data/co
 
 This repository contains newly written derived knowledge plus cleaned Day 2 review transcripts, SRT, structured JSON, QA and classification frames. It excludes original video, raw hallucinated transcript, source courseware and third-party code.
 
-Schema: `1.0.0`; content release: `1.4.0`.
+The Old Hong system adds 56 evidence-linked knowledge points, 12 executable workflows, five teaching flows, eight templates and four role-based learning paths in Traditional and Simplified Chinese.
+
+Schema: `1.0.0`; content release: `1.5.0`.

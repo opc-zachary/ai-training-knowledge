@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.5.0 — 2026-09-02
+
+- Added the bilingual Old Hong operating and teaching system under `day-2/old-hong/`.
+- Added 56 evidence-linked knowledge points across seven domains.
+- Added 12 executable workflows, five teaching flows, eight templates and four role-based learning paths.
+- Added machine-readable knowledge, workflow, teaching and evidence indexes plus team/Agent routing.
+
 ## 1.4.0 — 2026-09-02
 
 - Added the complete Day 2 team knowledge package under `day-2/`.

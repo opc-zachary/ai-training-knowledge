@@ -4,7 +4,7 @@
 
 範圍：0830 上午老洪＋下午 Channel
 
-內容版本：1.4.0
+內容版本：1.5.0
 
 ## 快速入口
 
@@ -16,6 +16,7 @@
 - [畫面索引 JSON](evidence/keyframe-index.json)
 - [公開交付 Manifest](manifests/day-2-public-manifest.json)
 - [團隊／Agent 調用指南](TEAM_CALLING_GUIDE.md)
+- [老洪實戰知識、工作流與教學系統](old-hong/README.md)
 
 ## 內容清單
 
@@ -30,6 +31,9 @@
 | 指南索引／兩天地圖 | 繁簡各 2 |
 | 清理 transcript 套件 | 13 × 5 種格式 |
 | 分類畫面 | 117 |
+| 老洪原子知識點 | 56 |
+| 老洪工作流／教學流 | 12／5 |
+| 老洪模板／角色路線 | 8／4 |
 
 ## 上午老洪
 
@@ -37,6 +41,8 @@
 2. Context Window、Prompt 排錯與 Skill 建立。
 3. Skill 頂層設計與個人 AI 工作台。
 4. 企業自動化演進與 FDE 落地。
+
+以上四段已進一步整理為 [老洪專區](old-hong/README.md)，提供繁簡知識點、工作流、教學流、模板、角色路線及時間碼證據映射。
 
 ## 下午 Channel
 

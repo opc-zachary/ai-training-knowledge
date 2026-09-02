@@ -1,12 +1,13 @@
 {
   "schema_version": "1.0.0",
-  "content_version": "1.4.0",
+  "content_version": "1.5.0",
   "project": "AITrainingGuangzhou",
   "status": "public-derived-knowledge",
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "source_boundary": {
     "contains_original_video": false,
-    "contains_transcript_or_subtitle": false,
+    "contains_transcript_or_subtitle": true,
+    "contains_raw_hallucinated_transcript": false,
     "contains_courseware_files": false,
     "contains_third_party_code": false,
     "day2_video_mapping_complete": true
@@ -63,6 +64,20 @@
       "classification": "day-2/classification",
       "keyframe_index": "day-2/evidence/keyframe-index.json",
       "public_manifest": "day-2/manifests/day-2-public-manifest.json"
+    },
+    "old_hong_system": {
+      "root": "day-2/old-hong/README.md",
+      "calling_guide": "day-2/old-hong/TEAM_AND_AGENT_GUIDE.md",
+      "knowledge_index": "day-2/old-hong/knowledge-points/knowledge-index.json",
+      "workflow_index": "day-2/old-hong/workflows/workflow-index.json",
+      "teaching_index": "day-2/old-hong/teaching-flows/teaching-index.json",
+      "evidence_map": "day-2/old-hong/evidence/evidence-map.json",
+      "knowledge_points": 56,
+      "workflows": 12,
+      "teaching_flows": 5,
+      "templates": 8,
+      "learning_paths": 4,
+      "languages": ["zh-Hant", "zh-Hans"]
     },
     "locales": {
       "zh-Hant": "locales/zh-Hant/README.md",
@@ -174,7 +189,10 @@
       "classification_frames": 117,
       "individual_guides_zh_hant": 13,
       "individual_guides_zh_hans": 13,
-      "cleaned_transcript_file_set": 65
+      "cleaned_transcript_file_set": 65,
+      "old_hong_knowledge_points": 56,
+      "old_hong_workflows": 12,
+      "old_hong_teaching_flows": 5
     },
     "sessions": [
       {

@@ -26,7 +26,7 @@ class RepositoryTests(unittest.TestCase):
     def test_crosswalk_contract(self):
         data = json.loads((ROOT / "data" / "course-crosswalk.v1.json").read_text())
         self.assertEqual(data["schema_version"], "1.0.0")
-        self.assertEqual(data["content_version"], "1.4.0")
+        self.assertEqual(data["content_version"], "1.5.0")
         self.assertEqual(data["status"], "public-derived-knowledge")
         self.assertEqual(data["distribution"]["repository_visibility"], "PUBLIC")
         self.assertEqual(data["distribution"]["languages"], ["zh-Hant", "zh-Hans", "en"])
@@ -50,9 +50,17 @@ class RepositoryTests(unittest.TestCase):
         self.assertEqual(data["day2"]["video_summary"]["individual_guides_zh_hant"], 13)
         self.assertEqual(data["day2"]["video_summary"]["individual_guides_zh_hans"], 13)
         self.assertEqual(data["day2"]["video_summary"]["cleaned_transcript_file_set"], 65)
+        self.assertTrue(data["source_boundary"]["contains_transcript_or_subtitle"])
+        self.assertFalse(data["source_boundary"]["contains_raw_hallucinated_transcript"])
         resources = data["resources"]
         self.assertEqual(resources["video_guides"]["count"], 10)
         self.assertEqual(resources["module_handbooks"]["count"], 11)
+        old_hong = resources["old_hong_system"]
+        self.assertEqual(old_hong["knowledge_points"], 56)
+        self.assertEqual(old_hong["workflows"], 12)
+        self.assertEqual(old_hong["teaching_flows"], 5)
+        self.assertEqual(old_hong["templates"], 8)
+        self.assertEqual(old_hong["learning_paths"], 4)
         for path in self.validator.resource_paths(data):
             self.assertTrue((ROOT / path).is_file(), path)
 
