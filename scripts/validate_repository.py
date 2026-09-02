@@ -165,7 +165,10 @@ def scan_prohibited(root: Path) -> list[str]:
         if path.suffix.lower() in PROHIBITED_EXTENSIONS:
             relative = path.relative_to(root).as_posix()
             allowed_srt = path.suffix.lower() == ".srt" and relative.startswith("day-2/transcripts/zh-Hant/")
-            allowed_jpg = path.suffix.lower() in {".jpg", ".jpeg"} and relative.startswith("day-2/evidence/keyframes/")
+            allowed_jpg = path.suffix.lower() in {".jpg", ".jpeg"} and (
+                relative.startswith("day-2/evidence/keyframes/")
+                or relative.startswith("day-2/old-hong/screenshots/images/")
+            )
             if not allowed_srt and not allowed_jpg:
                 findings.append(f"prohibited extension: {relative}")
 
@@ -443,6 +446,128 @@ def validate_old_hong_package(root: Path) -> list[str]:
     return sorted(set(errors))
 
 
+def jpeg_dimensions(path: Path) -> tuple[int, int]:
+    """Read JPEG dimensions with the Python standard library."""
+    with path.open("rb") as handle:
+        if handle.read(2) != b"\xff\xd8":
+            raise ValueError("not a JPEG")
+        while True:
+            marker_start = handle.read(1)
+            if not marker_start:
+                raise ValueError("JPEG dimensions not found")
+            if marker_start != b"\xff":
+                continue
+            marker = handle.read(1)
+            while marker == b"\xff":
+                marker = handle.read(1)
+            if marker in {b"\xd8", b"\xd9"}:
+                continue
+            length_bytes = handle.read(2)
+            if len(length_bytes) != 2:
+                raise ValueError("truncated JPEG marker")
+            length = int.from_bytes(length_bytes, "big")
+            if marker in {
+                b"\xc0", b"\xc1", b"\xc2", b"\xc3",
+                b"\xc5", b"\xc6", b"\xc7",
+                b"\xc9", b"\xca", b"\xcb",
+                b"\xcd", b"\xce", b"\xcf",
+            }:
+                data = handle.read(length - 2)
+                if len(data) < 5:
+                    raise ValueError("truncated JPEG size segment")
+                return int.from_bytes(data[3:5], "big"), int.from_bytes(data[1:3], "big")
+            handle.seek(length - 2, 1)
+
+
+def validate_old_hong_screenshots(root: Path) -> list[str]:
+    """Validate one screenshot per Old Hong knowledge point and teaching mappings."""
+    errors: list[str] = []
+    base = root / "day-2" / "old-hong" / "screenshots"
+    required = [
+        base / "README.md",
+        base / "GALLERY.md",
+        base / "screenshot-index.json",
+        base / "teaching-screenshot-index.json",
+    ]
+    for path in required:
+        if not path.is_file():
+            errors.append(f"missing Old Hong screenshot file: {path.relative_to(root)}")
+
+    def load(path: Path, key: str) -> list[dict]:
+        if not path.is_file():
+            return []
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            errors.append(f"invalid Old Hong screenshot JSON {path.relative_to(root)}: {exc}")
+            return []
+        items = data.get(key)
+        if not isinstance(items, list):
+            errors.append(f"Old Hong screenshot JSON key {key} must be a list")
+            return []
+        return items
+
+    screenshots = load(base / "screenshot-index.json", "screenshots")
+    teaching = load(base / "teaching-screenshot-index.json", "teaching_flows")
+    images = sorted((base / "images").glob("*.jpg"))
+    if len(images) != 56:
+        errors.append(f"Old Hong screenshot image count must be 56, found {len(images)}")
+    if len(screenshots) != 56:
+        errors.append(f"Old Hong screenshot index must contain 56 records, found {len(screenshots)}")
+    if len(teaching) != 5:
+        errors.append(f"Old Hong teaching screenshot index must contain 5 records, found {len(teaching)}")
+
+    try:
+        knowledge = json.loads(
+            (root / "day-2/old-hong/knowledge-points/knowledge-index.json").read_text(encoding="utf-8")
+        )["knowledge_points"]
+    except (OSError, json.JSONDecodeError, KeyError) as exc:
+        errors.append(f"cannot load Old Hong knowledge index for screenshots: {exc}")
+        knowledge = []
+    knowledge_ids = {item.get("id") for item in knowledge}
+    screenshot_ids = [item.get("id") for item in screenshots]
+    screenshot_knowledge_ids = [item.get("knowledge_id") for item in screenshots]
+    if len(screenshot_ids) != len(set(screenshot_ids)):
+        errors.append("Old Hong screenshot IDs are not unique")
+    if len(screenshot_knowledge_ids) != len(set(screenshot_knowledge_ids)):
+        errors.append("Old Hong screenshot knowledge IDs are not unique")
+    if screenshots and set(screenshot_knowledge_ids) != knowledge_ids:
+        errors.append("Old Hong screenshots do not cover exactly the knowledge index IDs")
+
+    for item in screenshots:
+        relative = item.get("path", "")
+        image_path = root / relative
+        if not image_path.is_file():
+            errors.append(f"missing Old Hong screenshot image: {relative}")
+            continue
+        if not relative.startswith("day-2/old-hong/screenshots/images/"):
+            errors.append(f"Old Hong screenshot path outside image directory: {relative}")
+        if image_path.stat().st_size >= 1_000_000:
+            errors.append(f"Old Hong screenshot exceeds 1 MB: {relative}")
+        if item.get("size_bytes") != image_path.stat().st_size:
+            errors.append(f"Old Hong screenshot size mismatch: {relative}")
+        if item.get("sha256") != sha256(image_path):
+            errors.append(f"Old Hong screenshot hash mismatch: {relative}")
+        try:
+            width, height = jpeg_dimensions(image_path)
+        except ValueError as exc:
+            errors.append(f"invalid Old Hong screenshot JPEG {relative}: {exc}")
+            continue
+        if width != 1920:
+            errors.append(f"Old Hong screenshot width must be 1920: {relative}")
+        if item.get("width") != width or item.get("height") != height:
+            errors.append(f"Old Hong screenshot dimensions mismatch: {relative}")
+        if item.get("ocr_status") not in {"recognized", "no_text_detected", "unavailable"}:
+            errors.append(f"Old Hong screenshot OCR status invalid: {relative}")
+
+    known_screenshots = set(screenshot_ids)
+    for item in teaching:
+        unknown = set(item.get("screenshot_ids", [])) - known_screenshots
+        if unknown:
+            errors.append(f"Old Hong teaching screenshot references unknown IDs: {sorted(unknown)}")
+    return sorted(set(errors))
+
+
 def validate_crosswalk(root: Path) -> list[str]:
     errors: list[str] = []
     path = root / "data" / "course-crosswalk.v1.json"
@@ -561,6 +686,7 @@ def validate(root: Path) -> list[str]:
     errors.extend(validate_locales(root))
     errors.extend(validate_day2_detailed_package(root))
     errors.extend(validate_old_hong_package(root))
+    errors.extend(validate_old_hong_screenshots(root))
     errors.extend(verify_manifest(root))
     return errors
 

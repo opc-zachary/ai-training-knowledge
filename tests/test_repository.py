@@ -105,6 +105,9 @@ class RepositoryTests(unittest.TestCase):
     def test_old_hong_package(self):
         self.assertEqual(self.validator.validate_old_hong_package(ROOT), [])
 
+    def test_old_hong_screenshots(self):
+        self.assertEqual(self.validator.validate_old_hong_screenshots(ROOT), [])
+
     def test_chinese_locales(self):
         self.assertEqual(self.validator.validate_locales(ROOT), [])
         for locale_name in ("zh-Hant", "zh-Hans"):
