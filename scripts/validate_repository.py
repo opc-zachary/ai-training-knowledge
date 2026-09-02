@@ -47,6 +47,14 @@ ROOT_PUBLICATION_FILES = (
     "README.md", "README.en.md", "SOURCE_BOUNDARIES.md", "SHARING_POLICY.md", "CHANGELOG.md"
 )
 
+OLD_HONG_REQUIRED_COUNTS = {
+    "knowledge_points": (50, 70),
+    "workflows": 12,
+    "teaching_flows": 5,
+    "templates": 8,
+    "learning_paths": 4,
+}
+
 
 def required_files(root: Path) -> list[Path]:
     relative = [
@@ -319,6 +327,111 @@ def validate_day2_detailed_package(root: Path) -> list[str]:
     return errors
 
 
+def validate_old_hong_package(root: Path) -> list[str]:
+    """Validate the bilingual, evidence-linked Old Hong learning package."""
+    errors: list[str] = []
+    base = root / "day-2" / "old-hong"
+    required = [
+        base / "README.md",
+        base / "TEAM_AND_AGENT_GUIDE.md",
+        base / "knowledge-points" / "knowledge-index.json",
+        base / "workflows" / "workflow-index.json",
+        base / "teaching-flows" / "teaching-index.json",
+        base / "evidence" / "evidence-map.json",
+        base / "evidence" / "coverage-report.md",
+    ]
+    for path in required:
+        if not path.is_file():
+            errors.append(f"missing Old Hong file: {path.relative_to(root)}")
+
+    expected_markdown_counts = {
+        "knowledge-points": 7,
+        "workflows": OLD_HONG_REQUIRED_COUNTS["workflows"],
+        "teaching-flows": OLD_HONG_REQUIRED_COUNTS["teaching_flows"],
+        "templates": OLD_HONG_REQUIRED_COUNTS["templates"],
+        "learning-paths": OLD_HONG_REQUIRED_COUNTS["learning_paths"],
+    }
+    for section, expected in expected_markdown_counts.items():
+        hant = {path.name for path in (base / section / "zh-Hant").glob("*.md")}
+        hans = {path.name for path in (base / section / "zh-Hans").glob("*.md")}
+        if len(hant) != expected:
+            errors.append(f"Old Hong {section} zh-Hant count must be {expected}, found {len(hant)}")
+        if hans != hant:
+            errors.append(f"Old Hong {section} zh-Hans paths do not match zh-Hant")
+
+    def load_index(path: Path, key: str) -> list[dict]:
+        if not path.is_file():
+            return []
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            errors.append(f"invalid Old Hong JSON {path.relative_to(root)}: {exc}")
+            return []
+        items = data.get(key)
+        if not isinstance(items, list):
+            errors.append(f"Old Hong JSON key {key} must be a list: {path.relative_to(root)}")
+            return []
+        return items
+
+    knowledge = load_index(base / "knowledge-points" / "knowledge-index.json", "knowledge_points")
+    workflows = load_index(base / "workflows" / "workflow-index.json", "workflows")
+    teaching = load_index(base / "teaching-flows" / "teaching-index.json", "teaching_flows")
+    evidence = load_index(base / "evidence" / "evidence-map.json", "evidence")
+
+    minimum, maximum = OLD_HONG_REQUIRED_COUNTS["knowledge_points"]
+    if not minimum <= len(knowledge) <= maximum:
+        errors.append(f"Old Hong knowledge point count must be {minimum}-{maximum}, found {len(knowledge)}")
+    if len(workflows) != OLD_HONG_REQUIRED_COUNTS["workflows"]:
+        errors.append(f"Old Hong workflow index must contain 12 records, found {len(workflows)}")
+    if len(teaching) != OLD_HONG_REQUIRED_COUNTS["teaching_flows"]:
+        errors.append(f"Old Hong teaching index must contain 5 records, found {len(teaching)}")
+    if len(evidence) != len(knowledge):
+        errors.append("Old Hong evidence count must match knowledge point count")
+
+    def unique_ids(items: list[dict], label: str) -> set[str]:
+        ids = [item.get("id") for item in items]
+        if any(not isinstance(item, str) or not item for item in ids):
+            errors.append(f"Old Hong {label} contains a missing ID")
+        if len(ids) != len(set(ids)):
+            errors.append(f"Old Hong {label} IDs are not unique")
+        return {item for item in ids if isinstance(item, str) and item}
+
+    knowledge_ids = unique_ids(knowledge, "knowledge")
+    workflow_ids = unique_ids(workflows, "workflow")
+    unique_ids(teaching, "teaching")
+    evidence_ids = {item.get("knowledge_id") for item in evidence}
+    if evidence and evidence_ids != knowledge_ids:
+        errors.append("Old Hong evidence knowledge IDs do not match knowledge index")
+
+    for item in knowledge + workflows + teaching:
+        relative = item.get("path")
+        if not relative or not (root / relative).is_file():
+            errors.append(f"Old Hong index path missing: {relative}")
+    for item in workflows:
+        unknown = set(item.get("knowledge_points", [])) - knowledge_ids
+        if unknown:
+            errors.append(f"Old Hong workflow {item.get('id')} has unknown knowledge IDs: {sorted(unknown)}")
+    for item in teaching:
+        unknown_knowledge = set(item.get("knowledge_points", [])) - knowledge_ids
+        unknown_workflows = set(item.get("workflows", [])) - workflow_ids
+        if unknown_knowledge:
+            errors.append(f"Old Hong teaching {item.get('id')} has unknown knowledge IDs")
+        if unknown_workflows:
+            errors.append(f"Old Hong teaching {item.get('id')} has unknown workflow IDs")
+
+    if base.exists():
+        for path in base.rglob("*"):
+            if not path.is_file() or path.suffix.lower() not in {".md", ".json", ".txt"}:
+                continue
+            text = path.read_text(encoding="utf-8")
+            for needle in ("/Users/", "/Volumes/", "C:\\Users\\", "github_pat_", "ghp_"):
+                if needle in text:
+                    errors.append(f"Old Hong prohibited text in {path.relative_to(root)}: {needle}")
+            if re.search(r"\.(?:mp4|mov|lrf|pdf|zip)(?:\b|\))", text, flags=re.IGNORECASE):
+                errors.append(f"Old Hong prohibited source extension reference: {path.relative_to(root)}")
+    return sorted(set(errors))
+
+
 def validate_crosswalk(root: Path) -> list[str]:
     errors: list[str] = []
     path = root / "data" / "course-crosswalk.v1.json"
@@ -436,6 +549,7 @@ def validate(root: Path) -> list[str]:
     errors.extend(validate_markdown_links(root))
     errors.extend(validate_locales(root))
     errors.extend(validate_day2_detailed_package(root))
+    errors.extend(validate_old_hong_package(root))
     errors.extend(verify_manifest(root))
     return errors
 
