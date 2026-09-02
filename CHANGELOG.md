@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.6.0 — 2026-09-02
+
+- Added 56 Old Hong knowledge-point screenshots extracted locally from the four 4K source videos.
+- Added a visual gallery, local Chinese/English OCR, SHA-256 image index and teaching-flow screenshot index.
+- Added deterministic screenshot generation and repository validation tests.
+
 ## 1.5.0 — 2026-09-02
 
 - Added the bilingual Old Hong operating and teaching system under `day-2/old-hong/`.

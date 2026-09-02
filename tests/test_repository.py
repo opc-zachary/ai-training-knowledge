@@ -26,7 +26,7 @@ class RepositoryTests(unittest.TestCase):
     def test_crosswalk_contract(self):
         data = json.loads((ROOT / "data" / "course-crosswalk.v1.json").read_text())
         self.assertEqual(data["schema_version"], "1.0.0")
-        self.assertEqual(data["content_version"], "1.5.0")
+        self.assertEqual(data["content_version"], "1.6.0")
         self.assertEqual(data["status"], "public-derived-knowledge")
         self.assertEqual(data["distribution"]["repository_visibility"], "PUBLIC")
         self.assertEqual(data["distribution"]["languages"], ["zh-Hant", "zh-Hans", "en"])
@@ -61,6 +61,7 @@ class RepositoryTests(unittest.TestCase):
         self.assertEqual(old_hong["teaching_flows"], 5)
         self.assertEqual(old_hong["templates"], 8)
         self.assertEqual(old_hong["learning_paths"], 4)
+        self.assertEqual(old_hong["screenshots"], 56)
         for path in self.validator.resource_paths(data):
             self.assertTrue((ROOT / path).is_file(), path)
 

@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "project": "AITrainingGuangzhou",
   "visibility_required": "PUBLIC",
-  "generated_at": "2026-09-02T06:04:38+00:00",
+  "generated_at": "2026-09-02T09:42:51+00:00",
   "files": [
     {
       "path": ".gitignore",
@@ -11,18 +11,18 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size_bytes": 2237,
-      "sha256": "e66203b96dc4ff490fe977e51823b0f9547b4ebb32acf3ed72a52311912bbb60"
+      "size_bytes": 2547,
+      "sha256": "db74c56ba5cab05a4cd95c9a2b57f80f810013252034b4798ef1a3c3500b3f2a"
     },
     {
       "path": "README.en.md",
-      "size_bytes": 1721,
-      "sha256": "1478bfb541be917f9100274d735e617a50f51d1cbd4b0e55a18446d7896843f7"
+      "size_bytes": 1837,
+      "sha256": "707cb959fc71bafc9d55e05dea9e24d134e1b5592fa64204012d620577c766eb"
     },
     {
       "path": "README.md",
-      "size_bytes": 2484,
-      "sha256": "658a908746ba142925fd04baca1e0736ed2b779a42832b258d4838fcb4a41f3f"
+      "size_bytes": 2635,
+      "sha256": "a2380ac4d64cb732726cabc3c53b72bb0d2c6d5da09c783f644c880237ac23c3"
     },
     {
       "path": "SHARING_POLICY.md",
@@ -36,13 +36,13 @@
     },
     {
       "path": "data/course-crosswalk.v1.json",
-      "size_bytes": 8417,
-      "sha256": "b4fc56c28a3fdeae3bf71f1763f1831244dd02c55e727dd2f554d8a320c34788"
+      "size_bytes": 8719,
+      "sha256": "9dda613870286883b1c7586736081c9db70300ad4230c0f750beca802e71cbcf"
     },
     {
       "path": "day-2/README.md",
-      "size_bytes": 2373,
-      "sha256": "f57d26bd0b472d064ec0bdfa7fdcc74d2952e3f57740ce493a86a7ba9dfd3c0a"
+      "size_bytes": 2513,
+      "sha256": "75d9b3360ed668cd8746d34bceef62f1dbe4b51a9be9f4bb7f1e3f03ed4518df"
     },
     {
       "path": "day-2/TEAM_CALLING_GUIDE.md",
@@ -841,13 +841,13 @@
     },
     {
       "path": "day-2/old-hong/README.md",
-      "size_bytes": 3851,
-      "sha256": "ac7346c2ebb18b3484f38589ce8d97a3334d81afd5658d0d6eb86691802379f9"
+      "size_bytes": 4118,
+      "sha256": "3a3841fc317161cf2852769d4e095815c33f7e2e7b2c4b36d60e9e62adef6017"
     },
     {
       "path": "day-2/old-hong/TEAM_AND_AGENT_GUIDE.md",
-      "size_bytes": 3377,
-      "sha256": "ca04503fee6ddd083bfeacbfaed65d256bdd6cb3508e6f224152260482b5b491"
+      "size_bytes": 3696,
+      "sha256": "ecafbc7b2e8e9d9cc1f17cb30ac42c24037d07e1c172082e2724ef7b75528ce1"
     },
     {
       "path": "day-2/old-hong/evidence/coverage-report.md",
@@ -973,6 +973,306 @@
       "path": "day-2/old-hong/learning-paths/zh-Hant/04-fde-enterprise-delivery.md",
       "size_bytes": 1828,
       "sha256": "109aecb7e302a3d35743c05c61835c99063175a799032ce6e4b73b718a28ece9"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/GALLERY.md",
+      "size_bytes": 58861,
+      "sha256": "c1d122548bf5e4750bfd8971bf4636321e0fad6c2fc4c1a0cdc8a0efd81c87a4"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/README.md",
+      "size_bytes": 1942,
+      "sha256": "5b81c2c137e0d825e048cea33bf44864f9a5c2571a6b4015c8c05f210353675d"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-AUTO-001_DJI_20260830114141_0004_D_000120000.jpg",
+      "size_bytes": 257770,
+      "sha256": "b917559a8e3ba140c3a568b9ce187283d346856c054fb83bf6edba135bf5bc47"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-AUTO-002_DJI_20260830114141_0004_D_000180000.jpg",
+      "size_bytes": 203491,
+      "sha256": "9f3990996e4847c309d9e46a80ef70f94b4a74de4a5bba1efac969fea2aaa3a5"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-AUTO-003_DJI_20260830114141_0004_D_000315000.jpg",
+      "size_bytes": 233456,
+      "sha256": "0e0f824d3c443fadc22ce45fc500b68a01eff3a7d22f6dcd7a160836f0ba346d"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-AUTO-004_DJI_20260830114141_0004_D_000345000.jpg",
+      "size_bytes": 214301,
+      "sha256": "775e5d744f652045e3da80aa877ba976f4a01aee476413ef9ec1f05390b6955e"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-AUTO-005_DJI_20260830114141_0004_D_000375000.jpg",
+      "size_bytes": 232227,
+      "sha256": "69ce51963404cf59c63d7f1d7bb894b27a9d0d6e856b0f691b3455c00d9c56ff"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-AUTO-006_DJI_20260830114141_0004_D_000435000.jpg",
+      "size_bytes": 263717,
+      "sha256": "6ca1c029a2e51ea08c8401b7df7d839b9ecc30c78ae3fe424fa8fb8f46f27466"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-AUTO-007_DJI_20260830114141_0004_D_000450000.jpg",
+      "size_bytes": 264090,
+      "sha256": "199643a33ce6fda63615efb90dc7baafde58c15611a9c7b944c35ebf35a05342"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-AUTO-008_DJI_20260830114141_0004_D_000510000.jpg",
+      "size_bytes": 280224,
+      "sha256": "ce7073f6d138cb4cea2a0c60c319e6c325e7909b826a8552a11bd3fed892e9f5"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-CTX-001_DJI_20260830102734_0001_D_001470000.jpg",
+      "size_bytes": 226978,
+      "sha256": "b0e019d4f9aecdce16eec3abf9d2e3ccbc8fea1404b015f6a764a429dcfecb56"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-CTX-002_DJI_20260830105517_0002_D_000060000.jpg",
+      "size_bytes": 239612,
+      "sha256": "57f8dbbf0c2ae7f92fad983211086b385b65d4eb62bc6c72c2138843ef711c69"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-CTX-003_DJI_20260830102734_0001_D_001200000.jpg",
+      "size_bytes": 218428,
+      "sha256": "4fba55b7c0f24d3f486bd3a584cd16232094c8174b6eaa3bf0cda2e3453c492f"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-CTX-004_DJI_20260830102734_0001_D_001551000.jpg",
+      "size_bytes": 222916,
+      "sha256": "c54f313d4c32f4c90237f92a29c1f7edaef596b5357e27675bbdcc05635daac8"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-CTX-005_DJI_20260830105517_0002_D_000240000.jpg",
+      "size_bytes": 242195,
+      "sha256": "6d5cd292b1b3e06dff611c2e93c139ca04eeb509785b282aa6152e13393d68f3"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-CTX-006_DJI_20260830105517_0002_D_000255000.jpg",
+      "size_bytes": 228709,
+      "sha256": "1e2cc8420c4665ff35bd70fee268c328c9f7f90d574b32c64e025a3bcfa4cfe2"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-CTX-007_DJI_20260830105517_0002_D_000060000.jpg",
+      "size_bytes": 239612,
+      "sha256": "57f8dbbf0c2ae7f92fad983211086b385b65d4eb62bc6c72c2138843ef711c69"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-CTX-008_DJI_20260830105517_0002_D_000360000.jpg",
+      "size_bytes": 236191,
+      "sha256": "541044c498dd4d14d0c81efacbd0ffa7bcfafedd69bdb3c24e223dd4f5b03568"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-FDE-001_DJI_20260830114141_0004_D_000540000.jpg",
+      "size_bytes": 280336,
+      "sha256": "cbcfa23aa36178587807183f067e4d2f6d4b3d66a6d08a66b7a0210477c701b0"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-FDE-002_DJI_20260830114141_0004_D_000570000.jpg",
+      "size_bytes": 256068,
+      "sha256": "9bc41e05bb309ff7c19b7292258568673c89591eded010434f6b18bb46ac79ed"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-FDE-003_DJI_20260830114141_0004_D_000615000.jpg",
+      "size_bytes": 284759,
+      "sha256": "f85eddbbea061e7439d18fdb42cf331ff50a8f1f88937e5000f9e4015239ae8a"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-FDE-004_DJI_20260830114141_0004_D_000645000.jpg",
+      "size_bytes": 283040,
+      "sha256": "c73c9ae1b3b70f6b68a0220d7f68535e50d975a9178289234fe0077a66f95af7"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-FDE-005_DJI_20260830114141_0004_D_000675000.jpg",
+      "size_bytes": 282178,
+      "sha256": "fe5e63ebf7ee73abd3ad59d12592736af0603c7d910698382e4d26cf458e5c3e"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-FDE-006_DJI_20260830114141_0004_D_000675000.jpg",
+      "size_bytes": 282178,
+      "sha256": "fe5e63ebf7ee73abd3ad59d12592736af0603c7d910698382e4d26cf458e5c3e"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-FDE-007_DJI_20260830114141_0004_D_000720000.jpg",
+      "size_bytes": 281212,
+      "sha256": "28ba4b4e5c18da1d9924b51a0e6d687bd44e47628c2a48a2783253b0c20eebed"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-FDE-008_DJI_20260830114141_0004_D_000816000.jpg",
+      "size_bytes": 253938,
+      "sha256": "335864c49662e86b33085b490c58ce054c392f84cb6592d255335bcfb3475822"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-PE-001_DJI_20260830102734_0001_D_000540000.jpg",
+      "size_bytes": 307156,
+      "sha256": "502a31340e7c91b279d955cd7cd9a860483957806758a7bdb5a689cb00712f38"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-PE-002_DJI_20260830102734_0001_D_000300000.jpg",
+      "size_bytes": 265086,
+      "sha256": "d5e44372451a44612cd4d0fbb549cb7f0dd3c28682b5191a2d13eaca35445d23"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-PE-003_DJI_20260830102734_0001_D_000570000.jpg",
+      "size_bytes": 306884,
+      "sha256": "3b804a60f70365f3b4a202e59399645cc5c7b6241a8f684c9a0e9c72c95ef7ce"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-PE-004_DJI_20260830102734_0001_D_000690000.jpg",
+      "size_bytes": 235433,
+      "sha256": "735ca50fb36a893e57c308671a8086afb498bdadb6047ea81f9299783e2a66fa"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-PE-005_DJI_20260830102734_0001_D_000930000.jpg",
+      "size_bytes": 229048,
+      "sha256": "a21eec62e582b373390c7339191d49c5060f4d38c311a54727a4e041b936392c"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-PE-006_DJI_20260830102734_0001_D_000990000.jpg",
+      "size_bytes": 250682,
+      "sha256": "8f5248a245ea0c9bc782f0a2a0c0ba491a9f92bebebb9c49869af8f8a6fed160"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-PE-007_DJI_20260830102734_0001_D_000840000.jpg",
+      "size_bytes": 235650,
+      "sha256": "6693cb547ab49f15c376b74414d22483db4a3f88d6e8a4e7911cc24a781b387d"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-PE-008_DJI_20260830102734_0001_D_001200000.jpg",
+      "size_bytes": 218428,
+      "sha256": "4fba55b7c0f24d3f486bd3a584cd16232094c8174b6eaa3bf0cda2e3453c492f"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-QA-001_DJI_20260830102734_0001_D_000570000.jpg",
+      "size_bytes": 306884,
+      "sha256": "3b804a60f70365f3b4a202e59399645cc5c7b6241a8f684c9a0e9c72c95ef7ce"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-QA-002_DJI_20260830102734_0001_D_001200000.jpg",
+      "size_bytes": 218428,
+      "sha256": "4fba55b7c0f24d3f486bd3a584cd16232094c8174b6eaa3bf0cda2e3453c492f"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-QA-003_DJI_20260830102734_0001_D_001200000.jpg",
+      "size_bytes": 218428,
+      "sha256": "4fba55b7c0f24d3f486bd3a584cd16232094c8174b6eaa3bf0cda2e3453c492f"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-QA-004_DJI_20260830105517_0002_D_000240000.jpg",
+      "size_bytes": 242195,
+      "sha256": "6d5cd292b1b3e06dff611c2e93c139ca04eeb509785b282aa6152e13393d68f3"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-QA-005_DJI_20260830105517_0002_D_000420000.jpg",
+      "size_bytes": 199808,
+      "sha256": "1342a3f7c0d614d000cf0e7cef20b50a3dd2055821df99d118b82956463b2d26"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-QA-006_DJI_20260830112259_0003_D_000855000.jpg",
+      "size_bytes": 216439,
+      "sha256": "98ee2689f75d7f3ce00509b0b98759cb03bfe8171c2c768606bdc2fce3798f95"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-QA-007_DJI_20260830112259_0003_D_000930000.jpg",
+      "size_bytes": 222123,
+      "sha256": "4320651a2791649574dbb492be95ccf9d09bba0bdb86d1f8b6d200552569b6bd"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-QA-008_DJI_20260830114141_0004_D_000816000.jpg",
+      "size_bytes": 253938,
+      "sha256": "335864c49662e86b33085b490c58ce054c392f84cb6592d255335bcfb3475822"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-SKL-001_DJI_20260830105517_0002_D_000480000.jpg",
+      "size_bytes": 256127,
+      "sha256": "1905680424e45ee19b6e62adaacb853a3123f5ea5177c94f94936c89747816ec"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-SKL-002_DJI_20260830105517_0002_D_000480000.jpg",
+      "size_bytes": 256127,
+      "sha256": "1905680424e45ee19b6e62adaacb853a3123f5ea5177c94f94936c89747816ec"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-SKL-003_DJI_20260830105517_0002_D_000750000.jpg",
+      "size_bytes": 241791,
+      "sha256": "a855801ab58e2c7ba34df0a62c30584b02e1668591d25647eca12d8a6d2e917d"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-SKL-004_DJI_20260830105517_0002_D_000765000.jpg",
+      "size_bytes": 245869,
+      "sha256": "1b76f658b4450acf8c1ba85f59c4d0549d6804fb5932660818ff21cc20200205"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-SKL-005_DJI_20260830105517_0002_D_001020000.jpg",
+      "size_bytes": 217530,
+      "sha256": "26638a7eeea3366b9b6aaa5f695a3ac6ab8b2dd0cdb8b0f7ed3f5eb5db279dec"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-SKL-006_DJI_20260830105517_0002_D_001320000.jpg",
+      "size_bytes": 214235,
+      "sha256": "7a81140d09ce8cbb1557bc6dec47df44bac4030dc5a705aaa145fea4e07f09f8"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-SKL-007_DJI_20260830105517_0002_D_001551500.jpg",
+      "size_bytes": 228350,
+      "sha256": "790296524e82f8cf0cce650463ca7256ebeead6c1dbf0894cac28f7a7b479eb8"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-SKL-008_DJI_20260830112259_0003_D_000240000.jpg",
+      "size_bytes": 251447,
+      "sha256": "764c002c3c67b724c7b6c931f7f7de44c4200077de8220caa8e8f99feae6fa15"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-WB-001_DJI_20260830112259_0003_D_000600000.jpg",
+      "size_bytes": 255035,
+      "sha256": "c0893ea8c81baa6fa1a0ffd67567911114e8ba09a7cdce86f4fc01d6471434cb"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-WB-002_DJI_20260830112259_0003_D_000555000.jpg",
+      "size_bytes": 219189,
+      "sha256": "3d440c6fe0e75dbe2d885b969bdeb27fd416f6c177de35ac2b9ebf638caef2f0"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-WB-003_DJI_20260830112259_0003_D_000660000.jpg",
+      "size_bytes": 255287,
+      "sha256": "86e6bddde9b10e9008a8c8caeed63ced89929692d12263f0cad7734c64073b2c"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-WB-004_DJI_20260830112259_0003_D_000810000.jpg",
+      "size_bytes": 215661,
+      "sha256": "b563778b59f4ad3f053d14b0d96c6c25f813ddbec8d13aff79c274bf0fd885ee"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-WB-005_DJI_20260830112259_0003_D_000840000.jpg",
+      "size_bytes": 214835,
+      "sha256": "ebcbc7cc0cf99b5ba64f28cc1736a0c53211a60a98773b312313af7afc20313c"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-WB-006_DJI_20260830112259_0003_D_000885000.jpg",
+      "size_bytes": 211202,
+      "sha256": "360f6e22da6cc524ef891b898f543cb60ad5eebb81413b794ff1a9bc145742c3"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-WB-007_DJI_20260830112259_0003_D_000930000.jpg",
+      "size_bytes": 222123,
+      "sha256": "4320651a2791649574dbb492be95ccf9d09bba0bdb86d1f8b6d200552569b6bd"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/images/LH-WB-008_DJI_20260830112259_0003_D_001040000.jpg",
+      "size_bytes": 231425,
+      "sha256": "b6e1fe1f0392b5ddbae0b05dc2a35cf4e55cd8889db7b8cf9f6ffd0d21924572"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/screenshot-index.json",
+      "size_bytes": 92566,
+      "sha256": "b1d7c56bbed6f76bd84448a0b10cddfe7befe1b69c29680de117557e27973aba"
+    },
+    {
+      "path": "day-2/old-hong/screenshots/teaching-screenshot-index.json",
+      "size_bytes": 4807,
+      "sha256": "191e28ec3cbaabd973309a21ac0b6e500090e839979b88a18cc8d3236115879d"
     },
     {
       "path": "day-2/old-hong/teaching-flows/teaching-index.json",
@@ -1875,14 +2175,24 @@
       "sha256": "9794d8d7e3daf3e07660cde1d89a785b7e9ccc03c2d98050fdb7dce4a645a2c2"
     },
     {
+      "path": "scripts/build_old_hong_screenshots.py",
+      "size_bytes": 10839,
+      "sha256": "ae46fd98f0adecc27407af1d1b1280c4bab62469dd5bc6ddb94be002daf573a9"
+    },
+    {
+      "path": "scripts/ocr_macos_vision.swift",
+      "size_bytes": 2100,
+      "sha256": "afa0ab81270528b9078f0c8951b9cc28c25ef9fbf0d8dc488ebd2d192930bc27"
+    },
+    {
       "path": "scripts/validate_repository.py",
-      "size_bytes": 24730,
-      "sha256": "5190dc9f331cd13c7aea0d5e850b1cdc75b70c8328d85cd7c7e7388bab7b51ec"
+      "size_bytes": 31286,
+      "sha256": "c3991d5ecbe85fd1e6aab3e3f613e7b2c7472eeb18b6528bd35394cc236235c3"
     },
     {
       "path": "skills/ai-training-guangzhou/SKILL.md",
-      "size_bytes": 3674,
-      "sha256": "a0b0de04b3747b5170671467b55a82eb14fd81c25313d818bccc0588ecc8108f"
+      "size_bytes": 3880,
+      "sha256": "fb60e271efa8409522729b096a17da846a47815419e108871a740f45da6efa28"
     },
     {
       "path": "skills/ai-training-guangzhou/references/application-playbooks.md",
@@ -1896,8 +2206,8 @@
     },
     {
       "path": "skills/ai-training-guangzhou/references/day-2.md",
-      "size_bytes": 1803,
-      "sha256": "7e189b3f69f343a6ff65a5e6b6fe4804da257926445680ef7d84940a6981de4b"
+      "size_bytes": 2077,
+      "sha256": "b88efbc689c4868de7fd68fa395558c042378ee17fa57830e3e5407adc3dfa0b"
     },
     {
       "path": "skills/ai-training-guangzhou/references/source-boundaries.md",
@@ -1955,9 +2265,14 @@
       "sha256": "d61102c9b244499bb8a577dc1b79ad56a841d5f6b7fbddba71d7e41d1c274fe9"
     },
     {
+      "path": "tests/test_old_hong_screenshots.py",
+      "size_bytes": 3145,
+      "sha256": "b3aaa11b3f593cee3586e017fbc69275cbb397cb8309242c5f5f05b2dacae661"
+    },
+    {
       "path": "tests/test_repository.py",
-      "size_bytes": 5797,
-      "sha256": "fc9a3878debcc5307f27b1878febeba9a7535a536bab08a7b8d6463d89587548"
+      "size_bytes": 5974,
+      "sha256": "06bd235e10b3636b8a83e487c9191caaa494b548e0e7906b8b982efdb499dc0b"
     }
   ]
 }

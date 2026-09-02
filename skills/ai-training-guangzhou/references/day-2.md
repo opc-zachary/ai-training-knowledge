@@ -24,3 +24,5 @@ Use `knowledge/day-2-video-guides.md` or the Chinese locale guide for video clas
 When the complete repository is available, use `day-2/README.md` for 13 individual guides, cleaned timestamped transcripts, SRT, QA, classification frames and the public SHA manifest.
 
 For Old Hong morning content, use `day-2/old-hong/README.md`. It provides 56 evidence-linked knowledge points, 12 workflows, five teaching flows, eight templates, four role paths and JSON indexes. Cite `LH-*` IDs plus Video ID and timestamp, and keep classroom meaning separate from editorial application.
+
+For Old Hong visual evidence, use `day-2/old-hong/screenshots/GALLERY.md` or `screenshot-index.json`. Each of the 56 knowledge IDs has one 1920×1080 source frame, local OCR status and SHA-256. OCR may contain projection errors and must not replace the cleaned transcript.

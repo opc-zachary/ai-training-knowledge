@@ -4,7 +4,7 @@
 
 範圍：0830 上午老洪＋下午 Channel
 
-內容版本：1.5.0
+內容版本：1.6.0
 
 ## 快速入口
 
@@ -17,6 +17,7 @@
 - [公開交付 Manifest](manifests/day-2-public-manifest.json)
 - [團隊／Agent 調用指南](TEAM_CALLING_GUIDE.md)
 - [老洪實戰知識、工作流與教學系統](old-hong/README.md)
+- [老洪 56 個知識點截圖畫廊](old-hong/screenshots/GALLERY.md)
 
 ## 內容清單
 
@@ -34,6 +35,7 @@
 | 老洪原子知識點 | 56 |
 | 老洪工作流／教學流 | 12／5 |
 | 老洪模板／角色路線 | 8／4 |
+| 老洪知識點主截圖 | 56；全部有本機 OCR 及 SHA-256 |
 
 ## 上午老洪
 

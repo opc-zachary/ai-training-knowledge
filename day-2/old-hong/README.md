@@ -2,7 +2,7 @@
 
 狀態：Evidence-linked Review Complete
 
-內容版本：1.5.0
+內容版本：1.6.0
 
 這個專區把第二天上午老洪四段課程整理成可學、可做、可教及可由 Agent 調用的完整系統。
 
@@ -16,6 +16,7 @@
 | 可複製模板 | 8 | 直接填寫及交付 |
 | 角色學習路線 | 4 | 管理者、內容營運、AI 顧問、FDE |
 | 證據映射 | 56 | Video ID、時間碼及逐字稿路徑 |
+| 知識點主截圖 | 56 | 1920×1080、OCR、SHA-256 及教學配圖關係 |
 
 ## 依目的進入
 
@@ -73,6 +74,9 @@
 
 - [知識點證據映射 JSON](evidence/evidence-map.json)
 - [四段影片覆蓋報告](evidence/coverage-report.md)
+- [56 個知識點截圖畫廊](screenshots/GALLERY.md)
+- [截圖 JSON 索引](screenshots/screenshot-index.json)
+- [教學流 × 截圖索引](screenshots/teaching-screenshot-index.json)
 - [第二天繁體時間碼逐字稿](../transcripts/zh-Hant/morning/)
 - [第二天關鍵畫面](../evidence/keyframes/)
 

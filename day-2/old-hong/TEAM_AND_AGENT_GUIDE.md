@@ -6,6 +6,7 @@
 2. 需要概念時讀知識點；需要完成工作時直接進工作流。
 3. 工作流的表格由 `templates/zh-Hant/` 或 `templates/zh-Hans/` 複製使用。
 4. 對外引用前，用 evidence map 找回 Video ID 和時間碼。
+5. 需要畫面證據或教案配圖時，使用 `screenshots/screenshot-index.json` 及 `teaching-screenshot-index.json`。
 
 ## Agent 啟動提示
 
@@ -51,6 +52,8 @@ https://raw.githubusercontent.com/opc-zachary/ai-training-knowledge/main/day-2/o
 /workflows/workflow-index.json
 /teaching-flows/teaching-index.json
 /evidence/evidence-map.json
+/screenshots/screenshot-index.json
+/screenshots/teaching-screenshot-index.json
 ```
 
 篩選 Prompt 類知識點的示例：
@@ -82,6 +85,7 @@ Evidence: Cleaned Review
 - 授課回答：提供對象、課時、練習、量規及證據。
 - 企業方案：分開 Prompt、固定工作流、Skill、Agent／工作台的適用條件。
 - FDE 方案：必須包含現場觀察、原流程回退、四區責任及四類驗收。
+- 畫面引用：列出 Screenshot ID、Video ID、時間碼及 OCR 狀態；OCR 文字不當作正式逐字稿。
 
 ## 不應做的事
 

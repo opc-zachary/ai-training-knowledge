@@ -111,6 +111,10 @@ def required_files(root: Path) -> list[Path]:
         "day-2/old-hong/workflows/workflow-index.json",
         "day-2/old-hong/teaching-flows/teaching-index.json",
         "day-2/old-hong/evidence/evidence-map.json",
+        "day-2/old-hong/screenshots/README.md",
+        "day-2/old-hong/screenshots/GALLERY.md",
+        "day-2/old-hong/screenshots/screenshot-index.json",
+        "day-2/old-hong/screenshots/teaching-screenshot-index.json",
         "scripts/validate_repository.py",
         "tests/test_repository.py",
     ]
@@ -196,7 +200,10 @@ def resource_paths(data: dict) -> list[str]:
         paths.append(skill)
     paths.extend(resources.get("locales", {}).values())
     old_hong = resources.get("old_hong_system", {})
-    for key in ("root", "calling_guide", "knowledge_index", "workflow_index", "teaching_index", "evidence_map"):
+    for key in (
+        "root", "calling_guide", "knowledge_index", "workflow_index", "teaching_index", "evidence_map",
+        "screenshot_gallery", "screenshot_index", "teaching_screenshot_index",
+    ):
         path = old_hong.get(key)
         if path:
             paths.append(path)
@@ -509,6 +516,11 @@ def validate_old_hong_screenshots(root: Path) -> list[str]:
 
     screenshots = load(base / "screenshot-index.json", "screenshots")
     teaching = load(base / "teaching-screenshot-index.json", "teaching_flows")
+    for path in (base / "screenshot-index.json", base / "teaching-screenshot-index.json"):
+        if path.is_file():
+            data = json.loads(path.read_text(encoding="utf-8"))
+            if data.get("content_version") != "1.6.0":
+                errors.append(f"Old Hong screenshot content_version must be 1.6.0: {path.relative_to(root)}")
     images = sorted((base / "images").glob("*.jpg"))
     if len(images) != 56:
         errors.append(f"Old Hong screenshot image count must be 56, found {len(images)}")
@@ -578,8 +590,8 @@ def validate_crosswalk(root: Path) -> list[str]:
 
     if data.get("schema_version") != "1.0.0":
         errors.append("crosswalk schema_version must be 1.0.0")
-    if data.get("content_version") != "1.5.0":
-        errors.append("crosswalk content_version must be 1.5.0")
+    if data.get("content_version") != "1.6.0":
+        errors.append("crosswalk content_version must be 1.6.0")
     if data.get("status") != "public-derived-knowledge":
         errors.append("crosswalk status must be public-derived-knowledge")
     distribution = data.get("distribution", {})
