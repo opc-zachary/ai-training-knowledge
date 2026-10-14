@@ -20,6 +20,10 @@ on:
         description: Public HTTPS PNG for generate; content must match the pinned SHA-256
         required: false
         type: string
+      first_frame_base64:
+        description: Optional pinned 480P JPEG transport; non-secret image data, no original in Git
+        required: false
+        type: string
       resume_task_id:
         description: Existing Alibaba Cloud task UUID for resume; resume never submits a POST
         required: false

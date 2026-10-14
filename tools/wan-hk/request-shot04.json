@@ -22,5 +22,6 @@
       "prompt_extend": true,
       "watermark": false
     }
-  }
+  },
+  "transport_first_frame_sha256": "4027f106362e523db098403ea2f08d226768c1ccf14a3cfe9ebc1849a6228247"
 }

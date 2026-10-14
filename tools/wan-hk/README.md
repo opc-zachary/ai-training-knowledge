@@ -44,10 +44,16 @@ does not cancel an in-progress paid task.
 1. `check-binding` is the default. It validates the fixed local request and the
    presence/shape of the secret and host, writes a non-sensitive receipt, and
    makes no API request.
-2. `generate` requires the literal confirmation `GENERATE04` and a public HTTPS
-   `first_frame_url`. The runner downloads that PNG into memory, rejects private
+2. `generate` requires the literal confirmation `GENERATE04` and either a public HTTPS
+   `first_frame_url` or the pinned 480P JPEG as `first_frame_base64`. The runner downloads that PNG into memory, rejects private
    hosts and redirects, and verifies this exact SHA-256 before any POST:
    `d0f0e907f6cc782cbd8818fda6295a16bbc6701df1160cf437e0b3184ffdc94e`.
+   The JPEG transport has SHA-256
+   `4027f106362e523db098403ea2f08d226768c1ccf14a3cfe9ebc1849a6228247`.
+   It is a 480x854, 46,166-byte derivative of the original PNG, sent only as a
+   transient workflow input. The runner reads it from the GitHub event file; it
+   does not echo the image or bind it to a logged step environment variable.
+   Total dispatch inputs must remain below GitHub's 65,535-character limit.
    The verified bytes are submitted as a Base64 data URI, so the source image is
    never committed or uploaded as an Actions artifact. A GitHub rerun where
    `github.run_attempt` is greater than 1 is refused for generation.
@@ -79,7 +85,8 @@ local/external storage before expiry. The MP4 is not committed to Git.
   required; do not dispatch another generation merely because no MP4 exists.
 - Alibaba Cloud task IDs and result URLs are short-lived. Resume promptly, and
   recover the two-day GitHub artifact into project storage.
-- The first-frame source must remain publicly reachable during the workflow. A
+- When using the URL mode, the first-frame source must remain publicly reachable
+  during the workflow. The pinned JPEG input mode needs no media host. A
   missing source, non-public host, changed file, wrong hash, unsupported PNG, or
   oversized image blocks generation before POST.
 - GitHub-hosted runners currently include `ffprobe` and `ffmpeg`; their absence

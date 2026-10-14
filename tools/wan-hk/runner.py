@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+import binascii
 import copy
 import datetime as dt
 import hashlib
@@ -33,6 +34,9 @@ MODEL = "wan3.0-video"
 SHOT_ID = "04"
 EXPECTED_FIRST_FRAME_SHA256 = (
     "d0f0e907f6cc782cbd8818fda6295a16bbc6701df1160cf437e0b3184ffdc94e"
+)
+TRANSPORT_FIRST_FRAME_SHA256 = (
+    "4027f106362e523db098403ea2f08d226768c1ccf14a3cfe9ebc1849a6228247"
 )
 OUTPUT_NAME = "TaiwanChicken_ZacharyChan_2026-10-10_Video_Shot04Grill_Review_v01.mp4"
 HOST_PATTERN = re.compile(
@@ -100,6 +104,7 @@ def load_contract() -> dict:
         "project": "TaiwanChicken",
         "shot_id": SHOT_ID,
         "first_frame_sha256": EXPECTED_FIRST_FRAME_SHA256,
+        "transport_first_frame_sha256": TRANSPORT_FIRST_FRAME_SHA256,
     }
     if any(contract.get(key) != value for key, value in expected.items()):
         raise SafeFailure("LOCAL_REQUEST_IDENTITY_MISMATCH")
@@ -181,6 +186,35 @@ def fetch_verified_first_frame(url: str) -> bytes:
     if hashlib.sha256(data).hexdigest() != EXPECTED_FIRST_FRAME_SHA256:
         raise SafeFailure("FIRST_FRAME_SHA256_MISMATCH")
     return data
+
+
+
+def load_first_frame() -> tuple[bytes, str, str]:
+    """Read non-secret image transport from the dispatch event, never from a key."""
+    encoded = ""
+    event_path = os.environ.get("GITHUB_EVENT_PATH", "")
+    if event_path:
+        try:
+            event = json.loads(Path(event_path).read_text(encoding="utf-8"))
+            encoded = event.get("inputs", {}).get("first_frame_base64", "")
+        except (OSError, ValueError, AttributeError):
+            raise SafeFailure("WORKFLOW_EVENT_INPUT_INVALID") from None
+    url = os.environ.get("WAN_FIRST_FRAME_URL", "").strip()
+    if encoded:
+        if url or not isinstance(encoded, str) or len(encoded) > 63_000:
+            raise SafeFailure("FIRST_FRAME_TRANSPORT_INVALID")
+        try:
+            data = base64.b64decode(encoded, validate=True)
+        except (ValueError, binascii.Error):
+            raise SafeFailure("FIRST_FRAME_BASE64_INVALID") from None
+        if not data.startswith(b"\xff\xd8\xff"):
+            raise SafeFailure("FIRST_FRAME_TRANSPORT_NOT_JPEG")
+        if hashlib.sha256(data).hexdigest() != TRANSPORT_FIRST_FRAME_SHA256:
+            raise SafeFailure("FIRST_FRAME_TRANSPORT_SHA256_MISMATCH")
+        return data, "image/jpeg", "WORKFLOW_INPUT_480P_JPEG"
+    if not url:
+        raise SafeFailure("FIRST_FRAME_TRANSPORT_REQUIRED")
+    return fetch_verified_first_frame(url), "image/png", "PUBLIC_HTTPS_ORIGINAL_PNG"
 
 
 def decode_json_response(data: bytes, fallback: str) -> dict:
@@ -541,16 +575,19 @@ def run_mode(mode: str, output_dir: Path) -> None:
             raise SafeFailure("GENERATE_REFUSED_ON_RERUN_ATTEMPT")
         if os.environ.get("WAN_GENERATE_CONFIRMATION", "") != "GENERATE04":
             raise SafeFailure("GENERATE04_CONFIRMATION_REQUIRED")
-        first_frame_url = os.environ.get("WAN_FIRST_FRAME_URL", "").strip()
-        if not first_frame_url:
-            raise SafeFailure("FIRST_FRAME_PUBLIC_HTTPS_URL_REQUIRED")
-        first_frame = fetch_verified_first_frame(first_frame_url)
+        first_frame, first_frame_mime, transport = load_first_frame()
         payload = copy.deepcopy(contract["request"])
         payload["input"]["media"][0]["url"] = (
-            "data:image/png;base64," + base64.b64encode(first_frame).decode("ascii")
+            "data:" + first_frame_mime + ";base64,"
+            + base64.b64encode(first_frame).decode("ascii")
         )
         receipt = base_receipt(mode, host)
-        receipt["status"] = "FIRST_FRAME_SHA256_VERIFIED"
+        receipt.update({
+            "status": "FIRST_FRAME_SHA256_VERIFIED",
+            "source_first_frame_sha256": EXPECTED_FIRST_FRAME_SHA256,
+            "first_frame_sha256": hashlib.sha256(first_frame).hexdigest(),
+            "first_frame_transport": transport,
+        })
         write_json(receipt_path, receipt)
         task_id = submit(host, key, payload, receipt_path, receipt)
         poll(
