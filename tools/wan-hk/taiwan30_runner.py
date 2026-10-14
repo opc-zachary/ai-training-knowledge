@@ -32,7 +32,7 @@ import uuid
 ROOT = Path(__file__).resolve().parent
 REQUEST_FILE = ROOT / "request-taiwan30.json"
 MODEL = "wan3.0-video"
-EXPECTED_REQUEST_SHA256 = "5193ffb5ebd9eaa329f132b94ce05d702cfdbc176f06cd8edabe4e24055627b0"
+EXPECTED_REQUEST_SHA256 = "82ecd8950f9146ab36457d08a6d762e2a2eda33a557fe679797106b1893449da"
 OUTPUT_NAME = (
     "TaiwanChicken_Starbay_2026-10-14_Video_"
     "TaiwanFood30Raw480p_Review_v01.mp4"
