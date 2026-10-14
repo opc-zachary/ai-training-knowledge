@@ -477,10 +477,65 @@ def poll(
     raise SafeFailure("POLL_WINDOW_ENDED_RESUME_SAME_TASK")
 
 
+def load_adjacent_receipt(path: Path) -> dict:
+    receipt_path = path.parent / RECEIPT_NAME
+    if not receipt_path.is_file():
+        raise SafeFailure("VIDEO_RECEIPT_MISSING")
+    try:
+        receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as exc:
+        raise SafeFailure("VIDEO_RECEIPT_INVALID") from exc
+    if not isinstance(receipt, dict):
+        raise SafeFailure("VIDEO_RECEIPT_INVALID")
+    return receipt
+
+
+def validate_480p_portrait(
+    width: int, height: int, receipt: dict, media_sha256: str
+) -> None:
+    """Require a trusted 480P receipt before accepting provider dimensions."""
+    if receipt.get("task_status") != "SUCCEEDED":
+        raise SafeFailure("VIDEO_RECEIPT_TASK_NOT_SUCCEEDED")
+
+    usage = receipt.get("usage")
+    if not isinstance(usage, dict) or usage.get("SR") != 480:
+        raise SafeFailure("VIDEO_RECEIPT_SR_NOT_480")
+
+    parameters = receipt.get("parameters")
+    if not isinstance(parameters, dict):
+        raise SafeFailure("VIDEO_RECEIPT_PARAMETERS_MISMATCH")
+    if parameters.get("resolution") != "480P" or parameters.get("ratio") != "3:4":
+        raise SafeFailure("VIDEO_RECEIPT_PARAMETERS_MISMATCH")
+
+    source = receipt.get("source")
+    if (
+        not isinstance(source, dict)
+        or source.get("request_sha256") != EXPECTED_REQUEST_SHA256
+    ):
+        raise SafeFailure("VIDEO_RECEIPT_REQUEST_SHA256_MISMATCH")
+
+    media = receipt.get("media")
+    if not isinstance(media, dict) or media.get("sha256") != media_sha256:
+        raise SafeFailure("VIDEO_RECEIPT_MEDIA_SHA256_MISMATCH")
+
+    if (
+        not isinstance(width, int)
+        or not isinstance(height, int)
+        or width < 480
+        or width > 640
+        or height < 640
+        or height > 854
+        or width >= height
+        or abs((width / height) - (3 / 4)) > 0.005
+    ):
+        raise SafeFailure("VIDEO_RESOLUTION_NOT_480P_PORTRAIT")
+
+
 def verify_video(path: Path) -> None:
     if not path.is_file() or path.name != OUTPUT_NAME:
         raise SafeFailure("VIDEO_VALIDATION_TARGET_INVALID")
     ensure_validation_tools()
+    receipt = load_adjacent_receipt(path)
     try:
         probe = subprocess.run(
             [
@@ -510,8 +565,8 @@ def verify_video(path: Path) -> None:
         width = int(stream["width"])
         height = int(stream["height"])
         duration = float(metadata["format"]["duration"])
-        if (width, height) != (480, 640):
-            raise SafeFailure("VIDEO_RESOLUTION_NOT_480P_PORTRAIT")
+        media_sha256 = hashlib.sha256(path.read_bytes()).hexdigest()
+        validate_480p_portrait(width, height, receipt, media_sha256)
         if not 7.0 <= duration <= 9.0:
             raise SafeFailure("VIDEO_DURATION_NOT_APPROX_8_SECONDS")
         subprocess.run(
@@ -524,6 +579,7 @@ def verify_video(path: Path) -> None:
         raise
     except (
         FileNotFoundError,
+        OSError,
         subprocess.CalledProcessError,
         subprocess.TimeoutExpired,
         KeyError,
@@ -536,7 +592,7 @@ def verify_video(path: Path) -> None:
     validation = {
         "status": "FFPROBE_AND_FFMPEG_VALIDATED",
         "filename": path.name,
-        "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
+        "sha256": media_sha256,
         "bytes": path.stat().st_size,
         "width": width,
         "height": height,
@@ -548,15 +604,9 @@ def verify_video(path: Path) -> None:
     }
     write_json(path.parent / VALIDATION_NAME, validation)
     receipt_path = path.parent / RECEIPT_NAME
-    if receipt_path.exists():
-        try:
-            receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
-        except (OSError, ValueError):
-            receipt = None
-        if isinstance(receipt, dict):
-            receipt["status"] = "DOWNLOADED_AND_FFMPEG_VALIDATED"
-            receipt["updated_utc"] = utc_now()
-            write_json(receipt_path, receipt)
+    receipt["status"] = "DOWNLOADED_AND_FFMPEG_VALIDATED"
+    receipt["updated_utc"] = utc_now()
+    write_json(receipt_path, receipt)
     print("FFPROBE_AND_FFMPEG_VALIDATED")
 
 
