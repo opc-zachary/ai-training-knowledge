@@ -32,7 +32,7 @@ import uuid
 ROOT = Path(__file__).resolve().parent
 REQUEST_FILE = ROOT / "request-catplayfight8.json"
 MODEL = "wan3.0-video"
-EXPECTED_REQUEST_SHA256 = "c961bd84d51b6bd2c8ba4445e8019612b160e499922574b1c6d8305ea654969d"
+EXPECTED_REQUEST_SHA256 = "6fd051f8d3db39ca849efeb0f555c432535bba5a8060cbe1987fd6baaabe87d2"
 OUTPUT_NAME = (
     "CatPlayFightTrial_Zachary_2026-10-14_Video_"
     "PlayfulSparring8Raw480p_Review_v01.mp4"
