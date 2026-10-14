@@ -1,0 +1,26 @@
+{
+  "project": "TaiwanChicken",
+  "client": "ZacharyChan",
+  "shot_id": "04",
+  "first_frame_sha256": "d0f0e907f6cc782cbd8818fda6295a16bbc6701df1160cf437e0b3184ffdc94e",
+  "request": {
+    "model": "wan3.0-video",
+    "input": {
+      "prompt": "Animate the supplied single-shot sauce-brushing frame into an 8-second\nvertical 9:16 premium cinematic 3D sequence. Preserve the exact adult male\nZachary character reference, side-parted short black hair swept upward and\nuncovered, ivory jacket, deep teal-blue apron, orange neckerchief and brown\nboots. Keep the same miniature scale and Taiwanese dusk night-market stall.\n\nBegin with the supplied grill-brushing keyframe. The already-fried golden\nchicken remains on the charcoal grill. Zachary gently brushes a single thin\nlayer of sauce, maintaining continuous bristle-to-crust contact and believable\npressure. Keep one primary action; do not invent tongs or change tools. Small\nsurface bubbles and restrained color deepening convey warm caramelization,\nnot instant cooking or morphing. Preserve the original grill composition.\n\nMake a slow lateral camera slide across tiny sauce bubbles, irregular crisp\ncoating and amber caramelized edges. Add faint heat shimmer, restrained\naromatic smoke and warm ember light beneath the established stall lighting.\nZachary smiles as the surface develops. No large flames, thick smoke,\nblackened burning, syrup-like coating, face changes or floating utensils.\nSound: subtle charcoal crackle, natural sizzling, soft brushing, below the separate Mandarin voice-over. No lip sync or text.\nGenerate only natural cooking and stall sound effects. No spoken voice, no vocals, no music: one separate Mandarin narration and one continuous music track will be added in the final edit.",
+      "media": [
+        {
+          "type": "first_frame",
+          "url": "__RUNTIME_VERIFIED_FIRST_FRAME_DATA_URI__"
+        }
+      ]
+    },
+    "parameters": {
+      "resolution": "480P",
+      "ratio": "9:16",
+      "duration": 8,
+      "audio": true,
+      "prompt_extend": true,
+      "watermark": false
+    }
+  }
+}
