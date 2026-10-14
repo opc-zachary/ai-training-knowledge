@@ -18,6 +18,7 @@ import json
 import os
 from pathlib import Path
 import re
+import shutil
 import socket
 import subprocess
 import sys
@@ -45,6 +46,10 @@ HOST_PATTERN = re.compile(
 SAFE_CODE_PATTERN = re.compile(r"[A-Za-z0-9_.-]{1,80}")
 MAX_IMAGE_BYTES = 20 * 1024 * 1024
 MAX_VIDEO_BYTES = 256 * 1024 * 1024
+GITHUB_RUN_ID_PATTERN = re.compile(r"[1-9][0-9]*")
+GITHUB_REPOSITORY_PATTERN = re.compile(
+    r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+"
+)
 
 
 class SafeFailure(Exception):
@@ -85,6 +90,20 @@ def valid_uuid(value: object) -> str | None:
         return str(uuid.UUID(str(value)))
     except (ValueError, TypeError, AttributeError):
         return None
+
+
+def valid_github_run_id(value: object) -> str | None:
+    text = str(value) if value is not None else ""
+    if GITHUB_RUN_ID_PATTERN.fullmatch(text):
+        return text
+    return None
+
+
+def ensure_validation_tools() -> None:
+    if shutil.which("ffprobe") is None:
+        raise SafeFailure("FFPROBE_COMMAND_NOT_FOUND")
+    if shutil.which("ffmpeg") is None:
+        raise SafeFailure("FFMPEG_COMMAND_NOT_FOUND")
 
 
 def load_contract() -> dict:
@@ -478,6 +497,7 @@ def poll(
 def verify_video(path: Path) -> None:
     if not path.is_file() or path.name != OUTPUT_NAME:
         raise SafeFailure("VIDEO_VALIDATION_TARGET_INVALID")
+    ensure_validation_tools()
     try:
         probe = subprocess.run(
             [
@@ -538,6 +558,11 @@ def verify_video(path: Path) -> None:
         "frame_rate": stream.get("r_frame_rate"),
         "validated_utc": utc_now(),
     }
+    validation_github_run_id = valid_github_run_id(os.environ.get("GITHUB_RUN_ID"))
+    if os.environ.get("GITHUB_RUN_ID") and not validation_github_run_id:
+        raise SafeFailure("GITHUB_RUN_ID_INVALID")
+    if validation_github_run_id:
+        validation["validation_github_run_id"] = validation_github_run_id
     write_json(path.parent / "shot04-video-validation.json", validation)
     receipt_path = path.parent / "shot04-receipt.json"
     if receipt_path.exists():
@@ -547,6 +572,8 @@ def verify_video(path: Path) -> None:
             receipt = None
         if isinstance(receipt, dict):
             receipt["status"] = "DOWNLOADED_AND_FFMPEG_VALIDATED"
+            if validation_github_run_id:
+                receipt["validation_github_run_id"] = validation_github_run_id
             receipt["updated_utc"] = utc_now()
             write_json(receipt_path, receipt)
     print("FFPROBE_AND_FFMPEG_VALIDATED")
@@ -554,6 +581,8 @@ def verify_video(path: Path) -> None:
 
 def run_mode(mode: str, output_dir: Path) -> None:
     contract = load_contract()
+    if mode in {"generate", "resume"}:
+        ensure_validation_tools()
     host, key = load_binding()
     output_dir.mkdir(parents=True, exist_ok=True)
     receipt_path = output_dir / "shot04-receipt.json"
@@ -616,6 +645,54 @@ def run_mode(mode: str, output_dir: Path) -> None:
     )
 
 
+def download_existing_artifact(run_id_value: object, output_dir: Path) -> None:
+    run_id = valid_github_run_id(run_id_value)
+    if not run_id:
+        raise SafeFailure("SOURCE_GITHUB_RUN_ID_DIGITS_REQUIRED")
+    repository = os.environ.get("GITHUB_REPOSITORY", "")
+    if not GITHUB_REPOSITORY_PATTERN.fullmatch(repository):
+        raise SafeFailure("GITHUB_REPOSITORY_INVALID")
+    if shutil.which("gh") is None:
+        raise SafeFailure("GH_COMMAND_NOT_FOUND")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    artifact_name = f"wan-hk-shot04-{run_id}-attempt-1"
+    try:
+        subprocess.run(
+            [
+                "gh",
+                "run",
+                "download",
+                run_id,
+                "--repo",
+                repository,
+                "--name",
+                artifact_name,
+                "--dir",
+                str(output_dir),
+            ],
+            check=True,
+            capture_output=True,
+            text=True,
+            timeout=180,
+        )
+    except FileNotFoundError as exc:
+        raise SafeFailure("GH_COMMAND_NOT_FOUND") from exc
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as exc:
+        raise SafeFailure("GITHUB_ARTIFACT_DOWNLOAD_FAILED") from exc
+
+    receipt_path = output_dir / "shot04-receipt.json"
+    video_path = output_dir / OUTPUT_NAME
+    try:
+        receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as exc:
+        raise SafeFailure("SOURCE_ARTIFACT_RECEIPT_INVALID") from exc
+    if not isinstance(receipt, dict) or str(receipt.get("github_run_id")) != run_id:
+        raise SafeFailure("SOURCE_ARTIFACT_RUN_ID_MISMATCH")
+    if not video_path.is_file():
+        raise SafeFailure("SOURCE_ARTIFACT_VIDEO_MISSING")
+    print("DOWNLOADED_EXISTING_ARTIFACT github_run_id=" + run_id)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -626,6 +703,7 @@ def main() -> int:
     parser.add_argument("--output-dir", type=Path, default=Path("output"))
     parser.add_argument("--offline-validate", action="store_true")
     parser.add_argument("--verify-output", type=Path)
+    parser.add_argument("--download-existing-run-id")
     args = parser.parse_args()
     try:
         if args.offline_validate:
@@ -634,6 +712,11 @@ def main() -> int:
             return 0
         if args.verify_output is not None:
             verify_video(args.verify_output.resolve())
+            return 0
+        if args.download_existing_run_id is not None:
+            download_existing_artifact(
+                args.download_existing_run_id, args.output_dir.resolve()
+            )
             return 0
         run_mode(args.mode, args.output_dir.resolve())
         return 0
