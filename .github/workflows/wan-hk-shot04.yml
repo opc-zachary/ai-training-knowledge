@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: Operation; check-binding makes no API request
+        description: Operation; check-binding and validate-existing make no provider API request
         required: true
         default: check-binding
         type: choice
@@ -12,6 +12,7 @@ on:
           - check-binding
           - generate
           - resume
+          - validate-existing
       confirmation:
         description: For generate only, enter GENERATE04
         required: false
@@ -28,8 +29,13 @@ on:
         description: Existing Alibaba Cloud task UUID for resume; resume never submits a POST
         required: false
         type: string
+      source_run_id:
+        description: Prior GitHub run containing the Shot04 artifact; digits only
+        required: false
+        type: string
 
 permissions:
+  actions: read
   contents: read
 
 concurrency:
@@ -50,7 +56,23 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Ensure ffprobe and ffmpeg are available
+        run: |
+          if ! command -v ffprobe >/dev/null 2>&1 || ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install --yes ffmpeg
+          fi
+          command -v ffprobe >/dev/null 2>&1 || {
+            echo "ERROR FFPROBE_MISSING_AFTER_INSTALL" >&2
+            exit 1
+          }
+          command -v ffmpeg >/dev/null 2>&1 || {
+            echo "ERROR FFMPEG_MISSING_AFTER_INSTALL" >&2
+            exit 1
+          }
+
       - name: Run fixed Shot04 operation
+        if: ${{ inputs.mode != 'validate-existing' }}
         env:
           ALIYUN_MODEL_STUDIO_HK_API_KEY: ${{ secrets.ALIYUN_MODEL_STUDIO_HK_API_KEY }}
           ALIYUN_MODEL_STUDIO_HK_API_HOST: ${{ vars.ALIYUN_MODEL_STUDIO_HK_API_HOST }}
@@ -59,6 +81,13 @@ jobs:
           WAN_FIRST_FRAME_URL: ${{ inputs.first_frame_url }}
           WAN_RESUME_TASK_ID: ${{ inputs.resume_task_id }}
         run: python3 runner.py --mode "$WAN_OPERATION" --output-dir output
+
+      - name: Download existing Shot04 artifact
+        if: ${{ inputs.mode == 'validate-existing' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          WAN_SOURCE_RUN_ID: ${{ inputs.source_run_id }}
+        run: python3 runner.py --download-existing-run-id "$WAN_SOURCE_RUN_ID" --output-dir output
 
       - name: Decode-check downloaded MP4
         if: ${{ always() }}

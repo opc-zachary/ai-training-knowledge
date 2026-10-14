@@ -59,6 +59,11 @@ does not cancel an in-progress paid task.
    `github.run_attempt` is greater than 1 is refused for generation.
 3. `resume` requires an existing UUID `resume_task_id`. It issues GET queries for
    that task only and never sends the generation POST.
+4. `validate-existing` requires a digits-only `source_run_id` from this
+   repository. It downloads the attempt-1 artifact from that prior GitHub run
+   using the workflow's automatic `github.token`, then repeats the existing
+   decode validation and uploads a new short-lived artifact. It does not load
+   the Alibaba Cloud binding, submit a generation POST, or query a provider task.
 
 The runner records `task_id`, safe task state, pinned image SHA, safe numeric
 usage, and downloaded MP4 SHA in `output/shot04-receipt.json`. It never stores the
@@ -68,11 +73,19 @@ an uncertain POST outcome rather than proof that no task was created. If a POST 
 outcome, the receipt says `POST_OUTCOME_UNKNOWN_DO_NOT_RETRY`; reconcile the task
 in the Alibaba Cloud account before any later generation dispatch.
 
+Before any operation that could call the provider, the workflow checks for
+`ffprobe` and `ffmpeg` on the ephemeral Ubuntu runner. If either is absent, it
+installs Ubuntu's `ffmpeg` package and then asserts that both commands exist.
+The Python runner also reports a specific safe error if either command is still
+missing, before a generation or resume API call can begin.
+
 After a successful download, the workflow uses `ffprobe` to require one portrait
 480P video of approximately eight seconds and `ffmpeg` to decode-check it. The
 MP4, receipt, and validation JSON are uploaded as an Actions artifact retained
 for two days. Download the reviewed MP4 and receipt to the project's approved
 local/external storage before expiry. The MP4 is not committed to Git.
+When an existing artifact is revalidated, `github_run_id` remains the original
+generation run ID and `validation_github_run_id` records the new validation run.
 
 ## Deliberate limits
 
@@ -89,8 +102,9 @@ local/external storage before expiry. The MP4 is not committed to Git.
   during the workflow. The pinned JPEG input mode needs no media host. A
   missing source, non-public host, changed file, wrong hash, unsupported PNG, or
   oversized image blocks generation before POST.
-- GitHub-hosted runners currently include `ffprobe` and `ffmpeg`; their absence
-  will fail the post-download validation rather than silently accepting media.
+- `validate-existing` accepts only a positive decimal GitHub run ID and builds
+  the artifact name from that validated value. It can read artifacts only from
+  the current repository through the workflow's read-only Actions permission.
 - The workflow does not prove visual quality, character identity, motion, sound,
   or suitability. `DOWNLOADED_AND_FFMPEG_VALIDATED` still requires human review.
 
