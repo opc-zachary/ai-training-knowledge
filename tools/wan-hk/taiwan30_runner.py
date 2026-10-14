@@ -456,6 +456,14 @@ def poll(
             receipt["safe_error_code"] = safe_api_code(
                 output.get("code"), "NO_SAFE_API_CODE"
             )
+            # Keep only a non-sensitive classification, never the raw provider message.
+            detail = str(output.get("message", "")).lower()
+            receipt["safe_error_stage"] = next((label for phrase, label in [
+                ("text (input)", "INPUT_TEXT_INSPECTION"),
+                ("image (input)", "INPUT_IMAGE_INSPECTION"),
+                ("video (output)", "OUTPUT_VIDEO_INSPECTION"),
+                ("audio (output)", "OUTPUT_AUDIO_INSPECTION"),
+            ] if phrase in detail), "INSPECTION_STAGE_NOT_SPECIFIED")
             write_json(receipt_path, receipt)
             raise SafeFailure("TASK_" + state)
 
