@@ -32,7 +32,7 @@ import uuid
 ROOT = Path(__file__).resolve().parent
 REQUEST_FILE = ROOT / "request-taiwan30.json"
 MODEL = "wan3.0-video"
-EXPECTED_REQUEST_SHA256 = "5193ffb5ebd9eaa329f132b94ce05d702cfdbc176f06cd8edabe4e24055627b0"
+EXPECTED_REQUEST_SHA256 = "82ecd8950f9146ab36457d08a6d762e2a2eda33a557fe679797106b1893449da"
 OUTPUT_NAME = (
     "TaiwanChicken_Starbay_2026-10-14_Video_"
     "TaiwanFood30Raw480p_Review_v01.mp4"
@@ -456,6 +456,14 @@ def poll(
             receipt["safe_error_code"] = safe_api_code(
                 output.get("code"), "NO_SAFE_API_CODE"
             )
+            # Keep only a non-sensitive classification, never the raw provider message.
+            detail = str(output.get("message", "")).lower()
+            receipt["safe_error_stage"] = next((label for phrase, label in [
+                ("text (input)", "INPUT_TEXT_INSPECTION"),
+                ("image (input)", "INPUT_IMAGE_INSPECTION"),
+                ("video (output)", "OUTPUT_VIDEO_INSPECTION"),
+                ("audio (output)", "OUTPUT_AUDIO_INSPECTION"),
+            ] if phrase in detail), "INSPECTION_STAGE_NOT_SPECIFIED")
             write_json(receipt_path, receipt)
             raise SafeFailure("TASK_" + state)
 
