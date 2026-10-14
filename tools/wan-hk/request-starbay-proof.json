@@ -1,0 +1,31 @@
+{
+  "project": "StarbayEffect",
+  "client": "Starbay Group",
+  "creative_id": "starbay-effect-orange-blue-i2v-proof-v01",
+  "source_first_frame_sha256": "6dd20d8fa98798fce48b1071a48c633505c72706987ace9d3e25ee78f9fceb27",
+  "source_first_frame_mime": "image/png",
+  "source_first_frame_dimensions": "941x1672",
+  "first_frame_sha256": "c085208bc7cfe81f9cf09ab1f648f08277145404c59d95889dc253a7b2de8c75",
+  "first_frame_mime": "image/jpeg",
+  "first_frame_dimensions": "480x854",
+  "request": {
+    "model": "wan3.0-video",
+    "input": {
+      "prompt": "Create one continuous 8-second vertical premium brand film shot from the supplied first frame. Preserve the exact physical design, materials, lighting, proportions, composition and orange-blue palette of that frame. This is a real three-dimensional tabletop-scale set, not flat motion graphics.\n\nThe hero is the same thick translucent orange-glass open-ribbon hoop, with convincing refraction, internal reflections, caustic highlights and physical weight, wrapped around the same cobalt-blue matte folded solid sculpture. The ivory paper curls out of the patterned floor surface and drapes through the composition as a separate tactile object with visible thickness, bending stiffness, contact shadow and soft self-shadow. Keep the two small background papers and the dark blue studio curtain.\n\nTiming and camera: 00.0–01.5 seconds, begin exactly on the supplied frame; the near foreground ivory-paper corner lifts naturally and sweeps close past the lens, creating brief physical foreground occlusion. 01.5–06.5 seconds, the camera performs one smooth clockwise 120-degree true 3D orbit around the orange-glass hoop and cobalt-blue folded sculpture. Reveal genuinely changing side faces, depth, parallax, contact shadows, occlusions and glass refractions; warm highlights travel over the glass as the viewpoint changes. The camera must travel around the set, never simulate an affine pan, flat zoom, 2.5D layer slide or frozen-background effect. 06.5–08.0 seconds, transition from the orbit into a controlled forward push toward the opening of the glass ribbon and settle on a strong final composition. No cuts.\n\nIndependent motion: the ivory paper flexes, drapes and flutters from its own inertia while remaining anchored to the established surface. The two background paper sheets drift independently at subtly different speeds and depths. The curtain moves only with restrained studio airflow. Do not move all background elements as one grouped layer. Keep every motion premium, restrained and physically believable.\n\nVisual idea: THE STARBAY EFFECT expressed through brand, content and AI as one crafted physical system. Warm orange-glass energy meets confident cobalt-blue structure. Cinematic studio lighting, polished product-film finish, realistic material response and smooth motion blur. Do not generate lettering, captions, logos, symbols, interface graphics or watermarks. No people, hands, morphing, melting geometry, random explosions, extra objects or new materials. Sound: synchronized ivory-paper rustle, delicate glass shimmer, one tasteful low bass impact and a restrained cinematic electronic pulse shaped to the continuous camera move. No speech, voice, vocals or random explosive sound.",
+      "media": [
+        {
+          "type": "first_frame",
+          "url": "__RUNTIME_VERIFIED_FIRST_FRAME_DATA_URI__"
+        }
+      ]
+    },
+    "parameters": {
+      "resolution": "480P",
+      "ratio": "9:16",
+      "duration": 8,
+      "audio": true,
+      "prompt_extend": false,
+      "watermark": false
+    }
+  }
+}
