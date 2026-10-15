@@ -1,0 +1,101 @@
+# APPROVED_PACKAGE_UNPUBLISHED: manual workflow source for root installation.
+# This local file is outside .github/workflows and cannot dispatch here.
+name: Wan HK Starbay CityCanvas S01 approved v04
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Operation; check-binding makes no provider API request
+        required: true
+        default: check-binding
+        type: choice
+        options:
+          - check-binding
+          - generate
+          - resume
+      confirmation:
+        description: For generate only, enter GENERATE_STARBAY_CITY_CANVAS_S01_V04_ONCE
+        required: false
+        type: string
+      first_frame_url:
+        description: Optional public HTTPS first frame; bytes must match the pinned SHA-256 and MIME
+        required: false
+        type: string
+      first_frame_base64:
+        description: Optional Base64 first frame; mutually exclusive with URL and must fit GitHub dispatch input limits
+        required: false
+        type: string
+      resume_task_id:
+        description: Existing Alibaba Cloud task UUID for resume; resume never submits a POST
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wan-hk-shot04-paid-generation
+  cancel-in-progress: false
+
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    defaults:
+      run:
+        shell: bash
+        working-directory: tools/wan-hk
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Ensure ffprobe and ffmpeg are available
+        run: |
+          if ! command -v ffprobe >/dev/null 2>&1 || ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install --yes ffmpeg
+          fi
+          command -v ffprobe >/dev/null 2>&1 || {
+            echo "ERROR FFPROBE_MISSING_AFTER_INSTALL" >&2
+            exit 1
+          }
+          command -v ffmpeg >/dev/null 2>&1 || {
+            echo "ERROR FFMPEG_MISSING_AFTER_INSTALL" >&2
+            exit 1
+          }
+
+      - name: Run fixed Starbay CityCanvas S01 proof operation
+        env:
+          ALIYUN_MODEL_STUDIO_HK_API_KEY: ${{ secrets.ALIYUN_MODEL_STUDIO_HK_API_KEY }}
+          ALIYUN_MODEL_STUDIO_HK_API_HOST: ${{ vars.ALIYUN_MODEL_STUDIO_HK_API_HOST }}
+          WAN_OPERATION: ${{ inputs.mode }}
+          WAN_GENERATE_CONFIRMATION: ${{ inputs.confirmation }}
+          WAN_FIRST_FRAME_URL: ${{ inputs.first_frame_url }}
+          WAN_RESUME_TASK_ID: ${{ inputs.resume_task_id }}
+        run: python3 city_canvas_s01_approved_v04_runner.py --mode "$WAN_OPERATION" --output-dir output-city-canvas-s01-approved-v04
+
+      - name: Decode-check downloaded MP4
+        if: ${{ always() }}
+        run: |
+          shopt -s nullglob
+          videos=(output-city-canvas-s01-approved-v04/*.mp4)
+          if (( ${#videos[@]} == 0 )); then
+            echo "No MP4 was downloaded; receipt-only run."
+          elif (( ${#videos[@]} != 1 )); then
+            echo "Unexpected MP4 count." >&2
+            exit 1
+          else
+            python3 city_canvas_s01_approved_v04_runner.py --verify-output "${videos[0]}"
+          fi
+
+      - name: Upload short-lived receipt and result
+        if: ${{ always() && hashFiles('tools/wan-hk/output-city-canvas-s01-approved-v04/**') != '' }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: wan-hk-starbay-city-canvas-s01-approved-v04-${{ github.run_id }}-attempt-${{ github.run_attempt }}
+          path: tools/wan-hk/output-city-canvas-s01-approved-v04/
+          if-no-files-found: error
+          retention-days: 2
