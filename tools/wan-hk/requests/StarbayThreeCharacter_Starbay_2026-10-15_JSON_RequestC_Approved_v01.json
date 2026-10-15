@@ -1,0 +1,24 @@
+{
+  "model": "wan3.0-video",
+  "input": {
+    "prompt": "Edit Video 1 into the street-impact and final hero section of a photorealistic absurd kung-fu brand short. Preserve the reference's elevated view of the same street corner, fall timing, heavy prop landing, spreading ground dust, brief reaction and final low-angle product close-up. The downward force comes from the palm strike in the previous aerial shot, with the same directional continuity.\n\nReplace the ground-level carrier with Zijian, the adult man in Image 1. Preserve his facial identity, short hair and round eyeglasses. He wears the exact same open-faced black utility jacket, black T-shirt, charcoal cargo trousers and black sneakers as the opening. Replace the giant shoe with the same oversized matte black fictional cinema camera: approximately 1.8 metres long, huge lens facing left, silver-gray top handle, deep blue lens reflections. Preserve its size and design from the opening.\n\n0.0–1.5s: Continue the reference impact rhythm. Zijian's knees buckle first, then his body drops into a seated/backward fall. The camera slides from his shoulder and lands with convincing weight, pinning him in a comic, non-graphic pose. His head and one hand remain visible beside the camera body. Keep his face and glasses recognizable; the glasses may tilt slightly. Establish physical contact and a grounded shadow. The camera does not pass through him, bounce like a balloon or change shape.\n\n1.5–3.0s: A ring of dust and small debris spreads along the street surface. Maintain the same curb, shop entrance and street perspective. Leave an open, readable branding area in the foreground, with the pinned man and camera behind it. Zijian pauses in stunned silence, then weakly gives an OK sign. The camera remains at rest with small secondary settling movement. Preserve the reference's impact-to-reaction timing rather than introducing a new action scene.\n\nFor the ground branding plate, generate the disturbed surface, contact lighting, cracks and dust around a clean central impression area. The exact official STARBAY logo uses a stacked layout: the two-colour star symbol above the STARBAY wordmark, centred on the same vertical axis. Reserve a broad foreground area for this complete stacked lockup. It will be composited onto the ground in post-production using plane tracking; do not invent a fake wordmark, unrelated letters or a substitute symbol. Keep the branding area unobstructed so the official master can be placed accurately, with dust and shadows crossing its boundary.\n\n3.0–5.0s: Follow the reference's move to a low-angle close-up, now showing the cinema camera lens and textured body instead of a shoe. Zijian remains a small comic reaction behind the prop. Use a short, restrained lateral move and then settle. Maintain the same street location and ground lighting. Reserve the final 1.2 seconds for a steady official stacked brand lockup, star above STARBAY, with generous clear space around both elements. Place the service line BRAND · CONTENT · AI below the wordmark, to be placed cleanly in post. Do not add a new person, a new city or a further transformation.\n\nSound design intent: one heavy ground impact, body/prop settling, dust and small debris, a short comic pause and a clean camera shutter at the ending. No inherited third-party product branding, no original reference captions as scene elements, no graphic injury, no floating logo, no text covered by the prop, no random cuts, no extra body after the transformation.",
+    "media": [
+      {
+        "type": "reference_video",
+        "url": "https://opc-file.promopioneers.cc/metaops/starbay/2026/10/StarbayThreeCharacter_Starbay_2026-10-15_MP4_ReferenceBlockC_Internal_v01.mp4"
+      },
+      {
+        "type": "reference_image",
+        "url": "__RUNTIME_HASH_VERIFIED_IMAGE_1_DATA_URI__"
+      }
+    ]
+  },
+  "parameters": {
+    "resolution": "480P",
+    "ratio": "9:16",
+    "duration": 5,
+    "audio": true,
+    "prompt_extend": false,
+    "watermark": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "model": "wan3.0-video",
+  "input": {
+    "prompt": "Edit Video 1 into the central aerial transformation shot of a photorealistic absurd kung-fu brand short. Match the reference's descent, hand choreography, transformation timing, close facial framing, wind motion, brief pause and final downward palm strike. The camera looks upward from the previously established street corner. Preserve the same sky and building-edge orientation. Do not introduce an unrelated location or a new montage inside this segment.\n\nIdentity before transformation: the adult man in Image 1, Zachary. Preserve his face, hairstyle and body type. He wears a white button-up shirt, a black necktie and dark trousers. The tie, shirt sleeves and shirt hem react to the strong airflow. Do not inherit the original flying character's moustache, glasses or exaggerated hair.\n\nIdentity after transformation: the adult man in Image 2, Channel. Preserve his face and hairstyle. His outfit is a dark blue suit jacket over a finely striped open-collar shirt, with dark trousers. No blond hair, red jacket or sunglasses from the reference. Zachary transforms INTO Channel; this is one body continuously transforming, never two men side by side and never a fourth mixed identity.\n\n0.0–2.5s: Follow the reference's rapid forward/downward approach. Zachary descends face-first toward the low camera, initially with both arms behind his torso. His eyes look toward the street below and then toward the camera. His head, shirt, tie and shoulders respond to the airflow. Give the viewer a clearly recognizable view of Zachary's face before any transformation begins. As he approaches, his shoulders rotate and both elbows begin moving forward.\n\n2.5–4.7s: Bring both forearms forward and join the palms in front of the chest as in Video 1. Elbows spread naturally; palms meet, fingertips align, and shoulders compress slightly with effort. Keep both hands fully in frame with anatomically credible fingers. Continue subtle motion in the tie, jacket-free shirt fabric, hair and moving clouds. The man must not remain motionless with hands in pockets.\n\n4.7–5.5s: Golden sparks emerge between the palms, then travel along both forearms toward the shoulders. A deep blue energy rim follows the gold core. The clothing starts changing at the sleeves and shoulders while the white collar and black tie are still briefly recognizable. Retain the reference effect's timing and body-centered movement; do not turn the shot into a full-screen light transition.\n\n5.5–6.5s: In the same continuous prayer pose, the gold-blue energy crosses the shoulders and face and transforms Zachary into Channel. Match the head center, eye line, chin direction, shoulder line and joined palms across the transformation. The blue suit jacket forms around the torso, the inner shirt becomes the striped shirt from Image 2, and the black necktie disappears as part of the same costume transformation. The face changes into Channel while keeping the same head position and body motion. No double exposure of two heads, no permanent blend of two faces. The effect must not hide the face for the whole transition.\n\n6.5–7.2s: Energy clears. Hold the recognizable Channel face briefly in the same close framing. He opens his eyes, his right shoulder draws slightly back and his right elbow prepares to extend; the suit jacket and striped shirt move in the wind. Do not add a separate Zachary in the background.\n\n7.2–8.0s: Separate the palms. Channel drives his right palm toward the camera and downward to the established street below, with fingers naturally spread. His left hand recoils toward the chest. The torso and shoulder participate in the strike. Follow the reference's palm-to-camera motion and downward directional blur, ending with motion that can cut directly to the street impact. The gold-blue pressure has a clear origin at the palm and a clear downward destination; it is not a floating decorative line.\n\nSound design intent: continuous wind, a rising energy layer during the transformation, a brief intake before the strike and one strong downbeat at the palm thrust. No voice cloning or dialogue is required. The energetic material may be spectacular, but retain readable real faces, cloth detail, stable scale and a coherent camera axis. Avoid stiff poses, frozen background, random hard cuts, moustache or blond-hair leakage, swapped identities, extra limbs, malformed fingers and a giant white flash replacing the actual transformation.",
+    "media": [
+      {
+        "type": "reference_video",
+        "url": "https://opc-file.promopioneers.cc/metaops/starbay/2026/10/StarbayThreeCharacter_Starbay_2026-10-15_MP4_ReferenceBlockB_Internal_v01.mp4"
+      },
+      {
+        "type": "reference_image",
+        "url": "__RUNTIME_HASH_VERIFIED_IMAGE_1_DATA_URI__"
+      },
+      {
+        "type": "reference_image",
+        "url": "__RUNTIME_HASH_VERIFIED_IMAGE_2_DATA_URI__"
+      }
+    ]
+  },
+  "parameters": {
+    "resolution": "480P",
+    "ratio": "9:16",
+    "duration": 8,
+    "audio": true,
+    "prompt_extend": false,
+    "watermark": false
+  }
+}

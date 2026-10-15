@@ -1,0 +1,24 @@
+{
+  "model": "wan3.0-video",
+  "input": {
+    "prompt": "Edit Video 1 into the opening of a photorealistic absurd kung-fu brand short. Preserve the reference camera movement, wide-angle perspective, approach timing, street-corner layout and final whip tilt into the sky. Replace the ground-level masked carrier with the adult man in Image 1, Zijian. Use Image 1 for facial identity, short hair, round eyeglasses and body type. Give him an open-faced black utility jacket over a black T-shirt, dark charcoal cargo trousers and worn black sneakers. His whole face and round glasses remain visible. No face mask, no new facial hair.\n\nReplace the giant shoe with one oversized fictional cinema camera, approximately 1.8 metres long. The matte black camera body lies horizontally across his right shoulder; its huge circular lens points toward the left foreground. He supports the underside with his right hand and grips the top handle with his left hand. Keep the camera body, lens, top handle and carrying contact consistent throughout. It is heavy: the shoulder lowers, the torso counters the load, and each step makes the camera rock slightly.\n\n0.0–1.4s: Start low and wide, using the same scale contrast as Video 1. Reveal the giant lens in the foreground, then reveal Zijian carrying it from the same shop entrance. Retain the position and perspective of the original doorway, curb and street corner. A small amount of background pedestrian movement continues.\n\n1.4–3.0s: Follow the reference approach toward the camera. Zijian takes two weighted steps, glances back at the doorway and gives the camera a mischievous half-smile. His eyeglasses sit on his nose naturally. Do not cut to another street or rotate the camera to an unrelated axis. His hands remain connected to the prop rather than passing through it.\n\n3.0–4.0s: A growing overhead shadow makes him stop. His eyes look up first, then his chin rises; the smile disappears and the glasses slip a little. Follow his eyeline with the reference's fast upward tilt. Building corners sweep past with motivated motion blur. End looking into the sky while retaining the same building corner as a spatial anchor, ready for the next segment.\n\nSound design intent: brief camera shutter, weighted footsteps and shoulder-strap friction; a rising wind transition at the final tilt. No spoken narration is required. Maintain natural photographic skin, fabric and contact shadows. Avoid identity drift, hidden face, extra hands, hands clipping through the camera, changing prop scale, unrelated scene changes, copied third-party brand marks, platform controls and reference captions as scene elements.",
+    "media": [
+      {
+        "type": "reference_video",
+        "url": "https://opc-file.promopioneers.cc/metaops/starbay/2026/10/StarbayThreeCharacter_Starbay_2026-10-15_MP4_ReferenceBlockA_Internal_v01.mp4"
+      },
+      {
+        "type": "reference_image",
+        "url": "__RUNTIME_HASH_VERIFIED_IMAGE_1_DATA_URI__"
+      }
+    ]
+  },
+  "parameters": {
+    "resolution": "480P",
+    "ratio": "9:16",
+    "duration": 4,
+    "audio": true,
+    "prompt_extend": false,
+    "watermark": false
+  }
+}
