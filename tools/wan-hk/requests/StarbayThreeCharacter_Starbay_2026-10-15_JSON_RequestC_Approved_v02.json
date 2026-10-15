@@ -1,0 +1,28 @@
+{
+  "model": "wan3.0-video",
+  "input": {
+    "prompt": "Edit Video 1 while keeping its ORIGINAL final 5-second structure: elevated view of the carrier in the SAME street corner, sudden downward impact, heavy object pinning him, dust clearing to reveal the ground result, then the original low product close-up. Preserve the same curb, dark green corner-shop windows, pavement, sunlight, camera axis and timing. Do not move to a studio, courtyard, rooftop, sci-fi set or a different street. Remove all phone UI, account icons, director captions, counters, inherited shoe branding and the OAKLEY text.\n\nImage 1 is Zijian, the fictional comic thief. Preserve his face, short black hair and ROUND EYEGLASSES. He wears a black utility jacket over a black T-shirt, dark charcoal cargo trousers and dark sneakers, matching the opening shot. Replace the giant shoe with ONE oversized matte-black cinema camera, about 1.8 metres long, a huge cylindrical lens pointing to SCREEN LEFT and a squared silver-grey top handle. It is the same camera he carries in the opening. No shoes as props, no shoe-shaped camera and no extra camera copies.\n\nImage 2 is the official STARBAY mark: a DYNAMIC FIVE-POINT STAR with an extended upper-right ray, above the word STARBAY. Use the star's OUTER SILHOUETTE to define the actual physical excavation. The logo image is a SHAPE reference, not a picture to paste on top of the road. The dominant requirement is a real, deep STAR-SHAPED HOLE with a clearly depressed floor.\n\n0.0-0.8 seconds: match the reference's elevated shot. Zijian still holds the huge camera on his shoulder at the same street position. The invisible pressure from Channel's previous airborne palm strike forces his knees to buckle. One continuous fall begins; his body and heavy camera move together with gravity.\n\n0.8-1.7 seconds: in ONE strong impact, the asphalt breaks and sinks into a five-point STAR-SHAPED CRATER roughly four metres across and one metre DEEP. Five distinct pointed arms and concave corners cut through the pavement, including the longer upper-right point of Image 2. Show thick broken asphalt at the top rim, exposed vertical earthen sidewalls, falling stones, deep cast shadows and a crater floor visibly LOWER than the untouched street. The outer road remains at its original height. The cinema camera drops with convincing weight and pins Zijian's lower torso in a comic, non-graphic pose inside the pit. His face, glasses and a hand stay visible. No blood or realistic injury.\n\n1.7-3.2 seconds: hold the original elevated reaction framing and let dust roll OUT and CLEAR enough to read the entire star-shaped boundary. The camera makes only the reference's small drift. Zijian and the prop rest BELOW street level, not on a flat road graphic. The lowered floor, inner walls, broken rim and occlusion must remain visible together, proving actual depth. Zijian makes a small stunned reaction and a weak OK gesture. A restrained deep-blue/gold edge highlight can follow the broken star rim. The official STARBAY word sits BELOW the star in the foreground as shallow, physically debossed pavement lettering; preserve the stacked star-above-word layout. The star is the deep pit, not a painted logo. Do not make a circular crater, flat decal, raised star platform, glowing portal or undamaged floor with a logo overlay.\n\n3.2-5.0 seconds: follow the original cut to a LOW CLOSE-UP of the cinema-camera lens and textured camera body resting among fractured asphalt, replacing the reference shoe close-up. Keep the SAME light, street and debris. The crater's broken edge and lower floor remain readable in the background; Zijian is a small comic background reaction. Keep this a restrained product-camera move, not a new action. No extra hero enters and no second transformation occurs. Do not add a generated end card; the supplied official master will be added after this shot.\n\nPhotorealistic heavy-object physics, stable camera design, readable glasses, moving dust and coherent scale. Sound: one heavy bass impact at the fall, cracking asphalt, small debris settling and a final clean camera shutter; no dialogue or music. No graphic injury, copied reference actor, giant shoe, flat ground branding, circular outline, fake subtitles, random viewpoint changes or text across the person. Preserve the original scene and edit structure; change only the cast, shoe-to-camera prop and physical star-crater branding.",
+    "media": [
+      {
+        "type": "reference_video",
+        "url": "https://opc-file.promopioneers.cc/metaops/starbay/2026/10/StarbayThreeCharacter_Starbay_2026-10-15_MP4_ReferenceBlockC_Internal_v01.mp4"
+      },
+      {
+        "type": "reference_image",
+        "url": "__RUNTIME_HASH_VERIFIED_IMAGE_1_DATA_URI__"
+      },
+      {
+        "type": "reference_image",
+        "url": "__RUNTIME_HASH_VERIFIED_IMAGE_2_DATA_URI__"
+      }
+    ]
+  },
+  "parameters": {
+    "resolution": "480P",
+    "ratio": "9:16",
+    "duration": 5,
+    "audio": true,
+    "prompt_extend": false,
+    "watermark": false
+  }
+}

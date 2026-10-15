@@ -1,0 +1,28 @@
+{
+  "model": "wan3.0-video",
+  "input": {
+    "prompt": "Edit Video 1, preserving its ORIGINAL SHOT STRUCTURE, airborne choreography, location, framing, camera axis and timing. This is the middle 8 seconds of the SAME absurd superhero comedy, between the street carrier and the street impact. Keep the reference's low-angle sky approach, palms joining, body-centred transformation, brief recognition beat, and palm thrust in precisely that order. Do not replace it with a courtyard, studio, rooftop, ground-level fight or a new montage. Output a clean cinematic image; omit the phone interface, account icons, red director captions, counters, borders and all inherited text.\n\nImage 1 is Zachary, the FIRST identity. Preserve his recognizable face, hairstyle and age. Dress him in a fitted charcoal-black Batman armoured suit, black cape and bat chest emblem. His whole face and hairstyle are visible: the cowl is removed. No moustache, glasses or the reference actor's face. Image 2 is Channel, the SECOND identity. Preserve Channel's recognizable face and short black hair. After the transformation he wears a blue Superman suit with the classic red-and-yellow chest shield, flowing red cape and red belt. No blond hair, red street jacket, sunglasses or navy business suit. This is ONE flying body changing from Zachary/Batman INTO Channel/Superman, never two people together.\n\nCRITICAL SPATIAL RULE: BOTH identities remain suspended HIGH IN THE SKY throughout all 8 seconds. Their bodies are prone in forward/downward flight, the camera looks almost vertically up at them from the street. Moving sky and the SAME building edges from Video 1 remain behind them. Feet never touch a surface. The last palm strike is delivered WHILE FLYING, from the same sky-facing camera angle. Do not tilt to a standing eye-level horizon after the transformation.\n\n0.0-2.5 seconds: keep the reference approach. Zachary/Batman flies face-first down toward the low camera with both arms trailing behind his torso. His unmasked face becomes readable, cape streams upward behind the shoulders, hair reacts to airflow. Camera and subject close distance smoothly, not by separate jump zooms. At the end of this beat he visibly rotates the shoulders and brings elbows forward.\n\n2.5-4.7 seconds: keeping the same airborne body and camera axis, swing both forearms forward and press the palms together in front of the chest as in Video 1. Fingers meet cleanly, elbows spread, shoulders compress and cape keeps fluttering. Maintain movement in the clouds and the camera's gentle forward drift. No static poster pose or hands in pockets.\n\n4.7-6.5 seconds: follow the reference's body-centred golden transformation at the same time. Energy starts between the palms and spreads continuously along the arms, chest and face. The black Batman armour changes into the blue Superman suit, the black cape turns red, and Zachary's face changes into the exact adult Channel identity from Image 2. Keep the head centre, eyes, joined palms, shoulders and flight direction registered throughout. Make the transformation visible, rather than replacing it with a full-screen flash, a cut or two overlapping heads. Gold highlights and a deep-blue rim tie the effect to STARBAY. The camera still looks UP at a person flying in the sky.\n\n6.5-7.2 seconds: reveal Channel/Superman's face clearly while he remains in the same forward-flying prayer pose. Red cape streams in the wind. Give a short readable recognition beat with ongoing shoulder, fabric and cloud motion. No landing or ground-level stance.\n\n7.2-8.0 seconds: Channel separates the palms and drives his RIGHT OPEN PALM directly toward the low camera and the street far below. Right elbow straightens decisively, shoulder and torso follow the thrust, left hand recoils toward the chest. Show spread fingers and the recognizable face behind the palm. He stays airborne. A compact gold-blue pressure pulse accelerates downward from his hand, ending in directional motion blur for the original cut to the street. He does not punch the ground, kneel, land or stand.\n\nRetain photorealistic skin, detailed cloth, believable flying motion and smooth temporal continuity. Sound: wind, rising transformation energy and one sharp palm whoosh at the end; no speech, voice imitation or background music. No extra person, third identity, face mixing, frozen cape, finger distortion, phone UI, original actor leakage, storefront branding or random cut. The original reference sequence is the skeleton; only the two cast identities, superhero clothes and effect colours change.",
+    "media": [
+      {
+        "type": "reference_video",
+        "url": "https://opc-file.promopioneers.cc/metaops/starbay/2026/10/StarbayThreeCharacter_Starbay_2026-10-15_MP4_ReferenceBlockB_Internal_v01.mp4"
+      },
+      {
+        "type": "reference_image",
+        "url": "__RUNTIME_HASH_VERIFIED_IMAGE_1_DATA_URI__"
+      },
+      {
+        "type": "reference_image",
+        "url": "__RUNTIME_HASH_VERIFIED_IMAGE_2_DATA_URI__"
+      }
+    ]
+  },
+  "parameters": {
+    "resolution": "480P",
+    "ratio": "9:16",
+    "duration": 8,
+    "audio": true,
+    "prompt_extend": false,
+    "watermark": false
+  }
+}

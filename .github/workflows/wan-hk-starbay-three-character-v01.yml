@@ -1,5 +1,5 @@
-# APPROVED_BATCH_HKD15_MAX_THREE_POSTS_B_FIRST_NO_PAID_RETRY
-name: Wan HK Starbay three-character v01 approved
+# AUTHORIZED_RETRY_AGENT_CAP_HKD10_MAX_TWO_POSTS_B_FIRST_NO_AUTOMATIC_RETRY
+name: Wan HK Starbay reference-preserving B-C retry v02
 
 on:
   workflow_dispatch:
@@ -15,20 +15,19 @@ on:
           - resume
           - validate-existing
       segment:
-        description: Exact segment; run B and review it before A or C
+        description: Exact retry segment; run B and review it before C
         required: true
         default: B
         type: choice
         options:
           - B
-          - A
           - C
       confirmation:
         description: For generate only, enter the exact segment confirmation from the pinned contract
         required: false
         type: string
       b_review_gate:
-        description: For A or C only after B passes review, enter B_REVIEWED_USABLE_CONTINUE_APPROVED_BATCH
+        description: For C only after B passes review, enter B_RETRY_V02_REVIEWED_USABLE_CONTINUE_C
         required: false
         type: string
       image_1_base64:
@@ -36,7 +35,7 @@ on:
         required: false
         type: string
       image_2_base64:
-        description: B only; exact contract-pinned WebP Image 2 as raw base64
+        description: Exact contract-pinned WebP Image 2; B Channel portrait, C official logo
         required: false
         type: string
       resume_task_id:
@@ -94,15 +93,15 @@ jobs:
               echo "ERROR VERIFY_OUTPUT_PATH_REQUIRED" >&2
               exit 1
             }
-            python3 starbay_three_character_v01_runner.py \
+            python3 starbay_three_character_v02_runner.py \
               --mode validate-existing \
               --segment "$WAN_SEGMENT" \
               --verify-output "$WAN_EXISTING_OUTPUT_PATH"
           else
-            python3 starbay_three_character_v01_runner.py \
+            python3 starbay_three_character_v02_runner.py \
               --mode "$WAN_OPERATION" \
               --segment "$WAN_SEGMENT" \
-              --output-dir "output-starbay-three-character-v01/$WAN_SEGMENT"
+              --output-dir "output-starbay-three-character-v02/$WAN_SEGMENT"
           fi
 
       - name: Validate downloaded result when present
@@ -111,24 +110,24 @@ jobs:
           WAN_SEGMENT: ${{ inputs.segment }}
         run: |
           shopt -s nullglob
-          videos=("output-starbay-three-character-v01/$WAN_SEGMENT"/*.mp4)
+          videos=("output-starbay-three-character-v02/$WAN_SEGMENT"/*.mp4)
           if (( ${#videos[@]} == 0 )); then
             echo "No MP4 was downloaded; receipt-only or preflight run."
           elif (( ${#videos[@]} != 1 )); then
             echo "ERROR UNEXPECTED_MP4_COUNT" >&2
             exit 1
           else
-            python3 starbay_three_character_v01_runner.py \
+            python3 starbay_three_character_v02_runner.py \
               --mode validate-existing \
               --segment "$WAN_SEGMENT" \
               --verify-output "${videos[0]}"
           fi
 
       - name: Upload short-lived sanitized receipt and result
-        if: ${{ always() && hashFiles(format('tools/wan-hk/output-starbay-three-character-v01/{0}/**', inputs.segment)) != '' }}
+        if: ${{ always() && hashFiles(format('tools/wan-hk/output-starbay-three-character-v02/{0}/**', inputs.segment)) != '' }}
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
-          name: wan-hk-starbay-three-character-v01-${{ inputs.segment }}-${{ github.run_id }}-attempt-${{ github.run_attempt }}
-          path: tools/wan-hk/output-starbay-three-character-v01/${{ inputs.segment }}/
+          name: wan-hk-starbay-three-character-v02-${{ inputs.segment }}-${{ github.run_id }}-attempt-${{ github.run_attempt }}
+          path: tools/wan-hk/output-starbay-three-character-v02/${{ inputs.segment }}/
           if-no-files-found: error
           retention-days: 2

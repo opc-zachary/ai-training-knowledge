@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "project": "StarbayThreeCharacterReference",
+  "client": "STARBAY / 灣星文化",
+  "version": "v02",
+  "status": "AUTHORIZED_REFERENCE_PRESERVING_BC_RETRY",
+  "authorization": "GRANTED",
+  "provider": {
+    "model": "wan3.0-video",
+    "api_host": "ws-f71y900nmq5fpsef.cn-hongkong.maas.aliyuncs.com",
+    "api_key_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "api_host_binding": "ALIYUN_MODEL_STUDIO_HK_API_HOST",
+    "region": "China (Hong Kong)",
+    "repository": "opc-zachary/ai-training-knowledge"
+  },
+  "approval": {
+    "approved_by": "Zachary Chan",
+    "approved_at_utc": "2026-10-15T13:32:10.495645+00:00",
+    "scope": "One B8s and one C5s paid retry; retain the original A4s opening, scene and edit structure; B reviewed before C",
+    "approval_quote": "仍冇不流暢，付費重試，要真正凹入地面嘅星形大坑，以及channel空中出掌\nzacahary  channel穿batmen 及Superman戰衣",
+    "maximum_total_submissions": 2,
+    "maximum_per_segment_submissions": 1,
+    "automatic_paid_retries": 0,
+    "total_input_video_seconds": 13,
+    "total_output_seconds": 13,
+    "maximum_billable_seconds": 26,
+    "rate_usd_per_second": "0.041256",
+    "planning_fx_hkd_per_usd": "7.8",
+    "estimated_usd": "1.072656",
+    "estimated_hkd": "8.3667168",
+    "cost_cap_hkd": "10.00",
+    "price_basis": "Input-video seconds plus generated output seconds at the pinned list rate; no promotion or free quota assumed",
+    "latest_structure_correction": "不太對吧，要保留原有結構",
+    "cost_cap_source": "Agent-imposed conservative limit within the user-authorized paid retry; the user did not quote a numeric HKD10 approval",
+    "prior_v01_batch": "Completed separately; no old submission is replayed or silently re-armed"
+  },
+  "reference_transport": {
+    "scheme": "https",
+    "host": "opc-file.promopioneers.cc",
+    "path_prefix": "/metaops/starbay/2026/10/",
+    "approved_public_base": "https://opc-file.promopioneers.cc/metaops/starbay/2026/10/",
+    "pre_post_requirement": "Runner must download and verify exact URL, redirect destination, HTTP type, byte count, SHA-256, MP4 container, dimensions and duration before a paid POST"
+  },
+  "execution": {
+    "workflow": "manual_only",
+    "workflow_file": "wan-hk-starbay-three-character-v01.yml",
+    "concurrency_group": "wan-hk-starbay-three-character-v01-paid-generation",
+    "github_permissions": "contents:read",
+    "run_attempt_required": 1,
+    "generation_order": [
+      "B",
+      "C"
+    ],
+    "maximum_provider_posts": 2,
+    "maximum_provider_posts_per_run": 1,
+    "unknown_post_outcome_policy": "DO_NOT_RETRY; reconcile or resume the same known task UUID with GET only",
+    "resume_policy": "GET only for one existing provider task UUID; resume never submits a new generation",
+    "after_B": "If B is materially unusable, stop C; otherwise require B_RETRY_V02_REVIEWED_USABLE_CONTINUE_C after reviewing the actual B result.",
+    "global_deduplication_limit": "Local receipt, exact confirmation and run-attempt guards do not provide cross-run global deduplication; the root control thread remains the sole external writer"
+  },
+  "common_parameters": {
+    "resolution": "480P",
+    "ratio": "9:16",
+    "audio": true,
+    "prompt_extend": false,
+    "watermark": false
+  },
+  "images": {
+    "zijian": {
+      "role": "Image 1 for C",
+      "source_sha256": "69613cf201e924dbd0ba94279cf77abd32fc95142d55722bc1ab55cb84e0e062",
+      "source_bytes": 2219432,
+      "source_dimensions": [
+        1704,
+        1076
+      ],
+      "transport_filename": "StarbayThreeCharacter_Starbay_2026-10-15_WEBP_Zijian_Transport_v01.webp",
+      "transport_sha256": "9c16961c833555d9e05a4e3b6685237a827618584f0af16aedc82374fd7811ed",
+      "transport_mime": "image/webp",
+      "transport_bytes": 12162,
+      "transport_base64_characters": 16216,
+      "transport_dimensions": [
+        512,
+        324
+      ],
+      "transport_operation": "resize, WebP format conversion and compression only; no crop or creative edit",
+      "source_file": "StarbayThreeCharacter_Starbay_2026-10-15_Photo_Zijian_Reference_v01.png"
+    },
+    "zachary": {
+      "role": "Image 1 for B",
+      "source_sha256": "74788084a6b7a5c04fd0f96238c7efbc85056b3c16b28200a964bf7b3de3f4a2",
+      "source_bytes": 78345,
+      "source_dimensions": [
+        1744,
+        2328
+      ],
+      "transport_filename": "StarbayThreeCharacter_Starbay_2026-10-15_WEBP_Zachary_Transport_v01.webp",
+      "transport_sha256": "f877aa506dbb507d189eddccf8e5f333a572f424899ebee8a9f7847957421bf1",
+      "transport_mime": "image/webp",
+      "transport_bytes": 3260,
+      "transport_base64_characters": 4348,
+      "transport_dimensions": [
+        360,
+        481
+      ],
+      "transport_operation": "resize, WebP format conversion and compression only; no crop or creative edit",
+      "source_file": "StarbayThreeCharacter_Starbay_2026-10-15_Photo_Zachary_Reference_v01.jpg"
+    },
+    "channel": {
+      "role": "Image 2 for B",
+      "source_sha256": "dd0d72ef0771f81bd6ee73e9a8975ddda955318f7e8e083510687d87dca5b967",
+      "source_bytes": 174169,
+      "source_dimensions": [
+        1280,
+        2276
+      ],
+      "transport_filename": "StarbayThreeCharacter_Starbay_2026-10-15_WEBP_Channel_Transport_v01.webp",
+      "transport_sha256": "6df1174228e5814778043247aac8b5a110f5da1d1dc90945498e7fd7391deaa2",
+      "transport_mime": "image/webp",
+      "transport_bytes": 8538,
+      "transport_base64_characters": 11384,
+      "transport_dimensions": [
+        270,
+        481
+      ],
+      "transport_operation": "resize, WebP format conversion and compression only; no crop or creative edit",
+      "source_file": "StarbayThreeCharacter_Starbay_2026-10-15_Photo_Channel_Reference_v01.jpg"
+    },
+    "starbay": {
+      "role": "Image 2 for C; official star silhouette and stacked logo geometry",
+      "source_file": "starbay-official-vertical.png",
+      "source_sha256": "6ebcdf543e18dac4a370c439d656bc6fea7f5cb661811ca2a9af454b4df68a5e",
+      "source_bytes": 120911,
+      "source_dimensions": [
+        2680,
+        2000
+      ],
+      "transport_filename": "StarbayThreeCharacter_Starbay_2026-10-15_WEBP_OfficialStarbay_Transport_v02.webp",
+      "transport_sha256": "5512f5aeff296b5e7ff41712415cebeef282176c151787680b67fd2b1fa14b9d",
+      "transport_mime": "image/webp",
+      "transport_bytes": 11388,
+      "transport_base64_characters": 15184,
+      "transport_dimensions": [
+        512,
+        382
+      ],
+      "transport_operation": "resize and WebP conversion on white alpha background; official artwork unchanged"
+    }
+  },
+  "segments": {
+    "B": {
+      "duration_seconds": 8,
+      "input_video_seconds": 8,
+      "maximum_billable_seconds": 16,
+      "estimated_hkd": "5.1487488",
+      "maximum_submissions": 1,
+      "confirmation": "GENERATE_STARBAY_THREE_CHARACTER_V02_B_ONCE",
+      "request_path": "requests/StarbayThreeCharacter_Starbay_2026-10-15_JSON_RequestB_Approved_v02.json",
+      "request_sha256": "f1321585fc045c19d3539b659643ff54a585e7e3313b620faedc6a2df70f9929",
+      "reference_video_url": "https://opc-file.promopioneers.cc/metaops/starbay/2026/10/StarbayThreeCharacter_Starbay_2026-10-15_MP4_ReferenceBlockB_Internal_v01.mp4",
+      "reference_video_sha256": "0b6962b28153863c3d0f1bd8af863146796f8f1df135a75d5ba8a51ff9261040",
+      "reference_video_bytes": 1506218,
+      "reference_video_dimensions": [
+        480,
+        1040
+      ],
+      "image_ids": [
+        "zachary",
+        "channel"
+      ],
+      "output_name": "StarbayThreeCharacter_Starbay_2026-10-15_Video_B_480P_Review_v02.mp4"
+    },
+    "C": {
+      "duration_seconds": 5,
+      "input_video_seconds": 5,
+      "maximum_billable_seconds": 10,
+      "estimated_hkd": "3.2179680",
+      "maximum_submissions": 1,
+      "confirmation": "GENERATE_STARBAY_THREE_CHARACTER_V02_C_ONCE",
+      "request_path": "requests/StarbayThreeCharacter_Starbay_2026-10-15_JSON_RequestC_Approved_v02.json",
+      "request_sha256": "02000fd4ad244a553f78f4ee2c0548676700cd0252c20e94fe0b17a24c54cbce",
+      "reference_video_url": "https://opc-file.promopioneers.cc/metaops/starbay/2026/10/StarbayThreeCharacter_Starbay_2026-10-15_MP4_ReferenceBlockC_Internal_v01.mp4",
+      "reference_video_sha256": "ddd5d45b205440b81c5e92ee91096f497f55475338e6052992d6df9980a9ce85",
+      "reference_video_bytes": 728406,
+      "reference_video_dimensions": [
+        480,
+        1040
+      ],
+      "image_ids": [
+        "zijian",
+        "starbay"
+      ],
+      "output_name": "StarbayThreeCharacter_Starbay_2026-10-15_Video_C_480P_Review_v02.mp4"
+    }
+  },
+  "output_validation": {
+    "duration_tolerance_seconds": 0.5,
+    "short_edge_pixels": 480,
+    "portrait_ratio": "9:16",
+    "ratio_tolerance": 0.01,
+    "minimum_audio_streams": 1,
+    "full_decode_required": true
+  },
+  "receipt_policy": {
+    "include": [
+      "task_id",
+      "request_id",
+      "segment",
+      "verified input seconds",
+      "validated output seconds",
+      "actual billable seconds",
+      "actual USD",
+      "actual HKD",
+      "media hashes",
+      "technical validation"
+    ],
+    "exclude": [
+      "signed result URLs",
+      "raw provider responses",
+      "API keys",
+      "base64 image data"
+    ]
+  },
+  "retained_opening": {
+    "source_file": "StarbayThreeCharacter_Starbay_2026-10-15_MP4_OnePalm17_Review_v01.mp4",
+    "source_sha256": "13774bf74bb752b92b597f8c7ab23ee745798304b6ec5524eb19506d8f6480b3",
+    "source_interval_seconds": [
+      0,
+      4
+    ],
+    "new_provider_submissions": 0,
+    "purpose": "Preserve the original completed opening without spending or restructuring it"
+  }
+}
