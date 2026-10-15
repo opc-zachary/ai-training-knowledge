@@ -1,0 +1,24 @@
+{
+  "model": "wan3.0-video",
+  "input": {
+    "prompt": "ONE UNINTERRUPTED 15-SECOND CINEMATIC FPV TAKE. Exactly one continuous camera trajectory in one evolving Hong Kong Victoria Harbour world. No cuts, no dissolves, no full-frame transitions, no teleportation or unrelated room changes. Match the supplied first and last frames as endpoints of this continuous moving world; do not interpolate them as two flat photographs.\nPremium photorealistic surreal brand advertising, sapphire-blue glass, brushed amber-gold metal, silver reflective film-like surfaces. Same blue-hour sky, harbour water, mountain ridge and warm city lights throughout. No drone, person, cockpit, racing rails, extra text or watermark. Maintain real near/mid/far parallax, stable scale until a deliberate material transformation, environmental movement, moving water, boats and responsive reflections. Use the supplied star as a tangible hollow sculpture, not a flat icon.\nDuring 0-3 seconds the camera accelerates from the supplied starting viewpoint through the actual empty central aperture of the existing gold-and-blue metal star. Its thick near edges sweep past opposite sides of the lens and the camera physically crosses the star plane. The star stays behind the travelling camera. Keep the same Hong Kong skyline visible beyond it. Do not dissolve the star or turn its hole into a separate room.\nDuring 3-7 seconds continue forward over the same harbour and between the edges of the same towers on a smooth curved path. The camera performs one controlled clockwise axial roll from upright to fully upside down. Show the horizon rotating continuously through intermediate angles; by 6 seconds the rippling water is overhead and the skyline hangs downward, with sky beneath the lens. Briefly sustain the inverted view while continuing travel. Close glass surfaces sweep past in depth; do not rotate a frozen flat image.\nDuring 7-11 seconds continue the same clockwise roll back toward upright, completing one full 360-degree barrel roll across the whole middle passage. As the camera moves, nearby facade edges physically peel and curl into silver film-like sheets and sapphire glass ribbons, retaining their window grids. Warm facade lights stretch along the edges into flowing gold metal ribbons. The transformation propagates locally from visible surfaces; it is deliberate surreal material animation, not a whole-frame crossfade or an instant object swap. Preserve the harbour and distant skyline behind these changing foreground structures. Fly through the open space between the curling sheets on the same trajectory.\nDuring 11-15 seconds the camera follows a smooth outward-curving arc around those same ribbons and gently widens its view. The materials settle into the open asymmetric blue-glass and gold-metal architectural sculpture shown in the supplied last frame, with the same harbour still below it. The camera eases upright and decelerates naturally; the final 1.5 seconds retain subtle drift, moving water, boats and living reflections. No abrupt freeze, no standalone endcard, no sudden camera reversal, no geometric jump into the final composition. Keep lower water area uncluttered for a later official logo overlay. Render no lettering. Prioritize continuity and a legible 180-degree inverted view over adding extra effects.",
+    "media": [
+      {
+        "type": "first_frame",
+        "url": "__RUNTIME_HASH_VERIFIED_FIRST_FRAME_DATA_URI__"
+      },
+      {
+        "type": "last_frame",
+        "url": "__RUNTIME_HASH_VERIFIED_LAST_FRAME_DATA_URI__"
+      }
+    ]
+  },
+  "parameters": {
+    "resolution": "480P",
+    "ratio": "9:16",
+    "duration": 15,
+    "audio": false,
+    "prompt_extend": false,
+    "watermark": false
+  }
+}
