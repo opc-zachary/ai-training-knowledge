@@ -1,0 +1,52 @@
+{
+  "status": "APPROVED_FOR_ONE_PAID_SUBMISSION",
+  "creative_id": "city-canvas-paper-aperture-proof-v03",
+  "source_first_frame": "assets/StarbayCityCanvas_Starbay_2026-10-15_PNG_Keyframe01_SourceCopy_v03.png",
+  "source_first_frame_sha256": "8c5389104fae70c6b1abfd1431850599838133641098a956d7a86c1c19748db0",
+  "transport_first_frame": "assets/StarbayCityCanvas_Starbay_2026-10-15_JPG_S01FirstFrame480x854_Transport_v03.jpg",
+  "first_frame_sha256": "94eb1c07138db47b5f899a9bb0bc9b2efc4b5f10c421fb2116b8415293c582d6",
+  "request": {
+    "model": "wan3.0-video",
+    "input": {
+      "prompt": "Create one continuous five-second portrait 9:16 image-to-video shot. Begin on the supplied first frame, on the same daylight Hong Kong street after rain; do not change it to night. The golden paper poster remains attached to its kiosk. During the first two seconds, its existing lower curl flexes with physical bending stiffness and the navy cut edges of the existing star aperture lift slightly. The single green tram on the right moves slowly along its existing track; street architecture remains stationary. From second two, the camera dollies forward toward the existing aperture and smoothly accelerates through the opening by the end. Reveal paper thickness, changing near-edge occlusion and genuine depth parallax. Beyond the opening the same turquoise harbour water shimmers subtly, with a small coherent ferry. End beyond the paper plane on the harbour, never return to the starting view. Keep the paper kiosk and architecture rigid; the aperture is decorative campaign geometry, not an official logo. One camera path, no cuts. Photoreal physical paper, visible fibres and thickness, golden-yellow top faces and deep-navy reverse faces, natural neutral daylight. Preserve the supplied architecture and perspective. No orange brand paper, neon glow, liquid melting, duplicate vehicles, newly invented buildings, lettering, logos, subtitles, UI or watermarks. Changes must occur inside the scene with parallax, occlusion and contact-shadow changes, not a pan or zoom applied to a frozen still. ",
+      "media": [
+        {
+          "type": "first_frame",
+          "url": "__RUNTIME_VERIFIED_FIRST_FRAME_DATA_URI__"
+        }
+      ]
+    },
+    "parameters": {
+      "resolution": "480P",
+      "ratio": "9:16",
+      "duration": 5,
+      "audio": false,
+      "prompt_extend": false,
+      "watermark": false
+    }
+  },
+  "maximum_submissions": 1,
+  "automatic_paid_retries": 0,
+  "authorization": "GRANTED",
+  "expected_end_frame_bound": false,
+  "approval": {
+    "approved_by": "Zachary Chan",
+    "approved_date": "2026-10-15",
+    "scope": "S01 WAN3 image-to-video proof only",
+    "model": "wan3.0-video",
+    "resolution": "480P",
+    "ratio": "9:16",
+    "duration_seconds": 5,
+    "audio": false,
+    "source_mode": "first_frame_only",
+    "end_frame_bound": false,
+    "maximum_submissions": 1,
+    "automatic_paid_retries": 0,
+    "rate_usd_per_second": "0.041256",
+    "planning_fx_hkd_per_usd": "7.8",
+    "estimated_hkd": "1.61",
+    "cost_cap_hkd": "5.00",
+    "creative_payload_changed": false,
+    "result_requirement": "show resulting video"
+  }
+}
