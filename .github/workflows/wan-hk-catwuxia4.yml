@@ -1,0 +1,112 @@
+name: Wan HK fixed CatWomanWuxia six-shot 4-second manual executor
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Operation; check-binding makes no provider API request
+        required: true
+        default: check-binding
+        type: choice
+        options:
+          - check-binding
+          - generate
+          - resume
+      shot:
+        description: One fixed storyboard shot per dispatch
+        required: true
+        default: "01"
+        type: choice
+        options:
+          - "01"
+          - "02"
+          - "03"
+          - "04"
+          - "05"
+          - "06"
+      confirmation:
+        description: For an approved generate only, enter GENERATECATWUXIA24BATCH
+        required: false
+        type: string
+      first_image_base64:
+        description: Pinned shot WebP; all dispatch input characters must total at most 65,535
+        required: false
+        type: string
+      resume_task_id:
+        description: Task UUID from the same shot receipt; resume never submits a POST
+        required: false
+        type: string
+      resume_receipt_base64:
+        description: Base64 of the prior receipt that binds shot, request digest, frame digest, and task UUID
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wan-hk-shot04-paid-generation
+  cancel-in-progress: false
+
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    defaults:
+      run:
+        shell: bash
+        working-directory: tools/wan-hk
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Ensure ffprobe and ffmpeg are available
+        run: |
+          if ! command -v ffprobe >/dev/null 2>&1 || ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install --yes ffmpeg
+          fi
+          command -v ffprobe >/dev/null 2>&1 || {
+            echo "ERROR FFPROBE_MISSING_AFTER_INSTALL" >&2
+            exit 1
+          }
+          command -v ffmpeg >/dev/null 2>&1 || {
+            echo "ERROR FFMPEG_MISSING_AFTER_INSTALL" >&2
+            exit 1
+          }
+
+      - name: Run fixed CatWomanWuxia shot operation
+        env:
+          ALIYUN_MODEL_STUDIO_HK_API_KEY: ${{ secrets.ALIYUN_MODEL_STUDIO_HK_API_KEY }}
+          ALIYUN_MODEL_STUDIO_HK_API_HOST: ${{ vars.ALIYUN_MODEL_STUDIO_HK_API_HOST }}
+          WAN_OPERATION: ${{ inputs.mode }}
+          WAN_SHOT: ${{ inputs.shot }}
+          WAN_GENERATE_CONFIRMATION: ${{ inputs.confirmation }}
+        run: python3 catwuxia4_runner.py --mode "$WAN_OPERATION" --shot "$WAN_SHOT" --output-dir "output-catwuxia4-shot${WAN_SHOT}"
+
+      - name: Decode-check downloaded MP4
+        if: ${{ always() }}
+        env:
+          WAN_SHOT: ${{ inputs.shot }}
+        run: |
+          shopt -s nullglob
+          videos=("output-catwuxia4-shot${WAN_SHOT}"/*.mp4)
+          if (( ${#videos[@]} == 0 )); then
+            echo "No MP4 was downloaded; receipt-only run."
+          elif (( ${#videos[@]} != 1 )); then
+            echo "Unexpected MP4 count." >&2
+            exit 1
+          else
+            python3 catwuxia4_runner.py --verify-output "${videos[0]}"
+          fi
+
+      - name: Upload short-lived receipt and result
+        if: ${{ always() && hashFiles(format('tools/wan-hk/output-catwuxia4-shot{0}/**', inputs.shot)) != '' }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9f # v7.0.2
+        with:
+          name: wan-hk-catwuxia4-shot-${{ inputs.shot }}-${{ github.run_id }}-attempt-${{ github.run_attempt }}
+          path: tools/wan-hk/output-catwuxia4-shot${{ inputs.shot }}/
+          if-no-files-found: error
+          retention-days: 2
