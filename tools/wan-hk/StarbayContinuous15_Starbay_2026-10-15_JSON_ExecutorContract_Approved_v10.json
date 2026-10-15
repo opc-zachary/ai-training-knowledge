@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "project": "StarbayContinuous15",
+  "client": "STARBAY / 灣星文化",
+  "version": "v10",
+  "status": "APPROVED_FOR_ONE_15_SECOND_TAKE",
+  "authorization": "GRANTED",
+  "source_manifest": {
+    "filename": "StarbayContinuous15_Starbay_2026-10-15_JSON_InputManifest_Review_v10.json",
+    "sha256": "92be8fb1504f386bf99c7cca10fcc1557b57c855c1e8558ae80ddb9f17643547",
+    "source_status": "LOCAL_INPUT_PACKAGE_READY_NEW_PAID_APPROVAL_PENDING"
+  },
+  "provider": {
+    "model": "wan3.0-video",
+    "api_host": "ws-f71y900nmq5fpsef.cn-hongkong.maas.aliyuncs.com",
+    "api_key_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "api_host_binding": "ALIYUN_MODEL_STUDIO_HK_API_HOST",
+    "region": "China (Hong Kong)",
+    "deployment_scope": "Global"
+  },
+  "approval": {
+    "approved_by": "Zachary Chan",
+    "approved_at_utc": "2026-10-15T07:11:31.962381+00:00",
+    "scope": "One specified StarbayContinuous15 v10 S01 fifteen-second submission",
+    "maximum_total_submissions": 1,
+    "maximum_per_shot_submissions": 1,
+    "maximum_generated_seconds": 15,
+    "automatic_paid_retries": 0,
+    "rate_usd_per_second": "0.041256",
+    "planning_fx_hkd_per_usd": "7.8",
+    "estimated_usd": "0.618840",
+    "estimated_hkd": "4.8269520",
+    "cost_cap_hkd": "6.00",
+    "price_basis": "list price; no assumed promotion or free quota; video-generation cost only",
+    "result_requirement": "One independent S01 receipt and one technically validated continuous fifteen-second video",
+    "approval_quote": "批准：上限 HK$6，15 秒一次",
+    "approval_source": "Direct user reply in control thread 01a0fd2b-a273-7a20-bbce-276b91ee94ca"
+  },
+  "execution": {
+    "workflow": "manual_only",
+    "concurrency_group": "wan-hk-shot04-paid-generation",
+    "github_permissions": "contents:read",
+    "run_attempt_required": 1,
+    "receipt_scope": "one independent receipt for S01",
+    "confirmation": "GENERATE_STARBAY_CONTINUOUS15_V10_S01_ONCE",
+    "maximum_provider_posts": 1,
+    "unknown_post_outcome_policy": "DO_NOT_RETRY; reconcile or resume the same known task UUID with GET only",
+    "resume_policy": "GET only for one existing provider task UUID; resume never submits a new generation",
+    "global_deduplication_limit": "Local receipt and run-attempt guards do not provide cross-run global deduplication; root is the sole external writer"
+  },
+  "request_parameters": {
+    "resolution": "480P",
+    "ratio": "9:16",
+    "duration": 15,
+    "audio": false,
+    "prompt_extend": false,
+    "watermark": false
+  },
+  "runtime_media_placeholders": [
+    {
+      "type": "first_frame",
+      "url": "__RUNTIME_HASH_VERIFIED_FIRST_FRAME_DATA_URI__"
+    },
+    {
+      "type": "last_frame",
+      "url": "__RUNTIME_HASH_VERIFIED_LAST_FRAME_DATA_URI__"
+    }
+  ],
+  "frames": {
+    "first_frame": {
+      "path": "transport/StarbayContinuous15_Starbay_2026-10-15_WEBP_first_frame_Transport_v10.webp",
+      "sha256": "35108bf873348f4ee8bd234fc6055ef0072d6ca902ad28d7a7c9a3d5b822403a",
+      "mime": "image/webp",
+      "bytes": 159120,
+      "dimensions": [
+        480,
+        854
+      ]
+    },
+    "last_frame": {
+      "path": "transport/StarbayContinuous15_Starbay_2026-10-15_WEBP_last_frame_Transport_v10.webp",
+      "sha256": "eec061e90becf5604ad7cbe28a70506fb5f9431f6ccebb7c4a7b862cfeb4926f",
+      "mime": "image/webp",
+      "bytes": 177140,
+      "dimensions": [
+        480,
+        854
+      ]
+    }
+  },
+  "shot": {
+    "id": "S01",
+    "first_frame_id": "first_frame",
+    "last_frame_id": "last_frame",
+    "request_path": "requests/StarbayContinuous15_Starbay_2026-10-15_JSON_ProviderRequest_Review_v10.json",
+    "request_sha256": "10f5932b5542397a8f9976854ff948d8d83e34d0dee4d177acc239eaaebde700",
+    "output_name": "StarbayContinuous15_Starbay_2026-10-15_Video_S01_480P_Review_v10.mp4"
+  },
+  "output_validation": {
+    "duration_seconds": 15,
+    "duration_tolerance_seconds": 0.5,
+    "nominal_fps": 30,
+    "expected_decoded_frames": 450,
+    "short_edge_pixels": 480,
+    "portrait_required": true,
+    "audio_streams": 0,
+    "full_decode_required": true
+  }
+}

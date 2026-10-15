@@ -1,0 +1,95 @@
+# APPROVED_HKD6_ONE_15_SECOND_S01_POST_NO_PAID_RETRY
+# Exact approval and UTC timestamp are pinned in the executor contract.
+name: Wan HK Starbay Continuous15 v10 approved
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Operation; check-binding makes no provider API request
+        required: true
+        default: check-binding
+        type: choice
+        options:
+          - check-binding
+          - generate
+          - resume
+      confirmation:
+        description: For generate only, enter GENERATE_STARBAY_CONTINUOUS15_V10_S01_ONCE
+        required: false
+        type: string
+      resume_task_id:
+        description: Existing S01 task UUID; resume performs GET only
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wan-hk-shot04-paid-generation
+  cancel-in-progress: false
+
+jobs:
+  execute-s01-once:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    defaults:
+      run:
+        shell: bash
+        working-directory: tools/wan-hk
+    steps:
+      - name: Check out pinned executor and build inputs
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Ensure ffprobe and ffmpeg are available
+        run: |
+          if ! command -v ffprobe >/dev/null 2>&1 || ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install --yes ffmpeg
+          fi
+          command -v ffprobe >/dev/null 2>&1 || {
+            echo "ERROR FFPROBE_MISSING_AFTER_INSTALL" >&2
+            exit 1
+          }
+          command -v ffmpeg >/dev/null 2>&1 || {
+            echo "ERROR FFMPEG_MISSING_AFTER_INSTALL" >&2
+            exit 1
+          }
+
+      - name: Run fixed S01 operation
+        env:
+          ALIYUN_MODEL_STUDIO_HK_API_KEY: ${{ secrets.ALIYUN_MODEL_STUDIO_HK_API_KEY }}
+          ALIYUN_MODEL_STUDIO_HK_API_HOST: ${{ vars.ALIYUN_MODEL_STUDIO_HK_API_HOST }}
+          WAN_OPERATION: ${{ inputs.mode }}
+          WAN_GENERATE_CONFIRMATION: ${{ inputs.confirmation }}
+          WAN_RESUME_TASK_ID: ${{ inputs.resume_task_id }}
+        run: >-
+          python3 starbay_continuous15_v10_runner.py
+          --mode "$WAN_OPERATION"
+          --output-dir "output-starbay-continuous15-v10/S01"
+
+      - name: Validate one downloaded 15-second MP4
+        if: ${{ always() }}
+        run: |
+          shopt -s nullglob
+          videos=("output-starbay-continuous15-v10/S01"/*.mp4)
+          if (( ${#videos[@]} == 0 )); then
+            echo "No MP4 was downloaded; receipt-only run."
+          elif (( ${#videos[@]} != 1 )); then
+            echo "Unexpected MP4 count." >&2
+            exit 1
+          else
+            python3 starbay_continuous15_v10_runner.py --verify-output "${videos[0]}"
+          fi
+
+      - name: Upload short-lived S01 receipt and result
+        if: ${{ always() && hashFiles('tools/wan-hk/output-starbay-continuous15-v10/S01/**') != '' }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: wan-hk-starbay-continuous15-v10-s01-${{ github.run_id }}-attempt-${{ github.run_attempt }}
+          path: tools/wan-hk/output-starbay-continuous15-v10/S01/
+          if-no-files-found: error
+          retention-days: 2
