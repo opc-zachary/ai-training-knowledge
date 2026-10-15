@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "project": "StormMV_Zachary",
+  "client": "Zachary Chan / STARBAY",
+  "version": "v05",
+  "status": "APPROVED_ONE_SHOT_READY",
+  "authorization": "GRANTED",
+  "provider": {
+    "model": "wan3.0-video",
+    "api_host": "ws-f71y900nmq5fpsef.cn-hongkong.maas.aliyuncs.com",
+    "api_key_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "api_host_binding": "ALIYUN_MODEL_STUDIO_HK_API_HOST",
+    "region": "China (Hong Kong)",
+    "repository": "opc-zachary/ai-training-knowledge"
+  },
+  "approval": {
+    "approved_by": "Zachary Chan",
+    "authorization_id": "STORM_MV_ZACHARY_V05_HKD15_ONE_POST_2026_10_15_A01",
+    "scope": "Exactly one paid WAN 3.0 reference-video submission for the four-second StormMV Zachary v05 trial",
+    "approval_record": "Current control-thread user approval: HK$15 to finish the four-second StormMV Zachary trial",
+    "maximum_total_submissions": 1,
+    "automatic_paid_retries": 0,
+    "input_video_seconds": 4,
+    "output_seconds": 4,
+    "maximum_billable_seconds": 8,
+    "rate_usd_per_second": "0.041256",
+    "planning_fx_hkd_per_usd": "7.8",
+    "estimated_usd": "0.330048",
+    "estimated_hkd": "2.5743744",
+    "cost_cap_hkd": "15.00",
+    "price_basis": "Input-video seconds plus generated output seconds at the pinned list rate; no promotion or free quota assumed",
+    "confirmation": "GENERATE_STORM_MV_ZACHARY_V05_ONCE_HKD15_MAX"
+  },
+  "reference_transport": {
+    "registration_state": "REGISTERED_EXACT_URL_PINNED",
+    "expected_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_SmokingMotionReference4s_Internal_v05.mp4",
+    "local_review_source_path": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/mv-trial-v05/StormMV_Zachary_2026-10-15_MP4_SmokingMotionReference4s_Local_v05.mp4",
+    "sha256": "d95f30bb904695c28a6ab47cb951f1545ca04019e0697637e0ea786d383a9489",
+    "bytes": 338620,
+    "dimensions": [
+      720,
+      404
+    ],
+    "duration_seconds": 4,
+    "fps": "30/1",
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "maximum_download_bytes": 33554432,
+    "pre_post_requirement": "Exact URL, no redirect, video/mp4 HTTP type, byte count, SHA-256, MP4 container, dimensions, duration, codec, frame rate, pixel format, zero audio streams and full decode must pass before POST"
+  },
+  "execution": {
+    "workflow": "manual_only",
+    "workflow_file": "wan-hk-storm-mv-zachary-v05.yml",
+    "workflow_run_title_generate": "StormMV_Zachary_v05 | generate | STORM_MV_ZACHARY_V05_HKD15_ONE_POST_2026_10_15_A01",
+    "concurrency_group": "wan-hk-storm-mv-zachary-v05-paid-generation",
+    "github_permissions": "contents:read,actions:read",
+    "run_attempt_required": 1,
+    "maximum_provider_posts": 1,
+    "maximum_provider_posts_per_run": 1,
+    "unknown_post_outcome_policy": "DO_NOT_RETRY; reconcile or resume the same known task UUID with GET only; a new POST requires a newly recorded user authorization and full repin",
+    "resume_policy": "GET only for one existing provider task UUID; resume never submits a generation",
+    "one_shot_ledger_policy": "Before POST, read this workflow's GitHub Actions run history and reject any older generate run bearing the same pinned authorization title. Any earlier generate invocation consumes this authorization fail-closed, even if preflight or provider submission failed.",
+    "one_shot_ledger_max_pages": 20,
+    "one_shot_ledger_page_size": 100
+  },
+  "images": {
+    "scene": {
+      "role": "Reference image 1: scene, wardrobe, lighting and starting composition",
+      "source_path": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/mv-trial-v05/StormMV_Zachary_2026-10-15_PNG_SmokingSceneReference16x9_Review_v05.png",
+      "source_sha256": "377321818e2c3230b643fe3cfa3850bab7d2f123b134fcaf53bbd26c3fb48ac4",
+      "source_bytes": 1011509,
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "transport_sha256": "62aa18f701e0f26c980fa456923d2eb29c4f01b8c4760edd5e9d75d94343a44f",
+      "transport_mime": "image/webp",
+      "transport_bytes": 6420,
+      "transport_base64_characters": 8560,
+      "transport_dimensions": [
+        480,
+        270
+      ],
+      "transport_recipe": "cwebp 1.6.0; -resize 480 270 -q 70 -m 6; resize, WebP conversion and compression only; no crop or creative edit"
+    },
+    "zachary": {
+      "role": "Reference image 2: user-accepted v04 Zachary identity",
+      "source_path": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/current-look-character-v04/ZacharyCharacter_Zachary_2026-10-15_PNG_CurrentLookFrontPortrait_Review_v04.png",
+      "source_sha256": "b7170b7aa8a36de49c9110ab13d0b7a1a1a86a231c671077484771c4a45da757",
+      "source_bytes": 552468,
+      "source_dimensions": [
+        509,
+        788
+      ],
+      "transport_sha256": "55f7dff0b0978c6d8ed89b8f876540f20755302b960816a120ac98189603f7d1",
+      "transport_mime": "image/webp",
+      "transport_bytes": 8550,
+      "transport_base64_characters": 11400,
+      "transport_dimensions": [
+        310,
+        480
+      ],
+      "transport_recipe": "cwebp 1.6.0; -resize 310 480 -q 70 -m 6; resize, WebP conversion and compression only; no crop or creative edit"
+    }
+  },
+  "request": {
+    "path": "requests/StormMV_Zachary_2026-10-15_JSON_WanRequest_Template_v05.json",
+    "sha256": "0c312914a3383196c74ae2fcac8fc47fc87c79dfb149d38bf58ef3fa0b30572a",
+    "image_order": [
+      "scene",
+      "zachary"
+    ],
+    "reference_video_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_SmokingMotionReference4s_Internal_v05.mp4",
+    "output_name": "StormMV_Zachary_2026-10-15_MP4_WanTrial4s_480P_Review_v05.mp4"
+  },
+  "common_parameters": {
+    "resolution": "480P",
+    "ratio": "16:9",
+    "duration": 4,
+    "audio": false,
+    "prompt_extend": false,
+    "watermark": false
+  },
+  "output_validation": {
+    "duration_tolerance_seconds": 0.5,
+    "short_edge_pixels": 480,
+    "landscape_ratio": "16:9",
+    "ratio_tolerance": 0.02,
+    "required_audio_streams": 0,
+    "full_decode_required": true
+  },
+  "receipt_policy": {
+    "include": [
+      "task_id",
+      "request_id",
+      "authorization_id",
+      "verified input seconds",
+      "validated output seconds",
+      "actual billable seconds",
+      "actual USD",
+      "actual HKD",
+      "media hashes",
+      "technical validation"
+    ],
+    "exclude": [
+      "signed result URLs",
+      "raw provider responses",
+      "API keys",
+      "GitHub tokens",
+      "base64 image data",
+      "workflow event payload"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+# ONE_SHOT_HKD15_MAX_ONE_POST_NO_AUTOMATIC_RESUBMIT
+name: Wan HK StormMV Zachary v05 one shot
+run-name: StormMV_Zachary_v05 | ${{ inputs.mode }} | STORM_MV_ZACHARY_V05_HKD15_ONE_POST_2026_10_15_A01
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Operation; check-binding makes zero provider API calls; resume is GET-only
+        required: true
+        default: check-binding
+        type: choice
+        options:
+          - check-binding
+          - generate
+          - resume
+          - validate-existing
+      confirmation:
+        description: Generate only; exact confirmation from the pinned manifest
+        required: false
+        type: string
+      scene_image_base64:
+        description: Exact manifest-pinned scene transport WebP as raw base64; no data-URI prefix
+        required: false
+        type: string
+      zachary_image_base64:
+        description: Exact manifest-pinned v04 Zachary transport WebP as raw base64; no data-URI prefix
+        required: false
+        type: string
+      resume_task_id:
+        description: Existing Storm v05 task UUID; resume can only poll this task with GET
+        required: false
+        type: string
+      existing_output_path:
+        description: Path relative to tools/wan-hk for validate-existing only
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: wan-hk-storm-mv-zachary-v05-paid-generation
+  cancel-in-progress: false
+
+jobs:
+  execute-one-shot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    defaults:
+      run:
+        shell: bash
+        working-directory: tools/wan-hk
+    steps:
+      - name: Check out pinned executor
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Ensure ffprobe and ffmpeg are available
+        run: |
+          if ! command -v ffprobe >/dev/null 2>&1 || ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install --yes ffmpeg
+          fi
+          command -v ffprobe >/dev/null 2>&1
+          command -v ffmpeg >/dev/null 2>&1
+
+      - name: Run pinned Storm operation
+        env:
+          ALIYUN_MODEL_STUDIO_HK_API_KEY: ${{ secrets.ALIYUN_MODEL_STUDIO_HK_API_KEY }}
+          ALIYUN_MODEL_STUDIO_HK_API_HOST: ${{ vars.ALIYUN_MODEL_STUDIO_HK_API_HOST }}
+          GITHUB_TOKEN: ${{ github.token }}
+          WAN_OPERATION: ${{ inputs.mode }}
+          WAN_GENERATE_CONFIRMATION: ${{ inputs.confirmation }}
+          WAN_RESUME_TASK_ID: ${{ inputs.resume_task_id }}
+          WAN_EXISTING_OUTPUT_PATH: ${{ inputs.existing_output_path }}
+        run: |
+          if [[ "$WAN_OPERATION" == "validate-existing" ]]; then
+            [[ -n "$WAN_EXISTING_OUTPUT_PATH" ]] || {
+              echo "ERROR VERIFY_OUTPUT_PATH_REQUIRED" >&2
+              exit 1
+            }
+            python3 storm_mv_zachary_v05_runner.py \
+              --mode validate-existing \
+              --verify-output "$WAN_EXISTING_OUTPUT_PATH"
+          else
+            python3 storm_mv_zachary_v05_runner.py \
+              --mode "$WAN_OPERATION" \
+              --output-dir "output-storm-mv-zachary-v05"
+          fi
+
+      - name: Validate downloaded result when present
+        if: ${{ always() && inputs.mode != 'validate-existing' }}
+        run: |
+          shopt -s nullglob
+          videos=("output-storm-mv-zachary-v05"/*.mp4)
+          if (( ${#videos[@]} == 0 )); then
+            echo "No MP4 was downloaded; receipt-only or preflight run."
+          elif (( ${#videos[@]} != 1 )); then
+            echo "ERROR UNEXPECTED_MP4_COUNT" >&2
+            exit 1
+          else
+            python3 storm_mv_zachary_v05_runner.py \
+              --mode validate-existing \
+              --verify-output "${videos[0]}"
+          fi
+
+      - name: Upload short-lived sanitized receipt and result
+        if: ${{ always() && hashFiles('tools/wan-hk/output-storm-mv-zachary-v05/**') != '' }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: wan-hk-storm-mv-zachary-v05-${{ github.run_id }}-attempt-${{ github.run_attempt }}
+          path: tools/wan-hk/output-storm-mv-zachary-v05/
+          if-no-files-found: error
+          retention-days: 2

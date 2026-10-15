@@ -1,0 +1,28 @@
+{
+  "model": "wan3.0-video",
+  "input": {
+    "prompt": "Create one continuous four-second photorealistic cinematic music-video opening, landscape 16:9. The sole lead is adult Zachary, the same person shown in reference image 2. Reference image 1 defines the scene, wardrobe, lighting and desired starting composition: Zachary in a white dress shirt and black tie in front of rows of adult performers wearing black suits on broad outdoor stone stairs under soft overcast light. Keep the same mature adult face, eye shape and spacing, nose shape, lips, forehead, ears and styled black gelled hair throughout. Preserve the accepted natural, slightly V-shaped jaw, tidy eyebrows, alert calm eyes, uniform natural nose skin colour and realistic pores and light stubble. Maintain his recognisable likeness during movement; no beautification drift or identity swaps.\nUse the supplied reference video for the restrained timing of the smoking gesture, hand lowering and subtle exhale only. Do not copy the female performer’s face, hair, body or clothing. Zachary holds one cigarette naturally between the index and middle fingers of his right hand near his lips, takes a small drag, slowly lowers the same hand, exhales a thin wisp to the side and holds a steady direct gaze. Keep facial movements small. The smoke should not cover the face or eyes. Natural lips, teeth, hand anatomy and finger joints; no extra fingers, duplicate cigarettes or objects appearing and disappearing. Keep the crowd still apart from small natural breathing movements; no cloned faces. Static eye-level camera with at most an imperceptible slow push-in, chest-up framing and consistent cool, low-saturation colours. No cuts, turning away, dance sequence or exaggerated facial acting within this short test. No captions, logos, watermarks, platform interface, black bars or original audio. Output only the requested four-second video.",
+    "media": [
+      {
+        "type": "reference_video",
+        "url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_SmokingMotionReference4s_Internal_v05.mp4"
+      },
+      {
+        "type": "reference_image",
+        "url": "__RUNTIME_HASH_VERIFIED_SCENE_IMAGE_DATA_URI__"
+      },
+      {
+        "type": "reference_image",
+        "url": "__RUNTIME_HASH_VERIFIED_ZACHARY_IMAGE_DATA_URI__"
+      }
+    ]
+  },
+  "parameters": {
+    "resolution": "480P",
+    "ratio": "16:9",
+    "duration": 4,
+    "audio": false,
+    "prompt_extend": false,
+    "watermark": false
+  }
+}
