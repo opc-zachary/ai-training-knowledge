@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "project": "StarbayStarJourney",
+  "client": "STARBAY / 灣星文化",
+  "version": "v09",
+  "status": "APPROVED_FOR_EIGHT_SHOT_BATCH",
+  "authorization": "GRANTED",
+  "manifest": {
+    "filename": "StarbayStarJourney_Starbay_2026-10-15_JSON_GenerationManifest_Review_v09.json",
+    "sha256": "c4ea6340ccc42e59b8afbd3a32cb60062295e44557afc8b4afdecccf58bb4b05",
+    "source_status": "LOCAL_GENERATION_PACKAGE_READY_PAID_APPROVAL_PENDING"
+  },
+  "provider": {
+    "model": "wan3.0-video",
+    "api_host": "ws-f71y900nmq5fpsef.cn-hongkong.maas.aliyuncs.com",
+    "api_key_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "api_host_binding": "ALIYUN_MODEL_STUDIO_HK_API_HOST",
+    "region": "China (Hong Kong)",
+    "deployment_scope": "Global"
+  },
+  "approval": {
+    "approved_by": "Zachary Chan",
+    "approved_date": "2026-10-15",
+    "scope": "Eight specified StarbayStarJourney v09 shots, one five-second submission per shot",
+    "maximum_total_submissions": 8,
+    "maximum_per_shot_submissions": 1,
+    "maximum_generated_seconds": 40,
+    "automatic_paid_retries": 0,
+    "rate_usd_per_second": "0.041256",
+    "planning_fx_hkd_per_usd": "7.8",
+    "estimated_usd": "1.650240",
+    "estimated_hkd": "12.8718720",
+    "cost_cap_hkd": "20.00",
+    "price_basis": "list price; no assumed promotion/free quota; video-generation cost only",
+    "result_requirement": "Eight independent technical receipts and videos; S01 creative acceptance before S02-S08 dispatch",
+    "approval_quote": "批准：整批上限 HK$20，8 鏡各一次",
+    "approval_source": "Direct user reply in control thread 01a0fd2b-a273-7a20-bbce-276b91ee94ca"
+  },
+  "execution": {
+    "workflow": "manual_only",
+    "concurrency_group": "wan-hk-shot04-paid-generation",
+    "github_permissions": "contents:read",
+    "run_attempt_required": 1,
+    "receipt_scope": "one independent receipt per shot",
+    "confirmation_template": "GENERATE_STARBAY_STAR_JOURNEY_V09_{shot_id}_ONCE",
+    "unknown_post_outcome_policy": "DO_NOT_RETRY; reconcile or resume the same task with GET only",
+    "sequence_policy": "S01 must pass root creative review before S02-S08; root authorization ledger is the global one-writer and dispatch-count authority",
+    "candidate_global_deduplication_limit": "Local receipt and run-attempt guards do not provide cross-run global deduplication"
+  },
+  "request_parameters": {
+    "resolution": "480P",
+    "ratio": "9:16",
+    "duration": 5,
+    "audio": false,
+    "prompt_extend": false,
+    "watermark": false
+  },
+  "runtime_media_placeholders": [
+    {
+      "type": "first_frame",
+      "url": "__RUNTIME_HASH_VERIFIED_FIRST_FRAME_DATA_URI__"
+    },
+    {
+      "type": "last_frame",
+      "url": "__RUNTIME_HASH_VERIFIED_LAST_FRAME_DATA_URI__"
+    }
+  ],
+  "frames": {
+    "F01PortalStart": {
+      "path": "transport/StarbayStarJourney_Starbay_2026-10-15_WEBP_F01PortalStart480x854_Transport_v09.webp",
+      "sha256": "073da7270fce7fbd5c3012889cd9dff1f85c9632c76e2ec49045ef0d3c2650a1",
+      "mime": "image/webp",
+      "bytes": 81004,
+      "dimensions": [
+        480,
+        854
+      ]
+    },
+    "F02Harbour": {
+      "path": "transport/StarbayStarJourney_Starbay_2026-10-15_WEBP_F02Harbour480x854_Transport_v09.webp",
+      "sha256": "448761baf59237c5627fa07d689bd73cf4c16bf5a9639443c061cf46d5f51cec",
+      "mime": "image/webp",
+      "bytes": 56146,
+      "dimensions": [
+        480,
+        854
+      ]
+    },
+    "F03CityApproach": {
+      "path": "transport/StarbayStarJourney_Starbay_2026-10-15_WEBP_F03CityApproach480x854_Transport_v09.webp",
+      "sha256": "69e48bdcc41ca16410c6321b9e47c850afe5ba74cb10030241ba4acb5a863c7a",
+      "mime": "image/webp",
+      "bytes": 93884,
+      "dimensions": [
+        480,
+        854
+      ]
+    },
+    "F04CityBank": {
+      "path": "transport/StarbayStarJourney_Starbay_2026-10-15_WEBP_F04CityBank480x854_Transport_v09.webp",
+      "sha256": "0042e2ffe8e42dcfe1bde089ade95b6e879806b15da8623c4b8a8315510ddd28",
+      "mime": "image/webp",
+      "bytes": 62728,
+      "dimensions": [
+        480,
+        854
+      ]
+    },
+    "F05Brand": {
+      "path": "transport/StarbayStarJourney_Starbay_2026-10-15_WEBP_F05Brand480x854_Transport_v09.webp",
+      "sha256": "f80f182c3362284ef3a68dd72debc117ea32f2b1f3f49395707442cde761f64d",
+      "mime": "image/webp",
+      "bytes": 65762,
+      "dimensions": [
+        480,
+        854
+      ]
+    },
+    "F06Content": {
+      "path": "transport/StarbayStarJourney_Starbay_2026-10-15_WEBP_F06Content480x854_Transport_v09.webp",
+      "sha256": "ab883db39ab89f925d4be8c2800a9d955f9c43e988b6a7af7d25f5e9d656866b",
+      "mime": "image/webp",
+      "bytes": 55800,
+      "dimensions": [
+        480,
+        854
+      ]
+    },
+    "F07AI": {
+      "path": "transport/StarbayStarJourney_Starbay_2026-10-15_WEBP_F07AI480x854_Transport_v09.webp",
+      "sha256": "cf3a1e382a02cd08e96848f0adf0d3251c35be9a82ce3e348af2e5cd6a99535f",
+      "mime": "image/webp",
+      "bytes": 53708,
+      "dimensions": [
+        480,
+        854
+      ]
+    },
+    "F08Rise": {
+      "path": "transport/StarbayStarJourney_Starbay_2026-10-15_WEBP_F08Rise480x854_Transport_v09.webp",
+      "sha256": "aff6ae5f0c409cc6356b9a49aa0242045bb3caf98e31b8d99e2aee66517f7c8e",
+      "mime": "image/webp",
+      "bytes": 94526,
+      "dimensions": [
+        480,
+        854
+      ]
+    },
+    "F09Reveal": {
+      "path": "transport/StarbayStarJourney_Starbay_2026-10-15_WEBP_F09Reveal480x854_Transport_v09.webp",
+      "sha256": "094805d66366a54227a15ebfbb1844dd295dc574448600107aa74187d911d976",
+      "mime": "image/webp",
+      "bytes": 87644,
+      "dimensions": [
+        480,
+        854
+      ]
+    }
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "first_frame_id": "F01PortalStart",
+      "last_frame_id": "F02Harbour",
+      "request_path": "requests/StarbayStarJourney_Starbay_2026-10-15_JSON_S01ProviderRequest_Review_v09.json",
+      "request_sha256": "a261b0741650d26d4e7848857af438d9090eecaffbad7a77d011416930851a67",
+      "output_name": "StarbayStarJourney_Starbay_2026-10-15_Video_S01480P_Review_v09.mp4"
+    },
+    {
+      "id": "S02",
+      "first_frame_id": "F02Harbour",
+      "last_frame_id": "F03CityApproach",
+      "request_path": "requests/StarbayStarJourney_Starbay_2026-10-15_JSON_S02ProviderRequest_Review_v09.json",
+      "request_sha256": "8550483d608087ac78da31f7386cfad8a50969f143d55fcc9d00034843fc9872",
+      "output_name": "StarbayStarJourney_Starbay_2026-10-15_Video_S02480P_Review_v09.mp4"
+    },
+    {
+      "id": "S03",
+      "first_frame_id": "F03CityApproach",
+      "last_frame_id": "F04CityBank",
+      "request_path": "requests/StarbayStarJourney_Starbay_2026-10-15_JSON_S03ProviderRequest_Review_v09.json",
+      "request_sha256": "fff69bbadcf06b2799305b5a967318d4a480cc494b4316faaad624ae11f50fb8",
+      "output_name": "StarbayStarJourney_Starbay_2026-10-15_Video_S03480P_Review_v09.mp4"
+    },
+    {
+      "id": "S04",
+      "first_frame_id": "F04CityBank",
+      "last_frame_id": "F05Brand",
+      "request_path": "requests/StarbayStarJourney_Starbay_2026-10-15_JSON_S04ProviderRequest_Review_v09.json",
+      "request_sha256": "2579c5efdf9a9f694f8972aed70f4c1eb721fe0ad410aa2bdb595d01b6c0a1b3",
+      "output_name": "StarbayStarJourney_Starbay_2026-10-15_Video_S04480P_Review_v09.mp4"
+    },
+    {
+      "id": "S05",
+      "first_frame_id": "F05Brand",
+      "last_frame_id": "F06Content",
+      "request_path": "requests/StarbayStarJourney_Starbay_2026-10-15_JSON_S05ProviderRequest_Review_v09.json",
+      "request_sha256": "9dab72175c75b4305c8af062bc0002443af00122bbaa238941edb62bb2f3004e",
+      "output_name": "StarbayStarJourney_Starbay_2026-10-15_Video_S05480P_Review_v09.mp4"
+    },
+    {
+      "id": "S06",
+      "first_frame_id": "F06Content",
+      "last_frame_id": "F07AI",
+      "request_path": "requests/StarbayStarJourney_Starbay_2026-10-15_JSON_S06ProviderRequest_Review_v09.json",
+      "request_sha256": "d8ed78d810bd2e0313f2398a87f44a8a9f1b2e3ddbfec24b8015c5fca56c6ab1",
+      "output_name": "StarbayStarJourney_Starbay_2026-10-15_Video_S06480P_Review_v09.mp4"
+    },
+    {
+      "id": "S07",
+      "first_frame_id": "F07AI",
+      "last_frame_id": "F08Rise",
+      "request_path": "requests/StarbayStarJourney_Starbay_2026-10-15_JSON_S07ProviderRequest_Review_v09.json",
+      "request_sha256": "8e2b98f83f579186e96f06cc8e9897e173cdcfa39d3a8faacc6517e4714ca290",
+      "output_name": "StarbayStarJourney_Starbay_2026-10-15_Video_S07480P_Review_v09.mp4"
+    },
+    {
+      "id": "S08",
+      "first_frame_id": "F08Rise",
+      "last_frame_id": "F09Reveal",
+      "request_path": "requests/StarbayStarJourney_Starbay_2026-10-15_JSON_S08ProviderRequest_Review_v09.json",
+      "request_sha256": "39597765006928e1f8a44b0df6ada60169ea4bf8e1831ee9c79c2e5073dcf487",
+      "output_name": "StarbayStarJourney_Starbay_2026-10-15_Video_S08480P_Review_v09.mp4"
+    }
+  ]
+}

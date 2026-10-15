@@ -1,0 +1,24 @@
+{
+  "model": "wan3.0-video",
+  "input": {
+    "prompt": "Photorealistic premium cinematic STARBAY brand commercial, Hong Kong Victoria Harbour at blue hour, warm gold reflections and deep blue glass. Match the supplied first and last frames. A physical camera travels through a stable three-dimensional world, with strong near/middle/far parallax and consistent scale. One blue auxiliary track stays to the left of one gold main track in the travel direction, except their natural perspective during the bank; never add branches or interchange their colors. Harbour water ripples and small boats move naturally; city lights and glass reflections react plausibly. Continuous forward first-person travel; no visible drone, person, cockpit or feet. No dissolve between still images, no morphing geometry, no zoom over a frozen flat picture, no extra star, no jitter, no random 360-degree roll, no teleport, no new text or watermark. The ending must settle into the supplied last-frame composition without freezing the whole world. Start in the supplied AI production-stage composition, preserve the suspended blue-and-gold emblem and existing AI. label. 0-2.8s: glide forward along the physical glowing tracks under the emblem toward the bright door at the back. 2.8-3.8s: fly through this doorway; the door jamb briefly occludes the image, with controlled exposure rather than a full-screen white flash. 3.8-5s: emerge over the harbour in the elevated curved-track composition of the last frame. The emblem stays anchored to its rig; the room must not collapse or become the exterior.",
+    "media": [
+      {
+        "type": "first_frame",
+        "url": "__RUNTIME_HASH_VERIFIED_FIRST_FRAME_DATA_URI__"
+      },
+      {
+        "type": "last_frame",
+        "url": "__RUNTIME_HASH_VERIFIED_LAST_FRAME_DATA_URI__"
+      }
+    ]
+  },
+  "parameters": {
+    "resolution": "480P",
+    "ratio": "9:16",
+    "duration": 5,
+    "audio": false,
+    "prompt_extend": false,
+    "watermark": false
+  }
+}

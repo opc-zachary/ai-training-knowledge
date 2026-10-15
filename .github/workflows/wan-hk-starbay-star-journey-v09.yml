@@ -1,0 +1,114 @@
+# APPROVED_BATCH_HKD20_EIGHT_SHOTS_ONCE_EACH_NO_PAID_RETRY
+# User approval recorded in the immutable SHA-pinned approved contract.
+name: Wan HK Starbay Star Journey v09 approved
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Operation; check-binding makes no provider API request
+        required: true
+        default: check-binding
+        type: choice
+        options:
+          - check-binding
+          - generate
+          - resume
+      shot_id:
+        description: Exactly one independently receipted shot
+        required: true
+        type: choice
+        options:
+          - S01
+          - S02
+          - S03
+          - S04
+          - S05
+          - S06
+          - S07
+          - S08
+      confirmation:
+        description: For generate only, enter GENERATE_STARBAY_STAR_JOURNEY_V09_Sxx_ONCE with the selected shot
+        required: false
+        type: string
+      resume_task_id:
+        description: Existing task UUID for the same selected shot; resume performs GET only
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wan-hk-shot04-paid-generation
+  cancel-in-progress: false
+
+jobs:
+  execute-one-shot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    defaults:
+      run:
+        shell: bash
+        working-directory: tools/wan-hk
+    steps:
+      - name: Check out pinned executor and reference bundle
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Ensure ffprobe and ffmpeg are available
+        run: |
+          if ! command -v ffprobe >/dev/null 2>&1 || ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install --yes ffmpeg
+          fi
+          command -v ffprobe >/dev/null 2>&1 || {
+            echo "ERROR FFPROBE_MISSING_AFTER_INSTALL" >&2
+            exit 1
+          }
+          command -v ffmpeg >/dev/null 2>&1 || {
+            echo "ERROR FFMPEG_MISSING_AFTER_INSTALL" >&2
+            exit 1
+          }
+
+      - name: Run one fixed shot operation
+        env:
+          ALIYUN_MODEL_STUDIO_HK_API_KEY: ${{ secrets.ALIYUN_MODEL_STUDIO_HK_API_KEY }}
+          ALIYUN_MODEL_STUDIO_HK_API_HOST: ${{ vars.ALIYUN_MODEL_STUDIO_HK_API_HOST }}
+          WAN_OPERATION: ${{ inputs.mode }}
+          WAN_SHOT_ID: ${{ inputs.shot_id }}
+          WAN_GENERATE_CONFIRMATION: ${{ inputs.confirmation }}
+          WAN_RESUME_TASK_ID: ${{ inputs.resume_task_id }}
+        run: >-
+          python3 starbay_star_journey_v09_runner.py
+          --mode "$WAN_OPERATION"
+          --shot-id "$WAN_SHOT_ID"
+          --output-dir "output-starbay-star-journey-v09/$WAN_SHOT_ID"
+
+      - name: Decode-check one downloaded MP4
+        if: ${{ always() }}
+        env:
+          WAN_SHOT_ID: ${{ inputs.shot_id }}
+        run: |
+          shopt -s nullglob
+          videos=("output-starbay-star-journey-v09/$WAN_SHOT_ID"/*.mp4)
+          if (( ${#videos[@]} == 0 )); then
+            echo "No MP4 was downloaded; receipt-only run."
+          elif (( ${#videos[@]} != 1 )); then
+            echo "Unexpected MP4 count." >&2
+            exit 1
+          else
+            python3 starbay_star_journey_v09_runner.py \
+              --shot-id "$WAN_SHOT_ID" \
+              --verify-output "${videos[0]}"
+          fi
+
+      - name: Upload short-lived independent shot receipt and result
+        if: ${{ always() && hashFiles(format('tools/wan-hk/output-starbay-star-journey-v09/{0}/**', inputs.shot_id)) != '' }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: wan-hk-starbay-star-journey-v09-${{ inputs.shot_id }}-${{ github.run_id }}-attempt-${{ github.run_attempt }}
+          path: tools/wan-hk/output-starbay-star-journey-v09/${{ inputs.shot_id }}/
+          if-no-files-found: error
+          retention-days: 2
