@@ -1,0 +1,75 @@
+{
+  "project": "VenueChainChef",
+  "client": "VenueChain",
+  "version": "v03",
+  "status": "APPROVED_FOR_ONE_BOUNDED_SUBMISSION",
+  "method": "one updated real-person cue card and official logo; model-led whole-story generation",
+  "request_file": "VenueChainChef_VenueChain_2026-10-16_JSON_WanRequest_Approved_v03.json",
+  "request_sha256": "9c938a8f7fd661331800a34ed4ecb496955b84b3ac10b75558ea37a5b240d615",
+  "images": [
+    {
+      "id": "ZacharyChef",
+      "image_index": 1,
+      "role": "identity and wardrobe reference",
+      "transport": "executor-preview/private-transport/VenueChainChef_VenueChain_2026-10-16_WEBP_ZacharyChefTransport_Staged_v03.webp",
+      "transport_sha256": "f80101804cc9ddaa1d10e836c9dedf67fc9f6fe873b25982d4d6f98949c9081e",
+      "transport_bytes": 29658,
+      "transport_dimensions": [
+        1000,
+        563
+      ]
+    },
+    {
+      "id": "VenueChainLogo",
+      "image_index": 2,
+      "role": "official brand logo",
+      "transport": "executor-preview/private-transport/VenueChainChef_VenueChain_2026-10-16_WEBP_OfficialLogoTransport_Staged_v03.webp",
+      "transport_sha256": "75e250823b3bf306e2691d70d0f28c004e2faeacb3cf96a896ac69a50940972f",
+      "transport_bytes": 9668,
+      "transport_dimensions": [
+        1309,
+        240
+      ]
+    }
+  ],
+  "provider": {
+    "repository": "opc-zachary/ai-training-knowledge",
+    "region": "cn-hongkong",
+    "model": "wan3.0-video",
+    "binding_name": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "host_binding_name": "ALIYUN_MODEL_STUDIO_HK_API_HOST",
+    "expected_api_host": "ws-f71y900nmq5fpsef.cn-hongkong.maas.aliyuncs.com",
+    "public_asset_upload_required": false
+  },
+  "approval": {
+    "approved": true,
+    "cost_cap_hkd": "8.00",
+    "maximum_paid_submissions": 1,
+    "automatic_paid_retries": 0,
+    "input_video_seconds": "0",
+    "output_seconds": "20",
+    "maximum_billable_seconds": "20",
+    "rate_usd_per_second": "0.041256",
+    "planning_fx_hkd_per_usd": "7.8",
+    "estimated_usd": "0.82512",
+    "estimated_hkd": "6.4359360",
+    "account_discount_assumed": false,
+    "confirmation": "APPROVED_VENUECHAIN_CHEF_CAT_V03_20S_480P_HKD8_ONE_POST",
+    "evidence_file": "VenueChainChef_VenueChain_2026-10-16_JSON_PaidApproval_Approved_v03.json",
+    "evidence_sha256": "783188ba7b8541e9ce63f92c647dde44d3375de77721b3c20e96c1aafece4f2e"
+  },
+  "execution": {
+    "dispatch_enabled": true,
+    "one_writer": "current root thread 01a0fd2b-a273-7a20-bbce-276b91ee94ca",
+    "registration_state": "EXACT_REMOTE_READBACK_REQUIRED",
+    "workflow_file": "wan-hk-venuechain-chef-cat-v03.yml",
+    "repository_path": "tools/wan-hk/venuechain-chef-cat-v03",
+    "supported_operations": [
+      "offline-validate",
+      "check-binding",
+      "generate",
+      "resume"
+    ],
+    "allowed_secret_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY"
+  }
+}

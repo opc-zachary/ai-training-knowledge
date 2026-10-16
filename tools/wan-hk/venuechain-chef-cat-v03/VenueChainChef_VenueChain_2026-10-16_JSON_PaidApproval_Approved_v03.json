@@ -1,0 +1,31 @@
+{
+  "project": "VenueChainChef",
+  "client": "VenueChain",
+  "source": "Direct human reply in the current production conversation",
+  "question_item_id": "[\"request_user_input_async\",\"call_e1eee0cc1bbc4d48a0b9cae51ca9de40\",0]",
+  "human_answer": "面貌 OK，批准上限 HK$8、20 秒一次",
+  "recorded_utc": "2026-10-16T07:30:14.825823+00:00",
+  "confirmation": "APPROVED_VENUECHAIN_CHEF_CAT_V03_20S_480P_HKD8_ONE_POST",
+  "scope": {
+    "region": "cn-hongkong",
+    "model": "wan3.0-video",
+    "duration": 20,
+    "resolution": "480P",
+    "ratio": "9:16",
+    "paid_posts_maximum": 1,
+    "automatic_paid_retries": 0,
+    "cap_hkd": "8.00",
+    "estimated_hkd": "6.4359360",
+    "inputs": [
+      "Zachary chef Cue Card v03",
+      "official VenueChain logo"
+    ],
+    "reference_videos": 0,
+    "first_last_frames": false,
+    "portrait_public_urls": false,
+    "language_requested": "Cantonese",
+    "subtitles": "Traditional Chinese postproduction",
+    "secret_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "owner_project": "Empower With AI"
+  }
+}

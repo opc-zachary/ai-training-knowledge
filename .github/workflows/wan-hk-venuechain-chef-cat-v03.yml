@@ -1,0 +1,64 @@
+name: Wan HK VenueChain chef cat v03
+run-name: 'VenueChain chef cat v03 | ${{ inputs.mode }} | ${{ inputs.confirmation }}'
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: One approved 20-second 480P test; no paid rerun
+        required: true
+        default: offline-validate
+        type: choice
+        options: [offline-validate, check-binding, generate, resume]
+      confirmation:
+        description: Exact human-approved one-post identity
+        type: string
+      image_1_base64:
+        description: Private pinned Zachary chef v03 WebP; read from event only, never printed
+        type: string
+      image_2_base64:
+        description: Private official VenueChain logo WebP
+        type: string
+      resume_task_id:
+        description: Existing provider task UUID; GET-only resume
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: wan-hk-venuechain-chef-cat-v03-one-paid-post
+  cancel-in-progress: false
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    defaults:
+      run:
+        shell: bash
+        working-directory: tools/wan-hk/venuechain-chef-cat-v03
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Validate exact package offline
+        run: python3 venuechain_chef_cat_v03_runner.py --mode offline-validate
+      - name: Ensure result validation tools on ephemeral runner
+        if: ${{ inputs.mode == 'generate' || inputs.mode == 'resume' }}
+        run: |
+          if ! command -v ffmpeg >/dev/null 2>&1 || ! command -v ffprobe >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install --yes ffmpeg
+          fi
+      - name: Run exact operation through protected Project bindings
+        if: ${{ inputs.mode != 'offline-validate' }}
+        env:
+          ALIYUN_MODEL_STUDIO_HK_API_KEY: ${{ secrets.ALIYUN_MODEL_STUDIO_HK_API_KEY }}
+          ALIYUN_MODEL_STUDIO_HK_API_HOST: ${{ vars.ALIYUN_MODEL_STUDIO_HK_API_HOST }}
+          WAN_OPERATION: ${{ inputs.mode }}
+        run: python3 venuechain_chef_cat_v03_runner.py --mode "$WAN_OPERATION"
+      - name: Preserve sanitized receipt and completed result
+        if: ${{ always() && hashFiles('tools/wan-hk/venuechain-chef-cat-v03/output-venuechain-chef-cat-v03/**') != '' }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: venuechain-chef-cat-v03-${{ github.run_id }}-attempt-${{ github.run_attempt }}
+          path: tools/wan-hk/venuechain-chef-cat-v03/output-venuechain-chef-cat-v03/
+          retention-days: 2
+          if-no-files-found: error
