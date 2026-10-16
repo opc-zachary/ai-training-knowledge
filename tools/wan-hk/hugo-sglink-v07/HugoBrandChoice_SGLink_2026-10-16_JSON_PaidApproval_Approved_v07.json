@@ -1,0 +1,29 @@
+{
+  "project": "HugoBrandChoice",
+  "client": "SG-Link / 穗港鏈",
+  "source": "Direct human reply to the exact paid-generation question in this conversation",
+  "human_answer": "批准：上限 HK$10，22 秒一次",
+  "recorded_utc": "2026-10-16T05:28:50.657457+00:00",
+  "confirmation": "APPROVED_HUGO_SGLINK_V07_22S_480P_HKD10_ONE_POST",
+  "scope": {
+    "region": "cn-hongkong",
+    "model": "wan3.0-video",
+    "duration": 22,
+    "resolution": "480P",
+    "ratio": "9:16",
+    "paid_posts_maximum": 1,
+    "automatic_paid_retries": 0,
+    "cap_hkd": "10.00",
+    "inputs": [
+      "Hugo Q Card",
+      "Channel Q Card",
+      "Zachary Q Card",
+      "Zijian Q Card",
+      "SG-Link graphic logo"
+    ],
+    "reference_videos": 0,
+    "first_last_frames": false,
+    "portrait_public_urls": false,
+    "secret_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY"
+  }
+}

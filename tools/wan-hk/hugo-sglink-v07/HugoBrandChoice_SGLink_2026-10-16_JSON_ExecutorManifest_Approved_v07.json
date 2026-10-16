@@ -1,0 +1,151 @@
+{
+  "project": "HugoBrandChoice",
+  "client": "SG-Link / 穗港鏈",
+  "version": "v07",
+  "status": "APPROVED_FOR_ONE_BOUNDED_SUBMISSION",
+  "provider_calls": 0,
+  "paid_posts": 0,
+  "method": "four independent photographic cue cards plus graphic logo; no first frame, last frame or reference video",
+  "storyboard_role": "Review-only model of spatial story. Do not pass model frames or model video to WAN.",
+  "request_path": "executor-approved-v07/HugoBrandChoice_SGLink_2026-10-16_JSON_WanRequest_Approved_v07.json",
+  "request_sha256": "bdd7815f75b9e847d08869a8bfb368584ef7b64927a107ee31d9bb258ae95ca4",
+  "prompt_path": "HugoBrandChoice_SGLink_2026-10-16_TXT_WanCreativePrompt_Review_v07.txt",
+  "prompt_sha256": "24bd08b2346f069a0176ef93e3335aa585177f120c52b971c1d0a330fcb143f1",
+  "images": [
+    {
+      "id": "Hugo",
+      "image_index": 1,
+      "role": "adult identity and wardrobe reference; not a scene keyframe",
+      "native": "characters/HugoBrandChoice_SGLink_2026-10-16_PNG_CueCard01Hugo_Review_v07.png",
+      "native_sha256": "5f918d73852283806cd361dd8a18d61da285e3a21e432fff10408b48e043e578",
+      "identity_source": "source-local/HugoBrandChoice_SGLink_2026-10-16_Photo_HugoFacePrimary_Crop_v04.jpg",
+      "identity_source_sha256": "ce348ff76c2e319d5ef21d828fae8aea8902dcd8b71ac549ab8b56dd4dc46f30",
+      "transport": "executor-preview/private-transport/HugoBrandChoice_SGLink_2026-10-16_WEBP_CueCard01Hugo_Transport_v07.webp",
+      "transport_sha256": "008b6cbac488f2768c9c5721cbbc6344e567295829cb1da7ba6949773e667e5a",
+      "transport_dimensions": [
+        640,
+        360
+      ],
+      "transport_bytes": 9864
+    },
+    {
+      "id": "Channel",
+      "image_index": 2,
+      "role": "adult identity and wardrobe reference; not a scene keyframe",
+      "native": "characters/HugoBrandChoice_SGLink_2026-10-16_PNG_CueCard02Channel_Review_v07.png",
+      "native_sha256": "571949280446b8fc96343a66b0661da9e7a96104215c216cf45d700578e61b94",
+      "identity_source": "source-local/HugoBrandChoice_SGLink_2026-10-16_Photo_ChannelFacePrimary_Crop_v04.jpg",
+      "identity_source_sha256": "e49c799a4622404a4978aa79de7e3cc698129874cd3b1ce750d1ec8a908c0224",
+      "transport": "executor-preview/private-transport/HugoBrandChoice_SGLink_2026-10-16_WEBP_CueCard02Channel_Transport_v07.webp",
+      "transport_sha256": "9e7a2fc2b4818fb96528c8fef0aeba87a459b966d16b7ac5b0b99d663fc3805b",
+      "transport_dimensions": [
+        640,
+        360
+      ],
+      "transport_bytes": 8232
+    },
+    {
+      "id": "Zachary",
+      "image_index": 3,
+      "role": "adult identity and wardrobe reference; not a scene keyframe",
+      "native": "characters/HugoBrandChoice_SGLink_2026-10-16_PNG_CueCard03Zachary_Review_v07.png",
+      "native_sha256": "2eaaa358aa2ccf02766c834ce08d13953bb1fecca8aa8932d3e31554ecc72a6a",
+      "identity_source": "source-local/HugoBrandChoice_SGLink_2026-10-16_Photo_ZacharyCurrentLook_Reference_v04.png",
+      "identity_source_sha256": "3072605a69d3e6d44033bcbcb12bb80c8027ed0cb2eaf186e7fbaf97673417d1",
+      "transport": "executor-preview/private-transport/HugoBrandChoice_SGLink_2026-10-16_WEBP_CueCard03Zachary_Transport_v07.webp",
+      "transport_sha256": "da355f8886fb621e0b762c0ba1e607395a28f75af58e724b96b87b2ca657bc56",
+      "transport_dimensions": [
+        640,
+        360
+      ],
+      "transport_bytes": 10276
+    },
+    {
+      "id": "Zijian",
+      "image_index": 4,
+      "role": "adult identity and wardrobe reference; not a scene keyframe",
+      "native": "characters/HugoBrandChoice_SGLink_2026-10-16_PNG_CueCard04Zijian_Review_v07.png",
+      "native_sha256": "8f804308fa26ceb34f2400db9efcb78eb8ab1a4deae039265dde396afa80592e",
+      "identity_source": "source-local/HugoBrandChoice_SGLink_2026-10-16_Photo_ZijianFacePrimary_Crop_v04.jpg",
+      "identity_source_sha256": "0da5806d011390cdafab67e37ca2f56f99da04e2c1c5b25c6547028417ad4b32",
+      "transport": "executor-preview/private-transport/HugoBrandChoice_SGLink_2026-10-16_WEBP_CueCard04Zijian_Transport_v07.webp",
+      "transport_sha256": "398c8dcdaec64b5bb33fc7c9c9fb1628511ce467ee62c8dc7cf530f6d7cf924d",
+      "transport_dimensions": [
+        640,
+        360
+      ],
+      "transport_bytes": 10330
+    },
+    {
+      "id": "SGLinkLogo",
+      "image_index": 5,
+      "role": "only the graphic mark; no brand words",
+      "native": "source-local/HugoBrandChoice_SGLink_2026-10-16_PNG_OfficialLogoMark_Reference_v07.png",
+      "native_sha256": "d24cff188ab209149771803755be29172a9c94ed7c9a8b5a5a0ce5f2e25bc6ee",
+      "transport": "executor-preview/private-transport/HugoBrandChoice_SGLink_2026-10-16_WEBP_OfficialLogoMark_Transport_v07.webp",
+      "transport_sha256": "c2c957eed63ca9845d4aded3dad1b4d0556e71cb439a94f668bf7eb97cb90064",
+      "transport_dimensions": [
+        360,
+        310
+      ],
+      "transport_bytes": 8198
+    }
+  ],
+  "provider": {
+    "region": "cn-hongkong",
+    "model": "wan3.0-video",
+    "binding_name": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "host_binding_name": "ALIYUN_MODEL_STUDIO_HK_API_HOST",
+    "expected_api_host": "ws-f71y900nmq5fpsef.cn-hongkong.maas.aliyuncs.com",
+    "repository": "opc-zachary/ai-training-knowledge",
+    "public_asset_upload_required": false
+  },
+  "approval": {
+    "approved": true,
+    "cost_cap_hkd": "10.00",
+    "maximum_paid_submissions": 1,
+    "automatic_paid_retries": 0,
+    "input_video_seconds": "0",
+    "output_seconds": "22",
+    "maximum_billable_seconds": "22",
+    "rate_usd_per_second": "0.041256",
+    "planning_fx_hkd_per_usd": "7.8",
+    "estimated_usd": "0.907632",
+    "estimated_hkd": "7.0795296",
+    "account_discount_assumed": false,
+    "confirmation": "APPROVED_HUGO_SGLINK_V07_22S_480P_HKD10_ONE_POST",
+    "evidence_file": "HugoBrandChoice_SGLink_2026-10-16_JSON_PaidApproval_Approved_v07.json",
+    "evidence_sha256": "713b6e4db0beaeaa7f33aaf055837d5f86319315ffbd1653b0b1bffa368722bc"
+  },
+  "sources": [
+    {
+      "title": "WAN3 video API",
+      "url": "https://help.aliyun.com/en/model-studio/wan3-video-generation-api-reference"
+    },
+    {
+      "title": "WAN3 guide",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/wan3-video-generation-guide"
+    },
+    {
+      "title": "Model pricing",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+    }
+  ],
+  "checked_date": "2026-10-16",
+  "request_file": "HugoBrandChoice_SGLink_2026-10-16_JSON_WanRequest_Approved_v07.json",
+  "execution": {
+    "dispatch_enabled": true,
+    "one_writer": "current root thread",
+    "pre_dispatch_guard": "reconcile workflow run history and claim local immutable dispatch intent before first POST",
+    "registration_state": "EXACT_REMOTE_READBACK_REQUIRED",
+    "workflow_file": "wan-hk-hugo-sglink-v07.yml",
+    "repository_path": "tools/wan-hk/hugo-sglink-v07",
+    "supported_operations": [
+      "offline-validate",
+      "check-binding",
+      "generate",
+      "resume"
+    ],
+    "allowed_secret_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY"
+  }
+}
