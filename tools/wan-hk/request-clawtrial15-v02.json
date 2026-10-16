@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "project": "ZariaClaw",
+  "client": "Zachary Chan",
+  "batch_id": "zaria-claw-trial15-v02",
+  "model": "wan3.0-video",
+  "parameters": {
+    "resolution": "480P",
+    "ratio": "9:16",
+    "duration": 15,
+    "audio": true,
+    "prompt_extend": false
+  },
+  "media_placeholder": "__RUNTIME_VERIFIED_REFERENCE_IMAGE_DATA_URI__",
+  "shots": [
+    {
+      "shot_id": "01",
+      "creative_id": "zaria-claw-trial15-v02-shot01",
+      "prompt": "15秒、9:16直向、寫實女裝廣告短片。成年女主角Zaria的相貌、栗棕長髮及高挑自然比例以首幀為準。柔和暖光、粉桃與象牙白的夾公仔機展示場景，固定全身機位，人物、機台、銀色夾爪、頭頂和雙鞋完整入鏡。\n\n0至3秒：Zaria穿米白圓領短袖針織上衣、高腰深藍直腳牛仔褲和白色運動鞋，面向鏡頭自然微笑。\n3至5秒：銀色機械夾帶著一條粉紅緞帶，慢慢下降到Zaria左側的空位；夾爪與人物保持清楚距離。她望向緞帶，露出期待的微笑。\n5至7秒：緞帶在鏡頭前橫向掠過，短暫遮擋衣服。緞帶離開後，畫面一次切換為第二套完整女裝：粉玫瑰色長袖針織開衫、米白高腰A字中長裙、米白低跟後帶鞋，細金項鏈保持一致。以明快的時裝剪接完成整套服裝切換。\n7至11秒：機械夾與緞帶緩緩回到上方。Zaria驚喜微笑，輕輕整理開衫袖口，再向前做一小步，裙子隨步伐自然擺動。\n11至15秒：她輕輕轉身約20度展示造型，再回望鏡頭微笑。第二套服裝保持到結尾。\n\n攝影採用自然的50mm全身時裝視角，面部清晰、衣料細節真實，保持同一人物、髮型、比例、背景和穩定構圖。整段為連續真人表演加一次絲帶遮擋換裝。音訊為原創輕快時裝純音樂，搭配柔和馬達聲及換裝時一聲清脆電子提示音。畫面乾淨，只有人物、服飾和機台。",
+      "reference_image_sha256": "2007f3e47f1816b5b9d285cec5ba33c275cc1e361467590200428c7ac8664999",
+      "reference_image_mime": "image/webp"
+    }
+  ]
+}
