@@ -1,0 +1,20 @@
+{
+  "model": "wan3.0-video",
+  "input": {
+    "prompt": "Create a continuous, realistic live-action music-video scene, exactly 20 seconds long in vertical 9:16 format. Zachary, the adult man in Image 1, the sole identity portrait (not a scene or first-frame reference), is the same lead performer throughout. Preserve his recognizable current facial proportions, natural smaller eyes, slightly weary and lived-in expression, neatly groomed eyebrows, a natural skin-colored nose without redness, a subtly tapered jaw, realistic skin texture and black hair gelled up and back. Maintain consistent identity during turns and movement. He wears a white shirt, black tie, dark trousers and black shoes. Adult supporting dancers wear coordinated dark formal clothes.\n\nThe setting is a broad stone staircase before an imposing arched entrance. Several rows of adult dancers are already waiting in formation when the scene opens. Counting from the front row nearest the camera, the middle of the third row is vacant for Zachary. Preserve this arrangement and leave a physically plausible passage between people. Music is already playing at the start and continues throughout, without restarting after the cigarette action.\n\nFor seconds 0–2, begin with Zachary centered in a frontal close view in the foreground, directly in front of the staircase and its central axis. He takes a calm drag from a cigarette and exhales a small amount of smoke, tired but composed. For seconds 2–2.7 he lowers his smoking hand and turns on the spot. For seconds 2.7–6 he walks away from the camera from the center of the frame into the waiting formation. He does not enter from the side of the scene. Keep the camera on the frontal central axis as it gently pulls back to reveal his path and more of the staircase. He may make only a small sidestep needed to pass between dancers.\n\nDuring seconds 6–6.8 his shoulder lightly brushes one first-row dancer. Show a brief readable contact and a small natural response as the dancer turns aside to let him pass; it is casual, with no aggression or fall. Keep Zachary moving in the same direction. During seconds 6.8–8.5 he threads through the opening and climbs to the vacant middle of the third row. He arrives by 8.5 seconds without teleporting or resetting the group. During seconds 8.5–10 he turns to face the front, settles his stance and makes a small collar adjustment, giving the arrival a brief readable pause.\n\nFrom seconds 10–20 the staircase group launches into sustained rhythmic choreography. Use deliberate angular head and neck turns, shoulder accents, bent-elbow shapes, torso hinges, knee dips and rebounds, with readable changes of pose and synchronized waves through the group. Zachary remains in the third-row center. His movement is more restrained than the surrounding dancers, while still showing clearly visible rhythmic head, shoulder and upper-body actions across the final ten seconds. He must not remain frozen or resume smoking while the others dance. Keep his face recognizable through all head turns, with natural eye size and a slightly weary expression.\n\nKeep the camera centered on the staircase's frontal axis for the entire scene. Begin with the lead at the center and finish with the lead at the center of the formation. Use a smooth pullback and a mild rise to reveal the bodies and group pattern, without lateral orbiting, oblique establishing angles or a sudden change of entrance direction. Show the causal sequence clearly: cigarette, centered turn and walk, brief shoulder brush, the dancer makes room, third-row central arrival, then the dance. Preserve the same lead, outfit, staircase and supporting formation throughout. No instructional overlays, title cards or on-screen text. Render natural human performers, not the color-coded geometric review figures.",
+    "media": [
+      {
+        "type": "reference_image",
+        "url": "__PRIVATE_IMAGE_1_DATA_URI__"
+      }
+    ]
+  },
+  "parameters": {
+    "resolution": "720P",
+    "ratio": "9:16",
+    "duration": 20,
+    "audio": false,
+    "prompt_extend": false,
+    "watermark": false
+  }
+}

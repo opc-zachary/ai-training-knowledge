@@ -1,0 +1,21 @@
+{
+  "project": "StormMV_Zachary",
+  "client": "Zachary Chan",
+  "version": "v12",
+  "source": "Direct human messages in this Storm conversation; current 20s model approved, followed by instruction to make video.",
+  "latest_exact_user_quote": "好 可以做影片",
+  "duration_format_exact_user_quote": "記得我只做20秒就可以了 9:16 那一種",
+  "budget_preference_exact_user_quote": "$15 也可以，做好",
+  "interpretation": "New authorization for one 20s 9:16 generation from the approved v11 story/model; budget limited to HKD15, the prior stated per-trial ceiling. Historical paid approvals are not reused.",
+  "maximum_paid_posts": 1,
+  "automatic_paid_retries": 0,
+  "cost_cap_hkd": "15.00",
+  "provider_region": "cn-hongkong",
+  "model": "wan3.0-video",
+  "resolution": "720P",
+  "inputs": "Only latest approved v08 identity Q Card and full story text; no motion video, scene image, geometry, first or last frame.",
+  "public_media_uploads": 0,
+  "new_secret_bindings": 0,
+  "new_permissions": 0,
+  "recorded_utc": "2026-10-16T10:20:07.118521+00:00"
+}
