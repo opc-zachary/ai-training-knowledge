@@ -1,0 +1,21 @@
+{
+  "project": "StormMV_Zachary",
+  "client": "Zachary Chan",
+  "version": "v14",
+  "source": "New direct human instruction in the same Storm conversation after v12 rejection and v13 correction review.",
+  "latest_exact_user_quote": "直接重新再新成，我希望可以類似該mv 的感覺",
+  "duration_format_exact_user_quote": "記得我只做20秒就可以了 9:16 那一種",
+  "budget_preference_exact_user_quote": "$15 也可以，做好",
+  "interpretation": "New instruction authorizes one regeneration for a similar MV feeling. Use the same verified Hong Kong route and existing per-attempt HKD15 ceiling. Previous consumed v12 approval is preserved and not rearmed. Exact original choreography is no longer represented as attainable by this text-and-portrait route. Lead stillness, central entry and large crowd remain requirements.",
+  "maximum_paid_posts": 1,
+  "automatic_paid_retries": 0,
+  "cost_cap_hkd": "15.00",
+  "provider_region": "cn-hongkong",
+  "model": "wan3.0-video",
+  "resolution": "720P",
+  "inputs": "Existing v08 identity portrait plus revised full story text. No original or generated scene/video input.",
+  "public_media_uploads": 0,
+  "new_secret_bindings": 0,
+  "new_permissions": 0,
+  "recorded_utc": "2026-10-16T12:01:27.619031+00:00"
+}

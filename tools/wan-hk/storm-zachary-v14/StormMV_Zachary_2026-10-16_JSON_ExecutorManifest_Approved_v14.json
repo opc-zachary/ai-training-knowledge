@@ -1,0 +1,96 @@
+{
+  "project": "StormMV_Zachary",
+  "client": "Zachary Chan",
+  "version": "v14",
+  "status": "APPROVED_ONE_BOUNDED_SUBMISSION",
+  "method": "One existing identity Q Card plus corrected Storm-inspired story. Central lead stationary after arrival; large uniformed ensemble. No scene or video input.",
+  "review_model": "source-correction-v13; source analysis for human review only, never sent to WAN",
+  "request_file": "StormMV_Zachary_2026-10-16_JSON_WanRequest_Approved_v14.json",
+  "request_sha256": "6455101108adffdd7c859bb1b3ccfb4397511d7d51aca7fb46b3c6c6d5a2591b",
+  "prompt_file": "StormMV_Zachary_2026-10-16_TXT_WANFullStory_Approved_v14.txt",
+  "prompt_sha256": "b74fa5edc58f96cc978f55b4de1b71173a3417e7ea1b309d080e54cdef646792",
+  "images": [
+    {
+      "id": "Zachary",
+      "image_index": 1,
+      "role": "Identity and current proportions only, not first frame",
+      "native": "../current-look-character-v08/ZacharyCharacter_Zachary_2026-10-16_PNG_LivedInFrontPortrait_Review_v08.png",
+      "native_sha256": "3072605a69d3e6d44033bcbcb12bb80c8027ed0cb2eaf186e7fbaf97673417d1",
+      "transport": "private-transport/StormMV_Zachary_2026-10-16_WEBP_IdentityOnly_Transport_v14.webp",
+      "transport_sha256": "c67e09c3f8225962e1684e64237911627c8edddefe9af793bc186234e83f6051",
+      "transport_dimensions": [
+        768,
+        1024
+      ],
+      "transport_bytes": 44436,
+      "transport_quality": 82
+    }
+  ],
+  "provider": {
+    "region": "cn-hongkong",
+    "model": "wan3.0-video",
+    "binding_name": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "host_binding_name": "ALIYUN_MODEL_STUDIO_HK_API_HOST",
+    "expected_api_host": "ws-f71y900nmq5fpsef.cn-hongkong.maas.aliyuncs.com",
+    "repository": "opc-zachary/ai-training-knowledge",
+    "public_asset_upload_required": false
+  },
+  "approval": {
+    "approved": true,
+    "cost_cap_hkd": "15.00",
+    "maximum_paid_submissions": 1,
+    "automatic_paid_retries": 0,
+    "input_video_seconds": "0",
+    "output_seconds": "20",
+    "maximum_billable_seconds": "20",
+    "rate_usd_per_second": "0.082513",
+    "planning_fx_hkd_per_usd": "8.0",
+    "estimated_usd": "1.650260",
+    "estimated_hkd": "13.2020800",
+    "account_discount_assumed": false,
+    "actual_billed_amount": "UNAVAILABLE",
+    "confirmation": "APPROVED_STORM_V14_20S_720P_9X16_ONE_POST_HKD15",
+    "evidence_file": "StormMV_Zachary_2026-10-16_JSON_UserApproval_Approved_v14.json",
+    "evidence_sha256": "197601c9a552e131909edbd88b9a38d29b51ed9966b4dc2e6589a71fb64fb1a7"
+  },
+  "sources": [
+    {
+      "title": "WAN3 video API",
+      "url": "https://help.aliyun.com/en/model-studio/wan3-video-generation-api-reference"
+    },
+    {
+      "title": "Hong Kong WAN3 model pricing",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+    }
+  ],
+  "checked_date": "2026-10-16",
+  "execution": {
+    "dispatch_enabled": true,
+    "one_writer": "current Storm root thread; v14 is the sole newly authorized regeneration",
+    "registration_state": "EXACT_READBACK_REQUIRED",
+    "workflow_file": "wan-hk-storm-mv-zachary-v14.yml",
+    "repository_path": "tools/wan-hk/storm-zachary-v14",
+    "supported_operations": [
+      "offline-validate",
+      "check-binding",
+      "generate",
+      "resume"
+    ],
+    "allowed_secret_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY"
+  },
+  "soundtrack": {
+    "sent_to_provider": false,
+    "local_mux_after_generation": true,
+    "source": "source-verification-v11/StormMV_GENER8ION_2026-10-16_WAV_OfficialMusic268p72_20s_Analysis_v11.wav",
+    "sha256": "508ec3fc8d8bc2970077e59aea955a5a6e8e15cc5cc8fb02e7c4a6aaeb377d05",
+    "duration": 20,
+    "loop": false
+  },
+  "revision_basis": {
+    "supersedes_creative_request": "v12",
+    "source_correction": "source-correction-v13",
+    "similar_feeling_authorized": true,
+    "exact_original_choreography_claimed": false,
+    "former_approval_consumed": true
+  }
+}
