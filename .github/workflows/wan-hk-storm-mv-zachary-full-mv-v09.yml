@@ -71,8 +71,12 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Verify local validation tools without installing packages
+      - name: Ensure ffprobe and ffmpeg on the ephemeral GitHub runner
         run: |
+          if ! command -v ffprobe >/dev/null 2>&1 || ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install --yes ffmpeg
+          fi
           command -v ffprobe >/dev/null 2>&1
           command -v ffmpeg >/dev/null 2>&1
 
