@@ -66,7 +66,8 @@ def binding():
     return host,key
 def api(host,key,task=None,payload=None):
     url=f'https://{host}/api/v1/tasks/{task}' if task else f'https://{host}/api/v1/services/aigc/video-generation/video-synthesis'
-    headers={'Authorization':'Bearer '+key,'Content-Type':'application/json','X-DashScope-Async':'enable'}
+    headers={'Authorization':'Bearer '+key}
+    if payload is not None:headers.update({'Content-Type':'application/json','X-DashScope-Async':'enable'})
     data=json.dumps(payload).encode('utf-8') if payload is not None else None
     req=urllib.request.Request(url,data=data,headers=headers,method='POST' if payload is not None else 'GET')
     try:
