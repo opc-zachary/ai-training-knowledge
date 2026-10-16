@@ -1,0 +1,43 @@
+{
+  "project": "StormMV_Zachary",
+  "recorded_utc": "2026-10-16T03:48:45.933649+00:00",
+  "user": "Zachary Chan",
+  "source": "Current conversation; direct reply to the proposed HKD45 three-shot full MV scope",
+  "exact_user_quote": "可以一試 但用9:16 來做影片",
+  "interpretation": "Accept proposed full 29.033-second MV, maximum three paid generation submissions and three exact motion-reference uploads, amending output aspect to 9:16 and using latest v08 mildly weary identity.",
+  "output": {
+    "resolution": "720P",
+    "dimensions": [
+      720,
+      1280
+    ],
+    "aspect": "9:16",
+    "duration_seconds": "29.033333333333333",
+    "fps": 30
+  },
+  "paid": {
+    "maximum_posts": 3,
+    "maximum_posts_per_shot": 1,
+    "automatic_retries": 0,
+    "hkd_cap": "45.00",
+    "estimated_hkd": "38.96813946666667",
+    "model": "wan3.0-video",
+    "region": "China (Hong Kong)"
+  },
+  "public_uploads": [
+    "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS01_Internal_v07.mp4",
+    "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS02_Internal_v07.mp4",
+    "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS03_Internal_v07.mp4"
+  ],
+  "portraits_public": false,
+  "overwrite": false,
+  "new_credentials_or_permissions": false,
+  "identity_source": {
+    "path": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/current-look-character-v08/ZacharyCharacter_Zachary_2026-10-16_PNG_LivedInFrontPortrait_Review_v08.png",
+    "sha256": "3072605a69d3e6d44033bcbcb12bb80c8027ed0cb2eaf186e7fbaf97673417d1"
+  },
+  "scene_source": {
+    "path": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/full-mv-v09/production/StormMV_Zachary_2026-10-16_PNG_LivedInSmokingScene9x16_Review_v09.png",
+    "sha256": "6d76d38401aee82926eca776f3ff0550f40d0d9fd9d713258b29dae8e344892e"
+  }
+}

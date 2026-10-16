@@ -1,0 +1,195 @@
+{
+  "schema_version": 2,
+  "project": "StormMVZachary",
+  "version": "v09",
+  "repository": "opc-zachary/a-new-you-metaops",
+  "manifest_sha256": "c5073fc680f149faa27dd4a4dc30e5c8925e3fc5e713cedf092312e0a3199a6b",
+  "run_id": "38847744385",
+  "run_attempt": "1",
+  "operation": "append",
+  "status": "PUBLIC_VERIFIED_EXACT_STORM_V07_THREE_MOTION_CLIPS",
+  "exact_object_count": 3,
+  "no_overwrite": true,
+  "max_put_attempts_per_item": 1,
+  "automatic_write_retries": 0,
+  "objects": [
+    {
+      "object_id": "storm-full-motion-s01-v07",
+      "write_intent_id": "storm-mv-zachary-v07-s01-20261015",
+      "remote_path": "metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS01_Internal_v07.mp4",
+      "public_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS01_Internal_v07.mp4",
+      "source_validation": {
+        "bytes": 775385,
+        "sha256": "b315b9cba3f0e3465f06b23844cf0ba0e8026c56149b3c9490c8d8812db905a6",
+        "mime": "video/mp4",
+        "width": 720,
+        "height": 404,
+        "duration_seconds": 10.0,
+        "frame_rate": "30/1",
+        "audio": false,
+        "full_decode": "PASS"
+      },
+      "inventory_state": "missing",
+      "write_attempts": 1,
+      "remote_files_written": 1,
+      "action": "put-once",
+      "write_exit_code": 0,
+      "sftp_readback": {
+        "bytes": 775385,
+        "sha256": "b315b9cba3f0e3465f06b23844cf0ba0e8026c56149b3c9490c8d8812db905a6",
+        "mime": "video/mp4",
+        "width": 720,
+        "height": 404,
+        "duration_seconds": 10.0,
+        "frame_rate": "30/1",
+        "audio": false,
+        "full_decode": "PASS"
+      },
+      "public_readback": [
+        {
+          "url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS01_Internal_v07.mp4",
+          "bytes": 775385,
+          "sha256": "b315b9cba3f0e3465f06b23844cf0ba0e8026c56149b3c9490c8d8812db905a6",
+          "mime": "video/mp4",
+          "width": 720,
+          "height": 404,
+          "duration_seconds": 10.0,
+          "frame_rate": "30/1",
+          "audio": false,
+          "full_decode": "PASS"
+        },
+        {
+          "url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS01_Internal_v07.mp4?storm-mv-zachary-v07=38847744385",
+          "bytes": 775385,
+          "sha256": "b315b9cba3f0e3465f06b23844cf0ba0e8026c56149b3c9490c8d8812db905a6",
+          "mime": "video/mp4",
+          "width": 720,
+          "height": 404,
+          "duration_seconds": 10.0,
+          "frame_rate": "30/1",
+          "audio": false,
+          "full_decode": "PASS"
+        }
+      ]
+    },
+    {
+      "object_id": "storm-full-motion-s02-v07",
+      "write_intent_id": "storm-mv-zachary-v07-s02-20261015",
+      "remote_path": "metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS02_Internal_v07.mp4",
+      "public_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS02_Internal_v07.mp4",
+      "source_validation": {
+        "bytes": 789202,
+        "sha256": "a27afbb66d99353f74edf15f57ad7e4fe824cb455a4fe1a272adadfa5d383558",
+        "mime": "video/mp4",
+        "width": 720,
+        "height": 404,
+        "duration_seconds": 10.0,
+        "frame_rate": "30/1",
+        "audio": false,
+        "full_decode": "PASS"
+      },
+      "inventory_state": "missing",
+      "write_attempts": 1,
+      "remote_files_written": 1,
+      "action": "put-once",
+      "write_exit_code": 0,
+      "sftp_readback": {
+        "bytes": 789202,
+        "sha256": "a27afbb66d99353f74edf15f57ad7e4fe824cb455a4fe1a272adadfa5d383558",
+        "mime": "video/mp4",
+        "width": 720,
+        "height": 404,
+        "duration_seconds": 10.0,
+        "frame_rate": "30/1",
+        "audio": false,
+        "full_decode": "PASS"
+      },
+      "public_readback": [
+        {
+          "url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS02_Internal_v07.mp4",
+          "bytes": 789202,
+          "sha256": "a27afbb66d99353f74edf15f57ad7e4fe824cb455a4fe1a272adadfa5d383558",
+          "mime": "video/mp4",
+          "width": 720,
+          "height": 404,
+          "duration_seconds": 10.0,
+          "frame_rate": "30/1",
+          "audio": false,
+          "full_decode": "PASS"
+        },
+        {
+          "url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS02_Internal_v07.mp4?storm-mv-zachary-v07=38847744385",
+          "bytes": 789202,
+          "sha256": "a27afbb66d99353f74edf15f57ad7e4fe824cb455a4fe1a272adadfa5d383558",
+          "mime": "video/mp4",
+          "width": 720,
+          "height": 404,
+          "duration_seconds": 10.0,
+          "frame_rate": "30/1",
+          "audio": false,
+          "full_decode": "PASS"
+        }
+      ]
+    },
+    {
+      "object_id": "storm-full-motion-s03-v07",
+      "write_intent_id": "storm-mv-zachary-v07-s03-20261015",
+      "remote_path": "metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS03_Internal_v07.mp4",
+      "public_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS03_Internal_v07.mp4",
+      "source_validation": {
+        "bytes": 2318098,
+        "sha256": "ee4aa7aa23708f24a614cfd223c359a449485019ba4fe0b5180e5ebce766581b",
+        "mime": "video/mp4",
+        "width": 720,
+        "height": 404,
+        "duration_seconds": 9.033008,
+        "frame_rate": "30/1",
+        "audio": false,
+        "full_decode": "PASS"
+      },
+      "inventory_state": "missing",
+      "write_attempts": 1,
+      "remote_files_written": 1,
+      "action": "put-once",
+      "write_exit_code": 0,
+      "sftp_readback": {
+        "bytes": 2318098,
+        "sha256": "ee4aa7aa23708f24a614cfd223c359a449485019ba4fe0b5180e5ebce766581b",
+        "mime": "video/mp4",
+        "width": 720,
+        "height": 404,
+        "duration_seconds": 9.033008,
+        "frame_rate": "30/1",
+        "audio": false,
+        "full_decode": "PASS"
+      },
+      "public_readback": [
+        {
+          "url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS03_Internal_v07.mp4",
+          "bytes": 2318098,
+          "sha256": "ee4aa7aa23708f24a614cfd223c359a449485019ba4fe0b5180e5ebce766581b",
+          "mime": "video/mp4",
+          "width": 720,
+          "height": 404,
+          "duration_seconds": 9.033008,
+          "frame_rate": "30/1",
+          "audio": false,
+          "full_decode": "PASS"
+        },
+        {
+          "url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS03_Internal_v07.mp4?storm-mv-zachary-v07=38847744385",
+          "bytes": 2318098,
+          "sha256": "ee4aa7aa23708f24a614cfd223c359a449485019ba4fe0b5180e5ebce766581b",
+          "mime": "video/mp4",
+          "width": 720,
+          "height": 404,
+          "duration_seconds": 9.033008,
+          "frame_rate": "30/1",
+          "audio": false,
+          "full_decode": "PASS"
+        }
+      ]
+    }
+  ],
+  "batch_preflight_completed_before_any_put": true
+}

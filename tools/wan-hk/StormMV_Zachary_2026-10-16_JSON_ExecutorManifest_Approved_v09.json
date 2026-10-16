@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "project": "StormMV_Zachary",
+  "client": "Zachary Chan / STARBAY",
+  "version": "v09",
+  "status": "APPROVED_THREE_SHOT_READY",
+  "authorization": "GRANTED",
+  "dispatch_enabled": true,
+  "staged_only_build": false,
+  "provider": {
+    "model": "wan3.0-video",
+    "api_host": "ws-f71y900nmq5fpsef.cn-hongkong.maas.aliyuncs.com",
+    "api_key_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "api_host_binding": "ALIYUN_MODEL_STUDIO_HK_API_HOST",
+    "region": "China (Hong Kong)",
+    "repository": "opc-zachary/ai-training-knowledge",
+    "api_reference": "https://www.alibabacloud.com/help/en/model-studio/wan3-video-generation-api-reference",
+    "pricing_reference": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "documentation_checked_date": "2026-10-16"
+  },
+  "official_constraints": {
+    "reference_video_max_clips": 5,
+    "reference_video_min_seconds_per_clip": 1,
+    "reference_video_max_seconds_per_clip": 15,
+    "reference_video_max_total_seconds": 15,
+    "input_plus_output_max_seconds": 30,
+    "output_duration_must_be_integer": true,
+    "supported_output_resolutions": [
+      "480P",
+      "720P",
+      "1080P"
+    ],
+    "reference_image_max_count": 10,
+    "reference_image_max_bytes": 20971520,
+    "reference_video_max_bytes_per_clip": 104857600,
+    "reference_video_min_fps": 16,
+    "reference_video_min_pixels_per_side": 240,
+    "reference_video_max_pixels_per_side": 4096,
+    "reference_and_image_combination_supported": true,
+    "result_url_valid_hours": 24,
+    "task_id_query_valid_hours": 24
+  },
+  "approval": {
+    "approved": true,
+    "approved_by": "Zachary Chan",
+    "authorization_id": "STORM-ZACHARY-20261016-V09-9X16-HKD45",
+    "scope": "Three separately pinned WAN 3.0 video-edit shots, at most one paid POST per shot and at most three paid POSTs in the approved generation",
+    "approval_record": "StormMV_Zachary_2026-10-16_JSON_FullMV9x16_UserApproval_Approved_v09.json",
+    "maximum_total_submissions": 3,
+    "maximum_provider_posts_per_run": 1,
+    "automatic_paid_retries": 0,
+    "total_input_video_seconds": "29.033333333333333",
+    "total_output_seconds": "30",
+    "maximum_billable_seconds": "59.033333333333333",
+    "rate_usd_per_second": "0.082513",
+    "rate_resolution": "720P",
+    "planning_fx_hkd_per_usd": "8.0",
+    "estimated_usd": "4.871017433333333305829",
+    "estimated_hkd": "38.9681394666666664466320",
+    "cost_cap_hkd": "45.00",
+    "discount_assumed": false,
+    "free_quota_assumed": false,
+    "price_basis": "Hong Kong wan3.0-video 720P list price; input-video seconds plus generated output seconds; no 30 percent promotion assumed",
+    "confirmation": "APPROVED_STORM_V09_VERTICAL_FULL_MV_HKD45",
+    "new_exact_user_approval_required": false,
+    "historical_v05_hkd15_authorization_reusable": false,
+    "estimated_hkd_planning_rounded": "38.96813946666667"
+  },
+  "execution": {
+    "workflow": "manual_only_exact_approved_v09",
+    "workflow_file": "wan-hk-storm-mv-zachary-full-mv-v09.yml",
+    "concurrency_group": "wan-hk-storm-mv-zachary-v09-full-mv-paid-generation",
+    "github_permissions": "contents:read,actions:read",
+    "run_attempt_required": 1,
+    "maximum_provider_posts": 3,
+    "maximum_provider_posts_per_run": 1,
+    "unknown_post_outcome_policy": "DO_NOT_RETRY; reconcile or resume the same known task UUID with GET only; any new POST requires a new shot revision and new exact user authorization",
+    "resume_policy": "GET only for one existing task UUID bound to one shot; resume never submits a generation",
+    "one_shot_ledger_policy": "Before each POST, read this workflow's complete bounded run history and reject any older generate-shot run bearing the same shot and exact confirmation title. Any earlier generate-shot invocation consumes that shot authorization fail-closed.",
+    "one_shot_ledger_max_pages": 20,
+    "one_shot_ledger_page_size": 100,
+    "poll_max_attempts": 100,
+    "poll_interval_seconds": 15,
+    "workflow_timeout_minutes": 45
+  },
+  "identity_image": {
+    "role": "Image 1: approved v08 Zachary sole facial identity; private runtime input only",
+    "source_path": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/current-look-character-v08/ZacharyCharacter_Zachary_2026-10-16_PNG_LivedInFrontPortrait_Review_v08.png",
+    "source_sha256": "3072605a69d3e6d44033bcbcb12bb80c8027ed0cb2eaf186e7fbaf97673417d1",
+    "source_bytes": 2058588,
+    "source_dimensions": [
+      1086,
+      1448
+    ],
+    "transport_sha256": "da0326afd1faeafb1e8c500caee4866600edc18bd96eeed91b0f86d26d36aa6d",
+    "transport_mime": "image/webp",
+    "transport_bytes": 7670,
+    "transport_base64_characters": 10228,
+    "transport_dimensions": [
+      360,
+      480
+    ],
+    "transport_recipe": "cwebp 1.6.0; -resize 360 480 -q 70 -m 6; scale and compression only",
+    "transport_source": "GITHUB_EVENT_PATH only",
+    "repository_binary_allowed": false,
+    "logging_allowed": false
+  },
+  "shots": [
+    {
+      "shot_id": "s01",
+      "storyboard_order": 1,
+      "state": "APPROVED_ONCE_NOT_SUBMITTED",
+      "approval": true,
+      "dispatch_enabled": true,
+      "authorization_id": "STORM-ZACHARY-20261016-V09-9X16-HKD45-s01",
+      "confirmation": "APPROVED_STORM_V09_9X16_S01_ONE_POST_HKD15",
+      "workflow_run_title_generate": "StormMV_Zachary_v09 | generate-shot | s01 | APPROVED_STORM_V09_9X16_S01_ONE_POST_HKD15",
+      "source_frames_inclusive": [
+        2,
+        301
+      ],
+      "source_frame_count": 300,
+      "source_crop": {
+        "width": 720,
+        "height": 404,
+        "x": 0,
+        "y": 278
+      },
+      "reference_transport": {
+        "registration_state": "REGISTERED_EXACT_URL_PINNED",
+        "expected_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS01_Internal_v07.mp4",
+        "proposed_public_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS01_Internal_v07.mp4",
+        "public_upload_approved": true,
+        "public_readback_verified": true,
+        "local_review_source_path": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/full-mv-v07/production/StormMV_Zachary_2026-10-15_MP4_FullMotionS01_Internal_v07.mp4",
+        "sha256": "b315b9cba3f0e3465f06b23844cf0ba0e8026c56149b3c9490c8d8812db905a6",
+        "bytes": 775385,
+        "dimensions": [
+          720,
+          404
+        ],
+        "duration_seconds": "10.000000",
+        "fps": "30/1",
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "required_audio_streams": 0,
+        "maximum_download_bytes": 33554432,
+        "readback_receipt_sha256": "06c92614d7c87f814aa508c735d6e6db1c3234fb404733efb1fed3ba626f578f"
+      },
+      "request": {
+        "path": "requests/StormMV_Zachary_2026-10-16_JSON_WanRequest_S01_Approved_v09.json",
+        "sha256": "f5cb29065322f2961f92121bff67c876ec31e796bf51165284722dec855a9206",
+        "reference_video_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS01_Internal_v07.mp4",
+        "output_name": "StormMV_Zachary_2026-10-16_MP4_WanFullMV_S01_10s_720P9x16_Review_v09.mp4"
+      },
+      "prompt_source": {
+        "path": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/full-mv-v09/production/StormMV_Zachary_2026-10-16_TXT_PromptS01_Approved_v09.txt",
+        "bytes": 1403,
+        "sha256": "4c5d4c78d701acc929385fe67219a9d3ad066196d894f3c00400ac5af6429a7f"
+      },
+      "parameters": {
+        "resolution": "720P",
+        "ratio": "9:16",
+        "duration": 10,
+        "audio": false,
+        "prompt_extend": false,
+        "watermark": false
+      },
+      "cost": {
+        "input_video_seconds": "10.000000",
+        "output_seconds": "10",
+        "maximum_billable_seconds": "20.000000",
+        "estimated_usd": "1.650260000",
+        "estimated_hkd": "13.2020800000",
+        "approved_cap_hkd": "15.00"
+      }
+    },
+    {
+      "shot_id": "s02",
+      "storyboard_order": 2,
+      "state": "APPROVED_ONCE_NOT_SUBMITTED",
+      "approval": true,
+      "dispatch_enabled": true,
+      "authorization_id": "STORM-ZACHARY-20261016-V09-9X16-HKD45-s02",
+      "confirmation": "APPROVED_STORM_V09_9X16_S02_ONE_POST_HKD15",
+      "workflow_run_title_generate": "StormMV_Zachary_v09 | generate-shot | s02 | APPROVED_STORM_V09_9X16_S02_ONE_POST_HKD15",
+      "source_frames_inclusive": [
+        302,
+        601
+      ],
+      "source_frame_count": 300,
+      "source_crop": {
+        "width": 720,
+        "height": 404,
+        "x": 0,
+        "y": 278
+      },
+      "reference_transport": {
+        "registration_state": "REGISTERED_EXACT_URL_PINNED",
+        "expected_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS02_Internal_v07.mp4",
+        "proposed_public_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS02_Internal_v07.mp4",
+        "public_upload_approved": true,
+        "public_readback_verified": true,
+        "local_review_source_path": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/full-mv-v07/production/StormMV_Zachary_2026-10-15_MP4_FullMotionS02_Internal_v07.mp4",
+        "sha256": "a27afbb66d99353f74edf15f57ad7e4fe824cb455a4fe1a272adadfa5d383558",
+        "bytes": 789202,
+        "dimensions": [
+          720,
+          404
+        ],
+        "duration_seconds": "10.000000",
+        "fps": "30/1",
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "required_audio_streams": 0,
+        "maximum_download_bytes": 33554432,
+        "readback_receipt_sha256": "06c92614d7c87f814aa508c735d6e6db1c3234fb404733efb1fed3ba626f578f"
+      },
+      "request": {
+        "path": "requests/StormMV_Zachary_2026-10-16_JSON_WanRequest_S02_Approved_v09.json",
+        "sha256": "e5a6b582f2a0540f23714147cf1f52cbc5f51efc938b389fb2d6afd6a17f1121",
+        "reference_video_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS02_Internal_v07.mp4",
+        "output_name": "StormMV_Zachary_2026-10-16_MP4_WanFullMV_S02_10s_720P9x16_Review_v09.mp4"
+      },
+      "prompt_source": {
+        "path": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/full-mv-v09/production/StormMV_Zachary_2026-10-16_TXT_PromptS02_Approved_v09.txt",
+        "bytes": 1468,
+        "sha256": "bcd24cdfb64a5e62e9d483c0f9390960e8507b63231be22d361cb35c59d606fe"
+      },
+      "parameters": {
+        "resolution": "720P",
+        "ratio": "9:16",
+        "duration": 10,
+        "audio": false,
+        "prompt_extend": false,
+        "watermark": false
+      },
+      "cost": {
+        "input_video_seconds": "10.000000",
+        "output_seconds": "10",
+        "maximum_billable_seconds": "20.000000",
+        "estimated_usd": "1.650260000",
+        "estimated_hkd": "13.2020800000",
+        "approved_cap_hkd": "15.00"
+      }
+    },
+    {
+      "shot_id": "s03",
+      "storyboard_order": 3,
+      "state": "APPROVED_ONCE_NOT_SUBMITTED",
+      "approval": true,
+      "dispatch_enabled": true,
+      "authorization_id": "STORM-ZACHARY-20261016-V09-9X16-HKD45-s03",
+      "confirmation": "APPROVED_STORM_V09_9X16_S03_ONE_POST_HKD15",
+      "workflow_run_title_generate": "StormMV_Zachary_v09 | generate-shot | s03 | APPROVED_STORM_V09_9X16_S03_ONE_POST_HKD15",
+      "source_frames_inclusive": [
+        602,
+        872
+      ],
+      "source_frame_count": 271,
+      "source_crop": {
+        "width": 720,
+        "height": 404,
+        "x": 0,
+        "y": 278
+      },
+      "reference_transport": {
+        "registration_state": "REGISTERED_EXACT_URL_PINNED",
+        "expected_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS03_Internal_v07.mp4",
+        "proposed_public_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS03_Internal_v07.mp4",
+        "public_upload_approved": true,
+        "public_readback_verified": true,
+        "local_review_source_path": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/full-mv-v07/production/StormMV_Zachary_2026-10-15_MP4_FullMotionS03_Internal_v07.mp4",
+        "sha256": "ee4aa7aa23708f24a614cfd223c359a449485019ba4fe0b5180e5ebce766581b",
+        "bytes": 2318098,
+        "dimensions": [
+          720,
+          404
+        ],
+        "duration_seconds": "9.033333333333333",
+        "fps": "30/1",
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "required_audio_streams": 0,
+        "maximum_download_bytes": 33554432,
+        "readback_receipt_sha256": "06c92614d7c87f814aa508c735d6e6db1c3234fb404733efb1fed3ba626f578f"
+      },
+      "request": {
+        "path": "requests/StormMV_Zachary_2026-10-16_JSON_WanRequest_S03_Approved_v09.json",
+        "sha256": "610a9ff1c3573ef28547085a48c5275bf1ec12e48c52372c4c7cc2e11a40276f",
+        "reference_video_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS03_Internal_v07.mp4",
+        "output_name": "StormMV_Zachary_2026-10-16_MP4_WanFullMV_S03_10s_720P9x16_Review_v09.mp4"
+      },
+      "prompt_source": {
+        "path": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/full-mv-v09/production/StormMV_Zachary_2026-10-16_TXT_PromptS03_Approved_v09.txt",
+        "bytes": 1473,
+        "sha256": "c7d2ebe7e12d30fb3caf60501ccb7598f92995907f6965c8568cfe8e65244dda"
+      },
+      "parameters": {
+        "resolution": "720P",
+        "ratio": "9:16",
+        "duration": 10,
+        "audio": false,
+        "prompt_extend": false,
+        "watermark": false
+      },
+      "cost": {
+        "input_video_seconds": "9.033333333333333",
+        "output_seconds": "10",
+        "maximum_billable_seconds": "19.033333333333333",
+        "estimated_usd": "1.570497433333333305829",
+        "estimated_hkd": "12.5639794666666664466320",
+        "approved_cap_hkd": "15.00",
+        "estimated_hkd_planning_rounded": "12.56397946666667"
+      }
+    }
+  ],
+  "output_validation": {
+    "duration_tolerance_seconds": 0.5,
+    "short_edge_pixels": 720,
+    "ratio_tolerance": 0.02,
+    "required_audio_streams": 0,
+    "full_decode_required": true,
+    "portrait_ratio": "9:16"
+  },
+  "receipt_policy": {
+    "include": [
+      "shot_id",
+      "task_id",
+      "request_id",
+      "authorization_id",
+      "verified input seconds",
+      "validated output seconds",
+      "actual billable seconds",
+      "actual USD",
+      "actual HKD",
+      "media hashes",
+      "technical validation"
+    ],
+    "exclude": [
+      "signed result URLs",
+      "raw provider responses",
+      "API keys",
+      "GitHub tokens",
+      "base64 image data",
+      "workflow event payload"
+    ]
+  },
+  "secondary_scene_image": {
+    "role": "Image 2: secondary clothing, atmosphere and vertical scene reference only; Image 1 v08 remains sole face and identity authority",
+    "source_path": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/full-mv-v09/production/StormMV_Zachary_2026-10-16_PNG_LivedInSmokingScene9x16_Review_v09.png",
+    "source_sha256": "6d76d38401aee82926eca776f3ff0550f40d0d9fd9d713258b29dae8e344892e",
+    "source_bytes": 1087270,
+    "source_dimensions": [
+      720,
+      1280
+    ],
+    "transport_sha256": "888190d14bb62a5917eea4269268dda2d1eaf656e013b866f1590132f10a3e8e",
+    "transport_mime": "image/webp",
+    "transport_bytes": 9074,
+    "transport_base64_characters": 12100,
+    "transport_dimensions": [
+      270,
+      480
+    ],
+    "transport_recipe": "cwebp 1.6.0; -resize 270 480 -q 70 -m 6; scale and compression only",
+    "transport_source": "GITHUB_EVENT_PATH only",
+    "repository_binary_allowed": false,
+    "logging_allowed": false,
+    "identity_authority": false,
+    "conflict_policy": "Image 1 v08 face and identity always override Image 2"
+  }
+}

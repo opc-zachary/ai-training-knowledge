@@ -1,0 +1,144 @@
+name: WAN HK StormMV Zachary Full MV v09 Vertical
+
+run-name: StormMV_Zachary_v09 | ${{ inputs.mode }} | ${{ inputs.shot_id }} | ${{ inputs.confirmation }}
+
+# Approved v09: three exact 9:16 shots, one paid submission per shot, HKD45 total.
+# Identity and scene images stay private in the workflow event input.
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Exact approved operation; paid retries are disabled
+        required: true
+        default: validate-package
+        type: choice
+        options:
+          - validate-package
+          - validate-local-assets
+          - check-binding
+          - generate-shot
+          - resume-shot
+          - validate-existing
+      shot_id:
+        description: Exactly one independently pinned shot
+        required: true
+        default: s01
+        type: choice
+        options:
+          - s01
+          - s02
+          - s03
+      confirmation:
+        description: Pinned per-shot approval confirmation
+        required: false
+        type: string
+      zachary_image_base64:
+        description: Private v08 WebP raw base64; read only from GITHUB_EVENT_PATH
+        required: false
+        type: string
+      secondary_scene_image_base64:
+        description: Private 9x16 scene WebP raw base64; clothing/atmosphere only
+        required: false
+        type: string
+      resume_task_id:
+        description: Existing task UUID for GET-only resume
+        required: false
+        type: string
+      existing_output_path:
+        description: Executor-relative path for local technical validation
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: wan-hk-storm-mv-zachary-v09-full-mv-paid-generation
+  cancel-in-progress: false
+
+jobs:
+  execute-one-shot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        shell: bash
+        working-directory: tools/wan-hk
+    steps:
+      - name: Check out pinned executor
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Verify local validation tools without installing packages
+        run: |
+          command -v ffprobe >/dev/null 2>&1
+          command -v ffmpeg >/dev/null 2>&1
+
+      - name: Validate approved package with zero secret reads and zero network calls
+        if: ${{ inputs.mode == 'validate-package' || inputs.mode == 'validate-local-assets' }}
+        env:
+          WAN_OPERATION: ${{ inputs.mode }}
+        run: |
+          python3 storm_mv_zachary_v09_runner.py --mode "$WAN_OPERATION"
+
+      - name: Run selected approved operation through one-shot gate
+        if: ${{ inputs.mode != 'validate-package' && inputs.mode != 'validate-local-assets' && inputs.mode != 'validate-existing' }}
+        env:
+          ALIYUN_MODEL_STUDIO_HK_API_KEY: ${{ secrets.ALIYUN_MODEL_STUDIO_HK_API_KEY }}
+          ALIYUN_MODEL_STUDIO_HK_API_HOST: ${{ vars.ALIYUN_MODEL_STUDIO_HK_API_HOST }}
+          GITHUB_TOKEN: ${{ github.token }}
+          WAN_OPERATION: ${{ inputs.mode }}
+          WAN_SHOT_ID: ${{ inputs.shot_id }}
+          WAN_GENERATE_CONFIRMATION: ${{ inputs.confirmation }}
+          WAN_RESUME_TASK_ID: ${{ inputs.resume_task_id }}
+        run: |
+          python3 storm_mv_zachary_v09_runner.py \
+            --mode "$WAN_OPERATION" \
+            --shot-id "$WAN_SHOT_ID" \
+            --output-dir "output-storm-mv-zachary-v09/$WAN_SHOT_ID"
+
+      - name: Validate an existing executor-local output
+        if: ${{ inputs.mode == 'validate-existing' }}
+        env:
+          WAN_SHOT_ID: ${{ inputs.shot_id }}
+          WAN_EXISTING_OUTPUT_PATH: ${{ inputs.existing_output_path }}
+        run: |
+          [[ -n "$WAN_EXISTING_OUTPUT_PATH" ]] || {
+            echo "ERROR VERIFY_OUTPUT_PATH_REQUIRED" >&2
+            exit 1
+          }
+          python3 storm_mv_zachary_v09_runner.py \
+            --mode validate-existing \
+            --shot-id "$WAN_SHOT_ID" \
+            --verify-output "$WAN_EXISTING_OUTPUT_PATH"
+
+      - name: Validate downloaded result when present
+        if: ${{ always() && (inputs.mode == 'generate-shot' || inputs.mode == 'resume-shot') }}
+        env:
+          WAN_SHOT_ID: ${{ inputs.shot_id }}
+        run: |
+          shopt -s nullglob
+          videos=("output-storm-mv-zachary-v09/$WAN_SHOT_ID"/*.mp4)
+          if (( ${#videos[@]} == 0 )); then
+            echo "No MP4 was downloaded; receipt-only or staged preflight run."
+          elif (( ${#videos[@]} != 1 )); then
+            echo "ERROR UNEXPECTED_MP4_COUNT" >&2
+            exit 1
+          else
+            relative="${videos[0]}"
+            python3 storm_mv_zachary_v09_runner.py \
+              --mode validate-existing \
+              --shot-id "$WAN_SHOT_ID" \
+              --verify-output "$relative"
+          fi
+
+      - name: Upload short-lived sanitized receipt and result
+        if: ${{ always() && hashFiles('tools/wan-hk/output-storm-mv-zachary-v09/**') != '' }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: wan-hk-storm-mv-zachary-v09-${{ inputs.shot_id }}-${{ github.run_id }}-attempt-${{ github.run_attempt }}
+          path: tools/wan-hk/output-storm-mv-zachary-v09/
+          if-no-files-found: error
+          retention-days: 2

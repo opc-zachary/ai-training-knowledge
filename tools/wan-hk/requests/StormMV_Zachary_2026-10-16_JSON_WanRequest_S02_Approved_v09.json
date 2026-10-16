@@ -1,0 +1,28 @@
+{
+  "model": "wan3.0-video",
+  "input": {
+    "prompt": "媒體對應（固定順序）：影片1=第1個reference_video，是本鏡動作與攝影運鏡依據；圖片1=第1個reference_image，是v08 Zachary唯一臉部及身份依據；圖片2=第2個reference_image，只供白衣、黑領帶、髮型、抽煙氣氛與場景質感參考，絕不可覆蓋圖片1的臉部身份。如圖片1與圖片2的人臉有任何分歧，必須以圖片1為準。\n\n只編輯影片1的白衣中央主角，換成圖片1的成年男性Zachary。保持同一張v08臉：自然細長眼形與輕微左右差異、原有眼距、微垂上眼皮、少量眼下灰棕陰影、正常不紅的鼻色、整齊自然眉毛、淡唇色、真實毛孔及淡鬚根；適度V下顎但保留正常面頰。略帶憔悴、安靜自然，不可睜大眼、美顏磨皮或變成另一個年輕偶像。黑色gel頭固定較低、向側後梳起；白色長袖襯衫、黑色窄領帶、黑色長褲與黑鞋全段一致。圖片2只參考服裝、直幅構圖和灰冷光線。保持影片1原有動作時序、群舞、石造建築、拉後與升高運鏡；改成原生滿幅9:16直向構圖，主角始終居中，拉遠時完整保留頭部、手臂與腳步，群舞沿縱深展開。不要硬裁橫片，不要黑邊；不要原女主角面孔、露腰、另一個Zachary、字幕、教程介面、標誌或水印。轉頭只改透視，固定鼻翼、嘴寬、眼形和下巴。各段依原片首尾姿態、主角大小及鏡位順接，不要突然重置到抽煙、溶臉、五官游移、多手或跳幀。寫實電影攝影，細節自然。本段對應全片10至20秒：直接從影片1開頭的側背舞姿接續，依原片轉頭、肩膀和手部節奏，群舞同步，鏡頭逐漸拉遠回到正面舞姿。不要重新抽煙，不要重演開場。保持主角仍是圖片1同一個Zachary，臉轉回正面時五官自然連貫。",
+    "media": [
+      {
+        "type": "reference_video",
+        "url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-15_MP4_FullMotionS02_Internal_v07.mp4"
+      },
+      {
+        "type": "reference_image",
+        "url": "__RUNTIME_HASH_VERIFIED_ZACHARY_V08_IMAGE_DATA_URI__"
+      },
+      {
+        "type": "reference_image",
+        "url": "__RUNTIME_HASH_VERIFIED_SECONDARY_SCENE_IMAGE_DATA_URI__"
+      }
+    ]
+  },
+  "parameters": {
+    "resolution": "720P",
+    "ratio": "9:16",
+    "duration": 10,
+    "audio": false,
+    "prompt_extend": false,
+    "watermark": false
+  }
+}
