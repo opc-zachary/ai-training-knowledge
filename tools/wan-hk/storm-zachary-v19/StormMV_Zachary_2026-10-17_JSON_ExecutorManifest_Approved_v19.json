@@ -1,0 +1,120 @@
+{
+  "project": "StormMV_Zachary",
+  "client": "Zachary Chan",
+  "version": "v19",
+  "status": "APPROVED_ONE_BOUNDED_SUBMISSION",
+  "method": "Edit original source video directly; change central head/face/hair from latest supplied dated actual photo, no ImageGen input.",
+  "review_model": "Original source timing and composition, no generated scene input",
+  "request_file": "StormMV_Zachary_2026-10-17_JSON_WanRequest_Approved_v19.json",
+  "request_sha256": "08012fdc9302cba5bc2c87e618e6dfe48a82b5f00e84c3edde30ef9bb4a3dec7",
+  "prompt_file": "StormMV_Zachary_2026-10-17_TXT_SourceEditPrompt_Approved_v19.txt",
+  "prompt_sha256": "58690ca984029abd9b551d247b8930a6af3b05f68dc45009586e414a5233c982",
+  "images": [
+    {
+      "id": "Zachary",
+      "image_index": 1,
+      "role": "Latest dated supplied actual photo; identity and hair only, not first frame",
+      "native": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/current-look-real-reference-v18/local-media/StormMV_Zachary_2026-10-17_JPG_LatestNeutralActualPhoto_Reference_v18.jpg",
+      "native_sha256": "bcc6c8292461b639dce09ebd0f24444ba043cf6883e7f84bd2bc19bca8654609",
+      "transport": "private-transport/StormMV_Zachary_2026-10-17_WEBP_LatestActualPhoto_PrivateTransport_v19.webp",
+      "transport_sha256": "7f4266ffece8f0eadc17945af8d64af195782df50f026b670cf6ab8368eb1ad3",
+      "transport_dimensions": [
+        576,
+        768
+      ],
+      "transport_bytes": 44462,
+      "transport_quality": 78,
+      "operations": [
+        "resize",
+        "WebP encode without EXIF"
+      ],
+      "generative_edit": false
+    }
+  ],
+  "provider": {
+    "region": "cn-hongkong",
+    "model": "wan3.0-video",
+    "binding_name": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "host_binding_name": "ALIYUN_MODEL_STUDIO_HK_API_HOST",
+    "expected_api_host": "ws-f71y900nmq5fpsef.cn-hongkong.maas.aliyuncs.com",
+    "repository": "opc-zachary/ai-training-knowledge",
+    "public_asset_upload_required": false
+  },
+  "approval": {
+    "approved": true,
+    "cost_cap_hkd": "5.36",
+    "maximum_paid_submissions": 1,
+    "automatic_paid_retries": 0,
+    "input_video_seconds": "4",
+    "output_seconds": "4",
+    "maximum_billable_seconds": "8",
+    "rate_usd_per_second": "0.082513",
+    "planning_fx_hkd_per_usd": "8.0",
+    "estimated_usd": "0.660104",
+    "estimated_hkd": "5.2808320",
+    "account_discount_assumed": false,
+    "actual_billed_amount": "UNAVAILABLE",
+    "confirmation": "APPROVED_STORM_V19_REALPHOTO_SOURCE4S_OUTPUT4S_720P_ONE_POST",
+    "evidence_file": "StormMV_Zachary_2026-10-17_JSON_UserApproval_Approved_v19.json",
+    "evidence_sha256": "e8fdf81cad179754abb31aa74f7ecc3003bd3a2a59be59a06dd079c7a7ad57d3",
+    "cost_basis": "New user accepted one bounded 4-second trial after latest real-photo intake; estimate USD0.660104, planning cap HKD5.36 at 8.0. No historical budget or consumed v17 authority reused."
+  },
+  "sources": [
+    {
+      "title": "WAN3 video API",
+      "url": "https://help.aliyun.com/en/model-studio/wan3-video-generation-api-reference"
+    },
+    {
+      "title": "Hong Kong WAN3 model pricing",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+    }
+  ],
+  "checked_date": "2026-10-17",
+  "execution": {
+    "dispatch_enabled": true,
+    "one_writer": "Current Storm root thread; one newly authorized real-photo v19 source edit",
+    "registration_state": "EXACT_READBACK_REQUIRED",
+    "workflow_file": "wan-hk-storm-mv-zachary-v19.yml",
+    "repository_path": "tools/wan-hk/storm-zachary-v19",
+    "supported_operations": [
+      "offline-validate",
+      "check-binding",
+      "generate",
+      "resume"
+    ],
+    "allowed_secret_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY"
+  },
+  "soundtrack": {
+    "sent_to_provider": false,
+    "local_mux_after_generation": true,
+    "source": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/source-motion-method-v15/StormMV_GENER8ION_2026-10-17_MP4_DanceOnset278p72_4s_Reference_v15.mp4",
+    "duration": 4,
+    "loop": false
+  },
+  "revision_basis": {
+    "v17_identity_rejected_by_user": true,
+    "v18_real_photo_reference_used": true,
+    "original_source_video_input": true,
+    "no_explicit_mask_supported": true,
+    "final_goal": "20 seconds vertical 9:16; current authorization is one 4-second likeness trial",
+    "new_public_upload_required": false,
+    "generated_portrait_used": false
+  },
+  "videos": [
+    {
+      "source_local": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/source-motion-method-v15/StormMV_GENER8ION_2026-10-17_MP4_DanceOnset278p72_4s_Reference_v15.mp4",
+      "source_seconds": [
+        278.72,
+        282.72
+      ],
+      "sha256": "13b9bf2b70a374ff6519f1800d906564b7985f8ed55e943ab6e072c9dad0fe34",
+      "bytes": 1128738,
+      "duration": 4,
+      "width": 640,
+      "height": 360,
+      "fps": 25,
+      "public_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-17_MP4_DanceMotionReference4s_Internal_v17.mp4",
+      "upload_approval": "APPROVED_EXACT_DESTINATION_AND_PRIVATE_GITHUB_TRANSPORT"
+    }
+  ]
+}

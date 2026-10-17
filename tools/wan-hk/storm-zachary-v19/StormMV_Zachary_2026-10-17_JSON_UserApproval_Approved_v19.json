@@ -1,0 +1,20 @@
+{
+  "project": "StormMV_Zachary",
+  "version": "v19",
+  "user_quote": "試試",
+  "preceding_request": "樣不太似，去找zacahry最新的樣",
+  "context": "User accepted trying the latest actual-photo reference after local v18 reference selection. One new bounded four-second WAN HK source-video editing test; same model, region, source and price basis as v17. This is a new single-test authorization, not reuse of consumed v17 or historical HKD15 approval.",
+  "approved_date": "2026-10-17",
+  "maximum_paid_submissions": 1,
+  "automatic_paid_retries": 0,
+  "input_seconds": 4,
+  "output_seconds": 4,
+  "estimated_usd": "0.660104",
+  "planning_cost_cap_hkd": "5.36",
+  "public_source_action": "Reuse existing approved v17 motion URL, no upload",
+  "max_new_public_objects": 0,
+  "private_portrait_public_upload": false,
+  "private_portrait_transport": "Same established workflow input and provider data URI; no repository portrait file",
+  "new_bindings_or_region_approved": false,
+  "full_20s_generation_approved_by_this_trial": false
+}
