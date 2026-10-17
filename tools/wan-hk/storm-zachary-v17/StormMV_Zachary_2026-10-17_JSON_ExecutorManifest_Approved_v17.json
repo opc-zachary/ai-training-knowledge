@@ -1,0 +1,114 @@
+{
+  "project": "StormMV_Zachary",
+  "client": "Zachary Chan",
+  "version": "v17",
+  "status": "APPROVED_ONE_BOUNDED_SUBMISSION",
+  "method": "Edit original Video 1 directly; change central white-shirted adult head/face/hair from Image 1 only.",
+  "review_model": "Original source timing and composition, no generated scene input",
+  "request_file": "StormMV_Zachary_2026-10-17_JSON_WanRequest_Approved_v17.json",
+  "request_sha256": "4f03667ac649f1d40e6e574426587f0f1f2a1f536a6e3adcc774db2ceb40c6d5",
+  "prompt_file": "StormMV_Zachary_2026-10-17_TXT_SourceEditPrompt_Approved_v17.txt",
+  "prompt_sha256": "8e2842ce78fe056e089eb063fb41ec83cb843032c0c489d39c0750989c8ebcb0",
+  "images": [
+    {
+      "id": "Zachary",
+      "image_index": 1,
+      "role": "Identity and current proportions only, not first frame",
+      "native": "../current-look-character-v08/ZacharyCharacter_Zachary_2026-10-16_PNG_LivedInFrontPortrait_Review_v08.png",
+      "native_sha256": "3072605a69d3e6d44033bcbcb12bb80c8027ed0cb2eaf186e7fbaf97673417d1",
+      "transport": "private-transport/StormMV_Zachary_2026-10-16_WEBP_IdentityOnly_Transport_v14.webp",
+      "transport_sha256": "c67e09c3f8225962e1684e64237911627c8edddefe9af793bc186234e83f6051",
+      "transport_dimensions": [
+        768,
+        1024
+      ],
+      "transport_bytes": 44436,
+      "transport_quality": 82
+    }
+  ],
+  "provider": {
+    "region": "cn-hongkong",
+    "model": "wan3.0-video",
+    "binding_name": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "host_binding_name": "ALIYUN_MODEL_STUDIO_HK_API_HOST",
+    "expected_api_host": "ws-f71y900nmq5fpsef.cn-hongkong.maas.aliyuncs.com",
+    "repository": "opc-zachary/ai-training-knowledge",
+    "public_asset_upload_required": true
+  },
+  "approval": {
+    "approved": true,
+    "cost_cap_hkd": "5.36",
+    "maximum_paid_submissions": 1,
+    "automatic_paid_retries": 0,
+    "input_video_seconds": "4",
+    "output_seconds": "4",
+    "maximum_billable_seconds": "8",
+    "rate_usd_per_second": "0.082513",
+    "planning_fx_hkd_per_usd": "8.0",
+    "estimated_usd": "0.660104",
+    "estimated_hkd": "5.2808320",
+    "account_discount_assumed": false,
+    "actual_billed_amount": "UNAVAILABLE",
+    "confirmation": "APPROVED_STORM_V17_SOURCE4S_OUTPUT4S_720P_ONE_POST",
+    "evidence_file": "StormMV_Zachary_2026-10-17_JSON_UserApproval_Approved_v17.json",
+    "evidence_sha256": "24325c9016739f5390cfd9b0ee5f33b18166ba61e59152c8325c1c3cb49213d8",
+    "cost_basis": "One accepted USD0.660104 list-price estimate, not reuse of historical HKD15 authority; planning ceiling HKD5.36 at 8.0."
+  },
+  "sources": [
+    {
+      "title": "WAN3 video API",
+      "url": "https://help.aliyun.com/en/model-studio/wan3-video-generation-api-reference"
+    },
+    {
+      "title": "Hong Kong WAN3 model pricing",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+    }
+  ],
+  "checked_date": "2026-10-17",
+  "execution": {
+    "dispatch_enabled": true,
+    "one_writer": "Current Storm root thread, one accepted v17 source-video edit trial",
+    "registration_state": "EXACT_READBACK_REQUIRED",
+    "workflow_file": "wan-hk-storm-mv-zachary-v17.yml",
+    "repository_path": "tools/wan-hk/storm-zachary-v17",
+    "supported_operations": [
+      "offline-validate",
+      "check-binding",
+      "generate",
+      "resume"
+    ],
+    "allowed_secret_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY"
+  },
+  "soundtrack": {
+    "sent_to_provider": false,
+    "local_mux_after_generation": true,
+    "source": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/source-motion-method-v15/StormMV_GENER8ION_2026-10-17_MP4_DanceOnset278p72_4s_Reference_v15.mp4",
+    "duration": 4,
+    "loop": false
+  },
+  "revision_basis": {
+    "v14_rejected_by_user": true,
+    "v17_input_contains_original_video": true,
+    "no_explicit_mask_supported": true,
+    "final_goal": "20 seconds vertical 9:16; this native-frame trial verifies motion preservation before vertical framing",
+    "paid_trial_accepted": true,
+    "new_public_object_pending_exact_approval": false
+  },
+  "videos": [
+    {
+      "source_local": "/Users/opc.zachary/Documents/ChatGPT/Empower With AI/video-course/2026-10-15/storm-mv-zachary/source-motion-method-v15/StormMV_GENER8ION_2026-10-17_MP4_DanceOnset278p72_4s_Reference_v15.mp4",
+      "source_seconds": [
+        278.72,
+        282.72
+      ],
+      "sha256": "13b9bf2b70a374ff6519f1800d906564b7985f8ed55e943ab6e072c9dad0fe34",
+      "bytes": 1128738,
+      "duration": 4,
+      "width": 640,
+      "height": 360,
+      "fps": 25,
+      "public_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-17_MP4_DanceMotionReference4s_Internal_v17.mp4",
+      "upload_approval": "APPROVED_EXACT_DESTINATION_AND_PRIVATE_GITHUB_TRANSPORT"
+    }
+  ]
+}

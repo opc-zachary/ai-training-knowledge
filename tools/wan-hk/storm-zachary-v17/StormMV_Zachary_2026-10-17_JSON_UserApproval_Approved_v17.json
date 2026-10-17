@@ -1,0 +1,20 @@
+{
+  "project": "StormMV_Zachary",
+  "version": "v17",
+  "user_quote": "可以一試",
+  "context": "Accept one four-second Hong Kong WAN3 original-video editing trial with the existing Zachary portrait, central head/face/hair only. Quoted list-price estimate USD0.660104 for 4 seconds input plus 4 seconds output at 720P.",
+  "maximum_paid_submissions": 1,
+  "automatic_paid_retries": 0,
+  "input_seconds": 4,
+  "output_seconds": 4,
+  "estimated_usd": "0.660104",
+  "public_upload_approval": "APPROVED_EXACT_ONE_NEW_OBJECT_AND_PRIVATE_GITHUB_TRANSPORT",
+  "new_bindings_or_region_approved": false,
+  "upload_user_quote": "批准此新舞蹈素材位置及中轉，完成一次測試",
+  "approval_question_call_id": "call_19abeace1b474a8f8a26ad7d759978f1",
+  "approved_date": "2026-10-17",
+  "public_url": "https://opc-file.promopioneers.cc/metaops/storm-mv-zachary/2026/10/StormMV_Zachary_2026-10-17_MP4_DanceMotionReference4s_Internal_v17.mp4",
+  "private_transport_repository": "opc-zachary/a-new-you-metaops",
+  "private_portrait_public_upload": false,
+  "max_new_public_objects": 1
+}
