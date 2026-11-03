@@ -1,0 +1,68 @@
+{
+  "project": "MiuAudio",
+  "client": "MiuAudio",
+  "version": "v01",
+  "model": "wan3.0-video",
+  "parameters": {
+    "resolution": "720P",
+    "ratio": "adaptive",
+    "duration": 5,
+    "audio": false,
+    "prompt_extend": false,
+    "watermark": false
+  },
+  "prompt_sha256": "914ff539deef399141144bfdd969ac0966ae11309e72449016d0611003227e34",
+  "request_sha256": "efb26861b1117780e13e9a61bfe471e0b399caf284f9e9bb1038684bbcec6336",
+  "images": [
+    {
+      "id": "FirstFrame",
+      "transport": "MiuAudio_MiuAudio_2026-11-03_WEBP_WSP4_FirstFrame_Transport_v01.webp",
+      "transport_bytes": 20054,
+      "transport_sha256": "415da79ef6c685762d93b9500e6d676467e05866d9c7c00d4a6feea0c8b1d7fc",
+      "source_sha256": "c7d8fd979c9b53cae76f2ce79efea7ecf222f26f238f3d0da8aeae3010462018",
+      "width": 1280,
+      "height": 720,
+      "webp_quality": 75
+    },
+    {
+      "id": "LastFrame",
+      "transport": "MiuAudio_MiuAudio_2026-11-03_WEBP_WSP4_LastFrame_Transport_v01.webp",
+      "transport_bytes": 20494,
+      "transport_sha256": "76c35e52766fb3236edac6e88db33f5247ce5ab619d301d816ca781840e99655",
+      "source_sha256": "ed847bd1d3a683aa9a027116a1b44b4450c1dd869411ccec8a1017c58c2f0127",
+      "width": 1280,
+      "height": 720,
+      "webp_quality": 75
+    }
+  ],
+  "route": {
+    "repository": "opc-zachary/ai-training-knowledge",
+    "workflow": "wan-hk-miuaudio-wsp4-v01.yml",
+    "existing_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "host_binding": "ALIYUN_MODEL_STUDIO_HK_API_HOST",
+    "purpose": "Use the existing GitHub Wan HK service route for the user-requested MiuAudio test; no credential export or new binding."
+  },
+  "approval": {
+    "approved": true,
+    "authorization_basis": "Current user requested one Wan 3.0 shot test after the Three.js preview and directed execution to their existing GitHub route.",
+    "confirmation": "MIUAUDIO_WSP4_ONE_5S_720P_20261103_V01",
+    "maximum_paid_submissions": 1,
+    "automatic_paid_retries": 0,
+    "output_seconds": 5,
+    "input_video_seconds": 0,
+    "maximum_billable_seconds": 5,
+    "list_price_usd_per_second": "0.082513",
+    "planning_usd_hkd": "8.0",
+    "estimated_hkd": "3.3005200",
+    "planning_cost_limit_hkd": "4.00",
+    "actual_billed_amount": "UNAVAILABLE",
+    "cost_basis": "5 output seconds, zero input-video seconds, HK global 720P list price; discounts excluded; HKD conversion is a planning assumption, not a verified FX quote or billed amount.",
+    "pricing_verified_date": "2026-11-03",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  "privacy": {
+    "media_in_git": false,
+    "prompt_in_git": false,
+    "credentials_in_artifacts": false
+  }
+}

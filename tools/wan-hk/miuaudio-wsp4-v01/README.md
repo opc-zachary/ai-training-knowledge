@@ -1,0 +1,9 @@
+# MiuAudio WSP-4 Wan 3.0 single-shot test
+
+Current user scope: make the four-product overview English script and Three.js preview, then test one selected shot in Wan 3.0. The user identified their existing GitHub route. This package adds one independent manual-only MiuAudio workflow to that existing Wan HK service; it does not modify other film workflows or create/export credentials.
+
+Exactly one generation POST: 5 seconds, 720P, first + last frames, no reference video, no audio, no prompt rewriting. The existing protected Wan HK binding is consumed only inside GitHub Actions. Prompt and media travel through the event, are pinned by SHA-256, and are not stored in this public repository. The scoped manifest, runner and workflow contain no credentials, media bytes or access-bearing URLs.
+
+Current list-price planning estimate: US$0.082513 x 5 output seconds = US$0.412565; at a conservative planning factor of 8.0 HKD/USD, HK$3.30052 before promotions. Request scope limits generation to 5 billable seconds and one POST; HK$4 is a planning threshold, not a provider billing cap. Actual account deductions remain unverified. Price checked 2026-11-03 at https://www.alibabacloud.com/help/en/model-studio/model-pricing.
+
+Before generation: offline package validation, pinned source readback and zero-provider-call binding check. A workflow-history guard rejects a second generate dispatch and a rerun rejects paid execution. If the outcome is uncertain, preserve receipt and reconcile; never submit again automatically. Resume is GET-only for the original MiuAudio task UUID. Preserve the native MP4 locally; validate duration, resolution, aspect ratio, no audio, full decode and SHA-256, then visually review product consistency. Successful generation is not creative approval or a final BUD deliverable.
