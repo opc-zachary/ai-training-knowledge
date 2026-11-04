@@ -1,0 +1,75 @@
+{
+  "project": "MiuAudio",
+  "client": "MiuAudio",
+  "version": "v02",
+  "model": "wan3.0-video",
+  "parameters": {
+    "resolution": "720P",
+    "ratio": "adaptive",
+    "duration": 5,
+    "audio": false,
+    "prompt_extend": false,
+    "watermark": false
+  },
+  "prompt_sha256": "a8dd987ee3b08e449f2e858167fc47d469fad42670f027599897319958a3b22f",
+  "request_sha256": "c12a3004eb6bdf966459a68d64a8e2fa9924f98d596e4746d8112f5ea0ca8deb",
+  "images": [
+    {
+      "id": "FirstFrame",
+      "transport": "MiuAudio_MiuAudio_2026-11-04_WEBP_WSP4G02_FirstFrame_Transport_v02.webp",
+      "transport_bytes": 20206,
+      "transport_sha256": "815d9b4db989fff39c3156627d68e0974974f4cf258f8cbeff12556e7fe251ac",
+      "source_sha256": "d469fd03112840c2058702f59fa6f65f5aa3b823412dab309f38b7cf40f06268",
+      "width": 1280,
+      "height": 720,
+      "webp_quality": 40
+    },
+    {
+      "id": "LastFrame",
+      "transport": "MiuAudio_MiuAudio_2026-11-04_WEBP_WSP4G02_LastFrame_Transport_v02.webp",
+      "transport_bytes": 20936,
+      "transport_sha256": "1e23f69651769c357b0ef9e9a0e7e3135d82d5c458fed33015959bf3904411ef",
+      "source_sha256": "77bb196c64245a54e1284a0f865cac9f11f889bafed5ef264e4cb7bf8c662b7f",
+      "width": 1280,
+      "height": 720,
+      "webp_quality": 40
+    }
+  ],
+  "route": {
+    "repository": "opc-zachary/ai-training-knowledge",
+    "workflow": "wan-hk-miuaudio-wsp4-v02.yml",
+    "existing_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "host_binding": "ALIYUN_MODEL_STUDIO_HK_API_HOST",
+    "purpose": "Newly authorized creative shot through the same existing verified MiuAudio Wan HK binding. No new credential or transport channel."
+  },
+  "approval": {
+    "approved": true,
+    "authorization_basis": "2026-11-04 user explicitly requested one WSP-4 product-photo nine-grid storyboard and then one complete-product shot test in Wan. New creative test; not a retry of v01.",
+    "confirmation": "MIUAUDIO_WSP4_G02_ONE_5S_720P_20261104_V02",
+    "maximum_paid_submissions": 1,
+    "automatic_paid_retries": 0,
+    "output_seconds": 5,
+    "input_video_seconds": 0,
+    "maximum_billable_seconds": 5,
+    "list_price_usd_per_second": "0.082513",
+    "planning_usd_hkd": "8.0",
+    "estimated_hkd": "3.3005200",
+    "planning_cost_limit_hkd": "4.00",
+    "actual_billed_amount": "UNAVAILABLE",
+    "cost_basis": "5 output seconds, zero input-video seconds, HK global 720P list price; discounts excluded; HKD conversion is a planning assumption, not a verified FX quote or billed amount.",
+    "pricing_verified_date": "2026-11-04",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  "privacy": {
+    "media_in_git": false,
+    "prompt_in_git": false,
+    "credentials_in_artifacts": false
+  },
+  "source_scope": {
+    "source_reference": "miu-wsp4-official-20260813.webp",
+    "source_grid_sha256": "de3a2df08de8995b1cd4fed0855a9de0708d01712a134d258c1971deee2dab01",
+    "new_user_authorization": true,
+    "prior_paid_run_retained": 41629724555,
+    "creative_change": "Complete physical product keyframes selected from G02, replacing the framed-photo creative input."
+  }
+}
