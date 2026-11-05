@@ -1,0 +1,99 @@
+{
+  "project": "MiuAudio",
+  "client": "MiuAudio",
+  "version": "v05",
+  "model": "wan3.0-video",
+  "parameters": {
+    "resolution": "720P",
+    "ratio": "16:9",
+    "duration": 30,
+    "audio": false,
+    "prompt_extend": false,
+    "watermark": false
+  },
+  "prompt_sha256": "fa0c157297e85da2b63561c1f68aa965e853a2793990cb1b74aa3c7990f6c16a",
+  "request_sha256": "11dc8a5544affc5c0e79e6818bdfd99263cc40e7c1f40a411afdb62d292882f2",
+  "images": [
+    {
+      "id": "ProductIdentity",
+      "transport": "MiuAudio_MiuAudio_2026-11-05_WEBP_WSP4ProductIdentity_Transport_v05.webp",
+      "transport_bytes": 9034,
+      "transport_sha256": "fcdd36e18738fa8e26d3841bba34d235bbb9a8efaa82077d80a8f08acdac3681",
+      "source_sha256": "ae34ee40fd20f7873bae85ec9616c62336ca2d48b1294157fc4beed29b582845",
+      "width": 627,
+      "height": 627,
+      "webp_quality": 25,
+      "source_local": "outputs/MiuAudio_MiuAudio_2026-11-03_Video01_Overview_Review_v01/assets/miu-wsp4-official-20260813.webp"
+    },
+    {
+      "id": "HumanWorldBefore",
+      "transport": "MiuAudio_MiuAudio_2026-11-05_WEBP_WSP4HumanWorldBefore_Transport_v05.webp",
+      "transport_bytes": 14712,
+      "transport_sha256": "1c947467f56c42588042051878ea42a74d7081ca73cf012cefe00fb9bb6ee298",
+      "source_sha256": "28bb7250e31fda30eedee28f195f179b4c86edb18495e886ecf4d34f90b54617",
+      "width": 960,
+      "height": 540,
+      "webp_quality": 25,
+      "source_local": "outputs/MiuAudio_MiuAudio_2026-11-05_Video_WSP4HumanWavePilot5s_Review_v01/assets/MiuAudio_MiuAudio_2026-11-05_PNG_WSP4HumanWaveFirstFrame_Review_v01.png"
+    },
+    {
+      "id": "HumanWorldAfter",
+      "transport": "MiuAudio_MiuAudio_2026-11-05_WEBP_WSP4HumanWorldAfter_Transport_v05.webp",
+      "transport_bytes": 16382,
+      "transport_sha256": "ea6a07c83ce2876f8593d6e68d66e8255ca4c8b76259d05ae8d61bec6b80d19c",
+      "source_sha256": "099b0778d2320523ea14646bb1e16760268bbe7aba4237406d7680131970fe4b",
+      "width": 960,
+      "height": 540,
+      "webp_quality": 20,
+      "source_local": "outputs/MiuAudio_MiuAudio_2026-11-05_Video_WSP4HumanWavePilot5s_Review_v01/assets/MiuAudio_MiuAudio_2026-11-05_PNG_WSP4HumanWaveLastFrame_Review_v01.png"
+    }
+  ],
+  "route": {
+    "repository": "opc-zachary/ai-training-knowledge",
+    "workflow": "wan-hk-miuaudio-wsp4-v05.yml",
+    "existing_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "host_binding": "ALIYUN_MODEL_STUDIO_HK_API_HOST",
+    "purpose": "One new 30-second HumanWave film through the same verified MiuAudio Hong Kong binding and existing event/artifact transport; no new credentials."
+  },
+  "approval": {
+    "approved": true,
+    "authorization_basis": "User approved the HumanWave concept, approved the completed five-second pilot and music treatment, then said okk 做 on 2026-11-05 to proceed. Current scope is one complete 30-second WSP-4 film with background music and English product introduction. This is a new full-film request, not a retry or replay of v01-v04.",
+    "confirmation": "MIUAUDIO_WSP4_HUMANWAVE_ONE_30S_720P_20261105_V05",
+    "maximum_paid_submissions": 1,
+    "automatic_paid_retries": 0,
+    "output_seconds": 30,
+    "input_video_seconds": 0,
+    "maximum_billable_seconds": 30,
+    "list_price_usd_per_second": "0.082513",
+    "planning_usd_hkd": "8.0",
+    "estimated_hkd": "19.8031200",
+    "planning_cost_limit_hkd": "22.00",
+    "actual_billed_amount": "UNAVAILABLE",
+    "cost_basis": "30 output seconds; no input video. HK Global 720P list price verified 2026-11-05. HKD8 per USD is a planning assumption, not a current FX quote or provider bill.",
+    "pricing_verified_date": "2026-11-05",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/wan3-0-video"
+  },
+  "privacy": {
+    "media_in_git": false,
+    "prompt_in_git": false,
+    "credentials_in_artifacts": false
+  },
+  "source_scope": {
+    "control_thread_id": "01a1a103-9e51-71b3-bd17-60a86c7174ce",
+    "storyboard": "WSP4HumanSoundwave30Seconds_Review_v01",
+    "reference_images": 3,
+    "prior_paid_runs_retained": [
+      41629724555,
+      41770839624,
+      41774428424,
+      41978083416
+    ],
+    "music_required": true,
+    "music_source": "Existing same-project Wan v03 thirty-second audio stem; postproduction only.",
+    "text_source": "https://miuaudio.com.au/featured-products/",
+    "product_claims": [
+      "Bluetooth wireless playback",
+      "Analogue Line-in through vacuum-tube circuitry"
+    ]
+  }
+}

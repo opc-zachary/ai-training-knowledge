@@ -1,0 +1,5 @@
+# MiuAudio WSP-4 HumanWave full-film executor v05
+
+One new user-authorized 30-second 720P silent Wan3.0 reference film, three exact private reference images, six connected shots. Music and English feature typography are added locally after actual video inspection. Same verified MiuAudio HK service binding and GitHub dispatch/artifact transport. No credential changes or exports.
+
+One provider creation POST maximum; reruns and duplicate generate dispatches are blocked by the workflow ledger. Read-only resume polls the original task ID. Exact manifest, prompt, request and media hashes are pinned. No product media or prompt is committed. Output artifacts retain two days; local project output is the durable review copy. Native output must pass full decode, 30-second/720P/30fps/16:9 validation and local visual QA before delivery. Actual billing is unavailable; HKD19.80312 is a list-price planning estimate only. Earlier v01-v04 receipts and paid authorizations are retained separately and are not reusable.
