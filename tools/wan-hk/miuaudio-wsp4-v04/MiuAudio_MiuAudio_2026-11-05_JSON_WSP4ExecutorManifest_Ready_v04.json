@@ -1,0 +1,78 @@
+{
+  "project": "MiuAudio",
+  "client": "MiuAudio",
+  "version": "v04",
+  "model": "wan3.0-video",
+  "parameters": {
+    "resolution": "720P",
+    "ratio": "adaptive",
+    "duration": 5,
+    "audio": false,
+    "prompt_extend": false,
+    "watermark": false
+  },
+  "prompt_sha256": "052a2e1f6d08195b95190ef888d94a50edd4fc1ccef4a5e27dad543aee5ed026",
+  "request_sha256": "9d44dc27b66ea1142c67b471bd1c530d485cdaa8bf456ca3701cfc8b06eed465",
+  "images": [
+    {
+      "id": "FirstFrame",
+      "transport": "MiuAudio_MiuAudio_2026-11-05_WEBP_WSP4HumanWaveFirstFrame_Transport_v04.webp",
+      "transport_bytes": 19590,
+      "transport_sha256": "29f5c43d03c3134b7a3f606a54a02858dc07cf41720457e557d6a0dfee296bff",
+      "source_sha256": "28bb7250e31fda30eedee28f195f179b4c86edb18495e886ecf4d34f90b54617",
+      "width": 1280,
+      "height": 720,
+      "webp_quality": 19
+    },
+    {
+      "id": "LastFrame",
+      "transport": "MiuAudio_MiuAudio_2026-11-05_WEBP_WSP4HumanWaveLastFrame_Transport_v04.webp",
+      "transport_bytes": 23708,
+      "transport_sha256": "0f4f87c7f3bee4689a9349648e5f66b653dee56050066bb6669314e7b63d6c1a",
+      "source_sha256": "099b0778d2320523ea14646bb1e16760268bbe7aba4237406d7680131970fe4b",
+      "width": 1280,
+      "height": 720,
+      "webp_quality": 19
+    }
+  ],
+  "route": {
+    "repository": "opc-zachary/ai-training-knowledge",
+    "workflow": "wan-hk-miuaudio-wsp4-v04.yml",
+    "existing_binding": "ALIYUN_MODEL_STUDIO_HK_API_KEY",
+    "host_binding": "ALIYUN_MODEL_STUDIO_HK_API_HOST",
+    "purpose": "One newly authorized HumanWave first/last-frame pilot using the existing MiuAudio HK binding; unchanged credential and media transport lane."
+  },
+  "approval": {
+    "approved": true,
+    "authorization_basis": "2026-11-05 user replied 好 to the concrete proposal: regenerate frame18 and frame23 as clean 16:9 endpoints, then exactly one 5-second 720P Wan pilot at approximately HKD3.30. No full-film generation or paid retry authorized by this request.",
+    "confirmation": "MIUAUDIO_WSP4_HUMANWAVE_ONE_5S_720P_20261105_V04",
+    "maximum_paid_submissions": 1,
+    "automatic_paid_retries": 0,
+    "output_seconds": 5,
+    "input_video_seconds": 0,
+    "maximum_billable_seconds": 5,
+    "list_price_usd_per_second": "0.082513",
+    "planning_usd_hkd": "8.0",
+    "estimated_hkd": "3.3005200",
+    "planning_cost_limit_hkd": "4.00",
+    "actual_billed_amount": "UNAVAILABLE",
+    "cost_basis": "5 output seconds, zero input-video seconds, HK global 720P list price; discounts excluded; HKD conversion is a planning assumption, not a verified FX quote or billed amount.",
+    "pricing_verified_date": "2026-11-05",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/wan3-0-video"
+  },
+  "privacy": {
+    "media_in_git": false,
+    "prompt_in_git": false,
+    "credentials_in_artifacts": false
+  },
+  "source_scope": {
+    "source_reference": "miu-wsp4-official-20260813.webp",
+    "storyboard": "WSP4HumanSoundwave30Seconds_Review_v01",
+    "start_panel": 18,
+    "end_panel": 23,
+    "new_user_authorization": true,
+    "creative_change": "Same listener and physical speaker, pulsing sound waves and continuous hinged-panel transformation; not a retry of earlier pilots.",
+    "control_thread_id": "01a1a103-9e51-71b3-bd17-60a86c7174ce",
+    "prior_paid_run_retained": 41774428424
+  }
+}
