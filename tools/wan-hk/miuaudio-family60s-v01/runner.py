@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parent
 MANIFEST=ROOT/'manifest.json'
-PINNED_MANIFEST_SHA256='5511ee89710eb4044e9c35b8484d4ccbb978fe84120eb4a9876b145bea461d50'
+PINNED_MANIFEST_SHA256='333305bf6be2bcae46393c839cdabebcd80a100471518bab225e5c94455041c0'
 EXPECTED_HOST='ws-f71y900nmq5fpsef.cn-hongkong.maas.aliyuncs.com'
 EXPECTED_PARAMS={'resolution':'720P','ratio':'16:9','duration':30,'audio':False,'prompt_extend':False,'watermark':False}
 REPO='opc-zachary/ai-training-knowledge'
