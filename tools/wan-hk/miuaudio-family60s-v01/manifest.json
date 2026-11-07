@@ -1,0 +1,110 @@
+{
+  "project": "MiuAudio",
+  "client": "MiuAudio",
+  "version": "family60s-v01",
+  "model": "wan3.0-video",
+  "parameters": {
+    "resolution": "720P",
+    "ratio": "16:9",
+    "duration": 30,
+    "audio": false,
+    "prompt_extend": false,
+    "watermark": false
+  },
+  "images": [
+    {
+      "id": "Family",
+      "filename": "Family.webp",
+      "origin": "MiuAudio_MiuAudio_2026-11-06_PNG_FourProducts60sFamilySoundwaveMaster12_Review_v06.png crop (1028, 535, 1532, 729)",
+      "size": [
+        440,
+        169
+      ],
+      "bytes": 7296,
+      "sha256": "1e75b9b467455b25f14f5d08c43be85806dcd135f7a359ef37226e2fcacd3962"
+    },
+    {
+      "id": "LS35a",
+      "filename": "LS35a.webp",
+      "origin": "miu-ls35a-speaker-pair.webp",
+      "size": [
+        425,
+        384
+      ],
+      "bytes": 4682,
+      "sha256": "de31432608fbc823b692c94fe6c909ca4280f48d396662a5b84a709d21c225cf"
+    },
+    {
+      "id": "WSP4",
+      "filename": "WSP4.webp",
+      "origin": "miu-wsp4-official-20260813.webp",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 4738,
+      "sha256": "f0a84d1c82be8e97f2bddf6d4bfcb9b90ab2e64d0b1879e47a62c50761238e6d"
+    },
+    {
+      "id": "HAM1",
+      "filename": "HAM1.webp",
+      "origin": "miu-ham1-official-20260813.webp",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 4710,
+      "sha256": "39c2f5e8b78e10928ab373a79760070ed37c214d79d411f778e2f9361edee692"
+    },
+    {
+      "id": "TU1",
+      "filename": "TU1.webp",
+      "origin": "miu-tu1-official-20260813.webp",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 4312,
+      "sha256": "c59b4b8ad462044a64982bddd181a9fdaeb9a691658114f948b291e33c13dc96"
+    },
+    {
+      "id": "TU1Junction",
+      "filename": "TU1Junction.webp",
+      "origin": "MiuAudio_MiuAudio_2026-11-06_PNG_FourProducts60sFamilySoundwaveMaster12_Review_v06.png crop (518, 534, 1018, 726)",
+      "size": [
+        440,
+        169
+      ],
+      "bytes": 7468,
+      "sha256": "c24daeabb97d66ea269017b436fff3e8d68aa1626dfd0d492566883bd5d26077"
+    },
+    {
+      "id": "Coast",
+      "filename": "Coast.webp",
+      "origin": "MiuAudio_MiuAudio_2026-11-06_PNG_FourProducts60sFamilySoundwaveMaster12_Review_v06.png crop (3, 49, 508, 244)",
+      "size": [
+        440,
+        170
+      ],
+      "bytes": 7274,
+      "sha256": "11cef9b0b381c920d389bba7352f625543d0163507e99b634f775d17302e74ac"
+    }
+  ],
+  "segments": {
+    "a": {
+      "confirmation": "MiuAudio-Family60s-20261107-a-one-post",
+      "prompt_sha256": "742d3955cc7f902f46fe25828da1aade05961ceeea141a0877ec22f0deb68056",
+      "request_sha256": "dd7addedeca72711d065ce56309bb8eec0d07e8bad0f5966297359f102c29180"
+    },
+    "b": {
+      "confirmation": "MiuAudio-Family60s-20261107-b-one-post",
+      "prompt_sha256": "a484f71dd70da2ecfb4a6b43f38b65f21ec9adbb46bcfd0afc7a2e1b0b34f428",
+      "request_sha256": "89ca2af85b4697636c12b72a5b4d85f34549869348d1bbf7bd12d49b5387562f"
+    }
+  },
+  "output_seconds": 60,
+  "max_paid_posts": 2,
+  "automatic_paid_retries": 0,
+  "input_video_seconds": 0,
+  "list_price_usd_per_sec": "0.082513"
+}

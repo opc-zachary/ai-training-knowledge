@@ -1,0 +1,68 @@
+name: Wan HK MiuAudio Family60s v01
+run-name: 'MiuAudio Family60s | ${{ inputs.mode }} | ${{ inputs.segment }} | ${{ inputs.confirmation }}'
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        type: choice
+        options: [check-binding, generate, resume]
+        default: check-binding
+        required: true
+      segment:
+        type: choice
+        options: [a, b]
+        required: true
+      confirmation:
+        type: string
+      prompt:
+        type: string
+      images:
+        description: Seven pinned media values in a JSON array. Event only.
+        type: string
+      expected_sha:
+        type: string
+        required: true
+      resume_task_id:
+        type: string
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: 'wan-hk-miuaudio-family60s-v01-${{ inputs.segment }}'
+  cancel-in-progress: false
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    defaults:
+      run:
+        shell: bash
+        working-directory: tools/wan-hk/miuaudio-family60s-v01
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Validate pinned manifest and inputs
+        run: python3 runner.py --mode offline-validate
+      - name: Ensure media validation tools
+        if: ${{ inputs.mode != 'check-binding' }}
+        run: |
+          if ! command -v ffmpeg >/dev/null 2>&1 || ! command -v ffprobe >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install --yes ffmpeg
+          fi
+      - name: Execute through existing Wan HK binding
+        env:
+          ALIYUN_MODEL_STUDIO_HK_API_KEY: ${{ secrets.ALIYUN_MODEL_STUDIO_HK_API_KEY }}
+          ALIYUN_MODEL_STUDIO_HK_API_HOST: ${{ vars.ALIYUN_MODEL_STUDIO_HK_API_HOST }}
+          GITHUB_TOKEN: ${{ github.token }}
+          WAN_OPERATION: ${{ inputs.mode }}
+        run: python3 runner.py --mode "$WAN_OPERATION"
+      - name: Preserve receipt and result
+        if: ${{ always() && hashFiles('tools/wan-hk/miuaudio-family60s-v01/result/**') != '' }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: miuaudio-family60s-${{ inputs.segment }}-${{ github.run_id }}
+          path: tools/wan-hk/miuaudio-family60s-v01/result/
+          retention-days: 2
+          if-no-files-found: error
