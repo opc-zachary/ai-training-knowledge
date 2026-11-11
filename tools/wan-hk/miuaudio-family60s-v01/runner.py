@@ -1,12 +1,12 @@
 """Two pinned MiuAudio Wan segments, one paid submission per segment and GET-only recovery."""
 from __future__ import annotations
 import argparse, base64, datetime, hashlib, json, os, re, shutil
-import subprocess, sys, time, urllib.error, urllib.request, uuid
+import subprocess, sys, tempfile, time, urllib.error, urllib.request, uuid
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parent
 MANIFEST=ROOT/'manifest.json'
-PINNED_MANIFEST_SHA256='333305bf6be2bcae46393c839cdabebcd80a100471518bab225e5c94455041c0'
+PINNED_MANIFEST_SHA256='3cd67a011301b76523e8ded5785e570d886eaef3933a1b01e783feab62fa2b10'
 EXPECTED_HOST='ws-f71y900nmq5fpsef.cn-hongkong.maas.aliyuncs.com'
 EXPECTED_PARAMS={'resolution':'720P','ratio':'16:9','duration':30,'audio':False,'prompt_extend':False,'watermark':False}
 REPO='opc-zachary/ai-training-knowledge'
@@ -25,7 +25,7 @@ def load():
         raise Stop('MANIFEST_HASH_MISMATCH')
     m=json.loads(raw)
     identity=(m['project'],m['client'],m['version'],m['model'])
-    if identity!=('MiuAudio','MiuAudio','family60s-v01','wan3.0-video') or m['parameters']!=EXPECTED_PARAMS:
+    if identity!=('MiuAudio','MiuAudio','fourways60s-v01','wan3.0-video') or m['parameters']!=EXPECTED_PARAMS:
         raise Stop('EXACT_IDENTITY_OR_SETTINGS_MISMATCH')
     bounds=(m['max_paid_posts'],m['automatic_paid_retries'],m['output_seconds'],m['input_video_seconds'])
     if bounds!=(2,0,60,0) or set(m['segments'])!={'a','b'} or len(m['images'])!=7:
@@ -129,9 +129,21 @@ def poll(host,key,task,receipt,out,receipt_path):
         if isinstance(usage,dict):receipt['usage']={k:v for k,v in usage.items() if k in ('video_duration','input_video_duration','output_video_duration','video_count','resolution','duration','fps','SR','ratio') and isinstance(v,(str,int,float))}
         save(receipt_path,receipt)
         if status=='SUCCEEDED':
-            video=out/f'MiuAudio_MiuAudio_2026-11-07_MP4_OurFavouriteSongPart{receipt["segment"].upper()}_Native_v01.mp4'
-            download(output.get('video_url'),video)
-            receipt.update(status='RESULT_DOWNLOADED_TECHNICAL_VALIDATION_PASS',validation=validate_video(video),updated_utc=utc())
+            video=out/f'MiuAudio_MiuAudio_2026-11-11_MP4_FourWaysToListenPart{receipt["segment"].upper()}_Native_v01.mp4'
+            # The repository is public. Only an encrypted video may enter the artifact directory.
+            with tempfile.TemporaryDirectory(prefix='miuaudio-wan-') as temp:
+                plaintext = Path(temp) / video.name
+                download(output.get('video_url'), plaintext)
+                validation = validate_video(plaintext)
+                encrypted = Path(temp) / (video.name + '.cms')
+                encryption = subprocess.run([
+                    'openssl', 'cms', '-encrypt', '-binary', '-aes-256-gcm', '-outform', 'DER',
+                    '-in', str(plaintext), '-out', str(encrypted), str(ROOT / 'recipient.pem')
+                ], capture_output=True)
+                if encryption.returncode or not encrypted.is_file() or encrypted.stat().st_size < validation['bytes']:
+                    raise Stop('PRIVATE_ARTIFACT_ENCRYPTION_FAILED_GET_ONLY_RESUME')
+                shutil.move(encrypted, video.with_suffix('.mp4.cms'))
+            receipt.update(status='RESULT_DOWNLOADED_TECHNICAL_VALIDATION_PASS',validation=validation,updated_utc=utc())
             save(receipt_path,receipt);print('RESULT_DOWNLOADED_TECHNICAL_VALIDATION_PASS');return
         if status in ('FAILED','CANCELED'):
             receipt['provider_code']=safe_code(output.get('code'));save(receipt_path,receipt);raise Stop('TASK_'+status+'_NO_PAID_RETRY')

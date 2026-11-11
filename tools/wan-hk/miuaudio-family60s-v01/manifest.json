@@ -1,7 +1,7 @@
 {
   "project": "MiuAudio",
   "client": "MiuAudio",
-  "version": "family60s-v01",
+  "version": "fourways60s-v01",
   "model": "wan3.0-video",
   "parameters": {
     "resolution": "720P",
@@ -13,93 +13,93 @@
   },
   "images": [
     {
-      "id": "Family",
-      "filename": "Family_v02.webp",
-      "origin": "MiuAudio_MiuAudio_2026-11-06_PNG_FourProducts60sFamilySoundwaveMaster12_Review_v06.png crop (1028, 535, 1532, 729)",
+      "id": "ShopCast",
+      "filename": "ShopCast.webp",
+      "origin": "MiuAudio_MiuAudio_2026-11-10_PNG_FourWaysToListenFrame04_T03s_Review_v02.png",
       "size": [
-        622,
-        240
+        450,
+        252
       ],
-      "bytes": 9474,
-      "sha256": "e437edd1946f0d52ed60ef3756d485380ba16bf6c41bf0f56d9db07306917d3c"
-    },
-    {
-      "id": "LS35a",
-      "filename": "LS35a_v02.webp",
-      "origin": "miu-ls35a-speaker-pair.webp",
-      "size": [
-        354,
-        320
-      ],
-      "bytes": 3536,
-      "sha256": "1cb79fee0d38aa2bc23143e5db33157cfcf6b2bc8a21975aa899faa09c3a91d0"
+      "bytes": 10746,
+      "sha256": "25ee7a9899522c56b719f1f5d554525e0d2464a212ba96f6f58935a699cf55f2"
     },
     {
       "id": "WSP4",
-      "filename": "WSP4_v02.webp",
-      "origin": "miu-wsp4-official-20260813.webp",
+      "filename": "WSP4.webp",
+      "origin": "WSP4_v02.webp",
       "size": [
-        320,
-        320
+        260,
+        260
       ],
-      "bytes": 3716,
-      "sha256": "849ec939e48fe71f78bf3425823c49450a69965e7f5622289877a40db5f92b3d"
+      "bytes": 3648,
+      "sha256": "796e7a1326304bfa3ffc4f687cdbfe598c307e9b845aa2e68f78db0c78f069a1"
+    },
+    {
+      "id": "LS35a",
+      "filename": "LS35a.webp",
+      "origin": "LS35a_v02.webp",
+      "size": [
+        288,
+        260
+      ],
+      "bytes": 3558,
+      "sha256": "9785cc5f35ecf67c23fe38b09b81528044063c6a36a8babb5e6ce3b2ac54e943"
     },
     {
       "id": "HAM1",
-      "filename": "HAM1_v02.webp",
-      "origin": "miu-ham1-official-20260813.webp",
+      "filename": "HAM1.webp",
+      "origin": "HAM1_v02.webp",
       "size": [
-        320,
-        320
+        260,
+        260
       ],
-      "bytes": 3554,
-      "sha256": "eb91c0830a61b699c466f3b0ef43daebaedcb216be7193da082c4912c745b056"
+      "bytes": 3698,
+      "sha256": "c3384ea5cbe48897bfd379cb7feba09cf1e69748f2f966510d8ab4a3428f1473"
     },
     {
       "id": "TU1",
-      "filename": "TU1_v02.webp",
-      "origin": "miu-tu1-official-20260813.webp",
+      "filename": "TU1.webp",
+      "origin": "TU1_v02.webp",
       "size": [
-        320,
-        320
+        260,
+        260
       ],
-      "bytes": 3374,
-      "sha256": "2dda134d2bd5cdf6d5da26d1272daad5c35b7187fb2e22684994eb08e9661276"
+      "bytes": 3722,
+      "sha256": "2f0ccd1d50ccab8404288ecc46ac74313a951be0e6d7de62e565374f97e411a9"
     },
     {
-      "id": "TU1Junction",
-      "filename": "TU1Junction_v02.webp",
-      "origin": "MiuAudio_MiuAudio_2026-11-06_PNG_FourProducts60sFamilySoundwaveMaster12_Review_v06.png crop (518, 534, 1018, 726)",
+      "id": "MelbourneDoor",
+      "filename": "MelbourneDoor.webp",
+      "origin": "MiuAudio_MiuAudio_2026-11-10_PNG_FourWaysToListenFrame01_T00s_Review_v02.png",
       "size": [
-        626,
-        240
+        450,
+        251
       ],
-      "bytes": 9250,
-      "sha256": "99d87699831b7861215ba534370f8d48133813a34e6b24bc8ef2debc66cfc5f0"
+      "bytes": 8038,
+      "sha256": "a1f3fe84933e8ffe52540fb5d994894d705a6118bb3d192b73a862ad357bf8d3"
     },
     {
-      "id": "Coast",
-      "filename": "Coast_v02.webp",
-      "origin": "MiuAudio_MiuAudio_2026-11-06_PNG_FourProducts60sFamilySoundwaveMaster12_Review_v06.png crop (3, 49, 508, 244)",
+      "id": "WhiteLineup",
+      "filename": "WhiteLineup.webp",
+      "origin": "MiuAudio_MiuAudio_2026-11-10_PNG_FourWaysToListenFrame56_T55s_Review_v02.png",
       "size": [
-        622,
+        647,
         240
       ],
-      "bytes": 10342,
-      "sha256": "69e853983b90b0564b85b9c55bc68d515e6a12ea45860bea94c018d68a37393c"
+      "bytes": 5898,
+      "sha256": "af3fcde5c95eb781c579de705e003a51c074150e055fab6d187ef853a2d5a36f"
     }
   ],
   "segments": {
     "a": {
-      "confirmation": "MiuAudio-Family60s-20261107-a-one-post",
-      "prompt_sha256": "742d3955cc7f902f46fe25828da1aade05961ceeea141a0877ec22f0deb68056",
-      "request_sha256": "dd7addedeca72711d065ce56309bb8eec0d07e8bad0f5966297359f102c29180"
+      "confirmation": "MiuAudio-FourWaysToListen-20261111-a-one-post",
+      "prompt_sha256": "8b11521d4a0dea518f0fb679da435948e1c68997d8a2a62631d6278b727b95c7",
+      "request_sha256": "bff9bfb8da4f585dc1df3720f7d2f299262f07efe2ce51d8329332375fad070a"
     },
     "b": {
-      "confirmation": "MiuAudio-Family60s-20261107-b-one-post",
-      "prompt_sha256": "a484f71dd70da2ecfb4a6b43f38b65f21ec9adbb46bcfd0afc7a2e1b0b34f428",
-      "request_sha256": "89ca2af85b4697636c12b72a5b4d85f34549869348d1bbf7bd12d49b5387562f"
+      "confirmation": "MiuAudio-FourWaysToListen-20261111-b-one-post",
+      "prompt_sha256": "320fc1dc6fa6931fb033e202c2af234d79dfef04193f87b95fcc375b885d8b4f",
+      "request_sha256": "b1deb30b84845b171d7d3335920075f2f8699a0b6581adff9206482562e0573c"
     }
   },
   "output_seconds": 60,
